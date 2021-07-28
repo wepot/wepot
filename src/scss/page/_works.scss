@@ -1,0 +1,499 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+実績一覧ページ
+==================================== */
+.works-title{
+  margin-top: 6.25%;
+  @include m.responsive(font-size, 1.5rem, 2rem, 48rem, 75rem);
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.02em;
+    @include m.mq(md) {
+      margin-top: 40px;
+      font-size: s.rem(18px);
+      font-weight: 700;
+    }
+}
+
+
+/*! ===================================
+実績紹介
+==================================== */
+.worksBox{
+  margin: 6.25% 0 9.375%;
+    @include m.mq(md) {
+      margin: 40px 0;
+    }
+
+    &_item{
+      display: flex;
+      flex-wrap: nowrap;
+      margin-bottom: 6.25%;
+        @include m.mq(md) {
+          margin-bottom: 60px;
+        }
+        @include m.mq(sm) {
+          flex-direction: column;
+        }
+    }
+
+    &_img{
+      width: 62.5%;
+      max-width: 800px;
+      height: 35.157%;
+      max-height: 450px;
+      margin-right: 3.125%;
+      box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
+        img{
+          width: 100%;
+        }
+
+        @include m.mq(md) {
+          width: calc(50% - 15px);
+          margin-right: 15px;
+        }
+        @include m.mq(sm) {
+          width: 100%;
+          margin: 0 0 20px 0;
+        }
+    }
+
+    &_body{
+      width: 34.375%;
+      max-width: 440px;
+      @include m.responsive(font-size, .75rem, 1rem, 48rem, 75rem);
+      font-weight: 500;
+      line-height: 1;
+        @include m.mq(md) {
+          width: 50%;
+        }
+        @include m.mq(sm) {
+          width: 100%;
+          font-size: s.rem(14px);
+          font-weight: 400;
+        }
+    }
+
+    &_title{
+      margin-bottom: 4.6%;
+      @include m.responsive(font-size, 1.2rem, 1.75rem, 48rem, 75rem);
+        @include m.mq(md) {
+          margin-bottom: 10px;
+          font-size: s.rem(18px);
+        }
+    }
+
+    &_budget{
+      margin-bottom: 6.9%;
+        @include m.mq(md) {
+          margin-bottom: 15px;
+        }
+    }
+
+    &_text{
+      margin-bottom: 6.9%;
+      line-height: 1.8;
+        @include m.mq(md) {
+          margin-bottom: 15px;
+        }
+    }
+
+    &-member_list{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2.5% 0 6%;
+        @include m.mq(sm) {
+          margin: 8px 0 10px;
+        }
+
+        >li{
+          @include m.responsive(width, 28px, 48px, 768px, 1200px);
+          @include m.responsive(height, 28px, 48px, 768px, 1200px);
+          margin-right: 2.5%;
+            @include m.mq(sm) {
+              width: 48px;
+              height: 48px;
+              margin: 0 10px 10px 0;
+            }
+
+          img{
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+          }
+        }
+    }
+
+    &_btn{
+      @include m.responsive(width, 228px, 400px, 768px, 1200px);
+      @include m.responsive(height, 46px, 80px, 768px, 1200px);
+        @include m.mq(sm) {
+          width: 203px;
+          height: 53px;
+          margin: 0 auto;
+        }
+      .button03{
+        @include m.responsive(padding, 13px, 26px, 768px, 1200px);
+        border-radius: 8px;
+        @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
+          @include m.mq(sm) {
+            padding: 15px;
+            font-size: s.rem(18px);
+          }
+      }
+    }
+}
+
+
+/*! ===================================
+wepotの強み
+==================================== */
+.strong{
+  margin-top: 3.125%;
+    @include m.mq(md) {
+      margin-top: 20px;
+    }
+
+    &-catch{
+      margin-bottom: 2.42%;
+      @include m.responsive(font-size, 1.2rem, 1.75rem, 48rem, 75rem);
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: 0.01em;
+        @include m.mq(md) {
+          margin-bottom: 20px;
+          font-size: s.rem(18px);
+          font-weight: 700;
+        }
+        @include m.mq(xs) {
+          font-size: s.rem(16px);
+        }
+    }
+
+    &-text{
+      @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+      font-weight: 500;
+      line-height: 1.75;
+      letter-spacing: .02em;
+        @include m.mq(md) {
+          font-weight: 400;
+        }
+    }
+
+    &-media{
+      margin-top: 5.48%;
+        @include m.mq(md) {
+          margin-top: 40px;
+        }
+
+      &_item{
+        display: flex;
+        flex-wrap: nowrap;
+          &:nth-child(2){
+            flex-direction: row-reverse;
+          }
+        align-items: center;
+        margin-top: 2.42%;
+          &:first-child{
+            margin-top: 0;
+          }
+          @include m.mq(md) {
+            align-items: flex-start;
+            margin-top: 40px;
+          }
+          @include m.mq(sm) {
+            flex-direction: column;
+              &:nth-child(2){
+                flex-direction: column;
+              }
+          }
+      }
+
+      &_img01{
+        margin: 0 4.25% 0 6.35%;
+        @include m.responsive(width, 193px, 320px, 768px, 1200px);
+        @include m.responsive(height, 236px, 392px, 768px, 1200px);
+          @include m.mq(md) {
+            width: 185px;
+            height: 227px;
+            margin: 0 20px;
+          }
+          @include m.mq(sm) {
+            width: 252px;
+            height: 309px;
+            margin: 0 auto;
+          }
+      }
+
+      &_img02{
+        margin: 0 6.35% 0 4.25%;
+        @include m.responsive(width, 193px, 320px, 768px, 1200px);
+        @include m.responsive(height, 251px, 416px, 768px, 1200px);
+          @include m.mq(md) {
+            width: 185px;
+            height: 241px;
+            margin: 0 20px;
+          }
+          @include m.mq(sm) {
+            width: 253px;
+            height: 328px;
+            margin: 0 auto;
+          }
+      }
+
+      &_img03{
+        margin: 0 4.25% 0 4%;
+        @include m.responsive(width, 227px, 378px, 768px, 1200px);
+        @include m.responsive(height, 250px, 416px, 768px, 1200px);
+          @include m.mq(md) {
+            width: 200px;
+            height: 221px;
+            margin: 0 20px;
+          }
+          @include m.mq(sm) {
+            width: 100%;
+            max-width: 310px;
+            height: auto;
+            max-height: 341px;
+            margin: 0 auto;
+          }
+      }
+      img{
+        width: 100%;
+      }
+
+      &_body{
+        @include m.responsive(width, 450px, 750px, 768px, 1200px);
+          @include m.mq(sm) {
+            width: 100%;
+          }
+      }
+
+      &_title{
+        @include m.responsive(font-size, 1.25rem, 1.75rem, 48rem, 75rem);
+        font-weight: 700;
+        letter-spacing: .02em;
+          @include m.mq(sm) {
+            font-size: s.rem(18px);
+            text-align: center;
+          }
+
+          span{
+            @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
+            font-weight: 500;
+              @include m.mq(sm) {
+                font-size: s.rem(18px);
+              }
+          }
+      }
+
+      &_text{
+        margin-top: 1.5em;
+        @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+        line-height: 1.75;
+      }
+    }
+}
+
+
+/*! ===================================
+プロジェクト進行
+==================================== */
+.flow{
+  margin: 3.125% auto 0;
+    @include m.mq(md) {
+      margin-top: 30px;
+    }
+
+  &_wrap{
+    margin-bottom: 2.34375%;
+      @include m.mq(md) {
+        margin-bottom: 40px;
+      }
+  }
+
+  &_title{
+    position: relative;
+    padding: 0.875em 0;
+    @include m.responsive(font-size, 1.25rem, 1.5rem, 48rem, 75rem);
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+      @include m.mq(sm) {
+        font-size: s.rem(18px);
+      }
+      @include m.mq(xs) {
+        font-size: s.rem(16px);
+      }
+
+      span{
+        position: relative;
+        z-index: 2;
+      }
+
+      &::before {
+        position: absolute;
+        content: attr(data-en);
+        @include m.responsive(top, -9px, -14px, 768px, 1200px);
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(0, 180, 170, .1);
+        @include m.responsive(font-size, 4rem, 5.25rem, 48rem, 75rem);
+        font-weight: 700;
+        letter-spacing: 0.065em;
+          @include m.mq(sm) {
+            font-size: s.rem(60px);
+          }
+      }
+  }//title
+
+  &_list{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+      @include m.mq(sm) {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      &::after{
+        position: absolute;
+        content: '';
+        display: inline-block;
+        @include m.responsive(top, 51px, 96px, 768px, 1200px);
+        left: 0;
+        width: 100%;
+        height: 44px;
+        background: url(../img/icon/arrow.png) left/contain no-repeat;
+        vertical-align: middle;
+          @include m.mq(sm) {
+            top: 0;
+            left: 50px;
+            width: 20px;
+            height: 100%;
+            background: url(../img/icon/arrow-sp.png) top/contain no-repeat;
+          }
+      }
+      &.list04::after{
+        @include m.mq(sm) {
+          background: url(../img/icon/arrow-sp02.png) top/contain no-repeat;
+        }
+      }
+  }
+
+  &_item{
+    position: relative;
+    width: calc(25% - 8px * 3 / 4);
+    margin-left: 8px;
+      &:first-child{
+        margin-left: 0;
+      }
+
+      @include m.mq(sm) {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+        margin: 4px 0 0 0;
+          &:first-child{
+            margin-top: 0;
+          }
+      }
+
+      h4{
+        width: 100%;
+        padding: 1.08em 10px;
+        border: 2px solid s.$green01;
+        border-radius: 8px;
+        color: s.$green01;
+        @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
+        font-weight: 500;
+        text-align: center;
+        line-height: 1;
+          @include m.mq(sm) {
+            width: 40px;
+            padding: 30px 9px;
+            font-size: s.rem(18px);
+            writing-mode: vertical-rl;
+          }
+      }
+
+      ul{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        margin: 0 auto;
+        @include m.responsive(margin-top, 23px, 35px, 768px, 1200px);
+        writing-mode: vertical-rl;
+
+          @include m.mq(sm) {
+            display: block;
+            flex-direction: initial;
+            width: 100%;
+            margin: auto 0 auto 20px;
+            padding: 15px 0;
+            writing-mode: unset;
+          }
+      
+        
+        li{
+          position: relative;
+          padding: 1em .5em;
+          @include m.responsive(font-size, .875rem, 1.5rem, 48rem, 75rem);
+          font-weight: 500;
+            @include m.mq(md) {
+              padding: 1em .2em;
+            }
+            @include m.mq(sm) {
+              margin-top: 20px;
+                &:first-child{
+                  margin-top: 0;
+                }
+              padding: 0 0 0 15px;
+              font-weight: 400;
+            }
+
+            &::before{
+              position: absolute;
+              content: "●";
+              top: -10px;
+              left: 50%;
+              transform: translateX(-50%);
+              color: s.$green01;
+              @include m.responsive(font-size, .825rem, 1.5rem, 48rem, 75rem);
+                @include m.mq(sm) {
+                  top: 0;
+                  left: 0;
+                }
+            }
+            span{
+              text-orientation: upright;
+            }
+        }
+      }
+    }//item
+    &_item04{
+      width: calc(33.3% - 10px * 2 / 3);
+      margin-left: 10px;
+    }
+
+    &_text{
+      margin-top: 6.25%;
+      @include m.responsive(font-size, 1.2rem, 1.75rem, 48rem, 75rem);
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: 0.02em;
+        @include m.mq(md) {
+          margin-top: 40px;
+          font-size: s.rem(18px);
+          font-weight: 700;
+        }
+        @include m.mq(xs) {
+          font-size: s.rem(16px);
+        }
+    }
+}

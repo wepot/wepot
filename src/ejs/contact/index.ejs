@@ -1,0 +1,83 @@
+<%- include('../template/_head', { page: jsonData['contact'] }); %>
+<%- include('../template/_header' ); %>
+  <main class="main-contents">
+
+    <section class="section_container contactPage">
+      <div class="section_inner">
+        <header class="section_heading">
+          <h1 class="section_title">お問い合わせ</h1>
+        </header>
+        <p class="section_text">私たちは、お客様の課題解決となるクリエイティブ制作に長けたクリエイター集団です。さまざまなご要望にお答えすることが可能です。最適な人員をアサインし、プロジェクトを遂行します。<br><span class="pcnone">まずは、お気軽にご相談ください。</span></p>
+        <div class="can contactPage-can">
+          <p class="can_text02">まずは、お気軽にご相談ください</p>
+            <%- include('../template/_can' ); %>
+        </div>
+      </div><!-- /.section_inner -->
+    </section><!-- /.section_container -->
+
+    <section id="contact" class="section_container">
+      <div class="section_inner">
+        <header class="section_heading">
+          <h2 class="section_title">入力フォーム</h2>
+        </header>
+        <div class="contact_wrap">
+          <div class="contactForm">
+            <div class="input-box">
+              <label class="label-area">会社名／自営業の方は屋号<span>必須</span></label>
+              <div class="input-area">
+                <input type="text" name="your-company" id="company" class="input-item" placeholder="" />
+              </div>
+            </div>
+            <div class="input-box">
+              <label class="label-area">お名前<span>必須</span></label>
+              <div class="input-area">
+                <input type="text" name="your-name" id="name" class="input-item " placeholder="" />
+              </div>
+            </div>
+            <div class="input-box">
+              <label class="label-area">メールアドレス<span>必須</span></label>
+              <div class="input-area">
+                <input type="email" name="your-email" id="email" class="input-item" placeholder="" />
+              </div>
+            </div>
+            <div class="input-box">
+              <label class="label-area">繋がりやすい電話番号</label>
+              <div class="input-area">
+                <input type="tel" name="your-telephone" id="telephone" class="input-item" placeholder="" />
+              </div>
+            </div>
+            <div class="input-box">
+              <label class="label-area">ご相談内容（複数選択可）<span>必須</span></label>
+              <div class="check-btn">
+                <input type="checkbox" value="webサイト制作" name="check" id="check1" class="check-btn-input">
+                <label for="check1" class="check-btn-label">Webサイト制作</label>
+                <input type="checkbox" value="LP制作" name="check" id="check2" class="check-btn-input">
+                <label for="check2" class="check-btn-label">LP制作</label>
+                <input type="checkbox" value="動画制作/編集" name="check" id="check3" class="check-btn-input">
+                <label for="check3" class="check-btn-label">動画制作/編集</label>
+                <input type="checkbox" value="イラスト制作" name="check" id="check4" class="check-btn-input">
+                <label for="check4" class="check-btn-label">イラスト制作</label>
+                <input type="checkbox" value="グラフィックデザイン/印刷物" name="check" id="check5" class="check-btn-input">
+                <label for="check5" class="check-btn-label">グラフィックデザイン/印刷物</label>
+                <input type="checkbox" value="その他ご相談" name="check" id="check6" class="check-btn-input">
+                <label for="check6" class="check-btn-label">その他ご相談</label>
+              </div>
+            </div>
+            <div class="input-box">
+              <label class="label-area">ご相談内容詳細<span>必須</span></label>
+              <div class="input-area scroll_box">
+                <textarea name="your-message" id="message" class="input-item message" placeholder=""></textarea>
+              </div>
+            </div>
+            <div class="action-box">
+              <label class="action-box_text"><span><a href="/policy/">プライバシーポリシー</a></span>&nbsp;に同意の上、<br class="br-sp02">送信してくだい。</label>
+              <input type="submit" value="送信する" class="action_btn" />
+            </div>
+          </div><!-- /.contactForm -->
+        </div><!-- /.contact_inner -->
+      </div><!-- /.section_inner -->
+    </section><!-- /.contact -->
+  </main>
+
+
+  <%- include( '../template/_footer' ) %>

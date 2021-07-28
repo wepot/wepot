@@ -1,0 +1,92 @@
+{
+  "top": {
+    "title": "Wepot",
+    "description": "Wepotはデジタルクリエイティブの課題を解決し、クライアントと消費者の理想の未来を創ります。個々に違う強みを持ったフリーランスで構成されたWepotだからこそ、実現できるミッションです。",
+    "url": "http://wepot.jp/",
+    "ogp_img": "ogp画像"
+  },
+  "about": {
+    "title": "Wepotとは",
+    "description": "Wepotは個々に違う強みを持ったメンバーが、それぞれの専門分野に特化した情報を発信するオウンドメディアです。「クライアントと消費者の理想の未来を創る」というミッションを掲げ、デジタルクリエイティブの課題解決に繋がる情報を発信します。",
+    "url": "http://wepot.jp/about/",
+    "ogp_img": "ogp画像"
+  },
+  "member": {
+    "title": "メンバー",
+    "description": "個々に違う強みをもつフリーランスで構成されたWepotは、経験してきた領域・スキル・専門分野も異なります。Wepotだからこそ、それぞれの強みを発揮し、デジタルクリエイティブのすべてをワンストップでお任せいただけます。",
+    "url": "http://wepot.jp/about/member/",
+    "ogp_img": "ogp画像"
+  },
+  "blog": {
+    "title": "BLOG",
+    "description": "強みや専門分野が異なるWepotメンバーによる記事一覧です。デジタルクリエイティブの課題発見・解決、新たな価値創出に繋がる最新情報を発信しています。",
+    "url": "http://wepot.jp/blog/",
+    "ogp_img": "ogp画像"
+  },
+  "single": {
+    "title": "記事タイトル",
+    "description": "強みや専門分野が異なるWepotメンバーによる記事一覧です。デジタルクリエイティブの課題発見・解決、新たな価値創出に繋がる最新情報を発信しています。",
+    "url": "サイトURL",
+    "ogp_img": "ogp画像"
+  },
+  "works": {
+    "title": "実績一覧",
+    "description": "Wepotはビジネスのあらゆる課題解決に必要な全てを備えたクリエイティブチームです。成果貢献を重要視したワークフローでどんなご要望にも対応できる体制が整っています。",
+    "url": "http://wepot.jp/works/",
+    "ogp_img": "ogp画像"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "Wepotへのお問い合わせです。",
+    "url": "http://wepot.jp/contact/",
+    "ogp_img": "ogp画像"
+  },
+  "policy": {
+    "title": "プライバシーポリシー",
+    "description": "Wepotのプライバシーポリシーです。",
+    "url": "http://wepot.jp/policy/",
+    "ogp_img": "ogp画像"
+  },
+  "honma": {
+    "title": "本間大光｜メンバー",
+    "description": "Wepotで代表を務める本間大光。プロジェクトマネージャー、ディレクターとして主に大手企業のwebサイト制作やシステム開発を中心とした制作を担当。プロセスを重要視してクライアントとチームにとってより良い環境づくりを目指しています。",
+    "url": "http://wepot.jp/about/member/honma/",
+    "ogp_img": "ogp画像"
+  },
+  "ayaka": {
+    "title": "鈴木綾加｜メンバー",
+    "description": "Wepotで運営マネージャーを務める鈴木 綾加。動画/映像編集者、クリエイティブディレクター。大手企業のマニュアル動画制作や動画コンテンツ制作に携わる。",
+    "url": "http://wepot.jp/about/member/ayaka/",
+    "ogp_img": "ogp画像"
+  },
+  "sato": {
+    "title": "佐藤陽介｜メンバー",
+    "description": "佐藤陽介プロフィールディスクリプション！",
+    "url": "http://wepot.jp/about/member/sato/",
+    "ogp_img": "ogp画像"
+  },
+  "yukix": {
+    "title": "黒羽裕子｜メンバー",
+    "description": "Wepotでデザイナー・アートディレクターを務める黒羽裕子(ユキックス)。デザイン・アートディレクションを主軸にWebや印刷物の他グラフィック、プロダクト商品やパッケージ、空間や店舗まで幅広くデザイン制作を担う他、必要に応じて出張写真撮影も担当。",
+    "url": "http://wepot.jp/about/member/yukix/",
+    "ogp_img": "ogp画像"
+  },
+  "tomo": {
+    "title": "奥田朋美｜メンバー",
+    "description": "奥田朋美プロフィールディスクリプション！",
+    "url": "http://wepot.jp/about/member/tomoni/",
+    "ogp_img": "ogp画像"
+  },
+  "saito": {
+    "title": "齋藤広大｜メンバー",
+    "description": "齋藤広大プロフィールディスクリプション！",
+    "url": "http://wepot.jp/about/member/saito/",
+    "ogp_img": "ogp画像"
+  },
+  "maruo": {
+    "title": "丸尾麻紀子｜メンバー",
+    "description": "WepotでWebサイト制作の実装を担当している丸尾麻紀子。マークアップエンジニアとして、お客様の目標達成のために作成されたデザインを再現します。",
+    "url": "http://wepot.jp/about/member/maruo/",
+    "ogp_img": "ogp画像"
+  }
+}

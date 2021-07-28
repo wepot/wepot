@@ -1,0 +1,300 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+メインヘッダー (共通／ロゴ)
+==================================== */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+  &_inner {
+    position: relative;
+    @include m.innerBox;
+  }
+
+  &_logo {
+    align-items: center;
+    @include m.responsive(width, 105px, 160px, 768px, 1200px);
+    height: auto;
+    margin: auto 0;
+    font-size: 100%;
+
+      @include m.mq(md) {
+        width: 86px;
+        height: 28px;
+      }
+
+      a {
+        display: flex;
+        width: 100%;
+        height: 100%;
+          &:hover{
+            opacity: .8;
+          }
+      }
+      .wepot{
+        @include m.responsive(width, 105px, 160px, 768px, 1200px);
+        @include m.responsive(height, 35px, 52px, 768px, 1200px);
+          @include m.mq(md) {
+            width: 86px;
+            height: 28px;
+          }
+      }
+  }
+}
+
+.menu_wrap{
+  display: flex;
+  @include m.black-full;
+  @include m.responsive(height, 50px, 80px, 768px, 1200px);
+    @include m.mq(md) {
+      height: 60px;
+    }
+}
+
+/*! ===================================
+グローバルナビゲーション
+==================================== */
+.mainMenu {
+  display: flex;
+  margin-left: auto;
+  @include m.responsive(height, 50px, 80px, 768px, 1200px);
+  
+  &_list {
+    display: flex;
+    height: 100%;
+    @include m.responsive(padding-right, 70px, 120px, 768px, 1200px);
+  }
+  
+  &_item {
+    display: flex;
+    @include m.responsive(margin-left, 40px, 70px, 768px, 1200px);
+      &:first-child{
+        margin-left: 0;
+      }
+    color: s.$white01;
+    @include m.responsive(font-size, .75rem, 1.25rem, 48rem, 75rem);
+    font-weight: 700;
+    line-height: 1;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          &:hover{
+            opacity: .8;
+          }
+      }
+  }
+
+  @include m.mq(md) {
+    display: none;
+  }
+
+}//.mainMenu
+
+
+/*======== ブログカテゴリー ========*/
+.blogCategory {
+  display: flex;
+  margin: 0 calc(50% - 50vw);
+  padding: 0 calc(50vw - 50% + 8px);
+  @include m.responsive(height, 50px, 80px, 768px, 1200px);
+  @include m.r-gradation;
+
+  
+  &_list {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  &_item {
+    display: flex;
+    @include m.responsive(margin-left, 30px, 70px, 768px, 1200px);
+      &:first-child{
+        margin-left: 0;
+      }
+    color: s.$white01;
+    @include m.responsive(font-size, .75rem, 1.125rem, 48rem, 75rem);
+    font-weight: 700;
+    line-height: 1;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          &:hover{
+            opacity: .8;
+          }
+      }
+  }
+
+  @include m.mq(md) {
+    display: none;
+  }
+}//.blogCategory
+
+
+/*! ===================================
+SP版：メニューリスト
+==================================== */
+.spMenu {
+  display: none;
+
+  @include m.mq(md) {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    padding-bottom: 100px;
+    background-color: s.$white01;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    
+    /* アニメーション前のメニューの状態 */
+    backface-visibility: hidden;
+    transform: translateX(100vw);
+    transition: all 0.5s ease-in-out;
+
+
+    &_list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+        #searchSp {
+          border-bottom: 1px solid #707070;
+        }
+    }
+
+    &_item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-bottom: 1px solid #707070;
+        &:nth-child(2) {
+          border: none;
+        }
+      font-size: s.rem(18px);
+      font-weight: 700;
+      line-height: 1;
+        &::after {
+          position: absolute;
+          content: "";
+          top: 22px;
+          right: 20px;
+          width: 13px;
+          height: 13px;
+          border-right: 2px solid s.$black01;
+          border-bottom: 2px solid s.$black01;
+          transform: rotate(-45deg);
+        }
+        &-policy{
+          font-size: s.rem(14px);
+          font-weight: 400;
+        }
+    }
+
+    &-link {
+      display: flex;
+      height: 100%;
+      padding: 20px 0;
+    }
+
+    &-contact_btn{
+      width: 203px;
+      height: 53px;
+      margin: 20px auto;
+      .button01{
+        font-size: s.rem(20px);
+      }
+    }
+  }
+}
+
+
+/*! ===================================
+ハンバーガーメニュー
+==================================== */
+.spMenu_btn {
+  display: none;
+
+  @include m.mq(md) {
+    position: relative;
+    display: block;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    padding: 5px;
+    border-width: 0;
+    background-color: s.$black01;
+    outline: none;
+    cursor: pointer;
+    z-index: 900;
+
+  span {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background-color: s.$white01;
+    transition: all .2s;
+  }
+
+    &-bar1 {
+      top: 12px;
+    }
+    &-bar2 {
+      top: 25px;
+    }
+    &-bar3 {
+      top: 37px;
+    }
+  }
+}
+
+/*! ===================================
+メニュー開閉
+==================================== */
+#btn01.open {
+  .spMenu_btn-bar1 {
+    transform: rotate(45deg);
+    top: 23px;
+    left: 5px;
+  }
+  .spMenu_btn-bar2 {
+    opacity: 0;
+  }
+  .spMenu_btn-bar3 {
+    transform: rotate(-45deg);
+    top: 23px;
+    left: 5px;
+  }
+}
+
+ /* メニューリスト */
+.spMenu.open {
+  transform: translateX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+/* 背景スクロール禁止 */
+.is-fixed {
+  height: 100%;
+  overflow: hidden;
+}

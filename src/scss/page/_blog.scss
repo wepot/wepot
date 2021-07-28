@@ -1,0 +1,170 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+記事一覧ページ
+==================================== */
+.blogPage{
+  margin-top: 6.25%;
+    @include m.mq(md) {
+      margin-top: 40px;
+    }
+}
+
+.blogCards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3.906% 0 6.25%;
+    @include m.mq(md) {
+      display: block;
+      margin: 20px 0 40px;
+    }
+
+    &_item{
+      width: calc(33.3% - 5% * 2 / 3);
+      margin-top: 3.906%;
+      margin-right: 5%;
+        &:nth-child(-n + 3) {
+          margin-top: 0;
+        }
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+
+        @include m.mq(md) {
+          width: 100%;
+          margin: 20px 0 0 0;
+            &:nth-child(n + 2):nth-child(-n + 3) {
+              margin-top: 20px;
+            }
+        }
+    }
+}
+
+.blogCard{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: s.$gray01;
+    @include m.mq(md) {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    @include m.mq(sm) {
+      padding: 5px 9px 5px 5px;
+    }
+  
+  &_img{
+    position: relative;
+    width: inherit;
+    height: 16.875%;
+      @include m.mq(md) {
+        width: 100%;
+        max-width: 230px;
+        margin-right: 10px;
+      }
+      @include m.mq(sm) {
+        width: 90px;
+        height: 90px;
+      }
+
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px 10px 0 0;
+        @include m.mq(md) {
+          border-radius: 10px;
+        }
+        @include m.mq(sm) {
+          object-fit: cover;
+          object-position: center center;
+        }
+    }
+  }
+
+  &_body{
+    position: relative;
+    padding: 3.906% 5.208% 5.208%;
+    line-height: 1.5;
+      @include m.mq(md) {
+        width: 60%;
+        margin-left: auto;
+        padding: 0;
+      }
+      @include m.mq(sm) {
+        width: calc(100% - 100px);
+        margin-left: 0;
+      }
+  }
+
+  &_time{
+    padding-top: 3px;
+    color: s.$gray02;
+    @include m.responsive(font-size, .875rem, 1.125rem, 48rem, 75rem);
+    font-weight: 700;
+      @include m.mq(xs) {
+        font-size: s.rem(10px);
+      }
+  }
+
+  &_tag{
+    position: absolute;
+    display: inline-block;
+    @include m.responsive(top, -25px, -36px, 768px, 1200px);
+    right: 0;
+    @include m.responsive(width, 120px, 170px, 768px, 1200px);
+    @include m.responsive(height, 25px, 36px, 768px, 1200px);
+    padding: 4px;
+    background-color: s.$green01;
+    color: s.$white01;
+    @include m.responsive(font-size, .75rem, 1rem, 48rem, 75rem);
+    font-weight: 700;
+    text-align: center;
+      @include m.mq(md) {
+        top: 0;
+      }
+      @include m.mq(sm) {
+        width: 100px;
+      }
+      @include m.mq(xs) {
+        width: 90px;
+        height: 20px;
+        padding: 3px;
+        font-size: s.rem(10px);
+      }
+  }
+
+  &_title{
+    margin: 5px 0 15px;
+    @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+    font-weight: 700;
+      @include m.mq(md) {
+        margin: 15px 0 10px;
+        font-size: s.rem(14px);
+      }
+      @include m.mq(sm) {
+        margin: 10px 0 0;
+      }
+  }
+
+  &_author{
+    display: flex;
+    align-items: center;
+    img{
+      display: inline-block;
+      @include m.responsive(width, 40px, 60px, 768px, 1200px);
+      @include m.responsive(height, 40px, 60px, 768px, 1200px);
+      border-radius: 50%;
+    }
+    p{
+      margin-left: 10px;
+      @include m.responsive(font-size, .75rem, 1.0625rem, 48rem, 75rem);
+    }
+
+    @include m.mq(sm) {
+      display: none;
+    }
+  }
+}

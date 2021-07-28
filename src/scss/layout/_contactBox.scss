@@ -1,0 +1,178 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+お問い合わせ一覧
+==================================== */
+.contactBox{
+  @include m.t-fullGradation;
+  margin-bottom: 7.032%;
+    @include m.mq(md) {
+      margin-bottom: 40px;
+    }
+  &.mb0{
+    margin-bottom: 0;
+  }
+
+  &_wrap{
+    @include m.innerBox;
+      @include m.mq(sm) {
+        max-width: 350px;
+      }
+  }
+
+  &_list01{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4.45% 0;
+      @include m.mq(sm) {
+        display: none;
+      }
+  }
+
+  &_item{
+    display: flex;
+    flex-direction: column;
+    width: calc(33.3% - 5.24% * 2 / 3);
+    height: auto;
+    margin-left: 5.24%;
+      &:first-child{
+        margin-left: 0;
+      }
+    padding: 2.73% 2.11%;
+    border-radius: 10px;
+    background-color: s.$white01;
+
+      @include m.mq(md) {
+        width: calc(33.3% - 3.45% * 2 / 3);
+        margin-left: 3.45%;
+      }
+  }
+
+  &_list02{
+    display: none;
+      @include m.mq(sm) {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 58px 0;
+      }
+  }
+
+  &_item-sp{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: s.$white01;
+  }
+
+  &_item-sp01{
+    width: calc(50% - 10px * 1 / 2);
+      &:first-child{
+        margin-right: 10px;
+      }
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: s.$white01;
+      a{
+        display: flex;
+        flex-direction: column;
+        padding: 9.68% 10px;
+        height: 100%;
+      }
+  }
+
+  &_item-sp02{
+    padding: 9.68% 10%;
+  }
+
+  &_title{
+    @include m.responsive(font-size, 1.375rem, 1.875rem, 48rem, 75rem);
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+      @include m.mq(md) {
+        font-size: s.rem(18px);
+      }
+      @include m.mq(xs) {
+        font-size: s.rem(16px);
+      }
+    }
+
+    &_title01{
+      @include m.mq(sm) {
+        font-size: s.rem(24px);
+        text-align: right;
+        line-height: 56px
+      }
+      @include m.mq(xs) {
+        font-size: s.rem(20px);
+      }
+    }
+
+  &_img01{ //wepot
+    @include m.responsive(width, 86px, 130px, 768px, 1200px);
+    @include m.responsive(height, 66px, 100px, 768px, 1200px);
+    margin: 7.95% auto 8.56%;
+      @include m.mq(sm) {
+        width: 85px;
+        height: 65px;
+        margin: 0 auto 14.5%;
+      }
+  }
+  &_img02{ //member
+    @include m.responsive(width, 88px, 133px, 768px, 1200px);
+    @include m.responsive(height, 66px, 100px, 768px, 1200px);
+    margin: 7.95% auto 8.56%;
+      @include m.mq(sm) {
+        width: 85px;
+        height: 65px;
+        margin: 0 auto 14%;
+      }
+  }
+  &_img03{ //balloon
+    @include m.responsive(width, 100px, 150px, 768px, 1200px);
+    @include m.responsive(height, 66px, 100px, 768px, 1200px);
+    margin: 7.95% auto 8.56%;
+    @include m.mq(sm) {
+      position: absolute;
+      width: 84px;
+      height: 56px;
+      margin: 0;
+    }
+  }
+  &_img04{ //works
+    @include m.responsive(width, 113px, 170px, 768px, 1200px);
+    @include m.responsive(height, 66px, 100px, 768px, 1200px);
+    margin: 7.95% auto 8.56%;
+      @include m.mq(sm) {
+        width: 96px;
+        height: 56px;
+        margin: 7% auto 14.5%;
+      }
+  }
+
+  img{
+    width: 100%;
+  }
+
+  &_text{
+    margin-bottom: 7.59%;
+    flex-grow: 1;
+    @include m.responsive(font-size, .75rem, 1.25rem, 48rem, 75rem);
+    text-align: center;
+    line-height: 1.5;
+      @include m.mq(sm) {
+        width: 92.7%;
+        margin: 10px auto;
+        font-size: s.rem(14px);
+      }
+  }
+
+  &_btn{
+    @include m.responsive(width, 146px, 250px, 768px, 1200px);
+    @include m.responsive(height, 39px, 60px, 768px, 1200px);
+    margin: 0 auto;
+  }
+}

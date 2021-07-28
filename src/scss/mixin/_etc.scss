@@ -1,0 +1,37 @@
+// =============コンテナ幅=============
+@mixin innerBox{
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+// =============グラデーション=============
+@mixin r-gradation{
+  background-image: linear-gradient(to right,#00b4aa,#7e8aff);
+}
+
+@mixin t-gradation{
+  background-image: linear-gradient(to top,#00b4aa,#7e8aff);
+}
+
+
+// =============背景100vw=============
+@mixin black-full{
+  margin: 0 calc(50% - 50vw);
+  padding: 0 calc(50vw - 50%);
+  background-color: #191919;
+}
+
+@mixin r-fullGradation{
+  margin: 0 calc(50% - 50vw);
+  padding: 0 calc(50vw - 50%);
+  background-image: linear-gradient(to right,#00b4aa,#7e8aff);
+}
+
+@mixin t-fullGradation{
+  margin: 0 calc(50% - 50vw);
+  padding: 0 calc(50vw - 50%);
+  background-image: linear-gradient(to top,#00b4aa,#7e8aff);
+}

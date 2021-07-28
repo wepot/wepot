@@ -1,0 +1,105 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+メンバー一覧
+==================================== */
+.memberPage{
+  margin-top: 7.032%;
+    @include m.mq(md) {
+      margin-top: 50px;
+    }
+}
+
+.member{
+  width: 100%;
+  max-width: 1190px;
+  margin: 7.032% auto 0;
+    @include m.mq(sm) {
+      max-width: 280px;
+      margin-top: 16px;
+    }
+
+  &_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  
+  &_item{
+    display: flex;
+    width: calc(25% - 3.91% * 3 /4);
+    max-width: 260px;
+    margin-top: 3.125%;
+    margin-right: 3.91%;
+      &:nth-child(-n+4){
+        margin-top: 0;
+      }
+      &:nth-child(4n){
+        margin-right: 0;
+      }
+
+    @include m.mq(sm) {
+      width: calc(50% - 30px * 1 /2);
+      margin-top: 25px;
+      margin-right: 30px;
+        &:nth-child(-n+4){
+          margin-top: 25px;
+        }
+        &:nth-child(-n+2){
+          margin-top: 0;
+        }
+        &:nth-child(2n){
+          margin-right: 0;
+        }
+    }
+  }
+
+  &_link{
+    display: flex;
+    flex-direction: column;
+
+    &:hover .member_img{
+      @include m.t-gradation;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &_img{
+    border-radius: 50%;
+    background: s.$white01;
+      img{
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        border-radius: 50%;
+
+          @include m.mq(sm) {
+            padding: 5px;
+          }
+      }
+  }
+
+  .position{
+    color: s.$gray02;
+    @include m.responsive(font-size, .875rem, 1.25rem, 48rem, 75rem);
+    font-weight: 700;
+    text-align: center;
+
+      @include m.mq(md) {
+        font-size: s.rem(12px);
+      }
+  }
+  .name{
+    margin-top: auto;
+    @include m.responsive(font-size, 1.125rem, 1.5rem, 48rem, 75rem);
+    font-weight: 700;
+    text-align: center;
+
+      @include m.mq(md) {
+        font-size: s.rem(16px);
+      }
+  }
+}
+

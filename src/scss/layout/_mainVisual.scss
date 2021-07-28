@@ -1,0 +1,132 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+トップページMV
+==================================== */
+.mainVisual {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 31.25%;
+  background: url(../img/bg/top_bg.png) center/contain no-repeat #000;
+  backface-visibility: hidden;
+
+    @include m.mq(md) {
+      height: 350px;
+      padding-top: 0;
+      background-size: cover;
+    }
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/top_bg.png) bottom center/cover no-repeat;
+    }
+    @include m.mq(xs) {
+      height: 280px;
+    }
+
+/*-------- コピー --------*/
+  &_wrap {
+    position: absolute;
+    @include m.responsive(top, 20px, 50px, 768px, 1200px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 994px;
+    padding: 0 20px;
+    color: s.$white01;
+    text-align: center;
+
+    @include m.mq(md) {
+      top: 30px;
+      padding: 0 30px;
+    }
+  }
+
+  &_heading {
+    @include m.responsive(margin-bottom, 10px, 30px, 768px, 1200px);
+      @include m.mq(md) {
+        margin-bottom: 15px;
+      }
+  }
+
+  &_title {
+    @include m.responsive(font-size, 2rem, 3.75rem, 48rem, 120rem);
+      @include m.mq(md) {
+        @include m.responsive(font-size, 1.125rem, 2rem, 21.875rem, 46.875rem);
+      }
+      @include m.mq(xs) {
+        font-size: s.rem(16px);
+      }
+  }
+
+  &_text {
+    color: s.$white01;
+    @include m.responsive(font-size, .6875rem, 1.25rem, 48rem, 120rem);
+    line-height: 1.8;
+
+      @include m.mq(md) {
+        font-size: s.rem(14px);
+      }
+      @include m.mq(xs) {
+        font-size: s.rem(10px);
+      }
+  }
+}
+
+/*! ===================================
+下層ページMV
+==================================== */
+.pageVisual {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 22.9167%;
+  backface-visibility: hidden;
+
+    @include m.mq(md) {
+      height: 200px;
+      padding-top: 0;
+    }
+
+  &_heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  &_title {
+    @include m.responsive(font-size, 2rem, 3rem, 48rem, 75rem);
+    line-height: 1;
+    text-align: center;
+
+    @include m.mq(md) {
+      color: s.$white01;
+      @include m.responsive(font-size, 1.5rem, 2rem, 21.875rem, 43.75rem);
+    }
+  }
+
+}
+
+.bg01{
+  background: url(../img/bg/bg-img01.png) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img01.png) center/cover no-repeat;
+    }
+}
+
+.bg02{
+  background: url(../img/bg/bg-img02.png) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img02.png) center/cover no-repeat;
+    }
+}
+
+.bg03{
+  background: url(../img/bg/bg-img03.png) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img03.png) center/cover no-repeat;
+    }
+}

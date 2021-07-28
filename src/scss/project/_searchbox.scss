@@ -1,0 +1,123 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+PC検索ボックス
+==================================== */
+.open-btn1{
+  position: absolute;
+  @include m.responsive(top, 10px, 20px, 768px, 1200px);
+  right: 20px;
+  @include m.responsive(width, 30px, 40px, 768px, 1200px);
+  @include m.responsive(height, 30px, 40px, 768px, 1200px);
+  background:url("../img/icon/search-white.png") no-repeat center;
+  @include m.responsive(background-size, 20px, 30px, 768px, 1200px);
+  cursor: pointer;
+
+    &.btn-active{
+      background:url("../img/icon/close.png") no-repeat center;
+      @include m.responsive(background-size, 20px, 30px, 768px, 1200px);
+    }
+  
+  @include m.mq(md) {
+    display: none;
+  }
+}
+
+#search-wrap{
+  position: absolute;
+  @include m.responsive(top, 8px, 17px, 768px, 1200px);
+  right: 60px;
+  width: 0;
+  border-radius: 5px;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.4s;
+
+    &.panel-active{
+      @include m.responsive(top, 8px, 17px, 768px, 1200px);
+      @include m.responsive(width, 250px, 350px, 768px, 1200px);
+      padding: 5px;
+      background:#fff;
+      opacity: 1;
+      z-index: 3;
+    }
+}
+
+#search-wrap #searchform{
+  display: none;
+}
+
+#search-wrap.panel-active #searchform{
+  display: block;
+}
+
+#search-wrap{
+  input{
+    -webkit-appearance:none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+#search-text {
+  width: 100%;
+  @include m.responsive(height, 22px, 36px, 768px, 1200px);
+  padding: 5px;
+  border: none;
+  @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+  transition: all 0.5s;
+  letter-spacing: 0.05em;
+}
+
+#searchsubmit {
+  position: absolute;
+  top: 8px;
+  @include m.responsive(right, 10px, 20px, 768px, 1200px);
+  @include m.responsive(width, 20px, 30px, 768px, 1200px);
+  @include m.responsive(height, 20px, 30px, 768px, 1200px);
+  border: none;
+  background:url("../img/icon/search-gray.png") no-repeat right;/*虫眼鏡アイコンを背景に表示*/
+  @include m.responsive(background-size, 18px, 25px, 768px, 1200px);
+}
+
+// /*! ===================================
+// SP検索ボックス
+// ==================================== */
+#searchSp{
+  width: 100%;
+  padding: 20px 0;
+
+  input{
+    -webkit-appearance:none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &_form{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px solid s.$gray02;
+  }
+
+  &_text{
+    width: 100%;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    font-size: s.rem(14px);
+    letter-spacing: 0.05em;
+  }
+
+  &_submit {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border: none;
+    background:url("../img/icon/search-gray.png") no-repeat right/contain;/*虫眼鏡アイコンを背景に表示*/
+  }
+}

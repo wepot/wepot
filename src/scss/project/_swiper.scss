@@ -1,0 +1,129 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+記事一覧(swiper)
+==================================== */
+.swiper-container{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.swiper-wrapper{
+  padding: 50px 0 70px;
+    @include m.mq(md) {
+      padding: 40px 0 60px;
+    }
+}
+
+.swiper-slide{
+  width: 100%;
+  max-width: 384px;
+  height: auto;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom: 0;
+    @include m.mq(md) {
+      bottom: -10px;
+    }
+
+    .swiper-pagination-bullet {
+      width: 15px;
+      height: 15px;
+      margin: 50px 10px 0;
+      border: 2px solid s.$green01;
+      background: s.$white01;
+      opacity: 1;
+    
+      &-active{
+        background: s.$green01;
+      }
+
+      @include m.mq(md) {
+        margin: 10px;
+      }
+    }
+}
+
+/*! ===================================
+ブログカード(swiper)
+==================================== */
+.swiperCard{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: s.$gray01;
+  
+  &_img{
+    width: inherit;
+    height: 16.875%;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+  
+  &_body{
+    position: relative;
+    padding: 3.906% 5.208% 5.208%;
+    line-height: 1.5;
+  }
+
+  &_time{
+    color: s.$gray02;
+    @include m.responsive(font-size, .75rem, 1.125rem, 48rem, 75rem);
+    font-weight: 700;
+  }
+
+  &_tag{
+    position: absolute;
+    display: inline-block;
+    @include m.responsive(top, -25px, -36px, 768px, 1200px);
+    right: 0;
+    @include m.responsive(width, 120px, 170px, 768px, 1200px);
+    @include m.responsive(height, 25px, 36px, 768px, 1200px);
+    padding: 4px;
+    background-color: s.$green01;
+    color: s.$white01;
+    @include m.responsive(font-size, .75rem, 1rem, 48rem, 75rem);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &_title{
+    margin: 5px 0 15px;
+    @include m.responsive(font-size, .9375rem, 1.25rem, 48rem, 75rem);
+    font-weight: 700;
+  }
+
+  &_author{
+    display: flex;
+    align-items: center;
+    img{
+      display: inline-block;
+      @include m.responsive(width, 40px, 60px, 768px, 1200px);
+      @include m.responsive(height, 40px, 60px, 768px, 1200px);
+      border-radius: 50%;
+    }
+    p{
+      margin-left: 10px;
+      @include m.responsive(font-size, .75rem, 1.0625rem, 48rem, 75rem);
+    }
+  }
+}
+
+/*! ===================================
+新着カード [NEW]タグ
+==================================== */
+.new {
+  position: absolute;
+  top: -15px;
+  @include m.responsive(left, 15px, 25px, 768px, 1200px);
+  @include m.responsive(width, 51px, 75px, 768px, 1200px);
+  @include m.responsive(height, 45px, 63px, 768px, 1200px);
+  background: url(../img/icon/new.png) no-repeat center/contain;
+}

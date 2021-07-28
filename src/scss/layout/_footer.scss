@@ -1,0 +1,165 @@
+// =============使用ファイル=============
+@use "../setting" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+フッター (共通)
+=================================== */
+.footer{
+  width: 100%;
+  color: s.$white01;
+
+    &_inner{
+      @include m.innerBox;
+    }//_inner
+
+    &-menu_wrap{
+      display: flex;
+      @include m.black-full;
+    }
+}//footer
+
+
+/*======== リンクリスト ========*/
+.link {
+  display: flex;
+  margin: 0 auto;
+  padding: 3.125% 0;
+    @include m.mq(md) {
+      padding: 24px 0;
+    }
+    a:hover{
+      opacity: .8;
+    }
+
+    &_wrap{
+      width: 100%;
+      @include m.responsive(margin-left, 50px, 95px, 768px, 1200px);
+        &:first-child{
+          margin-left: 0;
+        }
+        @include m.mq(md) {
+          margin-left: 0;
+        }
+
+      >p {
+        @include m.responsive(font-size, 1.1rem, 1.5rem, 48rem, 75rem);
+        font-weight: 700;
+        line-height: 1.5;
+          @include m.mq(md) {
+            font-size: s.rem(24px);
+            text-align: center;
+            line-height: 1;
+          }
+      }
+    }//_wrap
+
+    &_list{
+      @include m.responsive(margin-top, 15px, 30px, 768px, 1200px);
+    }//_list
+
+    &_item{
+      display: block;
+      width: 100%;
+      @include m.responsive(margin-top, 10px, 17px, 768px, 1200px);
+        &:nth-child(4n+1){
+          margin-top: 0;
+        }
+      @include m.responsive(font-size, .75rem, 1rem, 48rem, 75rem);
+      line-height: 1.5;
+    }
+
+    &_list03{
+      column-count: 2;
+        >li{
+          @include m.responsive(width, 90px, 120px, 768px, 1200px);
+        }
+    }
+
+    &-sns{
+      display: flex;
+      align-items: center;
+      @include m.responsive(height, 30px, 45px, 768px, 1200px);
+      margin-top: 15px;
+        @include m.mq(md) {
+          height: 45px;
+          margin-top: 20px;
+        }
+
+      &_item{
+        @include m.responsive(width, 30px, 45px, 768px, 1200px);
+        @include m.responsive(height, 30px, 45px, 768px, 1200px);
+        margin-left: 20px;
+          &:first-child{
+            margin-left: 0;
+          }
+          &:nth-child(3){
+            @include m.responsive(width, 32px, 47px, 768px, 1200px);
+            @include m.responsive(height, 27px, 40px, 768px, 1200px);
+          }
+          @include m.mq(md) {
+            width: 45px;
+            height: 45px;
+              &:nth-child(3){
+                width: 47px;
+                height: 40px;
+              }
+          }
+          a{
+            display: block;
+          }
+          img{
+            width: 100%;
+          }
+      }
+    }//sns
+
+    .none{
+      @include m.mq(md) {
+        display: none;
+      }
+    }
+}//link
+
+.footer_logo{
+  @include m.responsive(width, 110px, 200px, 768px, 1200px);
+  height: auto;
+  margin: 0 auto;
+  font-size: 100%;
+
+  @include m.mq(md) {
+    display: none;
+  }
+  
+    a {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+}//_logo
+
+.contact_btn{
+  @include m.responsive(width, 130px, 250px, 768px, 1200px);
+  margin-top: 20%;
+}
+
+.copyright{
+  @include m.r-fullGradation;
+
+    >p{
+      text-align: center;
+      @include m.responsive(height, 30px, 50px, 768px, 1200px);
+        @include m.mq(md) {
+          height: 47px;
+        }
+
+      >small{
+        @include m.responsive(font-size, .75rem, 1.125rem, 48rem, 75rem);
+        line-height: 47px;
+          @include m.mq(md) {
+            font-size: s.rem(14px);
+          }
+      }
+    }
+}

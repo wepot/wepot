@@ -1,0 +1,93 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+サイドバー
+==================================== */
+.sideMenu{
+  @include m.responsive(width, 200px, 340px, 768px, 1200px);
+  margin-left: auto;
+
+    &_wrap{
+      padding: 11.75% 10px 8.82%;
+      border-bottom: 3px solid s.$gray01;
+        &:first-child{
+          padding-top: 0;
+        }
+    }
+
+    &_title{
+      @include m.responsive(margin-bottom, 15px, 30px, 768px, 1200px);
+      @include m.responsive(font-size, 1.1rem, 1.5rem, 48rem, 75rem);
+      font-weight: 700;
+    }
+
+    &_list{
+      @include m.responsive(width, 160px, 260px, 768px, 1200px);
+      margin: 0 auto;
+      line-height: 1;
+      letter-spacing: 0.05em;
+    }
+
+    &_item{
+      @include m.responsive(width, 160px, 260px, 768px, 1200px);
+      @include m.responsive(height, 36px, 40px, 768px, 1200px);
+      margin-top: 5.89%;
+        &:first-child{
+          margin-top: 0;
+        }
+        
+        a{
+          display: inline-block;
+          width: 100%;
+          padding: 10px;
+          border: 2px solid s.$green01;
+          background-color: s.$white01;
+          color: s.$green01;
+          @include m.responsive(font-size, .75rem, 1rem, 48rem, 75rem);
+          font-weight: 700;
+          text-align: center;
+
+            &:hover{
+              height: 100%;
+              padding: 12px;
+              border: transparent;
+              @include m.r-gradation;
+              color: s.$white01;
+              transition: background-color .3s ease-out
+            }
+        }
+    }//item
+
+    &_archiveitem{
+      margin-top: 7.69%;
+      &:first-child{
+        margin-top: 0;
+      }
+      a{
+        position: relative;
+        display: inline-block;
+        padding-left: 22px;
+        color: s.$green01;
+        @include m.responsive(font-size, .75rem, 1rem, 48rem, 75rem);
+        font-weight: 700;
+        line-height: 1;
+          &::before{
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: 0px;
+            width: 10px;
+            height: 10px;
+            border-top: 3px solid s.$green01;
+            border-right: 3px solid s.$green01;
+            transform: translateY(-50%) rotate(45deg);
+          }
+      }
+    }
+
+    @include m.mq(md) {
+      display: none;
+    }
+}

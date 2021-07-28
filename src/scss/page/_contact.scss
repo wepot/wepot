@@ -1,0 +1,206 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+お問い合わせ
+==================================== */
+.contactPage{
+  margin-top: 6.25%;
+  @include m.mq(md) {
+    margin-top: 40px;
+  }
+
+  &-can{
+    @include m.mq(md) {
+      display: none;
+    }
+  }
+  .pcnone{
+    display: none;
+      @include m.mq(md) {
+        display: block;
+      }
+  }
+}
+
+.contact_wrap{
+  width: 81%;
+  max-width: 1000px;
+  margin: 4.5% auto 0;
+    @include m.mq(md) {
+      width: 100%;
+      margin-top: 25px;
+    }
+}
+
+/*-------- フォーム --------*/
+.input-box {
+  margin-bottom: 4.5%;
+
+    @include m.mq(md) {
+      margin-bottom: 20px;
+    }
+}
+
+// 項目名
+.label-area {
+  display: inline-block;
+  margin-bottom: 1.7%;
+  @include m.responsive(font-size, 1.25rem, 1.5rem, 48.125rem, 80rem);
+  font-weight: 700;
+  
+    @include m.mq(md) {
+      margin-bottom: 10px;
+      font-size: s.rem(14px);
+    }
+    
+    span {
+      display: inline-block;
+      margin-left: 20px;
+      padding: .25em .75em;
+      border-radius: 5px;
+      background-color: s.$green01;
+      color: s.$white01;
+      @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+      font-weight: 700;
+      line-height: 1;
+
+        @include m.mq(md) {
+          margin-left: 10px;
+          font-size: s.rem(12px);
+        }
+    }
+}
+
+// 入力欄
+.input-area {
+  width: 100%;
+  border: 2px solid s.$green01;
+  padding: 5px;
+}
+
+.input-item {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: .3em;
+  font-size: 20px;
+  border: none;
+
+    @include m.mq(md) {
+      height: 35px;
+      font-size: 16px;
+    }
+}
+
+.message {
+  @include m.responsive(height, 200px, 370px, 768px, 1200px);
+  resize: none;
+  overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 20px;
+        @include m.mq(md) {
+          width: 10px;
+        }
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 70px;
+      background: #00b4aa33;
+      border: 5px solid #00b4aa;
+        @include m.mq(md) {
+          border: 2px solid #00b4aa;
+        }
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: s.$green01;
+    }
+
+    &::placeholder {
+      font-size: 20px;
+      line-height: 1.5;
+        @include m.mq(md) {
+          font-size: 16px;
+        }
+
+    }
+    @include m.mq(md) {
+      @include m.responsive(height, 350px, 200px, 350px, 750px);
+    }
+}
+
+/*-------- チェックボックス --------*/ 
+.check-btn{
+  margin-left: 10px;
+
+  &-input {
+    display: none;
+  }
+
+  &-label{
+    position: relative;
+    display: block;
+    padding: 6px 0 6px 35px;
+    font-size: s.rem(18px);
+    cursor: pointer;
+      @include m.mq(md) {
+        font-size: s.rem(14px);
+      }
+  
+      &::before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 22px;
+        height: 22px;
+        border: 1px solid s.$gray02;
+        border-radius: 3px;
+        background: s.$gray01;
+      }
+  
+      &:after {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 8px;
+        left: 7px;
+        transform: rotate(45deg);
+        width: 8px;
+        height: 16px;
+        border-right: 3px solid s.$green01;
+        border-bottom: 3px solid s.$green01;
+        opacity: 0;
+      }
+  }
+}
+
+.check-btn-input:checked + .check-btn-label::after {
+  opacity: 1;
+}
+
+.action-box_text{
+  display: block;
+  margin-bottom: 4.5%;
+  @include m.responsive(font-size, 1.25rem, 1.5rem, 48rem, 75rem);
+  text-align: center;
+  letter-spacing: .07em;
+    span{
+      color: s.$green01;
+      text-decoration: underline;
+    }
+
+    @include m.mq(md) {
+      margin-bottom: 20px;
+      font-size: s.rem(14px);
+    }
+}

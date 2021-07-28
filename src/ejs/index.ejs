@@ -1,0 +1,274 @@
+<%- include('template/_head', { page: jsonData['top'] }); %>
+  <%- include('template/_header' ); %>
+
+    <main class="main-contents">
+      <section class="mainVisual">
+        <div class="mainVisual_wrap">
+          <header class="mainVisual_heading">
+            <h1 class="mainVisual_title">理想の未来を創る、すべてがここに</h1>
+          </header>
+          <p class="mainVisual_text">Wepotは、デジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。なぜなら、強みが違う自立したフリーランスで構成されるクリエイティブチームだからです。クライアントとユーザー、どちらの課題をも解決すること。それがWepotのミッションです。</p>
+        </div>
+      </section><!-- /.mainVisual -->
+      <section class="section_container topPage">
+        <div class="section_inner">
+          <header class="section_heading">
+            <h2 class="section_title">新着記事</h2>
+          </header>
+          <%- include( 'template/_swiperCard' ) %>
+        </div><!-- /.section_inner -->
+      </section><!-- /.section_container -->
+
+      <section class="topCategory-sp">
+        <div class="section_inner">
+          <header class="section_heading">
+            <h2 class="section_title">カテゴリー</h2>
+          </header>
+          <%- include( 'template/_categoryList' ) %>
+          <div id="searchSp">
+            <form role="search" method="get" id="searchSp_form" action="">
+              <input type="text" value="" name="" id="searchSp_text" placeholder="記事を検索">
+              <input type="submit" id="searchSp_submit" value="">
+            </form>
+          </div>
+        </div>
+      </section><!-- /.topCategory-sp -->
+
+      <section class="section_container">
+        <header class="section_heading topNone">
+          <h2 class="section_title">記事一覧</h2>
+        </header>
+        <div class="topArticle">
+          <div class="topArticle_wrap">
+            <article class="topArticle_list">
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="/blog/single/">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">マーケティング</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/yosuke.png" alt="">
+                      <p>ようすけ</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="/blog/single/">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">Webデザイン</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/yukix.png" alt="">
+                      <p>ユキックス</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">ディレクション</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/honma.png" alt="">
+                      <p>ホンマ</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">動画</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/ayaka.png" alt="">
+                      <p>あやか</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">その他</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/tomo.png" alt="">
+                      <p>とも</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">Webデザイン</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/saito.png" alt="">
+                      <p>さいとぅ</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">コーディング</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/maruo.png" alt="">
+                      <p>まるこ</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">マーケティング</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/ayaka.png" alt="">
+                      <p>あやか</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+              <article class="topArticle_item">
+                <a class="topArticle_link" href="">
+                  <figure class="topArticle_img">
+                    <img src="/img/blog/thumbnail.png" alt="">
+                  </figure>
+                  <div class="topArticle_body">
+                    <p class="topArticle_time">YYYY/MM/DD</p>
+                    <div class="topArticle_tag">ディレクション</div>
+                    <h2 class="topArticle_title">このテキストは24pxBoldの設定。文字数は28だよ。</h2>
+                    <div class="topArticle_author">
+                      <img src="/img/member/honma.png" alt="">
+                      <p>ホンマ</p>
+                    </div>
+                  </div>
+                </a>
+              </article><!-- /.topArticle_item -->
+            </article><!-- /.topArticle_list -->
+            <%- include( 'template/_pager' ) %>
+          </div>
+          <%- include( 'template/_sideMenu' ) %>
+        </div>
+      </section><!-- /.blog -->
+
+      <section class="contactBox">
+        <div class="contactBox_wrap">
+          <ul class="contactBox_list01">
+            <li class="contactBox_item">
+              <h3 class="contactBox_title">Wepotについて</h3>
+              <div class="contactBox_img01">
+                <img src="/img/icon/wepot.png" alt="">
+              </div>
+              <p class="contactBox_text">Wepotはデジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。</p>
+              <div class="contactBox_btn">
+                <a href="/about/" class="button02"><span>詳細はこちら</span></a>
+              </div>
+            </li><!-- /.contactBox_item -->
+            <li class="contactBox_item">
+              <h3 class="contactBox_title">メンバー紹介</h3>
+              <div class="contactBox_img02">
+                <img src="/img/icon/member.png" alt="">
+              </div><!-- /.contactBox_img -->
+              <p class="contactBox_text">それぞれ強みが違う自立したフリーランスで構成されるクリエイティブ集団です。</p>
+              <div class="contactBox_btn">
+                <a href="/about/member" class="button02"><span>詳細はこちら</span></a>
+              </div>
+            </li><!-- /.contactBox_item -->
+            <li class="contactBox_item">
+              <h3 class="contactBox_title">制作のご相談</h3>
+              <div class="contactBox_img03">
+                <img src="/img/icon/balloon.png" alt="">
+              </div><!-- /.contactBox_img -->
+              <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
+              <div class="contactBox_btn">
+                <a href="/contact/" class="button02"><span>相談してみる</span></a>
+              </div>
+            </li><!-- /.contactBox_item -->
+          </ul><!-- /.contactBox_list01 -->
+      
+          <ul class="contactBox_list02">
+            <li class="contactBox_item-sp contactBox_item-sp01">
+              <a href="/about/">
+                <div class="contactBox_img01">
+                  <img src="/img/icon/wepot.png" alt="">
+                </div>
+                <h3 class="contactBox_title">Wepotについて</h3>
+              </a>
+            </li><!-- /.contactBox_item -->
+            <li class="contactBox_item-sp contactBox_item-sp01">
+              <a href="/about/member/">
+                <div class="contactBox_img02">
+                  <img src="/img/icon/member.png" alt="">
+                </div>
+                <h3 class="contactBox_title">メンバー紹介</h3>
+              </a>
+            </li><!-- /.contactBox_item -->
+            <li class="contactBox_item-sp contactBox_item-sp02">
+              <h3 class="contactBox_title contactBox_title01">制作のご相談</h3>
+              <div class="contactBox_img03">
+                <img src="/img/icon/balloon.png" alt="">
+              </div>
+              <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
+              <div class="contactBox_btn">
+                <a href="/contact/" class="button02"><span>相談してみる</span></a>
+              </div>
+            </li><!-- /.contactBox_item -->
+          </ul><!-- /.contactBox_list01 -->
+        </div><!-- /.contactBox_wrap -->
+      </section><!-- /.contactBox -->
+
+      <section class="section_container">
+        <div class="section_inner">
+          <header class="section_heading">
+            <h2 class="section_title">おすすめ記事</h2>
+          </header>
+          <%- include( 'template/_swiperCard' ) %>
+            <div class="more">
+              <a href="/blog/" class="button03">記事一覧をみる</a>
+            </div><!-- /.more -->
+        </div><!-- /.section_inner -->
+      </section><!-- /.section_container -->
+    </main>
+
+    <%- include( 'template/_footer' ) %>
