@@ -19,7 +19,7 @@
       background-size: cover;
     }
     @include m.mq(sm) {
-      background: url(../img/bg/sp/top_bg.png) bottom center/cover no-repeat;
+      background: url(../img/bg/sp/top_bg.jpg) bottom center/cover no-repeat;
     }
     @include m.mq(xs) {
       height: 280px;
@@ -111,22 +111,22 @@
 }
 
 .bg01{
-  background: url(../img/bg/bg-img01.png) center/cover no-repeat;
+  background: url(../img/bg/bg-img01.jpg) center/cover no-repeat;
     @include m.mq(sm) {
-      background: url(../img/bg/sp/bg-img01.png) center/cover no-repeat;
+      background: url(../img/bg/sp/bg-img01.jpg) center/cover no-repeat;
     }
 }
 
 .bg02{
-  background: url(../img/bg/bg-img02.png) center/cover no-repeat;
+  background: url(../img/bg/bg-img02.jpg) center/cover no-repeat;
     @include m.mq(sm) {
-      background: url(../img/bg/sp/bg-img02.png) center/cover no-repeat;
+      background: url(../img/bg/sp/bg-img02.jpg) center/cover no-repeat;
     }
 }
 
 .bg03{
-  background: url(../img/bg/bg-img03.png) center/cover no-repeat;
+  background: url(../img/bg/bg-img03.jpg) center/cover no-repeat;
     @include m.mq(sm) {
-      background: url(../img/bg/sp/bg-img03.png) center/cover no-repeat;
+      background: url(../img/bg/sp/bg-img03.jpg) center/cover no-repeat;
     }
 }

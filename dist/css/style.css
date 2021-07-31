@@ -756,15 +756,15 @@ SP版：メニューリスト
 }
 
 .bg01 {
-  background: url(../img/bg/bg-img01.png) center/cover no-repeat;
+  background: url(../img/bg/bg-img01.jpg) center/cover no-repeat;
 }
 
 .bg02 {
-  background: url(../img/bg/bg-img02.png) center/cover no-repeat;
+  background: url(../img/bg/bg-img02.jpg) center/cover no-repeat;
 }
 
 .bg03 {
-  background: url(../img/bg/bg-img03.png) center/cover no-repeat;
+  background: url(../img/bg/bg-img03.jpg) center/cover no-repeat;
 }
 
 /*! ===================================
@@ -1285,9 +1285,8 @@ PC検索ボックス
 #search-text {
   width: 100%;
   height: 22px;
-  padding: 5px;
   border: none;
-  font-size: 0.875rem;
+  font-size: 16px;
   transition: all 0.5s;
   letter-spacing: 0.05em;
 }
@@ -1327,7 +1326,7 @@ PC検索ボックス
   height: 45px;
   padding: 5px 15px;
   border: none;
-  font-size: 0.875rem;
+  font-size: 16px;
   letter-spacing: 0.05em;
 }
 
@@ -2882,12 +2881,6 @@ wepotの強み
   line-height: 1;
 }
 
-.input-area {
-  width: 100%;
-  border: 2px solid #00b4aa;
-  padding: 5px;
-}
-
 .input-item {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2897,9 +2890,9 @@ wepotの強み
   display: block;
   width: 100%;
   height: 40px;
-  padding: 0.3em;
+  padding: 5px;
+  border: 2px solid #00b4aa;
   font-size: 20px;
-  border: none;
 }
 
 .message {
@@ -2999,6 +2992,13 @@ wepotの強み
 .action-box_text span {
   color: #00b4aa;
   text-decoration: underline;
+}
+
+/* アラート文字色 */
+
+.wpcf7-not-valid-tip,
+.wpcf7-response-output {
+  color: #b40000;
 }
 
 /*! ===================================
@@ -3196,10 +3196,6 @@ wepotの強み
 
   .category_item > .button03 {
     font-size: calc(1rem + 0.0185185185 * (100vw - 48rem));
-  }
-
-  #search-text {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .can_item {
@@ -3540,10 +3536,6 @@ wepotの強み
 
   .category_item > .button03 {
     font-size: 1.5rem;
-  }
-
-  #search-text {
-    font-size: 1rem;
   }
 
   .can_item {
@@ -5675,19 +5667,19 @@ wepotの強み
   }
 
   .mainVisual {
-    background: url(../img/bg/sp/top_bg.png) bottom center/cover no-repeat;
+    background: url(../img/bg/sp/top_bg.jpg) bottom center/cover no-repeat;
   }
 
   .bg01 {
-    background: url(../img/bg/sp/bg-img01.png) center/cover no-repeat;
+    background: url(../img/bg/sp/bg-img01.jpg) center/cover no-repeat;
   }
 
   .bg02 {
-    background: url(../img/bg/sp/bg-img02.png) center/cover no-repeat;
+    background: url(../img/bg/sp/bg-img02.jpg) center/cover no-repeat;
   }
 
   .bg03 {
-    background: url(../img/bg/sp/bg-img03.png) center/cover no-repeat;
+    background: url(../img/bg/sp/bg-img03.jpg) center/cover no-repeat;
   }
 
   .contactBox_wrap {
