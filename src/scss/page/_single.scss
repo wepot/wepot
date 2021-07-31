@@ -100,19 +100,8 @@
     }
 
     .underline{
-      position: relative;
-      display: inline-block;
       color: s.$green01;
-
-        &::after{
-          position: absolute;
-          content: "";
-          bottom: 1px;
-          left: 0;
-          width: 100%;
-          height: 2px;
-          background-color: s.$green01;
-        }
+      border-bottom: 2px solid s.$green01;
     }
 
     .marker{
@@ -129,6 +118,8 @@
         width: 100%;
       }
       figcaption{
+        position: relative;
+        padding-left: 1em;
         @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
         text-align: right;
         span{
@@ -188,8 +179,9 @@
 
 .infoRight{
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-    .author{
+    figcaption{
       margin-right: 10px;
       margin-bottom: 0;
       @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
@@ -200,7 +192,7 @@
         }
     }
 
-    >img{
+    img{
       display: inline-block;
       @include m.responsive(width, 60px, 80px, 768px, 1200px);
       @include m.responsive(height, 60px, 80px, 768px, 1200px);
@@ -222,7 +214,7 @@
       padding: 30px 20px;
     }
 
-    >p{
+    p{
       margin-bottom: 2.326%;
       @include m.responsive(font-size, 1.125rem, 1.25rem, 48rem, 75rem);
       font-weight: 700;
@@ -302,7 +294,7 @@ blockquote {
       bottom: 15px;
       background: url(../img/icon/quotation02.png) center/contain no-repeat;
     }
-    >p{
+    p{
       margin-bottom: 0!important;
     }
     cite {
@@ -401,31 +393,33 @@ blockquote {
 //-------会話文-------
 .blnLeft {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
 
     &-icon{
-      @include m.responsive(width, 80px, 100px, 768px, 1200px);
+      width: 100%;
+      max-width: 90px;
       text-align: center;
         @include m.mq(md) {
-          width: 60px;
+          max-width: 60px;
         }
 
       img{
         display: inline-block;
-        @include m.responsive(width, 60px, 80px, 768px, 1200px);
-        @include m.responsive(height, 60px, 80px, 768px, 1200px);
+        @include m.responsive(width, 70px, 80px, 768px, 1200px);
+        @include m.responsive(height, 70px, 80px, 768px, 1200px);
         border-radius: 50%;
           @include m.mq(md) {
-            width: 48px;
-            height: 48px
+            width: 50px;
+            height: 50px
           }
       }
 
-      >figcaption{
+      figcaption{
         @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
           @include m.mq(md) {
-            font-size: s.rem(12px);
+            font-size: s.rem(11px);
+            font-weight: 500;
           }
       }
     }
@@ -433,16 +427,16 @@ blockquote {
     &-talk {
       position: relative;
       display: block;
-      width: 79%;
-      margin: 5px 0 6.977% 4.652%;
-      padding: 1.75em 1.25em;
+      width: calc(100% - 100px);
+      margin: 5px 0 4.652% 4.652%;
+      padding: 1.5em 1.25em;
       background: #00b4aa33;
       text-align: left;
       border-radius: 8px;
         @include m.mq(md) {
-          @include m.responsive(width, 200px, 648px, 320px, 768px);
+          width: calc(100% - 60px);
           margin: 0 0 30px 20px;
-          padding: 20px 16px;
+          padding: 16px;
         }
 
       &::before{
@@ -454,35 +448,41 @@ blockquote {
         border: 15px solid transparent;
         border-top-color: #00b4aa33;
       }
+
+      p{
+        margin-bottom: 0!important;
+      }
     }
 }
 
 .blnRight {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row-reverse;
 
     &-icon{
-      @include m.responsive(width, 80px, 100px, 768px, 1200px);
+      width: 100%;
+      max-width: 90px;
       text-align: center;
         @include m.mq(md) {
-          width: 60px;
+          max-width: 60px;
         }
 
       img{
         display: inline-block;
-        @include m.responsive(width, 60px, 80px, 768px, 1200px);
-        @include m.responsive(height, 60px, 80px, 768px, 1200px);
+        @include m.responsive(width, 70px, 80px, 768px, 1200px);
+        @include m.responsive(height, 70px, 80px, 768px, 1200px);
           @include m.mq(md) {
-            width: 48px;
-            height: 48px
+            width: 50px;
+            height: 50px
           }
       }
 
-      >figcaption{
+      figcaption{
         @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
           @include m.mq(md) {
-            font-size: s.rem(12px);
+            font-size: s.rem(11px);
+            font-weight: 500;
           }
       }
     }
@@ -491,14 +491,14 @@ blockquote {
       position: relative;
       display: inline-block;
       max-width: 680px;
-      margin: 5px 4.652% 6.977% 0;
-      padding: 1.75em 1.25em;
+      margin: 5px 4.652% 4.652% 0;
+      padding: 1.5em 1.25em;
       background: #eee;
       border-radius: 8px;
         @include m.mq(md) {
-          @include m.responsive(width, 200px, 648px, 320px, 768px);
+          width: calc(100% - 60px);
           margin: 0 20px 30px 0;
-          padding: 20px 16px;
+          padding: 16px;
         }
 
       &::before{
@@ -509,6 +509,10 @@ blockquote {
         transform: rotate(135deg);
         border: 15px solid transparent;
         border-top-color: #eee;
+      }
+
+      p{
+        margin-bottom: 0!important;
       }
     }
 }
@@ -540,13 +544,13 @@ blockquote {
       }
   }
 
-  >ul{
+  ul{
     padding-left: 2.326%;
       @include m.mq(md) {
         padding-left: .8em;
       }
 
-    >li{
+    li{
       position: relative;
       padding-left: 1em;
         @include m.mq(md) {
@@ -591,14 +595,14 @@ blockquote {
         }
     }
 
-    >ol{
+    ol{
       padding-left: 2.326%;
       counter-reset: number 0;
         @include m.mq(md) {
           padding-left: .8em;
         }
         
-        >li{
+        li{
           position: relative;
           padding-left: 1em;
             @include m.mq(md) {
@@ -711,7 +715,7 @@ blockquote {
       margin-bottom: 60px;
     }
 
-  >p{
+  p{
     margin-bottom: 4.65%;
     @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
     font-weight: 700;
@@ -721,7 +725,7 @@ blockquote {
         font-weight: 400;
       }
   }
-  >ul{
+  ul{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -731,7 +735,7 @@ blockquote {
         margin: 0 auto;
       }
     
-    >li{
+    li{
       display: flex;
       align-items: center;
       @include m.responsive(width, 40px, 48px, 768px, 1200px);
