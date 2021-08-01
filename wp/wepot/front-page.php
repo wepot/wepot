@@ -11,7 +11,7 @@
         </div>
     </section><!-- /.mainVisual -->
 
-    <section class="section_container">
+    <section class="section_container topPage">
         <header class="section_heading topNone">
             <h2 class="section_title">新着記事</h2>
         </header>

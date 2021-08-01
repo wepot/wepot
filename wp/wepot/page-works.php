@@ -151,7 +151,7 @@
 
     <?php get_template_part('contactBox'); ?>
 
-    <section class="section_container">
+    <section class="section_container strong_wrap">
         <div class="section_inner">
             <header class="section_heading">
                 <h2 class="section_title">Wepot の強み</h2>
