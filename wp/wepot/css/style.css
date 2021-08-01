@@ -1410,7 +1410,7 @@ wepotでできること
 ==================================== */
 
 .topPage {
-  margin-top: 7.032%;
+  margin-top: 6.25%;
 }
 
 .topArticle {
@@ -2632,6 +2632,10 @@ blockquote cite > a {
 /*! ===================================
 wepotの強み
 ==================================== */
+
+.strong_wrap {
+  margin-top: 6.25%;
+}
 
 .strong {
   margin-top: 3.125%;
@@ -5139,10 +5143,6 @@ wepotの強み
     margin-top: 50px;
   }
 
-  .topNone {
-    display: none;
-  }
-
   .memberPage {
     margin-top: 50px;
   }
@@ -5483,6 +5483,10 @@ wepotの強み
 
   .worksBox_text {
     margin-bottom: 15px;
+  }
+
+  .strong_wrap {
+    margin-top: 40px;
   }
 
   .strong {
