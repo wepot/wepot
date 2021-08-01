@@ -1629,6 +1629,7 @@ aboutページ
   width: 175px;
   height: 175px;
   margin: 0 auto;
+  border-radius: 50%;
 }
 
 .profilePage .name {
@@ -1919,26 +1920,31 @@ aboutページ
   background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
 }
 
-.blog_img {
+.blog figure {
   width: 100%;
   max-width: 860px;
   height: auto;
   margin-bottom: 6.977%;
 }
 
-.blog_img img {
+.blog figure img {
   width: 100%;
 }
 
-.blog_img figcaption {
-  position: relative;
+.blog figure figcaption {
+  display: block;
   padding-left: 1em;
   font-size: 0.875rem;
   text-align: right;
 }
 
-.blog_img figcaption span {
+.blog figure figcaption::before {
+  position: relative;
+  content: "▲";
+  top: 0;
+  left: 0;
   color: #00b4aa;
+  font-size: 1em;
 }
 
 .header_wrap {
@@ -2337,10 +2343,6 @@ blockquote cite > a {
 
 .relatedPost_img img {
   width: 100%;
-  -o-object-fit: none;
-  object-fit: none;
-  -o-object-position: center center;
-  object-position: center center;
 }
 
 .relatedPost_body {
@@ -3290,7 +3292,7 @@ wepotの強み
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .blog_img figcaption {
+  .blog figure figcaption {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
@@ -3630,7 +3632,7 @@ wepotの強み
     font-size: 1rem;
   }
 
-  .blog_img figcaption {
+  .blog figure figcaption {
     font-size: 1rem;
   }
 
@@ -5295,7 +5297,7 @@ wepotの強み
     margin-bottom: 40px;
   }
 
-  .blog_img {
+  .blog figure {
     max-width: 748px;
     margin-bottom: 40px;
   }
@@ -5944,11 +5946,6 @@ wepotの強み
 
   .relatedPost_img {
     width: 100%;
-  }
-
-  .relatedPost_img img {
-    -o-object-fit: cover;
-    object-fit: cover;
   }
 
   .relatedPost_body {
