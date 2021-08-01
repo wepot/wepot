@@ -164,7 +164,7 @@
                 <div class="strong-media">
                     <div class="strong-media_item">
                         <div class="strong-media_img01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/one-stop.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/one-stop.png" alt="">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title"><span>適切なメンバーアサイン</span><br>ワンストップでサービス提供</h3>
@@ -175,7 +175,7 @@
                     </div><!-- /.strong-media_item -->
                     <div class="strong-media_item">
                         <div class="strong-media_img02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/workflow.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/workflow.png" alt="">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title">成果貢献を重視したワークフロー</h3>
@@ -186,7 +186,7 @@
                     </div><!-- /.strong-media_item -->
                     <div class="strong-media_item">
                         <div class="strong-media_img03">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/ability.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/ability.png" alt="">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title"><span>作れないものがない</span><br>どんなご要望にも対応できる体制</h3>
