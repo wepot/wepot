@@ -55,3 +55,5 @@ function toc_in($the_content)
     return $the_content;
 }
 add_filter('the_content', 'toc_in');
+// 固定ページにも抜粋欄を設ける
+add_post_type_support('page', 'excerpt');
