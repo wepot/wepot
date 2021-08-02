@@ -55,7 +55,7 @@
         }
     } else { //ループのページ(home・カテゴリー・タグなど)
         //先に投稿・固定ページ以外の詳細な条件分岐
-        if (!is_category('blog')) { //「ブログ」カテゴリのみ除外
+        if (is_category('blog') && !is_category('blog')) { //「ブログ」カテゴリのみ除外
             $title = single_cat_title("", false) . 'の記事一覧';
             if (!empty(category_description())) {
                 $description = strip_tags(category_description());
