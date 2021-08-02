@@ -2957,19 +2957,23 @@ wepotの強み
   margin-left: 10px;
 }
 
-.check-btn-input {
-  display: none;
+.check-btn input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
 }
 
-.check-btn-label {
+span.wpcf7-list-item {
   position: relative;
   display: block;
   padding: 6px 0 6px 35px;
   font-size: 1.125rem;
+}
+
+.wpcf7-list-item-label {
   cursor: pointer;
 }
 
-.check-btn-label::before {
+.wpcf7-list-item-label::before {
   position: absolute;
   content: "";
   display: block;
@@ -2983,7 +2987,7 @@ wepotの強み
   background: #f3f3f3;
 }
 
-.check-btn-label:after {
+.check-btn input[type=checkbox]:checked + .wpcf7-list-item-label:after {
   position: absolute;
   content: "";
   display: block;
@@ -2994,12 +2998,9 @@ wepotの強み
   height: 16px;
   border-right: 3px solid #00b4aa;
   border-bottom: 3px solid #00b4aa;
-  opacity: 0;
 }
 
-.check-btn-input:checked + .check-btn-label::after {
-  opacity: 1;
-}
+/*-------- 送信ボタン --------*/
 
 .action-box_text {
   display: block;
@@ -3014,11 +3015,22 @@ wepotの強み
   text-decoration: underline;
 }
 
-/* アラート文字色 */
+/*-------- アラート文 --------*/
 
-.wpcf7-not-valid-tip,
-.wpcf7-response-output {
+.screen-reader-response {
+  display: none;
+}
+
+.wpcf7-not-valid-tip {
   color: #b40000;
+  font-weight: 500;
+}
+
+.wpcf7-response-output {
+  margin-bottom: 10px;
+  color: #b40000;
+  font-weight: 500;
+  text-align: center;
 }
 
 /*! ===================================
@@ -5624,7 +5636,7 @@ wepotの強み
     height: 350px;
   }
 
-  .check-btn-label {
+  span.wpcf7-list-item {
     font-size: 0.875rem;
   }
 
