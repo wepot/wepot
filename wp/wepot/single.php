@@ -82,7 +82,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share? url=<?php the_permalink(); ?>&via=petaBite_yo&related=petaBite_yo&hashtags=wepot&text=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
+                                <a href="https://twitter.com/share? url=<?php the_permalink(); ?>&via=wepot_media&related=wepot_media&hashtags=wepot&text=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">
                                 </a>
                             </li>
