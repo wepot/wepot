@@ -74,8 +74,8 @@
                             <li class="mainMenu_item">
                                 <a href="<?php echo home_url(); ?>/works/">実績一覧</a>
                             </li>
-                            <li class="mainMenu_item">
-                                <a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a>
+                            <li class="mainMenu-contact_btn">
+                                <a href="<?php echo home_url(); ?>/contact/" class="button02"><span>お問い合わせ</span></a>
                             </li>
                         </ul>
                     </nav><!-- /.mainMenu -->

@@ -134,7 +134,7 @@ body {
   border-radius: 30px;
   background-image: linear-gradient(to right, #00b4aa, #7e8aff);
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   line-height: 1;
 }
@@ -160,7 +160,7 @@ body {
   background-color: #fff;
   color: #00b4aa;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -191,7 +191,7 @@ body {
   background-color: #00b4aa;
   color: #fff;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.05em;
   cursor: pointer;
@@ -251,8 +251,8 @@ body {
   position: relative;
   display: inline-block;
   padding-bottom: 3px;
-  font-size: 1.375rem;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -272,7 +272,7 @@ body {
 ==================================== */
 
 .section_text {
-  margin-top: 3.125%;
+  margin-top: 1.95%;
   font-size: 0.875rem;
   line-height: 1.83;
 }
@@ -346,8 +346,7 @@ body {
   display: flex;
   margin-left: 40px;
   color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.875rem;
   line-height: 1;
 }
 
@@ -365,13 +364,29 @@ body {
   opacity: 0.8;
 }
 
+.mainMenu-contact_btn {
+  width: 180px;
+  height: 40px;
+  margin: auto 0;
+  margin-left: 40px;
+}
+
+.mainMenu-contact_btn .button02 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.mainMenu-contact_btn span {
+  padding: 0.5em;
+}
+
 /*======== ブログカテゴリー ========*/
 
 .blogCategory {
   display: flex;
   margin: 0 calc(50% - 50vw);
   padding: 0 calc(50vw - 50% + 8px);
-  height: 50px;
+  height: 40px;
   background-image: linear-gradient(to right, #00b4aa, #7e8aff);
 }
 
@@ -386,8 +401,7 @@ body {
   display: flex;
   margin-left: 30px;
   color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.875rem;
   line-height: 1;
 }
 
@@ -501,7 +515,7 @@ SP版：メニューリスト
 
 .link_wrap > p {
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -736,7 +750,7 @@ SP版：メニューリスト
   position: relative;
   width: 100%;
   height: 0;
-  padding-top: 22.9167%;
+  padding-top: 15.625%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -750,9 +764,11 @@ SP版：メニューリスト
 }
 
 .pageVisual_title {
-  font-size: 2rem;
+  color: #fff;
+  font-size: 1.75rem;
   line-height: 1;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .bg01 {
@@ -772,11 +788,11 @@ SP版：メニューリスト
 ==================================== */
 
 .main-contents {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .section_container {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .section_inner {
@@ -864,7 +880,7 @@ SP版：メニューリスト
 }
 
 .contactBox_title {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
   line-height: 1.5;
@@ -1162,7 +1178,7 @@ SP版：メニューリスト
 ==================================== */
 
 .categoryCards {
-  margin: 6.25% 0;
+  margin: 3.125% 0;
 }
 
 .categoryCards_list {
@@ -1195,9 +1211,9 @@ SP版：メニューリスト
 }
 
 .categoryCards_title {
-  margin: 3.9% 0;
-  font-size: 1.125rem;
-  font-weight: 700;
+  margin: 8px 0;
+  font-size: 1rem;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -1355,7 +1371,7 @@ wepotでできること
 
 .can {
   width: 100%;
-  max-width: 1170px;
+  max-width: 510px;
   margin: 0 auto;
 }
 
@@ -1367,15 +1383,15 @@ wepotでできること
 }
 
 .can_item {
-  width: 148px;
-  height: 148px;
+  width: 105px;
+  height: 105px;
   margin-top: 3.125%;
-  margin-right: 4.5%;
-  padding: 10px;
+  margin-right: 5.55%;
+  padding: 8px;
   border-radius: 50%;
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 500;
   text-align: center;
   line-height: 1.2;
 }
@@ -1401,14 +1417,14 @@ wepotでできること
 
 .can_text01 {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
 .can_text02 {
   margin-top: 4.6875%;
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.125rem;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -3135,7 +3151,7 @@ span.wpcf7-list-item {
   }
 
   .button02 {
-    font-size: calc(1rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .action_btn {
@@ -3143,19 +3159,23 @@ span.wpcf7-list-item {
   }
 
   .section_title {
-    font-size: calc(1.375rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1.25rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .section_text {
-    font-size: calc(0.875rem + 0.0231481481 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .mainMenu_item {
-    font-size: calc(0.75rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
+  }
+
+  .mainMenu-contact_btn .button02 {
+    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .blogCategory_item {
-    font-size: calc(0.75rem + 0.0138888889 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .link_wrap > p {
@@ -3191,15 +3211,15 @@ span.wpcf7-list-item {
   }
 
   .pageVisual_title {
-    font-size: calc(2rem + 0.037037037 * (100vw - 48rem));
+    font-size: calc(1.75rem + 0.0277777778 * (100vw - 48rem));
   }
 
   .contactBox_title {
-    font-size: calc(1.375rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1.25rem + 0.0185185185 * (100vw - 48rem));
   }
 
   .contactBox_text {
-    font-size: calc(0.75rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .swiperCard_time {
@@ -3219,11 +3239,11 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_title {
-    font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .categoryCards_text {
-    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .category_item > .button03 {
@@ -3231,15 +3251,15 @@ span.wpcf7-list-item {
   }
 
   .can_item {
-    font-size: calc(1rem + 0.0277777778 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .can_text01 {
-    font-size: calc(1rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .can_text02 {
-    font-size: calc(1.25rem + 0.0231481481 * (100vw - 48rem));
+    font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
   }
 
   .topArticle_time {
@@ -3483,7 +3503,7 @@ span.wpcf7-list-item {
   }
 
   .button02 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .action_btn {
@@ -3491,19 +3511,23 @@ span.wpcf7-list-item {
   }
 
   .section_title {
-    font-size: 1.875rem;
-  }
-
-  .section_text {
     font-size: 1.5rem;
   }
 
+  .section_text {
+    font-size: 1rem;
+  }
+
   .mainMenu_item {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+  }
+
+  .mainMenu-contact_btn .button02 {
+    font-size: 1.125rem;
   }
 
   .blogCategory_item {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .link_wrap > p {
@@ -3531,15 +3555,15 @@ span.wpcf7-list-item {
   }
 
   .pageVisual_title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .contactBox_title {
-    font-size: 1.875rem;
+    font-size: 1.75rem;
   }
 
   .contactBox_text {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .swiperCard_time {
@@ -3559,11 +3583,11 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .categoryCards_text {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .category_item > .button03 {
@@ -3571,15 +3595,15 @@ span.wpcf7-list-item {
   }
 
   .can_item {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 
   .can_text01 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .can_text02 {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
   }
 
   .topArticle_time {
@@ -3864,8 +3888,12 @@ span.wpcf7-list-item {
     margin-left: calc(40px + 0.0694444444 * (100vw - 768px));
   }
 
+  .mainMenu-contact_btn {
+    margin-left: calc(40px + 0.0694444444 * (100vw - 768px));
+  }
+
   .blogCategory {
-    height: calc(50px + 0.0694444444 * (100vw - 768px));
+    height: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
   .blogCategory_item {
@@ -3949,11 +3977,11 @@ span.wpcf7-list-item {
   }
 
   .main-contents {
-    padding-top: calc(100px + 0.1388888889 * (100vw - 768px));
+    padding-top: calc(90px + 0.1157407407 * (100vw - 768px));
   }
 
   .section_container {
-    margin-bottom: calc(60px + 0.0694444444 * (100vw - 768px));
+    margin-bottom: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
   .contactBox_img01 {
@@ -4084,12 +4112,16 @@ span.wpcf7-list-item {
     background-size: calc(18px + 0.0162037037 * (100vw - 768px));
   }
 
-  .can_item {
-    width: calc(148px + 0.212962963 * (100vw - 768px));
+  .can {
+    max-width: calc(510px + 0.4861111111 * (100vw - 768px));
   }
 
   .can_item {
-    height: calc(148px + 0.212962963 * (100vw - 768px));
+    width: calc(105px + 0.1041666667 * (100vw - 768px));
+  }
+
+  .can_item {
+    height: calc(105px + 0.1041666667 * (100vw - 768px));
   }
 
   .topArticle {
@@ -4336,8 +4368,12 @@ span.wpcf7-list-item {
     margin-left: 70px;
   }
 
+  .mainMenu-contact_btn {
+    margin-left: 70px;
+  }
+
   .blogCategory {
-    height: 80px;
+    height: 60px;
   }
 
   .blogCategory_item {
@@ -4421,11 +4457,11 @@ span.wpcf7-list-item {
   }
 
   .main-contents {
-    padding-top: 160px;
+    padding-top: 140px;
   }
 
   .section_container {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
 
   .contactBox_img01 {
@@ -4556,12 +4592,16 @@ span.wpcf7-list-item {
     background-size: 25px;
   }
 
-  .can_item {
-    width: 240px;
+  .can {
+    max-width: 720px;
   }
 
   .can_item {
-    height: 240px;
+    width: 150px;
+  }
+
+  .can_item {
+    height: 150px;
   }
 
   .topArticle {
@@ -5022,13 +5062,12 @@ span.wpcf7-list-item {
   }
 
   .pageVisual {
-    height: 200px;
+    height: 120px;
     padding-top: 0;
   }
 
   .pageVisual_title {
-    color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .main-contents {
@@ -5105,10 +5144,6 @@ span.wpcf7-list-item {
     display: none;
   }
 
-  .can {
-    max-width: 510px;
-  }
-
   .can_list {
     margin: 35px 0 40px;
   }
@@ -5118,7 +5153,7 @@ span.wpcf7-list-item {
     height: 105px;
     margin-top: 20px;
     margin-right: 30px;
-    padding: 5px;
+    padding: 4px;
     font-size: 0.8125rem;
   }
 
@@ -5729,7 +5764,7 @@ span.wpcf7-list-item {
   }
 
   .contactBox_title01 {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     text-align: right;
     line-height: 56px;
   }
@@ -6266,7 +6301,7 @@ span.wpcf7-list-item {
   }
 
   .contactBox_title01 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .topArticle_time {
@@ -6310,7 +6345,7 @@ span.wpcf7-list-item {
   }
 
   .pageVisual_title {
-    font-size: calc(1.5rem + 0.0228571429 * (100vw - 21.875rem));
+    font-size: calc(1.25rem + 0.0228571429 * (100vw - 21.875rem));
   }
 }
 
@@ -6322,7 +6357,7 @@ span.wpcf7-list-item {
 
 @media screen and (max-width: 768px) and (min-width: 43.75rem) {
   .pageVisual_title {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 
