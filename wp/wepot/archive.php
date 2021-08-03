@@ -1,42 +1,104 @@
 <?php get_header(); ?>
 <main class="main-contents">
-    <section class="pageVisual bg01">
-        <header class="pageVisual_heading">
-            <?php if (is_category('webdesign')) : ?>
+
+    <?php if (is_category('webdesign')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">Webデザインの記事一覧</h1>
-            <?php elseif (is_category('wordpress')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('wordpress')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">WordPressの記事一覧</h1>
-            <?php elseif (is_category('marketing')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('marketing')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">マーケティングの記事一覧</h1>
-            <?php elseif (is_category('direction')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('direction')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">ディレクションの記事一覧</h1>
-            <?php elseif (is_category('coding')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('coding')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">コーディングの記事一覧</h1>
-            <?php elseif (is_category('illust')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('illust')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">イラストの記事一覧</h1>
-            <?php elseif (is_category('video')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('video')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">動画編集の記事一覧</h1>
-            <?php elseif (is_category('others')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_category('others')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">その他の記事一覧</h1>
-            <?php elseif (is_author('honma')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('honma')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">本間の執筆記事一覧</h1>
-            <?php elseif (is_author('ayaka')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('ayaka')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">鈴木の執筆記事一覧</h1>
-            <?php elseif (is_author('sato')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('sato')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">佐藤の執筆記事一覧</h1>
-            <?php elseif (is_author('yukix')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('yukix')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">ユキックス（黒羽）の執筆記事一覧</h1>
-            <?php elseif (is_author('tomoni')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('tomoni')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">奥田の執筆記事一覧</h1>
-            <?php elseif (is_author('saito')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('saito')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">齋藤の執筆記事一覧</h1>
-            <?php elseif (is_author('maruo')) : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_author('maruo')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">丸尾の執筆記事一覧</h1>
-            <?php else : ?>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php else : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">BLOG</h1>
-            <?php endif; ?>
-        </header>
-    </section><!-- /.pageVisual -->
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php endif; ?>
+
 
     <section class="section_container blogPage">
         <div class="section_inner">
