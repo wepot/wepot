@@ -2029,50 +2029,50 @@ aboutページ
   border-radius: 50%;
 }
 
-.chapter {
+#toc_container {
   margin-bottom: 4.652%;
   padding: 4.652% 2.326%;
   background-color: #eee;
 }
 
-.chapter p {
+#toc_container p {
   margin-bottom: 2.326%;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1;
 }
 
-.chapter ol {
+#toc_container ul {
   counter-reset: count 0;
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.025em;
 }
 
-.chapter ol li {
+#toc_container ul li {
   text-indent: -1em;
   padding-left: 1em;
 }
 
-.chapter ol ol {
-  margin-bottom: 10px;
+#toc_container ul ul {
+  margin-bottom: 8px;
   text-indent: -0.5em;
   padding-left: 0.5em;
 }
 
-.chapter ol ol > li {
+#toc_container ul ul > li {
   font-size: 14px;
   font-weight: 400;
   text-indent: -2.3em;
   padding-left: 2.3em;
 }
 
-.chapter ol a:hover {
+#toc_container ul a:hover {
   color: #00b4aa;
   text-decoration: underline;
 }
 
-.chapter li:before {
+#toc_container li:before {
   counter-increment: count 1;
   content: counters(count, "-") ". ";
 }
@@ -2399,6 +2399,7 @@ blockquote cite > a {
 .relatedPost_title {
   margin-bottom: 0.8em;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .relatedPost_time {
@@ -3383,7 +3384,7 @@ span.wpcf7-list-item {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .chapter p {
+  #toc_container p {
     font-size: calc(1.125rem + 0.0046296296 * (100vw - 48rem));
   }
 
@@ -3727,7 +3728,7 @@ span.wpcf7-list-item {
     font-size: 1rem;
   }
 
-  .chapter p {
+  #toc_container p {
     font-size: 1.25rem;
   }
 
@@ -5415,17 +5416,17 @@ span.wpcf7-list-item {
     height: 50px;
   }
 
-  .chapter {
+  #toc_container {
     margin-bottom: 40px;
     padding: 30px 20px;
   }
 
-  .chapter p {
+  #toc_container p {
     margin-bottom: 16px;
     font-size: 0.875rem;
   }
 
-  .chapter ol {
+  #toc_container ul {
     font-size: 0.875rem;
   }
 
@@ -6043,7 +6044,6 @@ span.wpcf7-list-item {
   .relatedPost_title {
     margin-bottom: 0;
     font-size: 0.875rem;
-    font-weight: 700;
   }
 
   .relatedPost_time {
