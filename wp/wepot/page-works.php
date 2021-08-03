@@ -63,7 +63,7 @@
                         <p class="worksBox_text">
                             ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
                         </p>
-                        <p class="worksBox_text"><a href="" target="_blank">URLが入ります</a></p>
+                        <p class="worksBox_url"><a href="https://www.google.com/" target="_blank">https://www.google.com/</a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
@@ -123,7 +123,7 @@
                         <p class="worksBox_text">
                             ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
                         </p>
-                        <p class="worksBox_text"><a href="" target="_blank">URLが入ります</a></p>
+                        <p class="worksBox_url"><a href="https://www.google.com/" target="_blank">https://www.google.com/</a></p>
                         <div class="worksBox_member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
