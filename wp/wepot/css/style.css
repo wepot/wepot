@@ -1370,9 +1370,10 @@ wepotでできること
 ==================================== */
 
 .can {
+  margin: 0 auto;
   width: 100%;
   max-width: 510px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .can_list {
@@ -2628,8 +2629,36 @@ blockquote cite > a {
 }
 
 .worksBox_text {
-  margin-bottom: 6.9%;
+  margin-bottom: 15px;
   line-height: 1.8;
+}
+
+.worksBox_url {
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+}
+
+.worksBox_url a {
+  position: relative;
+}
+
+.worksBox_url a::after {
+  position: absolute;
+  content: "";
+  right: -23px;
+  bottom: 2px;
+  width: 14px;
+  height: 14px;
+  background: url(../img/icon/linkBlack.png) center/contain no-repeat;
+}
+
+.worksBox_url a:hover {
+  color: #00b4aa;
+  text-decoration: underline;
+}
+
+.worksBox_url a:hover::after {
+  background: url(../img/icon/linkGreen.png) center/contain no-repeat;
 }
 
 .worksBox-member_list {
@@ -5541,10 +5570,6 @@ span.wpcf7-list-item {
   }
 
   .worksBox_budget {
-    margin-bottom: 15px;
-  }
-
-  .worksBox_text {
     margin-bottom: 15px;
   }
 
