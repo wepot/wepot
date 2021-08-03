@@ -12,7 +12,7 @@ jQuery(function($) {
             level = 2;
         }
         while (currentlevel < level) {
-            toc += '<ol class="chapter_list">';
+            toc += '<ol>';
             currentlevel++;
         }
         while (currentlevel > level) {

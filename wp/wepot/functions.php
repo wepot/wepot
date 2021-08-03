@@ -41,19 +41,5 @@ function my_user_meta($wb)
     return $wb;
 }
 add_filter('user_contactmethods', 'my_user_meta', 10, 1);
-// 投稿ページの最初のh2直前に目次を表示
-function toc_in($the_content)
-{
-    if (is_single()) {
-        $toc = "<div id=\"toc\"></div>";
-
-        $h2 = '/<h2.*?>/i'; //H2見出し
-        if (preg_match($h2, $the_content, $h2s)) {
-            $the_content  = preg_replace($h2, $toc . $h2s[0], $the_content, 1);
-        }
-    }
-    return $the_content;
-}
-add_filter('the_content', 'toc_in');
 // 固定ページにも抜粋欄を設ける
 add_post_type_support('page', 'excerpt');
