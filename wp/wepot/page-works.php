@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main class="main-contents">
-    <section class="pageVisual bg02">
+    <section class="pageVisual bg01">
         <header class="pageVisual_heading">
             <h1 class="pageVisual_title">実績一覧</h1>
         </header>
