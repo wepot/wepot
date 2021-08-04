@@ -91,6 +91,18 @@
                 <h1 class="pageVisual_title">丸尾の執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
+    <?php elseif (is_year()) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
+                <h1 class="pageVisual_title"><?php the_time("Y年"); ?>の記事一覧</h1>
+            </header>
+        </section><!-- /.pageVisual -->
+    <?php elseif (is_month()) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
+                <h1 class="pageVisual_title"><?php the_time("Y年M"); ?>の記事一覧</h1>
+            </header>
+        </section><!-- /.pageVisual -->
     <?php else : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
@@ -98,7 +110,6 @@
             </header>
         </section><!-- /.pageVisual -->
     <?php endif; ?>
-
 
     <section class="section_container blogPage">
         <div class="section_inner">

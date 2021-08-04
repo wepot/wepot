@@ -76,8 +76,8 @@
             $title = get_the_time("Y年") . 'の記事一覧';
             $description = '『' . get_the_time("Y年") . '』に投稿された記事の一覧ページです。'; //指定したい場合は個別に入力
         } elseif (is_month()) {
-            $title = get_the_time("Y年m月") . 'の記事一覧';
-            $description = '『' . get_the_time("Y年m月") . '』に投稿された記事の一覧ページです。'; //指定したい場合は個別に入力
+            $title = get_the_time("Y年M") . 'の記事一覧';
+            $description = '『' . get_the_time("Y年M") . '』に投稿された記事の一覧ページです。'; //指定したい場合は個別に入力
         } elseif (is_day()) {
             $title = get_the_time("Y年m月d日") . 'の記事一覧';
             $description = '『' . get_the_time("Y年m月d日") . '』に投稿された記事の一覧ページです。'; //指定したい場合は個別に入力
