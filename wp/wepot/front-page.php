@@ -2,6 +2,9 @@
 <main class="main-contents">
     <section class="mainVisual">
         <div class="mainVisual_wrap">
+            <div class="mainVisual_img">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/bg/top-img.png" alt="">
+            </div>
             <header class="mainVisual_heading">
                 <h1 class="mainVisual_title">理想の未来を創る、すべてがここに</h1>
             </header>
