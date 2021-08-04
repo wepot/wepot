@@ -58,23 +58,23 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img02.jpg" alt="">
                     </figure>
                     <div class="worksBox_body">
-                        <h3 class="worksBox_title">i-plugさま Webサイト</h3>
+                        <h3 class="worksBox_title">i-plugさま 新卒採用LP</h3>
                         <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
-                            ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
+                            新卒採用を目的としたLPページのデザインと実装を担当させていただきました。<br>閲覧した就職希望者の皆さんが「ワクワクする」「キャリアの可能性を感じる」「能動的に取り組みたくなる」ようなイメージを持ってもらえるようにデザインをしています。
                         </p>
-                        <p class="worksBox_url"><a href="https://www.google.com/" target="_blank">https://www.google.com/</a></p>
+                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank">https://i-plug.co.jp/recruit/freshers/</a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="">
+                                </li>
+                                <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="">
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="">
                                 </li>
 
                             </ul>
@@ -89,22 +89,23 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img03.jpg" alt="">
                     </figure>
                     <div class="worksBox_body">
-                        <h3 class="worksBox_title">講演依頼ドットコムさま Webサイトバナー</h3>
+                        <h3 class="worksBox_title">講演依頼ドットコム LP/バナー/ダウンロード資料</h3>
                         <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
-                            ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
+                            オンライン講演の配信サポートプランのLPページをデザインしました。<br>詳細な情報設計をもとにターゲットとなるユーザにとって適切なコンテンツと掲載順を策定した上でデザインに落とし込んでいます。<br>LPのデザインとともにダウンロード資料（PDF）やバナーも担当させていただきました。<br>LPページに合わせた見やすく伝わりやすい資料を制作しています。
                         </p>
+                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank">https://www.kouenirai.com/howto/online.html</a></p>
                         <div class="worksBox_member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="">
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="">
                                 </li>
                             </ul>
                         </div>
@@ -118,7 +119,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img04.jpg" alt="">
                     </figure>
                     <div class="worksBox_body">
-                        <h3 class="worksBox_title">講演依頼ドットコムさま LP（ランディングページ）</h3>
+                        <h3 class="worksBox_title">未設定枠（リリースに情報まとまったら追加）</h3>
                         <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
                             ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
