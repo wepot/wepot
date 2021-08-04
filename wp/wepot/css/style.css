@@ -201,6 +201,22 @@ body {
   opacity: 0.8;
 }
 
+.button04 {
+  display: inline-block;
+  width: 100%;
+  padding: 8.4% 10px;
+  border-radius: 30px;
+  background-color: #191919;
+  color: #fff;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 1;
+}
+
+.button04:hover {
+  opacity: 0.8;
+}
+
 /*! ===================================
 トップへ戻るボタン
 ==================================== */
@@ -399,7 +415,7 @@ body {
 
 .blogCategory_item {
   display: flex;
-  margin-left: 30px;
+  margin-left: 25px;
   color: #fff;
   font-size: 0.875rem;
   line-height: 1;
@@ -710,17 +726,15 @@ SP版：メニューリスト
   width: 100%;
   height: 0;
   padding-top: 31.25%;
-  background: url(../img/bg/top_bg.png) center/contain no-repeat #000;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  background-color: #191919;
   /*-------- コピー --------*/
 }
 
 .mainVisual_wrap {
   position: absolute;
-  top: 20px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   max-width: 994px;
   padding: 0 20px;
@@ -728,7 +742,18 @@ SP版：メニューリスト
   text-align: center;
 }
 
+.mainVisual_img {
+  width: 96px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mainVisual_img img {
+  width: 100%;
+}
+
 .mainVisual_heading {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -3175,6 +3200,35 @@ span.wpcf7-list-item {
   margin-top: 0;
 }
 
+/*! ===================================
+404ページ
+==================================== */
+
+.notFound {
+  position: relative;
+  width: 100vw;
+  height: 0;
+  padding-top: 42%;
+  background-image: linear-gradient(to right, #00b4aa, #7e8aff);
+}
+
+.notFound_inner {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.notFound_img img {
+  width: 100%;
+}
+
+.notFound_btn {
+  width: 150px;
+  height: 40px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 48rem) {
   .button01 {
     font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
@@ -3186,6 +3240,10 @@ span.wpcf7-list-item {
 
   .action_btn {
     font-size: calc(1.25rem + 0.0185185185 * (100vw - 48rem));
+  }
+
+  .button04 {
+    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .section_title {
@@ -3538,6 +3596,10 @@ span.wpcf7-list-item {
 
   .action_btn {
     font-size: 1.75rem;
+  }
+
+  .button04 {
+    font-size: 1.125rem;
   }
 
   .section_title {
@@ -3927,7 +3989,7 @@ span.wpcf7-list-item {
   }
 
   .blogCategory_item {
-    margin-left: calc(30px + 0.0925925926 * (100vw - 768px));
+    margin-left: calc(25px + 0.1041666667 * (100vw - 768px));
   }
 
   .link_wrap {
@@ -3998,12 +4060,16 @@ span.wpcf7-list-item {
     height: calc(36px + 0.0092592593 * (100vw - 768px));
   }
 
-  .mainVisual_wrap {
-    top: calc(20px + 0.0694444444 * (100vw - 768px));
+  .mainVisual_img {
+    width: calc(96px + 0.0946180556 * (100vw - 768px));
   }
 
   .mainVisual_heading {
-    margin-bottom: calc(10px + 0.0462962963 * (100vw - 768px));
+    margin-top: calc(20px + 0.0347222222 * (100vw - 768px));
+  }
+
+  .mainVisual_heading {
+    margin-bottom: calc(10px + 0.0173611111 * (100vw - 768px));
   }
 
   .main-contents {
@@ -4359,6 +4425,14 @@ span.wpcf7-list-item {
   .message {
     height: calc(200px + 0.3935185185 * (100vw - 768px));
   }
+
+  .notFound_btn {
+    width: calc(150px + 0.2314814815 * (100vw - 768px));
+  }
+
+  .notFound_btn {
+    height: calc(40px + 0.0462962963 * (100vw - 768px));
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -4476,14 +4550,6 @@ span.wpcf7-list-item {
 
   .sideMenu_item {
     height: 40px;
-  }
-
-  .mainVisual_wrap {
-    top: 50px;
-  }
-
-  .mainVisual_heading {
-    margin-bottom: 30px;
   }
 
   .main-contents {
@@ -4839,6 +4905,28 @@ span.wpcf7-list-item {
   .message {
     height: 370px;
   }
+
+  .notFound_btn {
+    width: 250px;
+  }
+
+  .notFound_btn {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .mainVisual_img {
+    width: 205px;
+  }
+
+  .mainVisual_heading {
+    margin-top: 60px;
+  }
+
+  .mainVisual_heading {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -5069,13 +5157,11 @@ span.wpcf7-list-item {
   }
 
   .mainVisual {
-    height: 350px;
+    height: 340px;
     padding-top: 0;
-    background-size: cover;
   }
 
   .mainVisual_wrap {
-    top: 30px;
     padding: 0 30px;
   }
 
@@ -5088,7 +5174,7 @@ span.wpcf7-list-item {
   }
 
   .mainVisual_text {
-    font-size: 0.875rem;
+    font-size: 0.6875rem;
   }
 
   .pageVisual {
@@ -5748,6 +5834,22 @@ span.wpcf7-list-item {
     margin-top: 20px;
     font-size: 0.875rem;
   }
+
+  .notFound {
+    padding-top: 100%;
+  }
+
+  .notFound_inner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .notFound_btn {
+    margin-top: 50px;
+    width: 224px;
+    height: 52px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -5757,10 +5859,6 @@ span.wpcf7-list-item {
 
   .br-sp02 {
     display: block;
-  }
-
-  .mainVisual {
-    background: url(../img/bg/sp/top_bg.jpg) bottom center/cover no-repeat;
   }
 
   .bg01 {
@@ -6309,16 +6407,8 @@ span.wpcf7-list-item {
 }
 
 @media screen and (max-width: 350px) {
-  .mainVisual {
-    height: 280px;
-  }
-
   .mainVisual_title {
     font-size: 1rem;
-  }
-
-  .mainVisual_text {
-    font-size: 0.625rem;
   }
 
   .contactBox_title {
@@ -6377,6 +6467,16 @@ span.wpcf7-list-item {
 @media screen and (max-width: 768px) and (min-width: 46.875rem) {
   .mainVisual_title {
     font-size: 2rem;
+  }
+
+  .mainVisual_text {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 20rem) {
+  .mainVisual_text {
+    font-size: calc(0.6875rem + 0.0069767442 * (100vw - 20rem));
   }
 }
 
