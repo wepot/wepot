@@ -201,6 +201,22 @@ body {
   opacity: 0.8;
 }
 
+.button04 {
+  display: inline-block;
+  width: 100%;
+  padding: 8.4% 10px;
+  border-radius: 30px;
+  background-color: #191919;
+  color: #fff;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 1;
+}
+
+.button04:hover {
+  opacity: 0.8;
+}
+
 /*! ===================================
 トップへ戻るボタン
 ==================================== */
@@ -399,7 +415,7 @@ body {
 
 .blogCategory_item {
   display: flex;
-  margin-left: 30px;
+  margin-left: 25px;
   color: #fff;
   font-size: 0.875rem;
   line-height: 1;
@@ -3184,6 +3200,35 @@ span.wpcf7-list-item {
   margin-top: 0;
 }
 
+/*! ===================================
+404ページ
+==================================== */
+
+.notFound {
+  position: relative;
+  width: 100vw;
+  height: 0;
+  padding-top: 42%;
+  background-image: linear-gradient(to right, #00b4aa, #7e8aff);
+}
+
+.notFound_inner {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.notFound_img img {
+  width: 100%;
+}
+
+.notFound_btn {
+  width: 150px;
+  height: 40px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 48rem) {
   .button01 {
     font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
@@ -3195,6 +3240,10 @@ span.wpcf7-list-item {
 
   .action_btn {
     font-size: calc(1.25rem + 0.0185185185 * (100vw - 48rem));
+  }
+
+  .button04 {
+    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .section_title {
@@ -3547,6 +3596,10 @@ span.wpcf7-list-item {
 
   .action_btn {
     font-size: 1.75rem;
+  }
+
+  .button04 {
+    font-size: 1.125rem;
   }
 
   .section_title {
@@ -3936,7 +3989,7 @@ span.wpcf7-list-item {
   }
 
   .blogCategory_item {
-    margin-left: calc(30px + 0.0925925926 * (100vw - 768px));
+    margin-left: calc(25px + 0.1041666667 * (100vw - 768px));
   }
 
   .link_wrap {
@@ -4371,6 +4424,14 @@ span.wpcf7-list-item {
 
   .message {
     height: calc(200px + 0.3935185185 * (100vw - 768px));
+  }
+
+  .notFound_btn {
+    width: calc(150px + 0.2314814815 * (100vw - 768px));
+  }
+
+  .notFound_btn {
+    height: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 }
 
@@ -4843,6 +4904,28 @@ span.wpcf7-list-item {
 
   .message {
     height: 370px;
+  }
+
+  .notFound_btn {
+    width: 250px;
+  }
+
+  .notFound_btn {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .mainVisual_img {
+    width: 205px;
+  }
+
+  .mainVisual_heading {
+    margin-top: 60px;
+  }
+
+  .mainVisual_heading {
+    margin-bottom: 30px;
   }
 }
 
@@ -5764,6 +5847,22 @@ span.wpcf7-list-item {
   .policy ul > li {
     margin-top: 20px;
     font-size: 0.875rem;
+  }
+
+  .notFound {
+    padding-top: 100%;
+  }
+
+  .notFound_inner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .notFound_btn {
+    margin-top: 50px;
+    width: 224px;
+    height: 52px;
   }
 }
 
