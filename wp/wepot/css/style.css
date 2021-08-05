@@ -288,7 +288,8 @@ body {
 ==================================== */
 
 .section_text {
-  margin-top: 1.95%;
+  width: 85%;
+  margin: 1.95% auto 0;
   font-size: 0.875rem;
   line-height: 1.83;
 }
@@ -331,7 +332,7 @@ body {
 
 .header_logo .wepot {
   width: 105px;
-  height: 35px;
+  height: auto;
 }
 
 .menu_wrap {
@@ -381,8 +382,7 @@ body {
 }
 
 .mainMenu-contact_btn {
-  width: 180px;
-  height: 40px;
+  width: 150px;
   margin: auto 0;
   margin-left: 40px;
 }
@@ -417,7 +417,7 @@ body {
   display: flex;
   margin-left: 25px;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1;
 }
 
@@ -835,7 +835,7 @@ SP版：メニューリスト
   margin: 0 calc(50% - 50vw);
   padding: 0 calc(50vw - 50%);
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
-  margin-bottom: 7.032%;
+  margin-bottom: 40px;
 }
 
 .contactBox.mb0 {
@@ -852,16 +852,18 @@ SP版：メニューリスト
 .contactBox_list01 {
   display: flex;
   flex-wrap: wrap;
-  padding: 4.45% 0;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 4% 0;
 }
 
 .contactBox_item {
   display: flex;
   flex-direction: column;
-  width: calc(33.3% - 5.24% * 2 / 3);
+  width: calc(33.3% - 5% * 2 / 3);
   height: auto;
-  margin-left: 5.24%;
-  padding: 2.73% 2.11%;
+  margin-left: 5%;
+  padding: 2.5% 2%;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -912,26 +914,26 @@ SP版：メニューリスト
 }
 
 .contactBox_img01 {
-  width: 86px;
-  height: 66px;
+  width: 78px;
+  height: 60px;
   margin: 7.95% auto 8.56%;
 }
 
 .contactBox_img02 {
-  width: 88px;
-  height: 66px;
+  width: 80px;
+  height: 60px;
   margin: 7.95% auto 8.56%;
 }
 
 .contactBox_img03 {
-  width: 100px;
-  height: 66px;
+  width: 90px;
+  height: 60px;
   margin: 7.95% auto 8.56%;
 }
 
 .contactBox_img04 {
-  width: 113px;
-  height: 66px;
+  width: 102px;
+  height: 60px;
   margin: 7.95% auto 8.56%;
 }
 
@@ -949,7 +951,6 @@ SP版：メニューリスト
 
 .contactBox_btn {
   width: 146px;
-  height: 39px;
   margin: 0 auto;
 }
 
@@ -1085,6 +1086,7 @@ SP版：メニューリスト
 }
 
 .swiper-slide {
+  display: flex;
   width: 100%;
   max-width: 384px;
   height: auto;
@@ -1122,7 +1124,7 @@ SP版：メニューリスト
 .swiperCard_img {
   width: 100%;
   max-width: 384px;
-  height: 16.875%;
+  max-height: 216px;
 }
 
 .swiperCard_img img {
@@ -1161,7 +1163,6 @@ SP版：メニューリスト
 }
 
 .swiperCard_title {
-  flex-grow: 1;
   margin: 5px 0 15px;
   font-size: 0.9375rem;
   font-weight: 700;
@@ -1213,7 +1214,7 @@ SP版：メニューリスト
 
 .categoryCards_item {
   width: calc(33.3% - 5% * 2 / 3);
-  margin-top: 3.90625%;
+  margin-top: 3.91%;
   margin-right: 5%;
 }
 
@@ -1243,7 +1244,7 @@ SP版：メニューリスト
 }
 
 .categoryCards_text {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1.6;
 }
 
@@ -1395,9 +1396,9 @@ wepotでできること
 ==================================== */
 
 .can {
-  margin: 0 auto;
   width: 100%;
   max-width: 510px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -1405,14 +1406,14 @@ wepotでできること
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 4.6875% 0;
+  margin: 35px 0 40px;
 }
 
 .can_item {
   width: 105px;
   height: 105px;
   margin-top: 3.125%;
-  margin-right: 5.55%;
+  margin-right: 5%;
   padding: 8px;
   border-radius: 50%;
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
@@ -1572,6 +1573,10 @@ aboutページ
 
 .about01 {
   margin-top: 40px;
+}
+
+.about01_text {
+  text-align: center;
 }
 
 /*! ===================================
@@ -1803,6 +1808,7 @@ aboutページ
 }
 
 .blogCards_item {
+  display: flex;
   width: calc(33.3% - 5% * 2 / 3);
   margin-top: 3.906%;
   margin-right: 5%;
@@ -1824,8 +1830,8 @@ aboutページ
 
 .blogCard_img {
   position: relative;
-  width: inherit;
-  height: 16.875%;
+  max-width: 384px;
+  max-height: 216px;
 }
 
 .blogCard_img img {
@@ -3109,7 +3115,8 @@ span.wpcf7-list-item {
 ==================================== */
 
 .policy {
-  margin: 2.735% 0 9.375%;
+  width: 85%;
+  margin: 2.735% auto 9.375%;
 }
 
 .policy p {
@@ -3207,6 +3214,7 @@ span.wpcf7-list-item {
 .notFound {
   position: relative;
   width: 100vw;
+  height: 100vh;
   height: calc(100vh - 190px);
   background-image: linear-gradient(to right, #00b4aa, #7e8aff);
 }
@@ -3262,7 +3270,7 @@ span.wpcf7-list-item {
   }
 
   .blogCategory_item {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .link_wrap > p {
@@ -3298,15 +3306,15 @@ span.wpcf7-list-item {
   }
 
   .pageVisual_title {
-    font-size: calc(1.75rem + 0.0277777778 * (100vw - 48rem));
+    font-size: calc(1.75rem + 0.0166666667 * (100vw - 48rem));
   }
 
   .contactBox_title {
-    font-size: calc(1.25rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1.25rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .contactBox_text {
-    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0069444444 * (100vw - 48rem));
   }
 
   .swiperCard_time {
@@ -3330,15 +3338,15 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_text {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.8125rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .category_item > .button03 {
-    font-size: calc(1rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .can_item {
-    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0138888889 * (100vw - 48rem));
   }
 
   .can_text01 {
@@ -3646,15 +3654,15 @@ span.wpcf7-list-item {
   }
 
   .pageVisual_title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .contactBox_title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .contactBox_text {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .swiperCard_time {
@@ -3678,15 +3686,15 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_text {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .category_item > .button03 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .can_item {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   .can_text01 {
@@ -3942,6 +3950,12 @@ span.wpcf7-list-item {
   }
 }
 
+@media screen and (min-width: 580px) {
+  .contactBox_list01 {
+    max-width: calc(580px + 0.8387096774 * (100vw - 580px));
+  }
+}
+
 @media screen and (min-width: 768px) {
   .action_btn {
     width: calc(180px + 0.162037037 * (100vw - 768px));
@@ -3952,15 +3966,11 @@ span.wpcf7-list-item {
   }
 
   .header_logo {
-    width: calc(105px + 0.1273148148 * (100vw - 768px));
+    width: calc(105px + 0.0578703704 * (100vw - 768px));
   }
 
   .header_logo .wepot {
-    width: calc(105px + 0.1273148148 * (100vw - 768px));
-  }
-
-  .header_logo .wepot {
-    height: calc(35px + 0.0393518519 * (100vw - 768px));
+    width: calc(105px + 0.0578703704 * (100vw - 768px));
   }
 
   .menu_wrap {
@@ -3977,6 +3987,10 @@ span.wpcf7-list-item {
 
   .mainMenu_item {
     margin-left: calc(40px + 0.0694444444 * (100vw - 768px));
+  }
+
+  .mainMenu-contact_btn {
+    width: calc(150px + 0.0694444444 * (100vw - 768px));
   }
 
   .mainMenu-contact_btn {
@@ -4079,44 +4093,44 @@ span.wpcf7-list-item {
     margin-bottom: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
-  .contactBox_img01 {
-    width: calc(86px + 0.1018518519 * (100vw - 768px));
+  .contactBox {
+    margin-bottom: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
   .contactBox_img01 {
-    height: calc(66px + 0.0787037037 * (100vw - 768px));
+    width: calc(78px + 0.0902777778 * (100vw - 768px));
+  }
+
+  .contactBox_img01 {
+    height: calc(60px + 0.0694444444 * (100vw - 768px));
   }
 
   .contactBox_img02 {
-    width: calc(88px + 0.1041666667 * (100vw - 768px));
+    width: calc(80px + 0.0925925926 * (100vw - 768px));
   }
 
   .contactBox_img02 {
-    height: calc(66px + 0.0787037037 * (100vw - 768px));
+    height: calc(60px + 0.0694444444 * (100vw - 768px));
   }
 
   .contactBox_img03 {
-    width: calc(100px + 0.1157407407 * (100vw - 768px));
+    width: calc(90px + 0.1041666667 * (100vw - 768px));
   }
 
   .contactBox_img03 {
-    height: calc(66px + 0.0787037037 * (100vw - 768px));
+    height: calc(60px + 0.0694444444 * (100vw - 768px));
   }
 
   .contactBox_img04 {
-    width: calc(113px + 0.1319444444 * (100vw - 768px));
+    width: calc(102px + 0.1180555556 * (100vw - 768px));
   }
 
   .contactBox_img04 {
-    height: calc(66px + 0.0787037037 * (100vw - 768px));
+    height: calc(60px + 0.0694444444 * (100vw - 768px));
   }
 
   .contactBox_btn {
     width: calc(146px + 0.2407407407 * (100vw - 768px));
-  }
-
-  .contactBox_btn {
-    height: calc(39px + 0.0486111111 * (100vw - 768px));
   }
 
   .swiperCard_tag {
@@ -4149,10 +4163,6 @@ span.wpcf7-list-item {
 
   .new {
     height: calc(45px + 0.0416666667 * (100vw - 768px));
-  }
-
-  .category_item > .button03 {
-    padding: calc(15px + 0.0347222222 * (100vw - 768px));
   }
 
   .open-btn1 {
@@ -4208,15 +4218,15 @@ span.wpcf7-list-item {
   }
 
   .can {
-    max-width: calc(510px + 0.4861111111 * (100vw - 768px));
+    max-width: calc(510px + 1.1342592593 * (100vw - 768px));
   }
 
   .can_item {
-    width: calc(105px + 0.1041666667 * (100vw - 768px));
+    width: calc(105px + 0.2199074074 * (100vw - 768px));
   }
 
   .can_item {
-    height: calc(105px + 0.1041666667 * (100vw - 768px));
+    height: calc(105px + 0.2199074074 * (100vw - 768px));
   }
 
   .topArticle {
@@ -4444,15 +4454,11 @@ span.wpcf7-list-item {
   }
 
   .header_logo {
-    width: 160px;
+    width: 130px;
   }
 
   .header_logo .wepot {
-    width: 160px;
-  }
-
-  .header_logo .wepot {
-    height: 52px;
+    width: 130px;
   }
 
   .menu_wrap {
@@ -4469,6 +4475,10 @@ span.wpcf7-list-item {
 
   .mainMenu_item {
     margin-left: 70px;
+  }
+
+  .mainMenu-contact_btn {
+    width: 180px;
   }
 
   .mainMenu-contact_btn {
@@ -4559,44 +4569,48 @@ span.wpcf7-list-item {
     margin-bottom: 60px;
   }
 
-  .contactBox_img01 {
-    width: 130px;
+  .contactBox {
+    margin-bottom: 60px;
+  }
+
+  .contactBox_list01 {
+    max-width: 1100px;
   }
 
   .contactBox_img01 {
-    height: 100px;
+    width: 117px;
+  }
+
+  .contactBox_img01 {
+    height: 90px;
   }
 
   .contactBox_img02 {
-    width: 133px;
+    width: 120px;
   }
 
   .contactBox_img02 {
-    height: 100px;
+    height: 90px;
   }
 
   .contactBox_img03 {
-    width: 150px;
+    width: 135px;
   }
 
   .contactBox_img03 {
-    height: 100px;
+    height: 90px;
   }
 
   .contactBox_img04 {
-    width: 170px;
+    width: 153px;
   }
 
   .contactBox_img04 {
-    height: 100px;
+    height: 90px;
   }
 
   .contactBox_btn {
     width: 250px;
-  }
-
-  .contactBox_btn {
-    height: 60px;
   }
 
   .swiperCard_tag {
@@ -4629,10 +4643,6 @@ span.wpcf7-list-item {
 
   .new {
     height: 63px;
-  }
-
-  .category_item > .button03 {
-    padding: 30px;
   }
 
   .open-btn1 {
@@ -4688,15 +4698,15 @@ span.wpcf7-list-item {
   }
 
   .can {
-    max-width: 720px;
+    max-width: 1000px;
   }
 
   .can_item {
-    width: 150px;
+    width: 200px;
   }
 
   .can_item {
-    height: 150px;
+    height: 200px;
   }
 
   .topArticle {
@@ -4960,18 +4970,17 @@ span.wpcf7-list-item {
   }
 
   .section_text {
+    width: 100%;
     margin-top: 15px;
     font-size: 0.875rem;
   }
 
   .header_logo {
     width: 86px;
-    height: 28px;
   }
 
   .header_logo .wepot {
     width: 86px;
-    height: 28px;
   }
 
   .menu_wrap {
@@ -5177,7 +5186,7 @@ span.wpcf7-list-item {
   }
 
   .pageVisual {
-    height: 120px;
+    height: 150px;
     padding-top: 0;
   }
 
@@ -5198,8 +5207,8 @@ span.wpcf7-list-item {
   }
 
   .contactBox_item {
-    width: calc(33.3% - 3.45% * 2 / 3);
-    margin-left: 3.45%;
+    width: calc(33.3% - 3% * 2 / 3);
+    margin-left: 3%;
   }
 
   .contactBox_title {
@@ -5259,10 +5268,6 @@ span.wpcf7-list-item {
     display: none;
   }
 
-  .can_list {
-    margin: 35px 0 40px;
-  }
-
   .can_item {
     width: 105px;
     height: 105px;
@@ -5319,6 +5324,10 @@ span.wpcf7-list-item {
   .topCategory-sp {
     display: block;
     margin-top: 50px;
+  }
+
+  .about01_text {
+    text-align: left;
   }
 
   .memberPage {
@@ -5792,6 +5801,7 @@ span.wpcf7-list-item {
   }
 
   .policy {
+    width: 100%;
     margin: 40px 0;
   }
 
@@ -5928,7 +5938,7 @@ span.wpcf7-list-item {
   }
 
   .categoryCards {
-    margin: 40px 0;
+    margin: 40px 0 0;
   }
 
   .categoryCards_item {
@@ -5955,13 +5965,13 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_img {
-    width: 210px;
-    height: 118px;
+    max-width: 335px;
     margin: 0 auto;
   }
 
   .categoryCards_title {
     margin: 10px 0 9px;
+    font-weight: 700;
   }
 
   .categoryCards_text {
