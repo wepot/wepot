@@ -5,7 +5,7 @@
                 <li class="contactBox_item">
                     <h3 class="contactBox_title">Wepotについて</h3>
                     <div class="contactBox_img01">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="アイコン">
                     </div>
                     <p class="contactBox_text">Wepotはデジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。</p>
                     <div class="contactBox_btn">
@@ -15,7 +15,7 @@
                 <li class="contactBox_item">
                     <h3 class="contactBox_title">メンバー紹介</h3>
                     <div class="contactBox_img02">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン">
                     </div><!-- /.contactBox_img -->
                     <p class="contactBox_text">それぞれ強みが違う自立したフリーランスで構成されるクリエイティブ集団です。</p>
                     <div class="contactBox_btn">
@@ -25,7 +25,7 @@
                 <li class="contactBox_item">
                     <h3 class="contactBox_title">制作のご相談</h3>
                     <div class="contactBox_img03">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="アイコン">
                     </div><!-- /.contactBox_img -->
                     <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
                     <div class="contactBox_btn">
@@ -38,7 +38,7 @@
                 <li class="contactBox_item-sp contactBox_item-sp01">
                     <a href="<?php echo home_url(); ?>/about/">
                         <div class="contactBox_img01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="アイコン">
                         </div>
                         <h3 class="contactBox_title">Wepotについて</h3>
                     </a>
@@ -46,7 +46,7 @@
                 <li class="contactBox_item-sp contactBox_item-sp01">
                     <a href="<?php echo home_url(); ?>/about/member/">
                         <div class="contactBox_img02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン">
                         </div>
                         <h3 class="contactBox_title">メンバー紹介</h3>
                     </a>
@@ -54,7 +54,7 @@
                 <li class="contactBox_item-sp contactBox_item-sp02">
                     <h3 class="contactBox_title contactBox_title01">制作のご相談</h3>
                     <div class="contactBox_img03">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="アイコン">
                     </div>
                     <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
                     <div class="contactBox_btn">
@@ -72,7 +72,7 @@
                     <li class="contactBox_item">
                         <h3 class="contactBox_title">実績一覧</h3>
                         <div class="contactBox_img04">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="アイコン">
                         </div>
                         <p class="contactBox_text">Wepotには多種多様な実績があります。メンバーの強みが生きた実績をご覧ください</p>
                         <div class="contactBox_btn">
@@ -83,7 +83,7 @@
                     <li class="contactBox_item">
                         <h3 class="contactBox_title">Wepotについて</h3>
                         <div class="contactBox_img01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="アイコン">
                         </div>
                         <p class="contactBox_text">Wepotはデジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。</p>
                         <div class="contactBox_btn">
@@ -96,7 +96,7 @@
                     <li class="contactBox_item">
                         <h3 class="contactBox_title">実績一覧</h3>
                         <div class="contactBox_img04">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="アイコン">
                         </div>
                         <p class="contactBox_text">Wepotには多種多様な実績があります。メンバーの強みが生きた実績をご覧ください</p>
                         <div class="contactBox_btn">
@@ -107,7 +107,7 @@
                     <li class="contactBox_item">
                         <h3 class="contactBox_title">メンバー紹介</h3>
                         <div class="contactBox_img02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン">
                         </div><!-- /.contactBox_img -->
                         <p class="contactBox_text">それぞれ強みが違う自立したフリーランスで構成されるクリエイティブ集団です。</p>
                         <div class="contactBox_btn">
@@ -119,7 +119,7 @@
                 <li class="contactBox_item">
                     <h3 class="contactBox_title">制作のご相談</h3>
                     <div class="contactBox_img03">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="アイコン">
                     </div><!-- /.contactBox_img -->
                     <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
                     <div class="contactBox_btn">
@@ -133,7 +133,7 @@
                     <li class="contactBox_item-sp contactBox_item-sp01">
                         <a href="<?php echo home_url(); ?>/works/">
                             <div class="contactBox_img04">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="アイコン">
                             </div>
                             <h3 class="contactBox_title">実績一覧</h3>
                         </a>
@@ -142,7 +142,7 @@
                     <li class="contactBox_item-sp contactBox_item-sp01">
                         <a href="<?php echo home_url(); ?>/about/">
                             <div class="contactBox_img01">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot.png" alt="アイコン">
                             </div>
                             <h3 class="contactBox_title">Wepotについて</h3>
                         </a>
@@ -153,7 +153,7 @@
                     <li class="contactBox_item-sp contactBox_item-sp01">
                         <a href="<?php echo home_url(); ?>/works/">
                             <div class="contactBox_img04">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="アイコン">
                             </div>
                             <h3 class="contactBox_title">実績一覧</h3>
                         </a>
@@ -162,7 +162,7 @@
                     <li class="contactBox_item-sp contactBox_item-sp01">
                         <a href="<?php echo home_url(); ?>/about/member/">
                             <div class="contactBox_img02">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン">
                             </div>
                             <h3 class="contactBox_title">メンバー紹介</h3>
                         </a>
@@ -172,7 +172,7 @@
                 <li class="contactBox_item-sp contactBox_item-sp02">
                     <h3 class="contactBox_title contactBox_title01">制作のご相談</h3>
                     <div class="contactBox_img03">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="アイコン">
                     </div>
                     <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
                     <div class="contactBox_btn">
