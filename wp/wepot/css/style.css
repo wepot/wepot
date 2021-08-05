@@ -808,6 +808,34 @@ SP版：メニューリスト
   background: url(../img/bg/bg-img03.jpg) center/cover no-repeat;
 }
 
+.bg-webdesign {
+  background: url(../img/bg/bg-img-webdesign.jpg) center/cover no-repeat;
+}
+
+.bg-wordpress {
+  background: url(../img/bg/bg-img-wordpress.jpg) center/cover no-repeat;
+}
+
+.bg-marketing {
+  background: url(../img/bg/bg-img-marketing.jpg) center/cover no-repeat;
+}
+
+.bg-direction {
+  background: url(../img/bg/bg-img-direction.jpg) center/cover no-repeat;
+}
+
+.bg-coding {
+  background: url(../img/bg/bg-img-coding.jpg) center/cover no-repeat;
+}
+
+.bg-illust {
+  background: url(../img/bg/bg-img-illust.jpg) center/cover no-repeat;
+}
+
+.bg-video {
+  background: url(../img/bg/bg-img-video.jpg) center/cover no-repeat;
+}
+
 /*! ===================================
 ページ共通
 ==================================== */
@@ -5880,6 +5908,34 @@ span.wpcf7-list-item {
 
   .bg03 {
     background: url(../img/bg/sp/bg-img03.jpg) center/cover no-repeat;
+  }
+
+  .bg-webdesign {
+    background: url(../img/bg/sp/bg-img-webdesign.jpg) center/cover no-repeat;
+  }
+
+  .bg-wordpress {
+    background: url(../img/bg/sp/bg-img-wordpress.jpg) center/cover no-repeat;
+  }
+
+  .bg-marketing {
+    background: url(../img/bg/sp/bg-img-marketing.jpg) center/cover no-repeat;
+  }
+
+  .bg-direction {
+    background: url(../img/bg/sp/bg-img-direction.jpg) center/cover no-repeat;
+  }
+
+  .bg-coding {
+    background: url(../img/bg/sp/bg-img-coding.jpg) center/cover no-repeat;
+  }
+
+  .bg-illust {
+    background: url(../img/bg/sp/bg-img-illust.jpg) center/cover no-repeat;
+  }
+
+  .bg-video {
+    background: url(../img/bg/sp/bg-img-video.jpg) center/cover no-repeat;
   }
 
   .contactBox_wrap {
