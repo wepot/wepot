@@ -95,7 +95,7 @@
                     <li class="can_item"><span>グラフィック<br>デザイン</span></li>
                 </ul>
 
-                <p class="can_text01">他、上記の記載事項だけでなくあらゆるご相談が可能です。お気軽にお問い合わせください。</p>
+                <p class="can_text01">他、上記の記載事項だけでなくあらゆるご相談が可能です。<br>お気軽にお問い合わせください。</p>
             </div>
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
