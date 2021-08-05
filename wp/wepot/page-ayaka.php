@@ -6,25 +6,25 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="鈴木綾加">
                     </figure><!-- /.img -->
                     <h1 class="name"><span>動画・映像編集者/Webデザイナー/<br class="br-sp02">ディレクター</span><br>鈴木&nbsp;綾加</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item01">
-                            <a href="https://composi.net/blog/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="">Web
+                            <a href="https://composi.net/blog/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
                                 Site</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item02">
-                            <a href="https://twitter.com/aaa_1205"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">Twitter</a>
+                            <a href="https://twitter.com/aaa_1205"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item03">
-                            <a href="https://www.facebook.com/ayaka.smz"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="">Facebook</a>
+                            <a href="https://www.facebook.com/ayaka.smz"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="アイコン">Facebook</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item04">
-                            <a href="https://www.instagram.com/ayakasuzuki_creator/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="">Instagram</a>
+                            <a href="https://www.instagram.com/ayakasuzuki_creator/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="アイコン">Instagram</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item05">
-                            <a href="https://www.youtube.com/channel/UC65JsuzxP3a6wOeTxNPWc0A"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="">YouTube</a>
+                            <a href="https://www.youtube.com/channel/UC65JsuzxP3a6wOeTxNPWc0A"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="アイコン">YouTube</a>
                         </li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->

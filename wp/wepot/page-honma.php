@@ -6,16 +6,16 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="本間大光">
                     </figure><!-- /.img -->
                     <h1 class="name"><span>プロジェクトマネージャー/<br class="br-sp02">ディレクター</span><br>本間&nbsp;大光</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item01">
-                            <a href="https://hirohom.jp/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="">Web
+                            <a href="https://hirohom.jp/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
                                 Site</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item02">
-                            <a href="https://twitter.com/hirohom2"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">Twitter</a>
+                            <a href="https://twitter.com/hirohom2"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a>
                         </li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->
