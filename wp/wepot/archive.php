@@ -44,7 +44,7 @@
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('others')) : ?>
-        <section class="pageVisual bg-others">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">その他の記事一覧</h1>
             </header>
