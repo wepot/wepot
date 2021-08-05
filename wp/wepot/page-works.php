@@ -95,7 +95,7 @@
                             オンライン講演の配信サポートプランのLPページをデザインしました。<br>詳細な情報設計をもとにターゲットとなるユーザにとって適切なコンテンツと掲載順を策定した上でデザインに落とし込んでいます。<br>LPのデザインとともにダウンロード資料（PDF）やバナーも担当させていただきました。<br>LPページに合わせた見やすく伝わりやすい資料を制作しています。
                         </p>
                         <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank">https://www.kouenirai.com/howto/online.html</a></p>
-                        <div class="worksBox_member">
+                        <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
@@ -125,7 +125,7 @@
                             ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
                         </p>
                         <p class="worksBox_url"><a href="https://www.google.com/" target="_blank">https://www.google.com/</a></p>
-                        <div class="worksBox_member">
+                        <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
