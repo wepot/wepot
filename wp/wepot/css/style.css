@@ -1602,10 +1602,6 @@ aboutページ
   margin-top: 40px;
 }
 
-.about01_text {
-  text-align: center;
-}
-
 /*! ===================================
 メンバー一覧
 ==================================== */
@@ -3433,11 +3429,11 @@ span.wpcf7-list-item {
   }
 
   .history_item {
-    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .history_item::before {
-    font-size: calc(0.875rem + 0.0138888889 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .blogCard_time {
@@ -3781,11 +3777,11 @@ span.wpcf7-list-item {
   }
 
   .history_item {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .history_item::before {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .blogCard_time {
@@ -5421,10 +5417,6 @@ span.wpcf7-list-item {
   .topCategory-sp {
     display: block;
     margin-top: 50px;
-  }
-
-  .about01_text {
-    text-align: left;
   }
 
   .member .position {
