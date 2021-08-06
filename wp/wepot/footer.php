@@ -64,11 +64,11 @@
                     <li class="link_wrap">
                         <p>Follow US</p>
                         <ul class="link-sns">
-                            <li class="link-sns_item"><a href="https://twitter.com/wepot_media" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/twitter.png" alt=""></a>
+                            <li class="link-sns_item"><a href="https://twitter.com/wepot_media" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/twitter.png" alt=""></a>
                             </li>
-                            <li class="link-sns_item"><a href="/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/facebook.png" alt=""></a>
+                            <li class="link-sns_item"><a href="/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/facebook.png" alt=""></a>
                             </li>
-                            <li class="link-sns_item"><a href="https://www.linkedin.com/in/wepot/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/linkedin.png" alt=""></a>
+                            <li class="link-sns_item"><a href="https://www.linkedin.com/in/wepot/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/linkedin.png" alt=""></a>
                             </li>
                         </ul>
                     </li><!-- /.link_wrap -->

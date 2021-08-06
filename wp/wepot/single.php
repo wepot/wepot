@@ -121,7 +121,7 @@
                                 <ul class="blogAuthor-sns">
                                     <?php if (get_the_author_meta('user_url') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item01">
-                                            <a href="<?php the_author_meta('user_url'); ?>" target="_blank">
+                                            <a href="<?php the_author_meta('user_url'); ?>" target="_blank" rel=“noopener”>
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="">Web Site
                                             </a>
                                         </li>
@@ -129,7 +129,7 @@
 
                                     <?php if (get_the_author_meta('twitter') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item02">
-                                            <a href="<?php the_author_meta('twitter'); ?>" target="_blank">
+                                            <a href="<?php the_author_meta('twitter'); ?>" target="_blank" rel=“noopener”>
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">Twitter
                                             </a>
                                         </li>
@@ -137,7 +137,7 @@
 
                                     <?php if (get_the_author_meta('facebook') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item03">
-                                            <a href="<?php the_author_meta('facebook'); ?>" target="_blank">
+                                            <a href="<?php the_author_meta('facebook'); ?>" target="_blank" rel=“noopener”>
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="">Facebook
                                             </a>
                                         </li>
@@ -145,7 +145,7 @@
 
                                     <?php if (get_the_author_meta('instagram') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item04">
-                                            <a href="<?php the_author_meta('instagram'); ?>" target="_blank">
+                                            <a href="<?php the_author_meta('instagram'); ?>" target="_blank" rel=“noopener”>
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="">Instagram
                                             </a>
                                         </li>
@@ -153,7 +153,7 @@
 
                                     <?php if (get_the_author_meta('youtube') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item05">
-                                            <a href="<?php the_author_meta('youtube'); ?>" target="_blank">
+                                            <a href="<?php the_author_meta('youtube'); ?>" target="_blank" rel=“noopener”>
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="">YouTube
                                             </a>
                                         </li>

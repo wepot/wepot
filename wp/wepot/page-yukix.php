@@ -12,17 +12,17 @@
                     </h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item01">
-                            <a href="https://milkitdesign.jp/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
+                            <a href="https://milkitdesign.jp/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
                                 Site</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item02">
-                            <a href="https://twitter.com/MILKIT_DESIGN"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a>
+                            <a href="https://twitter.com/MILKIT_DESIGN" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item03">
-                            <a href="https://www.facebook.com/kuroha.yuko"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="アイコン">Facebook</a>
+                            <a href="https://www.facebook.com/kuroha.yuko" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="アイコン">Facebook</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item04">
-                            <a href="https://www.instagram.com/milkit_design/"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="アイコン">Instagram</a>
+                            <a href="https://www.instagram.com/milkit_design/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="アイコン">Instagram</a>
                         </li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->

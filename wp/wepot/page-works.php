@@ -63,7 +63,7 @@
                         <p class="worksBox_text">
                             新卒採用を目的としたLPページのデザインと実装を担当させていただきました。<br>閲覧した就職希望者の皆さんが「ワクワクする」「キャリアの可能性を感じる」「能動的に取り組みたくなる」ようなイメージを持ってもらえるようにデザインをしています。
                         </p>
-                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank">https://i-plug.co.jp/recruit/freshers/</a></p>
+                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank" rel=“noopener”>https://i-plug.co.jp/recruit/freshers/</a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
@@ -94,7 +94,7 @@
                         <p class="worksBox_text">
                             オンライン講演の配信サポートプランのLPページをデザインしました。<br>詳細な情報設計をもとにターゲットとなるユーザにとって適切なコンテンツと掲載順を策定した上でデザインに落とし込んでいます。<br>LPのデザインとともにダウンロード資料（PDF）やバナーも担当させていただきました。<br>LPページに合わせた見やすく伝わりやすい資料を制作しています。
                         </p>
-                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank">https://www.kouenirai.com/howto/online.html</a></p>
+                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank" rel=“noopener”>https://www.kouenirai.com/howto/online.html</a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
@@ -124,7 +124,7 @@
                         <p class="worksBox_text">
                             ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
                         </p>
-                        <p class="worksBox_url"><a href="https://www.google.com/" target="_blank">https://www.google.com/</a></p>
+                        <p class="worksBox_url"><a href="https://www.google.com/" target="_blank" rel=“noopener”>https://www.google.com/</a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
