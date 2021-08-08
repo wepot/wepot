@@ -645,7 +645,7 @@ SP版：メニューリスト
 .sideMenu_title {
   margin-bottom: 15px;
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .sideMenu_list {
@@ -1928,7 +1928,8 @@ aboutページ
 ==================================== */
 
 .singlePage {
-  margin: 6.25% 0 7.8125%;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .singlePage_inner {
@@ -1946,27 +1947,27 @@ aboutページ
 }
 
 .blog h1 {
-  margin-bottom: 2.326%;
+  margin-bottom: 20px;
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
 }
 
 .blog h2 {
-  margin-bottom: 2.907%;
-  padding-bottom: 1.17%;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: 4px solid #00b4aa;
   font-size: 1.375rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
 }
 
 .blog h3 {
   position: relative;
-  margin-bottom: 2.907%;
+  margin-bottom: 25px;
   padding-left: 0.75em;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -2002,7 +2003,7 @@ aboutページ
 }
 
 .blog p {
-  margin-bottom: 4.652%;
+  margin-bottom: 40px;
   font-size: 0.875rem;
   line-height: 1.75;
 }
@@ -2034,7 +2035,7 @@ aboutページ
 .blog figure figcaption {
   display: block;
   padding-left: 1em;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   text-align: right;
 }
 
@@ -2044,7 +2045,7 @@ aboutページ
   top: 0;
   left: 0;
   color: #00b4aa;
-  font-size: 1em;
+  font-size: 0.9375em;
 }
 
 .header_wrap {
@@ -2055,11 +2056,11 @@ aboutページ
 .blogMeta_wrap {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.326%;
+  margin-bottom: 20px;
 }
 
 .infoLeft .time {
-  margin-bottom: 11.77%;
+  margin-bottom: 15px;
   color: #bebebe;
   font-size: 0.875rem;
   font-weight: 700;
@@ -2073,7 +2074,7 @@ aboutページ
   background-color: #00b4aa;
   color: #fff;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -2087,7 +2088,7 @@ aboutページ
   margin-right: 10px;
   margin-bottom: 0;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: right;
 }
 
@@ -2099,20 +2100,19 @@ aboutページ
 }
 
 #toc_container {
-  margin-bottom: 4.652%;
-  padding: 4.652% 2.326%;
+  margin-bottom: 40px;
+  padding: 30px 20px;
   background-color: #eee;
 }
 
 #toc_container p {
-  margin-bottom: 2.326%;
-  font-size: 1.125rem;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 1;
 }
 
 #toc_container ul {
-  counter-reset: count 0;
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.025em;
@@ -2141,16 +2141,11 @@ aboutページ
   text-decoration: underline;
 }
 
-#toc_container li:before {
-  counter-increment: count 1;
-  content: counters(count, "-") ". ";
-}
-
 blockquote {
   position: relative;
   width: 91%;
   max-width: 780px;
-  margin: 0 auto 4.652%;
+  margin: 0 auto 40px;
   padding: 1.875em 3.75em;
   background-color: #eee;
   font-size: 0.875rem;
@@ -2191,7 +2186,7 @@ blockquote cite {
   padding-left: 4em;
 }
 
-blockquote cite > a {
+blockquote cite a {
   color: #00b4aa;
   text-decoration: underline;
 }
@@ -2200,7 +2195,7 @@ blockquote cite > a {
   width: 91%;
   max-width: 780px;
   margin: 0 auto;
-  padding: 1.75em 1.25em;
+  padding: 1.25em;
   border: 2px solid #00b4aa;
   border-radius: 8px;
 }
@@ -2214,7 +2209,7 @@ blockquote cite > a {
 
 .border02_title {
   display: inline-block;
-  padding: 5px 1.25em;
+  padding: 3px 1.25em;
   border-radius: 8px 8px 0 0;
   background-color: #191919;
   color: #fff;
@@ -2223,7 +2218,7 @@ blockquote cite > a {
 }
 
 .border02_text {
-  padding: 1.75em 1.25em;
+  padding: 1.25em;
   border: 2px solid #191919;
 }
 
@@ -2236,7 +2231,7 @@ blockquote cite > a {
 
 .border03_title {
   display: inline-block;
-  padding: 5px 1.25em;
+  padding: 3px 1.25em;
   border-radius: 8px 8px 0 0;
   background-color: #00b4aa;
   color: #fff;
@@ -2245,7 +2240,7 @@ blockquote cite > a {
 }
 
 .border03_text {
-  padding: 1.75em 1.25em;
+  padding: 1.25em;
   border: 2px solid #00b4aa;
   box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);
 }
@@ -2271,7 +2266,7 @@ blockquote cite > a {
 
 .wp-block-column.blnLeft-icon figcaption {
   padding: 0 !important;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   text-align: center !important;
 }
 
@@ -2283,8 +2278,8 @@ blockquote cite > a {
   position: relative;
   display: block;
   width: calc(100% - 100px);
-  margin: 5px 0 4.652% 4.652%;
-  padding: 1.5em 1.25em;
+  margin: 5px 0 40px 40px;
+  padding: 1.4em 1.25em;
   background: #00b4aa33;
   text-align: left;
   border-radius: 8px;
@@ -2325,7 +2320,7 @@ blockquote cite > a {
 
 .wp-block-column.blnRight-icon figcaption {
   padding: 0 !important;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   text-align: center !important;
 }
 
@@ -2337,8 +2332,8 @@ blockquote cite > a {
   position: relative;
   display: inline-block;
   max-width: 680px;
-  margin: 5px 4.652% 4.652% 0;
-  padding: 1.5em 1.25em;
+  margin: 5px 40px 40px 0;
+  padding: 1.4em 1.25em;
   background: #eee;
   border-radius: 8px;
 }
@@ -2358,7 +2353,7 @@ blockquote cite > a {
 }
 
 .ul-list {
-  margin-bottom: 4.652%;
+  margin-bottom: 40px;
   padding-left: 2.326%;
 }
 
@@ -2376,7 +2371,7 @@ blockquote cite > a {
 }
 
 .ol-list {
-  margin-bottom: 4.652%;
+  margin-bottom: 40px;
   padding-left: 2.326%;
   counter-reset: number 0;
 }
@@ -2398,7 +2393,7 @@ blockquote cite > a {
 .relatedPost {
   width: 91%;
   max-width: 780px;
-  margin: 9.303% auto 11.628%;
+  margin: 40px auto 60px;
   border: 2px solid #00b4aa;
 }
 
@@ -2451,13 +2446,13 @@ blockquote cite > a {
 }
 
 .blogShare {
-  margin-bottom: 9.303%;
+  margin-bottom: 60px;
 }
 
 .blogShare p {
-  margin-bottom: 4.65%;
+  margin-bottom: 30px;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -2503,7 +2498,7 @@ blockquote cite > a {
   align-items: center;
   padding: 5px;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -3439,27 +3434,27 @@ span.wpcf7-list-item {
   }
 
   .blog h1 {
-    font-size: calc(1.75rem + 0.0185185185 * (100vw - 48rem));
+    font-size: calc(1.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .blog h2 {
-    font-size: calc(1.375rem + 0.0231481481 * (100vw - 48rem));
+    font-size: calc(1.375rem + 0.0101851852 * (100vw - 48rem));
   }
 
   .blog h3 {
-    font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
+    font-size: calc(1.125rem + 0.0064814815 * (100vw - 48rem));
   }
 
   .blog h4 {
-    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
+    font-size: calc(1rem + 0.0074074074 * (100vw - 48rem));
   }
 
   .blog p {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
   }
 
   .blog figure figcaption {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.8125rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .infoLeft .time {
@@ -3475,19 +3470,19 @@ span.wpcf7-list-item {
   }
 
   #toc_container p {
-    font-size: calc(1.125rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(1.1rem + 0.0037037037 * (100vw - 48rem));
   }
 
   blockquote {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
   }
 
   .wp-block-column.blnLeft-icon figcaption {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .wp-block-column.blnRight-icon figcaption {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .relatedPost_tag {
@@ -3787,27 +3782,27 @@ span.wpcf7-list-item {
   }
 
   .blog h1 {
-    font-size: 2.25rem;
-  }
-
-  .blog h2 {
     font-size: 2rem;
   }
 
+  .blog h2 {
+    font-size: 1.65rem;
+  }
+
   .blog h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .blog h4 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .blog p {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .blog figure figcaption {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .infoLeft .time {
@@ -3823,19 +3818,19 @@ span.wpcf7-list-item {
   }
 
   #toc_container p {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   blockquote {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .wp-block-column.blnLeft-icon figcaption {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .wp-block-column.blnRight-icon figcaption {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .relatedPost_tag {
@@ -4330,6 +4325,14 @@ span.wpcf7-list-item {
     height: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
+  .singlePage {
+    margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
+  }
+
+  .singlePage {
+    margin-bottom: calc(60px + 0.0462962963 * (100vw - 768px));
+  }
+
   .infoLeft .tag {
     width: calc(120px + 0.1157407407 * (100vw - 768px));
   }
@@ -4397,7 +4400,7 @@ span.wpcf7-list-item {
   }
 
   .blogAuthor_wrap {
-    padding-top: calc(35px + 0.0694444444 * (100vw - 768px));
+    padding-top: calc(35px + 0.0347222222 * (100vw - 768px));
   }
 
   .blogAuthor_img img {
@@ -4842,6 +4845,14 @@ span.wpcf7-list-item {
     height: 60px;
   }
 
+  .singlePage {
+    margin-top: 60px;
+  }
+
+  .singlePage {
+    margin-bottom: 80px;
+  }
+
   .infoLeft .tag {
     width: 170px;
   }
@@ -4909,7 +4920,7 @@ span.wpcf7-list-item {
   }
 
   .blogAuthor_wrap {
-    padding-top: 65px;
+    padding-top: 50px;
   }
 
   .blogAuthor_img img {
@@ -5540,7 +5551,7 @@ span.wpcf7-list-item {
   }
 
   .blog h2 {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     font-size: 1.125rem;
   }
 
@@ -5550,12 +5561,12 @@ span.wpcf7-list-item {
   }
 
   .blog h4 {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     margin-bottom: 8px;
   }
 
   .blog p {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .blog figure {
@@ -5564,7 +5575,7 @@ span.wpcf7-list-item {
   }
 
   .blogMeta_wrap {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .infoLeft .time {
@@ -5586,11 +5597,6 @@ span.wpcf7-list-item {
     height: 50px;
   }
 
-  #toc_container {
-    margin-bottom: 40px;
-    padding: 30px 20px;
-  }
-
   #toc_container p {
     margin-bottom: 16px;
     font-size: 0.875rem;
@@ -5602,14 +5608,14 @@ span.wpcf7-list-item {
 
   blockquote {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding: 22px 45px;
   }
 
   .border01 {
     width: 100%;
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 18px;
   }
 
   .border02 {
@@ -5617,12 +5623,12 @@ span.wpcf7-list-item {
   }
 
   .border02_title {
-    padding: 5px 16px;
+    padding: 3px 16px;
     font-size: 0.875rem;
   }
 
   .border02_text {
-    padding: 20px;
+    padding: 18px;
   }
 
   .border03 {
@@ -5630,12 +5636,12 @@ span.wpcf7-list-item {
   }
 
   .border03_title {
-    padding: 5px 16px;
+    padding: 3px 16px;
     font-size: 0.875rem;
   }
 
   .border03_text {
-    padding: 20px;
+    padding: 18px;
   }
 
   .wp-block-column.blnLeft-icon {
@@ -5679,7 +5685,6 @@ span.wpcf7-list-item {
   }
 
   .ul-list {
-    margin-bottom: 40px;
     padding-left: 0.8em;
   }
 
@@ -5689,7 +5694,6 @@ span.wpcf7-list-item {
   }
 
   .ol-list {
-    margin-bottom: 40px;
     padding-left: 0.8em;
   }
 
@@ -6213,7 +6217,6 @@ span.wpcf7-list-item {
 
   .relatedPost {
     max-width: 280px;
-    margin: 60px auto;
   }
 
   .relatedPost_wrap {
@@ -6242,12 +6245,7 @@ span.wpcf7-list-item {
     right: 0;
   }
 
-  .blogShare {
-    margin-bottom: 60px;
-  }
-
   .blogShare p {
-    margin-bottom: 30px;
     font-weight: 400;
   }
 
@@ -6279,7 +6277,7 @@ span.wpcf7-list-item {
 
   .blogAuthor_wrap {
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 40px;
   }
 
   .blogAuthor_wrap .pc-none {
@@ -6308,7 +6306,7 @@ span.wpcf7-list-item {
   .blogAuthor .name {
     width: auto;
     max-width: 240px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .blogAuthor .position {
