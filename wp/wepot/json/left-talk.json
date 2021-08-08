@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "左アイコン吹き出し",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:columns {\"className\":\"blnLeft\"} -->\n<div class=\"wp-block-columns blnLeft\"><!-- wp:column {\"className\":\"blnLeft-icon\"} -->\n<div class=\"wp-block-column blnLeft-icon\"><!-- wp:image {\"id\":258,\"width\":80,\"height\":80,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"https://stg.wepot.jp/wp/wp-content/uploads/2021/07/thumbnail-test.jpg\" alt=\"\" class=\"wp-image-258\" width=\"80\" height=\"80\"/><figcaption>名前</figcaption></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"blnLeft-talk\"} -->\n<div class=\"wp-block-column blnLeft-talk\"><!-- wp:paragraph -->\n<p>左アイコン+吹き出しレイアウトです。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->"
+}

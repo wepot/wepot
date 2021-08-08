@@ -43,3 +43,64 @@ function my_user_meta($wb)
 add_filter('user_contactmethods', 'my_user_meta', 10, 1);
 // 固定ページにも抜粋欄を設ける
 add_post_type_support('page', 'excerpt');
+
+// ブロックエディタ用CSS
+add_action( 'after_setup_theme', function(){
+	add_theme_support( 'editor-styles' );
+	add_editor_style('/css/editor-style.css');
+});
+
+// 再利用ブロック表示
+function ha_add_reuse_list_admin_menu() {
+    add_menu_page( '再利用ブロック', '再利用ブロック', 'manage_options', 'edit.php?post_type=wp_block', '', 'dashicons-screenoptions', 20 );
+}
+add_action( 'admin_menu', 'ha_add_reuse_list_admin_menu' );
+
+// カスタムブロック登録
+function add_my_assets_to_block_editor() {
+    wp_enqueue_script( 'block-custom', get_stylesheet_directory_uri() . '/js/block_custom.js',array(), "", true);
+}
+add_action( 'enqueue_block_editor_assets', 'add_my_assets_to_block_editor' );
+
+// ブロックパターン登録
+register_block_pattern(
+	'my-plugin/my-awesome-pattern01',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/border01.json' ), true )
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern02',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/border02.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern03',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/border03.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern04',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/red-text.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern05',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/underline-text.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern06',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/marker-text.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern07',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/blockquote.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern08',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/left-talk.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern09',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/right-talk.json' ), true ),
+);
+
+register_block_pattern_category(
+    'wepot',
+    array( 'label' => __( 'Wepot', 'my-plugin' ) ),
+);

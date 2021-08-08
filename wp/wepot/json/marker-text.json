@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "マーカー付き文章",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:paragraph -->\n<p>このブロックは、文章にマーカーを引けます。<span class=\"marker\">ここにマーカーを引きたい文章を入れます。</span>マーカーはspanタグで囲まれます。</p>\n<!-- /wp:paragraph -->"
+}

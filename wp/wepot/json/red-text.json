@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "色付き文章",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:paragraph {\"className\":\"red\"} -->\n<p class=\"red\">このブロックは、文章の文字色を赤で表示します。pタグで囲まれ、文章の一部に適用することはできません。</p>\n<!-- /wp:paragraph -->"
+}

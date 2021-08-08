@@ -313,7 +313,6 @@ body {
 }
 
 .header_logo {
-  align-items: center;
   width: 105px;
   height: auto;
   margin: auto 0;
@@ -321,9 +320,8 @@ body {
 }
 
 .header_logo a {
-  display: flex;
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: 105px;
 }
 
 .header_logo a:hover {
@@ -331,6 +329,7 @@ body {
 }
 
 .header_logo .wepot {
+  display: block;
   width: 105px;
   height: auto;
 }
@@ -1983,9 +1982,23 @@ aboutページ
 }
 
 .blog h4 {
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: 1em;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
+}
+
+.blog h4::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 0.6em;
+  height: 0.6em;
+  background-color: #00b4aa;
 }
 
 .blog p {
@@ -2237,30 +2250,36 @@ blockquote cite > a {
   box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);
 }
 
-.blnLeft {
+.wp-block-columns.blnLeft {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
 }
 
-.blnLeft-icon {
+.wp-block-column.blnLeft-icon {
   width: 100%;
   max-width: 90px;
   text-align: center;
 }
 
-.blnLeft-icon img {
+.wp-block-column.blnLeft-icon img {
   display: inline-block;
   width: 70px;
   height: 70px;
   border-radius: 50%;
 }
 
-.blnLeft-icon figcaption {
+.wp-block-column.blnLeft-icon figcaption {
+  padding: 0 !important;
   font-size: 0.875rem;
+  text-align: center !important;
 }
 
-.blnLeft-talk {
+.wp-block-column.blnLeft-icon figcaption::before {
+  display: none;
+}
+
+.wp-block-column.blnLeft-talk {
   position: relative;
   display: block;
   width: calc(100% - 100px);
@@ -2271,7 +2290,7 @@ blockquote cite > a {
   border-radius: 8px;
 }
 
-.blnLeft-talk::before {
+.wp-block-column.blnLeft-talk::before {
   position: absolute;
   content: "";
   top: 5px;
@@ -2281,33 +2300,40 @@ blockquote cite > a {
   border-top-color: #00b4aa33;
 }
 
-.blnLeft-talk p {
+.wp-block-column.blnLeft-talk p {
   margin-bottom: 0 !important;
 }
 
-.blnRight {
+.wp-block-columns.blnRight {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row-reverse;
 }
 
-.blnRight-icon {
+.wp-block-column.blnRight-icon {
   width: 100%;
   max-width: 90px;
   text-align: center;
 }
 
-.blnRight-icon img {
+.wp-block-column.blnRight-icon img {
   display: inline-block;
   width: 70px;
   height: 70px;
+  border-radius: 50%;
 }
 
-.blnRight-icon figcaption {
+.wp-block-column.blnRight-icon figcaption {
+  padding: 0 !important;
   font-size: 0.875rem;
+  text-align: center !important;
 }
 
-.blnRight-talk {
+.wp-block-column.blnRight-icon figcaption::before {
+  display: none;
+}
+
+.wp-block-column.blnRight-talk {
   position: relative;
   display: inline-block;
   max-width: 680px;
@@ -2317,7 +2343,7 @@ blockquote cite > a {
   border-radius: 8px;
 }
 
-.blnRight-talk::before {
+.wp-block-column.blnRight-talk::before {
   position: absolute;
   content: "";
   top: 5px;
@@ -2327,41 +2353,21 @@ blockquote cite > a {
   border-top-color: #eee;
 }
 
-.blnRight-talk p {
+.wp-block-column.blnRight-talk p {
   margin-bottom: 0 !important;
 }
 
-.list01 {
+.ul-list {
   margin-bottom: 4.652%;
-}
-
-.list01 h4 {
-  position: relative;
-  margin-bottom: 0.8em;
-  padding-left: 1em;
-}
-
-.list01 h4::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 0.6em;
-  height: 0.6em;
-  background-color: #00b4aa;
-}
-
-.list01 ul {
   padding-left: 2.326%;
 }
 
-.list01 ul li {
+.ul-list li {
   position: relative;
   padding-left: 1em;
 }
 
-.list01 ul li::before {
+.ul-list li::before {
   position: absolute;
   content: "・";
   top: 0;
@@ -2369,38 +2375,18 @@ blockquote cite > a {
   color: #00b4aa;
 }
 
-.list02 {
+.ol-list {
   margin-bottom: 4.652%;
-}
-
-.list02 h4 {
-  position: relative;
-  margin-bottom: 0.8em;
-  padding-left: 1em;
-}
-
-.list02 h4::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 0.6em;
-  height: 0.6em;
-  background-color: #00b4aa;
-}
-
-.list02 ol {
   padding-left: 2.326%;
   counter-reset: number 0;
 }
 
-.list02 ol li {
+.ol-list li {
   position: relative;
   padding-left: 1em;
 }
 
-.list02 ol li::before {
+.ol-list li::before {
   counter-increment: number 1;
   position: absolute;
   content: counter(number) ". ";
@@ -3496,11 +3482,11 @@ span.wpcf7-list-item {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .blnLeft-icon figcaption {
+  .wp-block-column.blnLeft-icon figcaption {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .blnRight-icon figcaption {
+  .wp-block-column.blnRight-icon figcaption {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
@@ -3844,11 +3830,11 @@ span.wpcf7-list-item {
     font-size: 1rem;
   }
 
-  .blnLeft-icon figcaption {
+  .wp-block-column.blnLeft-icon figcaption {
     font-size: 1rem;
   }
 
-  .blnRight-icon figcaption {
+  .wp-block-column.blnRight-icon figcaption {
     font-size: 1rem;
   }
 
@@ -4005,6 +3991,10 @@ span.wpcf7-list-item {
   }
 
   .header_logo {
+    width: calc(105px + 0.0578703704 * (100vw - 768px));
+  }
+
+  .header_logo a {
     width: calc(105px + 0.0578703704 * (100vw - 768px));
   }
 
@@ -4366,19 +4356,19 @@ span.wpcf7-list-item {
     height: calc(15px + 0.0092592593 * (100vw - 768px));
   }
 
-  .blnLeft-icon img {
+  .wp-block-column.blnLeft-icon img {
     width: calc(70px + 0.0231481481 * (100vw - 768px));
   }
 
-  .blnLeft-icon img {
+  .wp-block-column.blnLeft-icon img {
     height: calc(70px + 0.0231481481 * (100vw - 768px));
   }
 
-  .blnRight-icon img {
+  .wp-block-column.blnRight-icon img {
     width: calc(70px + 0.0231481481 * (100vw - 768px));
   }
 
-  .blnRight-icon img {
+  .wp-block-column.blnRight-icon img {
     height: calc(70px + 0.0231481481 * (100vw - 768px));
   }
 
@@ -4521,6 +4511,10 @@ span.wpcf7-list-item {
   }
 
   .header_logo {
+    width: 130px;
+  }
+
+  .header_logo a {
     width: 130px;
   }
 
@@ -4874,19 +4868,19 @@ span.wpcf7-list-item {
     height: 19px;
   }
 
-  .blnLeft-icon img {
+  .wp-block-column.blnLeft-icon img {
     width: 80px;
   }
 
-  .blnLeft-icon img {
+  .wp-block-column.blnLeft-icon img {
     height: 80px;
   }
 
-  .blnRight-icon img {
+  .wp-block-column.blnRight-icon img {
     width: 80px;
   }
 
-  .blnRight-icon img {
+  .wp-block-column.blnRight-icon img {
     height: 80px;
   }
 
@@ -5071,6 +5065,10 @@ span.wpcf7-list-item {
   }
 
   .header_logo {
+    width: 86px;
+  }
+
+  .header_logo a {
     width: 86px;
   }
 
@@ -5552,8 +5550,8 @@ span.wpcf7-list-item {
   }
 
   .blog h4 {
-    margin-bottom: 10px;
     font-size: 0.875rem;
+    margin-bottom: 8px;
   }
 
   .blog p {
@@ -5640,76 +5638,62 @@ span.wpcf7-list-item {
     padding: 20px;
   }
 
-  .blnLeft-icon {
+  .wp-block-column.blnLeft-icon {
     max-width: 60px;
   }
 
-  .blnLeft-icon img {
+  .wp-block-column.blnLeft-icon img {
     width: 50px;
     height: 50px;
   }
 
-  .blnLeft-icon figcaption {
+  .wp-block-column.blnLeft-icon figcaption {
     font-size: 0.6875rem;
     font-weight: 500;
   }
 
-  .blnLeft-talk {
+  .wp-block-column.blnLeft-talk {
     width: calc(100% - 60px);
     margin: 0 0 30px 20px;
     padding: 16px;
   }
 
-  .blnRight-icon {
+  .wp-block-column.blnRight-icon {
     max-width: 60px;
   }
 
-  .blnRight-icon img {
+  .wp-block-column.blnRight-icon img {
     width: 50px;
     height: 50px;
   }
 
-  .blnRight-icon figcaption {
+  .wp-block-column.blnRight-icon figcaption {
     font-size: 0.6875rem;
     font-weight: 500;
   }
 
-  .blnRight-talk {
+  .wp-block-column.blnRight-talk {
     width: calc(100% - 60px);
     margin: 0 20px 30px 0;
     padding: 16px;
   }
 
-  .list01 {
+  .ul-list {
     margin-bottom: 40px;
-  }
-
-  .list01 h4 {
-    margin-bottom: 8px;
-  }
-
-  .list01 ul {
     padding-left: 0.8em;
   }
 
-  .list01 ul li {
+  .ul-list li {
     padding-left: 1.1em;
     font-size: 0.875rem;
   }
 
-  .list02 {
+  .ol-list {
     margin-bottom: 40px;
-  }
-
-  .list02 h4 {
-    margin-bottom: 8px;
-  }
-
-  .list02 ol {
     padding-left: 0.8em;
   }
 
-  .list02 ol li {
+  .ol-list li {
     padding-left: 1.1em;
     font-size: 0.875rem;
   }

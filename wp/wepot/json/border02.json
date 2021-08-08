@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "タイトル+枠付き（黒）",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:group {\"className\":\"border02\"} -->\n<div class=\"wp-block-group border02\"><!-- wp:paragraph {\"className\":\"border02_title\"} -->\n<p class=\"border02_title\">ここにタイトルを入力します</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"border02_text\"} -->\n<p class=\"border02_text\">このブロックは、タイトル+枠付きのレイアウトです。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group -->"
+}

@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "引用文",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>このブロックは、文章を引用する際に使用します。ここに引用する文章を入れます。</p><cite>出典元：<a href=\"https://www.google.com/\" data-type=\"URL\" data-id=\"https://www.google.com/\" target=\"_blank\" rel=\"noreferrer noopener\">ここに引用元の情報を入力します。リンクは「新しいタブ」で開くように設定します。</a></cite></blockquote>\n<!-- /wp:quote -->"
+}
