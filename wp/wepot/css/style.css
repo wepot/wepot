@@ -1999,9 +1999,8 @@ aboutページ
 .blog h4::before {
   position: absolute;
   content: "";
-  top: 50%;
+  top: 5px;
   left: 0;
-  transform: translateY(-50%);
   width: 0.6em;
   height: 0.6em;
   background-color: #00b4aa;
@@ -4372,6 +4371,10 @@ span.wpcf7-list-item {
     max-width: calc(450px + 0.9490740741 * (100vw - 768px));
   }
 
+  .blog h4::before {
+    top: calc(5px + 0.0046296296 * (100vw - 768px));
+  }
+
   .infoLeft .tag {
     width: calc(120px + 0.1157407407 * (100vw - 768px));
   }
@@ -4906,6 +4909,10 @@ span.wpcf7-list-item {
 
   .singlePage_wrap {
     max-width: 860px;
+  }
+
+  .blog h4::before {
+    top: 7px;
   }
 
   .infoLeft .tag {
