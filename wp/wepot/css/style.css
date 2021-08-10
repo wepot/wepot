@@ -2561,7 +2561,7 @@ ol li:before {
   margin: 0 auto 40px;
 }
 
-.olList-indent03 p {
+.olList-indent03_title {
   display: inline-block;
   padding: 3px 1.25em;
   border-radius: 8px 8px 0 0;
@@ -6056,7 +6056,7 @@ span.wpcf7-list-item {
     width: 100%;
   }
 
-  .olList-indent03 p {
+  .olList-indent03_title {
     padding: 3px 16px;
     font-size: 0.875rem;
   }
