@@ -85,6 +85,7 @@ body {
   color: #191919;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
+  line-height: 1.8;
 }
 
 .container {
@@ -291,7 +292,6 @@ body {
   width: 85%;
   margin: 1.95% auto 0;
   font-size: 0.875rem;
-  line-height: 1.83;
 }
 
 /*! ===================================
@@ -768,7 +768,6 @@ SP版：メニューリスト
 .mainVisual_text {
   color: #fff;
   font-size: 0.75rem;
-  line-height: 1.8;
 }
 
 /*! ===================================
@@ -976,7 +975,7 @@ SP版：メニューリスト
 .contactBox_text {
   margin-bottom: 7.59%;
   flex-grow: 1;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   text-align: center;
   line-height: 1.5;
 }
@@ -1277,7 +1276,6 @@ SP版：メニューリスト
 
 .categoryCards_text {
   font-size: 0.875rem;
-  line-height: 1.6;
 }
 
 /*! ===================================
@@ -1449,10 +1447,10 @@ wepotでできること
   padding: 8px;
   border-radius: 50%;
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 500;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .can_item:nth-child(-n+4) {
@@ -1959,8 +1957,8 @@ aboutページ
 }
 
 .blog h2 {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  margin: 60px 0 25px;
+  padding-bottom: 5px;
   border-bottom: 4px solid #00b4aa;
   font-size: 1.375rem;
   font-weight: 500;
@@ -1969,11 +1967,15 @@ aboutページ
 
 .blog h3 {
   position: relative;
-  margin-bottom: 25px;
+  margin: 60px 0 25px;
   padding-left: 0.75em;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.3;
+}
+
+.blog h3.notop {
+  margin-top: 0 !important;
 }
 
 .blog h3:before {
@@ -2009,7 +2011,6 @@ aboutページ
 .blog p {
   margin-bottom: 40px;
   font-size: 0.875rem;
-  line-height: 1.75;
 }
 
 .blog p.red {
@@ -2039,7 +2040,7 @@ aboutページ
 .blog figure figcaption {
   display: block;
   padding-left: 1em;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   text-align: right;
 }
 
@@ -2049,7 +2050,7 @@ aboutページ
   top: 0;
   left: 0;
   color: #00b4aa;
-  font-size: 0.9375em;
+  font-size: 1em;
 }
 
 .header_wrap {
@@ -2073,7 +2074,6 @@ aboutページ
 .infoLeft .tag {
   display: inline-block;
   width: 120px;
-  height: 27px;
   padding: 5px;
   background-color: #00b4aa;
   color: #fff;
@@ -2104,7 +2104,7 @@ aboutページ
 }
 
 #toc_container {
-  margin-bottom: 40px;
+  margin-top: 60px;
   padding: 30px 20px;
   background-color: #eee;
 }
@@ -2117,6 +2117,7 @@ aboutページ
 }
 
 #toc_container ul {
+  counter-reset: count 0;
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: 0.025em;
@@ -2143,6 +2144,11 @@ aboutページ
 #toc_container ul a:hover {
   color: #00b4aa;
   text-decoration: underline;
+}
+
+#toc_container li:before {
+  counter-increment: count 1;
+  content: counters(count, "-") ". ";
 }
 
 blockquote {
@@ -2363,37 +2369,222 @@ blockquote cite a {
 
 .ul-list li {
   position: relative;
-  padding-left: 1em;
+  padding-left: 1.2em;
   font-size: 0.875rem;
 }
 
 .ul-list li::before {
   position: absolute;
-  content: "・";
-  top: 0;
+  content: "●";
+  top: 3px;
   left: 0;
   color: #00b4aa;
+  font-size: 0.1em;
 }
 
-.ol-list {
+.ulList {
   margin-bottom: 40px;
+}
+
+.ulList li {
+  position: relative;
+  margin-top: 5px;
+  padding-left: 1.2em;
+  font-size: 0.875rem;
+}
+
+.ulList li:first-child {
+  margin-top: 0;
+}
+
+.ulList li::before {
+  position: absolute;
+  content: "●";
+  top: 5px;
+  left: 0;
+  color: #00b4aa;
+  font-size: 0.1em;
+}
+
+.ulList ul {
+  margin-left: 15px;
+}
+
+.ulList ul li {
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.ulList ul li::before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #00b4aa;
+  border-radius: 50%;
+  background-color: #00b4aa33;
+}
+
+.ulList-indent01 {
   padding-left: 2.326%;
+}
+
+.ulList-indent02 {
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+  padding: 1.5em;
+  border: 2px solid #00b4aa;
+  border-radius: 8px;
+}
+
+.ulList-indent03 {
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+}
+
+.ulList-indent03_title {
+  display: inline-block;
+  padding: 3px 1.25em;
+  border-radius: 8px 8px 0 0;
+  background-color: #00b4aa;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.ulList-indent03_body {
+  padding: 1.5em;
+  border: 2px solid #00b4aa;
+}
+
+.ulList-indent03_body li {
+  position: relative;
+  margin-top: 5px;
+  padding-left: 1.2em;
+  font-size: 0.875rem;
+}
+
+.ulList-indent03_body li:first-child {
+  margin-top: 0;
+}
+
+.ulList-indent03_body li::before {
+  position: absolute;
+  content: "●";
+  top: 5px;
+  left: 0;
+  color: #00b4aa;
+  font-size: 0.1em;
+}
+
+.ulList-indent03_body ul {
+  margin-left: 15px;
+  padding: 0;
+  border: none;
+}
+
+.ulList-indent03_body ul li {
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.ulList-indent03_body ul li::before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #00b4aa;
+  border-radius: 50%;
+  background-color: #00b4aa33;
+}
+
+ol {
   counter-reset: number 0;
 }
 
-.ol-list li {
-  position: relative;
+ol li {
+  display: block;
+  margin-top: 5px;
+  text-indent: -1em;
   padding-left: 1em;
   font-size: 0.875rem;
 }
 
-.ol-list li::before {
+ol li:first-child {
+  margin-top: 0;
+}
+
+ol li ol {
+  margin-left: 15px;
+}
+
+ol li ol li {
+  margin-top: 0;
+  text-indent: -2.1em;
+  padding-left: 2.1em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+ol li:before {
+  content: counters(number, "-") ". ";
   counter-increment: number 1;
-  position: absolute;
-  content: counter(number) ". ";
-  top: 0;
-  left: 0;
   color: #00b4aa;
+  font-weight: 700;
+}
+
+.olList-indent01 {
+  margin-bottom: 40px;
+  padding-left: 2.326%;
+}
+
+.olList-indent02 {
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+  padding: 1.5em;
+  border: 2px solid #00b4aa;
+  border-radius: 8px;
+}
+
+.olList-indent03 {
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+}
+
+.olList-indent03 p {
+  display: inline-block;
+  padding: 3px 1.25em;
+  border-radius: 8px 8px 0 0;
+  background-color: #00b4aa;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.olList-indent03 ol {
+  padding: 1.5em;
+  border: 2px solid #00b4aa;
+  counter-reset: item 0;
+}
+
+.olList-indent03 ol ol {
+  padding: 0;
+  border: none;
+}
+
+.olList-indent03 ol li:before {
+  counter-increment: item 1;
+  content: counters(item, "-") ". ";
 }
 
 .relatedPost {
@@ -2625,6 +2816,7 @@ blockquote cite a {
   font-size: 1.25rem;
   font-weight: 500;
   text-align: center;
+  line-height: 1.7;
   letter-spacing: 0.02em;
 }
 
@@ -2664,7 +2856,6 @@ blockquote cite a {
   max-width: 440px;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1;
 }
 
 .worksBox_title {
@@ -2676,10 +2867,6 @@ blockquote cite a {
 
 .worksBox_budget {
   margin-bottom: 6.9%;
-}
-
-.worksBox_text {
-  line-height: 1.7;
 }
 
 .worksBox_url {
@@ -2769,7 +2956,6 @@ wepotの強み
   width: 85%;
   margin: 0 auto;
   font-size: 0.875rem;
-  line-height: 1.75;
   letter-spacing: 0.02em;
 }
 
@@ -2831,7 +3017,6 @@ wepotの強み
 .strong-media_text {
   margin-top: 20px;
   font-size: 0.875rem;
-  line-height: 1.75;
 }
 
 /*! ===================================
@@ -2839,11 +3024,12 @@ wepotの強み
 ==================================== */
 
 .flow {
+  width: 98%;
   margin: 30px auto 0;
 }
 
 .flow_wrap {
-  margin-bottom: 2.34375%;
+  margin-bottom: 30px;
 }
 
 .flow_title {
@@ -3340,7 +3526,7 @@ span.wpcf7-list-item {
   }
 
   .contactBox_text {
-    font-size: calc(0.75rem + 0.0069444444 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .swiperCard_time {
@@ -3364,7 +3550,7 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_text {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .category_item > .button03 {
@@ -3372,7 +3558,7 @@ span.wpcf7-list-item {
   }
 
   .can_item {
-    font-size: calc(0.75rem + 0.0138888889 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.012037037 * (100vw - 48rem));
   }
 
   .can_text01 {
@@ -3456,11 +3642,11 @@ span.wpcf7-list-item {
   }
 
   .blog p {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .blog figure figcaption {
-    font-size: calc(0.8125rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .infoLeft .time {
@@ -3480,7 +3666,7 @@ span.wpcf7-list-item {
   }
 
   blockquote {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .wp-block-column.blnLeft-icon figcaption {
@@ -3492,11 +3678,19 @@ span.wpcf7-list-item {
   }
 
   .ul-list li {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .ol-list li {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+  .ulList li {
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+  }
+
+  .ulList-indent03_body li {
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+  }
+
+  ol li {
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .relatedPost_tag {
@@ -3536,7 +3730,7 @@ span.wpcf7-list-item {
   }
 
   .worksBox_body {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .worksBox_title {
@@ -3564,7 +3758,7 @@ span.wpcf7-list-item {
   }
 
   .strong-media_text {
-    font-size: calc(0.875rem + 0.0023148148 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
   .flow_title {
@@ -3696,7 +3890,7 @@ span.wpcf7-list-item {
   }
 
   .contactBox_text {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .swiperCard_time {
@@ -3720,7 +3914,7 @@ span.wpcf7-list-item {
   }
 
   .categoryCards_text {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .category_item > .button03 {
@@ -3728,7 +3922,7 @@ span.wpcf7-list-item {
   }
 
   .can_item {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
   }
 
   .can_text01 {
@@ -3812,11 +4006,11 @@ span.wpcf7-list-item {
   }
 
   .blog p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .blog figure figcaption {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .infoLeft .time {
@@ -3836,7 +4030,7 @@ span.wpcf7-list-item {
   }
 
   blockquote {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .wp-block-column.blnLeft-icon figcaption {
@@ -3848,11 +4042,19 @@ span.wpcf7-list-item {
   }
 
   .ul-list li {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
-  .ol-list li {
-    font-size: 0.9375rem;
+  .ulList li {
+    font-size: 1rem;
+  }
+
+  .ulList-indent03_body li {
+    font-size: 1rem;
+  }
+
+  ol li {
+    font-size: 1rem;
   }
 
   .relatedPost_tag {
@@ -3892,7 +4094,7 @@ span.wpcf7-list-item {
   }
 
   .worksBox_body {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .worksBox_title {
@@ -3920,7 +4122,7 @@ span.wpcf7-list-item {
   }
 
   .strong-media_text {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .flow_title {
@@ -4379,10 +4581,6 @@ span.wpcf7-list-item {
     width: calc(120px + 0.1157407407 * (100vw - 768px));
   }
 
-  .infoLeft .tag {
-    height: calc(27px + 0.0208333333 * (100vw - 768px));
-  }
-
   .infoRight img {
     width: calc(60px + 0.0462962963 * (100vw - 768px));
   }
@@ -4415,6 +4613,26 @@ span.wpcf7-list-item {
 
   .wp-block-column.blnRight-icon img {
     height: calc(70px + 0.0231481481 * (100vw - 768px));
+  }
+
+  .ul-list li::before {
+    top: calc(3px + 0.0046296296 * (100vw - 768px));
+  }
+
+  .ulList li::before {
+    top: calc(5px + 0.0046296296 * (100vw - 768px));
+  }
+
+  .ulList ul li::before {
+    top: calc(8px + 0.0023148148 * (100vw - 768px));
+  }
+
+  .ulList-indent03_body li::before {
+    top: calc(5px + 0.0046296296 * (100vw - 768px));
+  }
+
+  .ulList-indent03_body ul li::before {
+    top: calc(8px + 0.0023148148 * (100vw - 768px));
   }
 
   .relatedPost_tag {
@@ -4919,10 +5137,6 @@ span.wpcf7-list-item {
     width: 170px;
   }
 
-  .infoLeft .tag {
-    height: 36px;
-  }
-
   .infoRight img {
     width: 80px;
   }
@@ -4955,6 +5169,26 @@ span.wpcf7-list-item {
 
   .wp-block-column.blnRight-icon img {
     height: 80px;
+  }
+
+  .ul-list li::before {
+    top: 5px;
+  }
+
+  .ulList li::before {
+    top: 7px;
+  }
+
+  .ulList ul li::before {
+    top: 9px;
+  }
+
+  .ulList-indent03_body li::before {
+    top: 7px;
+  }
+
+  .ulList-indent03_body ul li::before {
+    top: 9px;
   }
 
   .relatedPost_tag {
@@ -5607,7 +5841,7 @@ span.wpcf7-list-item {
   }
 
   .singlePage {
-    margin: 30px 0 40px;
+    margin: 20px 0 40px;
   }
 
   .singlePage_wrap {
@@ -5622,12 +5856,12 @@ span.wpcf7-list-item {
   }
 
   .blog h2 {
-    margin-bottom: 14px;
+    margin: 50px 0 20px;
     font-size: 1.125rem;
   }
 
   .blog h3 {
-    margin-bottom: 20px;
+    margin: 50px 0 20px;
     font-size: 1rem;
   }
 
@@ -5645,8 +5879,8 @@ span.wpcf7-list-item {
     margin-bottom: 40px;
   }
 
-  .blogMeta_wrap {
-    margin-bottom: 15px;
+  .header_wrap {
+    flex-direction: column-reverse;
   }
 
   .infoLeft .time {
@@ -5655,7 +5889,7 @@ span.wpcf7-list-item {
 
   .infoLeft .tag {
     width: 137px;
-    height: 28px;
+    padding: 3px;
     font-size: 0.8125rem;
   }
 
@@ -5666,6 +5900,10 @@ span.wpcf7-list-item {
   .infoRight img {
     width: 50px;
     height: 50px;
+  }
+
+  #toc_container {
+    margin-top: 50px;
   }
 
   #toc_container p {
@@ -5760,16 +5998,66 @@ span.wpcf7-list-item {
   }
 
   .ul-list li {
-    padding-left: 1.1em;
     font-size: 0.875rem;
   }
 
-  .ol-list {
+  .ulList li {
+    font-size: 0.875rem;
+    line-height: 1.8;
+  }
+
+  .ulList ul li::before {
+    width: 8px;
+    height: 8px;
+  }
+
+  .ulList-indent01 {
     padding-left: 0.8em;
   }
 
-  .ol-list li {
-    padding-left: 1.1em;
+  .ulList-indent02 {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .ulList-indent03 {
+    width: 100%;
+  }
+
+  .ulList-indent03_title {
+    padding: 3px 16px;
+    font-size: 0.875rem;
+  }
+
+  .ulList-indent03_body li {
+    font-size: 0.875rem;
+    line-height: 1.8;
+  }
+
+  .ulList-indent03_body ul li::before {
+    width: 8px;
+    height: 8px;
+  }
+
+  ol li {
+    font-size: 0.875rem;
+  }
+
+  .olList-indent01 {
+    padding-left: 0.8em;
+  }
+
+  .olList-indent02 {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .olList-indent03 {
+    width: 100%;
+  }
+
+  .olList-indent03 p {
+    padding: 3px 16px;
     font-size: 0.875rem;
   }
 

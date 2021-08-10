@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "箇条書きリスト(インデント)+枠付き",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:list {\"className\":\"ulList ulList-indent02\"} -->\n<ul class=\"ulList ulList-indent02\"><li>項目1</li><li>項目2<ul><li>項目2-1</li><li>項目2-2</li></ul></li><li>項目3</li></ul>\n<!-- /wp:list -->"
+}
