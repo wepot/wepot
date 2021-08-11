@@ -20,7 +20,7 @@
                         <h3 class="worksBox_title">Wepot Webサイト</h3>
                         <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
-                            ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
+                            Wepotのミッションは”デジタルクリエイティブの課題を解決し、クライアントと消費者の理想の未来を創る”。運営メンバーは個々の強みをもったフリーランスで構成され業界最前線で活躍中。基礎知識から応用、セオリーまで丁寧に解説するオウンドメディアです。
                         </p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
@@ -106,36 +106,6 @@
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- <div class="worksBox_btn">
-                  <a href="" class="button03">詳しく見る</a>
-                </div> -->
-                    </div>
-                </article><!-- /.worksBox_item -->
-                <article class="worksBox_item">
-                    <figure class="worksBox_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img04.jpg" alt="アイキャッチ">
-                    </figure>
-                    <div class="worksBox_body">
-                        <h3 class="worksBox_title">未設定枠（リリースに情報まとまったら追加）</h3>
-                        <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
-                        <p class="worksBox_text">
-                            ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ちょっとした説明などを加えたり考慮した点などなどなどなど。ここまで書けます。
-                        </p>
-                        <p class="worksBox_url"><a href="https://www.google.com/" target="_blank" rel=“noopener”>https://www.google.com/</a></p>
-                        <div class="worksBox-member">
-                            <p>担当メンバー</p>
-                            <ul class="worksBox-member_list">
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン">
                                 </li>
                             </ul>
                         </div>
