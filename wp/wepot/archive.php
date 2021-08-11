@@ -52,43 +52,43 @@
     <?php elseif (is_author('honma')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">本間の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">ホンマ ヒロミツの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_author('ayaka')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">鈴木の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">あやかの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_author('sato')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">佐藤の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">よーすけの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_author('yukix')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">ユキックス（黒羽）の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">ユキックスの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_author('tomoni')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">奥田の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">ともの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_author('saito')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">齋藤の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">さいとぅの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_author('maruo')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
-                <h1 class="pageVisual_title">丸尾の執筆記事一覧</h1>
+                <h1 class="pageVisual_title">まるこの執筆記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_year()) : ?>
