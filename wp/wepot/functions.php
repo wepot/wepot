@@ -56,12 +56,6 @@ function ha_add_reuse_list_admin_menu() {
 }
 add_action( 'admin_menu', 'ha_add_reuse_list_admin_menu' );
 
-// カスタムブロック登録
-function add_my_assets_to_block_editor() {
-    wp_enqueue_script( 'block-custom', get_stylesheet_directory_uri() . '/js/block_custom.js',array(), "", true);
-}
-add_action( 'enqueue_block_editor_assets', 'add_my_assets_to_block_editor' );
-
 // ブロックパターン登録
 register_block_pattern(
 	'my-plugin/my-awesome-pattern01',

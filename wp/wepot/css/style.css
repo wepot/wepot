@@ -2017,13 +2017,21 @@ aboutページ
   color: #b40000;
 }
 
-.blog p .underline {
-  color: #00b4aa;
-  border-bottom: 2px solid #00b4aa;
-}
-
 .blog p .marker {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
+}
+
+.blog p strong {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
+}
+
+.blog a {
+  color: #00b4aa;
+  text-decoration: underline;
+}
+
+.blog a:hover {
+  opacity: 0.8;
 }
 
 .blog figure {
@@ -2141,6 +2149,11 @@ aboutページ
   padding-left: 2.3em;
 }
 
+#toc_container ul a {
+  color: #191919;
+  text-decoration: none;
+}
+
 #toc_container ul a:hover {
   color: #00b4aa;
   text-decoration: underline;
@@ -2194,11 +2207,6 @@ blockquote cite {
   font-style: normal;
   text-indent: -4em;
   padding-left: 4em;
-}
-
-blockquote cite a {
-  color: #00b4aa;
-  text-decoration: underline;
 }
 
 .border01 {
