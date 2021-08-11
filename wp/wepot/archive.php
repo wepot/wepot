@@ -2,43 +2,43 @@
 <main class="main-contents">
 
     <?php if (is_category('webdesign')) : ?>
-        <section class="pageVisual bg-webdesign">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">Webデザインの記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('wordpress')) : ?>
-        <section class="pageVisual bg-wordpress">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">WordPressの記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('marketing')) : ?>
-        <section class="pageVisual bg-marketing">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">マーケティングの記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('direction')) : ?>
-        <section class="pageVisual bg-direction">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">ディレクションの記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('coding')) : ?>
-        <section class="pageVisual bg-coding">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">コーディングの記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('illust')) : ?>
-        <section class="pageVisual bg-illust">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">イラストの記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
     <?php elseif (is_category('video')) : ?>
-        <section class="pageVisual bg-video">
+        <section class="pageVisual bg01">
             <header class="pageVisual_heading">
                 <h1 class="pageVisual_title">動画編集の記事一覧</h1>
             </header>
