@@ -89,7 +89,7 @@
     <section class="section_container">
         <div class="section_inner">
             <header class="section_heading">
-                <h2 class="section_title">奥田が最近書いた記事</h2>
+                <h2 class="section_title">ともが最近書いた記事</h2>
             </header>
             <div class="swiper-container">
                 <article class="swiper-wrapper">
@@ -138,7 +138,7 @@
             </div><!-- /.swiper-container -->
 
             <div class="more">
-                <a href="<?php echo home_url(); ?>/author/tomoni" class="button03">奥田の執筆記事一覧</a>
+                <a href="<?php echo home_url(); ?>/author/tomoni" class="button03">ともの執筆記事一覧</a>
             </div><!-- /.more -->
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->

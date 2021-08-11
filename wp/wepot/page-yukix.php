@@ -122,7 +122,7 @@
     <section class="section_container">
         <div class="section_inner">
             <header class="section_heading">
-                <h2 class="section_title">ユキックス（黒羽）が最近書いた記事</h2>
+                <h2 class="section_title">ユキックスが最近書いた記事</h2>
             </header>
             <div class="swiper-container">
                 <article class="swiper-wrapper">
@@ -171,7 +171,7 @@
             </div><!-- /.swiper-container -->
 
             <div class="more">
-                <a href="<?php echo home_url(); ?>/author/yukix" class="button03">ユキックス（黒羽）の<br>執筆記事一覧</a>
+                <a href="<?php echo home_url(); ?>/author/yukix" class="button03">ユキックスの<br>執筆記事一覧</a>
             </div><!-- /.more -->
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
