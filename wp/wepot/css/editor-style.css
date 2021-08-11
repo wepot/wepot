@@ -81,14 +81,23 @@ p.red {
   color: #b40000;
 }
 
-p .underline {
-  color: #00b4aa;
-  border-bottom: 2px solid #00b4aa;
+p strong {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
 }
 
 p .marker {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
 }
+
+a {
+  color: #00b4aa;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
 
 figure {
   width: 100%;
@@ -327,25 +336,15 @@ blockquote cite > a {
   margin-bottom: 0 !important;
 }
 
-.ul-list {
-  margin-bottom: 10px;
-  padding-left: 2.326%;
-}
-
-.ul-list li {
-  position: relative;
-  padding-left: 1em;
-}
-
 .ulList {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .ulList li {
   position: relative;
   margin-top: 5px;
   padding-left: 1.2em;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .ulList li:first-child {
@@ -368,9 +367,9 @@ blockquote cite > a {
 
 .ulList-indent02 {
   width: 91%;
-  max-width: 780px;
-  margin: 0 auto 40px;
-  padding: 1.5em;
+  max-width: 740px;
+  margin: 0 auto 10px;
+  padding: 1.25em;
   border: 2px solid #00b4aa;
   border-radius: 8px;
 }
@@ -378,7 +377,7 @@ blockquote cite > a {
 .ulList-indent03 {
   width: 91%;
   max-width: 780px;
-  margin: 0 auto 40px;
+  margin: 0 auto 10px;
 }
 
 .ulList-indent03_title {
@@ -392,7 +391,7 @@ blockquote cite > a {
 }
 
 .ulList-indent03_body {
-  padding: 1.5em;
+  padding: 1.25em;
   border: 2px solid #00b4aa;
 }
 
@@ -400,7 +399,7 @@ blockquote cite > a {
   position: relative;
   margin-top: 5px;
   padding-left: 1.2em;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .ulList-indent03_body li:first-child {
@@ -428,7 +427,7 @@ ol li {
   margin-top: 5px;
   text-indent: -1em;
   padding-left: 1em;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 ol li:first-child {
@@ -455,15 +454,15 @@ ol li:before {
 }
 
 .olList-indent01 {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding-left: 2.326%;
 }
 
 .olList-indent02 {
   width: 91%;
-  max-width: 780px;
-  margin: 0 auto 40px;
-  padding: 1.5em;
+  max-width: 740px;
+  margin: 0 auto 10px;
+  padding: 1.25em;
   border: 2px solid #00b4aa;
   border-radius: 8px;
 }
@@ -471,7 +470,7 @@ ol li:before {
 .olList-indent03 {
   width: 91%;
   max-width: 780px;
-  margin: 0 auto 40px;
+  margin: 0 auto 10px;
 }
 
 .olList-indent03_title {
@@ -485,7 +484,7 @@ ol li:before {
 }
 
 .olList-indent03 ol {
-  padding: 1.5em;
+  padding: 1.25em;
   border: 2px solid #00b4aa;
   counter-reset: item 0;
 }
