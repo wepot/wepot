@@ -6,9 +6,9 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="齋藤広大">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="さいとぅ">
                     </figure><!-- /.img -->
-                    <h1 class="name"><span>デザイナー</span><br>齋藤&nbsp;広大</h1>
+                    <h1 class="name"><span>デザイナー</span><br>さいとぅ</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item02"><a href="https://twitter.com/sa__i__to" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a></li>
                     </ul>
