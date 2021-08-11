@@ -2013,15 +2013,15 @@ aboutページ
   font-size: 0.875rem;
 }
 
-.blog p.red {
-  color: #b40000;
-}
-
 .blog p .marker {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
 }
 
-.blog p strong {
+.blog .red {
+  color: #b40000;
+}
+
+.blog strong {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
 }
 

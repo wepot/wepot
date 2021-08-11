@@ -77,11 +77,11 @@ p {
   line-height: 1.5;
 }
 
-p.red {
+.red {
   color: #b40000;
 }
 
-p strong {
+strong {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #ffee7f 70%);
 }
 
