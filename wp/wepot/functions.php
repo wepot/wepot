@@ -99,6 +99,30 @@ register_block_pattern(
 	'my-plugin/my-awesome-pattern09',
 	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/right-talk.json' ), true ),
 );
+register_block_pattern(
+	'my-plugin/my-awesome-pattern10',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/ullist-indent01.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern11',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/ullist-indent02.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern12',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/ullist-indent03.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern13',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/ollist-indent01.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern14',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/ollist-indent02.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern15',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/ollist-indent03.json' ), true ),
+);
 
 register_block_pattern_category(
     'wepot',
