@@ -9,7 +9,7 @@
                 <?php
                 $args = array(
                     'post_type' => 'post',
-                    'post__in' => array(38, 50, 59, 91, 93, 95),
+                    'post__in' => array(216, 391, 388, 189, 274, 282),
                     'posts_per_page' => 6,
                     'orderby' => 'rand'
                 );
