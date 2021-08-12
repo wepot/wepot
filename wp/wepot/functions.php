@@ -74,14 +74,6 @@ register_block_pattern(
 	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/red-text.json' ), true ),
 );
 register_block_pattern(
-	'my-plugin/my-awesome-pattern05',
-	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/underline-text.json' ), true ),
-);
-register_block_pattern(
-	'my-plugin/my-awesome-pattern06',
-	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/marker-text.json' ), true ),
-);
-register_block_pattern(
 	'my-plugin/my-awesome-pattern07',
 	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/blockquote.json' ), true ),
 );
