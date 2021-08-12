@@ -1,6 +1,0 @@
-{
-  "__file": "wp_block",
-  "title": "アンダーライン付き文章",
-  "categories": ["original", "wepot"],
-  "content": "<!-- wp:paragraph -->\n<p>このブロックは、文章にアンダーラインを引けます。（文字色も緑に変わります。）<span class=\"underline\">ここにアンダーラインを引きたい文章を入れます。</span>アンダーラインはspanタグで囲まれます。</p>\n<!-- /wp:paragraph -->"
-}
