@@ -71,9 +71,6 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン">
-                                </li>
-                                <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
                                 </li>
 
