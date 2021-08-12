@@ -9,7 +9,7 @@
     <section class="section_container">
         <div class="section_inner">
             <header class="works-heading">
-                <h2 class="works-title">貴社の「課題解決」に必要な<br>すべてを備えた Wepot と<br>より良い未来を創りましょう</h2>
+                <h2 class="works-title">成果貢献を重視したワークフローで<br>ビジネスのあらゆる課題解決と<br>理想の未来を創ります</h2>
             </header>
             <article class="worksBox">
                 <article class="worksBox_item">
