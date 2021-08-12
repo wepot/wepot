@@ -103,7 +103,7 @@
                     <?php
                     $args = array(
                         'post_type' => 'post',
-                        'author__in' => array(7),
+                        'author__in' => array(8),
                         'posts_per_page' => 6,
                         'orderby' => 'date',
                         'order' => 'DESC',
