@@ -895,7 +895,7 @@ SP版：メニューリスト
   width: calc(33.3% - 5% * 2 / 3);
   height: auto;
   margin-left: 5%;
-  padding: 2.5% 2%;
+  padding: 2.5% 1.5%;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -1173,14 +1173,12 @@ SP版：メニューリスト
   flex-direction: column;
   flex-grow: 1;
   padding: 3.906% 5.208% 5.208%;
-  line-height: 1.5;
 }
 
 .swiperCard_time {
   color: #bebebe;
   font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 26px;
+  font-weight: 500;
 }
 
 .swiperCard_tag {
@@ -1189,19 +1187,19 @@ SP版：メニューリスト
   top: 10px;
   right: 10px;
   width: 100px;
-  padding: 4px;
   background-color: #00b4aa;
   color: #fff;
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
 .swiperCard_title {
-  margin: 15px 0;
-  font-size: 0.9375rem;
-  font-weight: 700;
   height: 100%;
+  margin: 15px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .swiperCard_author {
@@ -1220,19 +1218,6 @@ SP版：メニューリスト
 .swiperCard_author p {
   margin-left: 10px;
   font-size: 0.75rem;
-}
-
-/*! ===================================
-新着カード [NEW]タグ
-==================================== */
-
-.new {
-  position: absolute;
-  top: -15px;
-  left: 15px;
-  width: 51px;
-  height: 45px;
-  background: url(../img/icon/new.png) no-repeat center/contain;
 }
 
 /*! ===================================
@@ -1550,7 +1535,6 @@ wepotでできること
 }
 
 .topArticle_time {
-  padding-top: 3px;
   color: #bebebe;
   font-size: 0.875rem;
   font-weight: 500;
@@ -1562,7 +1546,6 @@ wepotでできること
   right: 0;
   top: 0;
   width: 120px;
-  padding: 4px;
   background-color: #00b4aa;
   color: #fff;
   font-size: 0.75rem;
@@ -1571,9 +1554,10 @@ wepotでできること
 }
 
 .topArticle_title {
-  margin: 5.5% 0 6.35%;
+  margin: 15px 0;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .topArticle_author {
@@ -1589,7 +1573,7 @@ wepotでできること
 }
 
 .topArticle_author p {
-  margin-left: 5.3%;
+  margin-left: 20px;
   font-size: 0.75rem;
 }
 
@@ -1880,14 +1864,12 @@ aboutページ
   flex-direction: column;
   flex-grow: 1;
   padding: 3.906% 5.208% 5.208%;
-  line-height: 1.5;
 }
 
 .blogCard_time {
-  padding-top: 3px;
   color: #bebebe;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .blogCard_tag {
@@ -1896,11 +1878,10 @@ aboutページ
   top: 10px;
   right: 10px;
   width: 100px;
-  padding: 4px;
   background-color: #00b4aa;
   color: #fff;
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -1908,7 +1889,8 @@ aboutページ
   display: flex;
   margin: 15px 0;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .blogCard_author {
@@ -1930,7 +1912,7 @@ aboutページ
 }
 
 .notArticle {
-  margin: 0 auto;
+  margin: 0 auto 60px;
   font-size: 1.125rem;
   font-weight: 500;
   text-align: center;
@@ -2137,7 +2119,7 @@ aboutページ
 #toc_container ul {
   counter-reset: count 0;
   font-weight: 700;
-  letter-spacing: 0.025em;
+  font-size: 1.0625rem;
 }
 
 #toc_container ul li {
@@ -2153,9 +2135,10 @@ aboutページ
 
 #toc_container ul ul li {
   margin-bottom: 0;
-  font-weight: 400;
   text-indent: -2.3em;
   padding-left: 2.3em;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 #toc_container ul a {
@@ -3215,14 +3198,14 @@ wepotの強み
   border-radius: 0;
   display: block;
   width: 100%;
-  height: 40px;
-  padding: 5px;
+  padding: 0.7em 0.5em;
   border: 2px solid #00b4aa;
   font-size: 20px;
 }
 
 .message {
   height: 200px;
+  padding: 1em;
   resize: none;
   overflow-y: scroll;
 }
@@ -3234,7 +3217,6 @@ wepotの強み
 .message::-webkit-scrollbar-track {
   border-radius: 70px;
   background: #00b4aa33;
-  border: 3px solid #00b4aa;
 }
 
 .message::-webkit-scrollbar-thumb {
@@ -3548,11 +3530,11 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_title {
-    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .swiperCard_author p {
-    font-size: calc(0.75rem + 0.0115740741 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .categoryCards_title {
@@ -3580,7 +3562,7 @@ span.wpcf7-list-item {
   }
 
   .topArticle_time {
-    font-size: calc(0.875rem + 0.0194444444 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.012037037 * (100vw - 48rem));
   }
 
   .topArticle_tag {
@@ -3592,7 +3574,7 @@ span.wpcf7-list-item {
   }
 
   .topArticle_author p {
-    font-size: calc(0.75rem + 0.0115740741 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .member .position {
@@ -3632,7 +3614,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard_author p {
-    font-size: calc(0.75rem + 0.0115740741 * (100vw - 48rem));
+    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .blog h1 {
@@ -3912,7 +3894,7 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_author p {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 
   .categoryCards_title {
@@ -3940,7 +3922,7 @@ span.wpcf7-list-item {
   }
 
   .topArticle_time {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .topArticle_tag {
@@ -3952,7 +3934,7 @@ span.wpcf7-list-item {
   }
 
   .topArticle_author p {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 
   .member .position {
@@ -3992,7 +3974,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard_author p {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 
   .blog h1 {
@@ -4400,23 +4382,11 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_author img {
-    width: calc(40px + 0.0462962963 * (100vw - 768px));
+    width: calc(40px + 0.0347222222 * (100vw - 768px));
   }
 
   .swiperCard_author img {
-    height: calc(40px + 0.0462962963 * (100vw - 768px));
-  }
-
-  .new {
-    left: calc(15px + 0.0231481481 * (100vw - 768px));
-  }
-
-  .new {
-    width: calc(51px + 0.0555555556 * (100vw - 768px));
-  }
-
-  .new {
-    height: calc(45px + 0.0416666667 * (100vw - 768px));
+    height: calc(40px + 0.0347222222 * (100vw - 768px));
   }
 
   .open-btn1 {
@@ -4496,11 +4466,11 @@ span.wpcf7-list-item {
   }
 
   .topArticle_author img {
-    width: calc(40px + 0.0462962963 * (100vw - 768px));
+    width: calc(40px + 0.0347222222 * (100vw - 768px));
   }
 
   .topArticle_author img {
-    height: calc(40px + 0.0462962963 * (100vw - 768px));
+    height: calc(40px + 0.0347222222 * (100vw - 768px));
   }
 
   .memberPage {
@@ -4540,11 +4510,11 @@ span.wpcf7-list-item {
   }
 
   .blogCard_author img {
-    width: calc(40px + 0.0462962963 * (100vw - 768px));
+    width: calc(40px + 0.0347222222 * (100vw - 768px));
   }
 
   .blogCard_author img {
-    height: calc(40px + 0.0462962963 * (100vw - 768px));
+    height: calc(40px + 0.0347222222 * (100vw - 768px));
   }
 
   .singlePage {
@@ -4940,23 +4910,11 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_author img {
-    width: 60px;
+    width: 55px;
   }
 
   .swiperCard_author img {
-    height: 60px;
-  }
-
-  .new {
-    left: 25px;
-  }
-
-  .new {
-    width: 75px;
-  }
-
-  .new {
-    height: 63px;
+    height: 55px;
   }
 
   .open-btn1 {
@@ -5036,11 +4994,11 @@ span.wpcf7-list-item {
   }
 
   .topArticle_author img {
-    width: 60px;
+    width: 55px;
   }
 
   .topArticle_author img {
-    height: 60px;
+    height: 55px;
   }
 
   .memberPage {
@@ -5080,11 +5038,11 @@ span.wpcf7-list-item {
   }
 
   .blogCard_author img {
-    width: 60px;
+    width: 55px;
   }
 
   .blogCard_author img {
-    height: 60px;
+    height: 55px;
   }
 
   .singlePage {
@@ -5690,7 +5648,7 @@ span.wpcf7-list-item {
   }
 
   .topArticle_title {
-    margin: 15px 0 10px;
+    margin: 10px 0;
   }
 
   .topArticle_author p {
@@ -5807,7 +5765,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard_title {
-    margin: 15px 0 10px;
+    margin: 10px 0;
     font-size: 0.875rem;
   }
 
@@ -6170,16 +6128,17 @@ span.wpcf7-list-item {
   }
 
   .input-item {
-    height: 35px;
+    padding: 0.7em 0.5em;
     font-size: 16px;
   }
 
-  .message::-webkit-scrollbar {
-    width: 10px;
+  .message {
+    height: 350px;
+    padding: 0.7em;
   }
 
-  .message::-webkit-scrollbar-track {
-    border: 2px solid #00b4aa;
+  .message::-webkit-scrollbar {
+    width: 8px;
   }
 
   .message::-moz-placeholder {
@@ -6192,10 +6151,6 @@ span.wpcf7-list-item {
 
   .message::placeholder {
     font-size: 16px;
-  }
-
-  .message {
-    height: 350px;
   }
 
   span.wpcf7-list-item {
@@ -6368,6 +6323,14 @@ span.wpcf7-list-item {
     margin-right: 16px;
   }
 
+  .swiperCard_time {
+    font-size: 0.75rem;
+  }
+
+  .swiperCard_title {
+    font-weight: 700;
+  }
+
   .categoryCards {
     margin: 40px 0 0;
   }
@@ -6403,10 +6366,6 @@ span.wpcf7-list-item {
   .categoryCards_title {
     margin: 10px 0 9px;
     font-weight: 700;
-  }
-
-  .categoryCards_text {
-    text-align: center;
   }
 
   .category_item {
@@ -6475,13 +6434,18 @@ span.wpcf7-list-item {
     width: calc(100% - 100px);
   }
 
+  .topArticle_time {
+    font-size: 0.6875rem;
+  }
+
   .topArticle_tag {
     width: 100px;
   }
 
   .topArticle_title {
-    margin: 10px 0 0;
+    margin-bottom: 5px;
     font-size: 0.875rem;
+    font-weight: 700;
   }
 
   .topArticle_author {
@@ -6548,16 +6512,27 @@ span.wpcf7-list-item {
     margin-left: 0;
   }
 
+  .blogCard_time {
+    font-size: 0.6875rem;
+  }
+
   .blogCard_tag {
     width: 100px;
   }
 
   .blogCard_title {
-    margin: 10px 0 0;
+    margin-bottom: 5px;
+    font-weight: 700;
   }
 
   .blogCard_author {
     display: none;
+  }
+
+  .notArticle {
+    font-size: 1rem;
+    text-align: left;
+    letter-spacing: 0.02em;
   }
 
   .relatedPost {
@@ -6858,24 +6833,13 @@ span.wpcf7-list-item {
     font-size: 1.125rem;
   }
 
-  .topArticle_time {
-    font-size: 0.6875rem;
-  }
-
   .topArticle_tag {
     width: 90px;
-    padding: 3px;
-    font-size: 0.625rem;
-  }
-
-  .blogCard_time {
     font-size: 0.625rem;
   }
 
   .blogCard_tag {
     width: 90px;
-    height: 20px;
-    padding: 3px;
     font-size: 0.625rem;
   }
 
