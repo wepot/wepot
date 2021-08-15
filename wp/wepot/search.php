@@ -1,20 +1,39 @@
 <?php get_header(); ?>
 <main class="main-contents">
-    <section class="pageVisual bg01">
-        <header class="pageVisual_heading">
-            <h1 class="pageVisual_title">「<?php the_search_query(); ?>」の検索結果</h1>
-        </header>
-    </section><!-- /.pageVisual -->
-
-    <section class="section_container blogPage">
-        <div class="section_inner">
-            <header class="section_heading">
-                <h2 class="section_title">記事一覧</h2>
+    <?php if (isset($_GET['s']) && empty($_GET['s'])) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
+                <h1 class="pageVisual_title">検索キーワードが入力されていません</h1>
             </header>
-            <?php get_template_part('loop-content'); ?>
+        </section><!-- /.pageVisual -->
 
-        </div><!-- /.section_inner -->
-    </section><!-- /.section_container -->
+        <section class="section_container blogPage">
+            <div class="section_inner">
+                <header class="section_heading">
+                    <h2 class="section_title">記事一覧</h2>
+                </header>
+                <article class="blogCards">
+                    <p class="notArticle">キーワードが入力されませんでした。<br>再度検索していただくか、カテゴリーから記事をお探しください。</p>
+                </article>
+            </div><!-- /.section_inner -->
+        </section><!-- /.section_container -->
+    <?php else : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
+                <h1 class="pageVisual_title">「<?php the_search_query(); ?>」の検索結果</h1>
+            </header>
+        </section><!-- /.pageVisual -->
+
+        <section class="section_container blogPage">
+            <div class="section_inner">
+                <header class="section_heading">
+                    <h2 class="section_title">記事一覧</h2>
+                </header>
+                <?php get_template_part('loop-content'); ?>
+
+            </div><!-- /.section_inner -->
+        </section><!-- /.section_container -->
+    <?php endif; ?>
 
     <section class="section_container">
         <div class="section_inner">
