@@ -17,7 +17,7 @@
                     <div class="contactBox_img02">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン">
                     </div><!-- /.contactBox_img -->
-                    <p class="contactBox_text">それぞれ強みが違う自立したフリーランスで構成されるクリエイティブ集団です。</p>
+                    <p class="contactBox_text">それぞれ強みが違う自立した個人事業主で構成されるクリエイティブ集団です。</p>
                     <div class="contactBox_btn">
                         <a href="<?php echo home_url(); ?>/about/member" class="button02"><span>詳細はこちら</span></a>
                     </div>
@@ -98,7 +98,7 @@
                         <div class="contactBox_img04">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="アイコン">
                         </div>
-                        <p class="contactBox_text">Wepotには多種多様な実績があります。メンバーの強みが生きた実績をご覧ください</p>
+                        <p class="contactBox_text">Wepotには多種多様な実績があります。メンバーの強みが生きた実績をご覧ください。</p>
                         <div class="contactBox_btn">
                             <a href="<?php echo home_url(); ?>/works/" class="button02"><span>実績一覧をみる</span></a>
                         </div>
@@ -109,7 +109,7 @@
                         <div class="contactBox_img02">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン">
                         </div><!-- /.contactBox_img -->
-                        <p class="contactBox_text">それぞれ強みが違う自立したフリーランスで構成されるクリエイティブ集団です。</p>
+                        <p class="contactBox_text">それぞれ強みが違う自立した個人事業主で構成されるクリエイティブ集団です。</p>
                         <div class="contactBox_btn">
                             <a href="<?php echo home_url(); ?>/about/member" class="button02"><span>詳細はこちら</span></a>
                         </div>

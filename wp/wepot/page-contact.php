@@ -11,7 +11,7 @@
             <div class="can contactPage-can">
                 <p class="can_text02">まずは、お気軽にご相談ください</p>
                 <ul class="can_list">
-                    <li class="can_item"><span>Webサイト<br>作成</span></li>
+                    <li class="can_item"><span>Webサイト<br>制作</span></li>
                     <li class="can_item"><span>Webサイト<br>リニューアル</span></li>
                     <li class="can_item"><span>WordPress<br>導入</span></li>
                     <li class="can_item"><span>Web<br>ディレクション</span></li>

@@ -10,7 +10,7 @@
             <header class="section_heading">
                 <h2 class="section_title">Wepotとは</h2>
             </header>
-            <p class="section_text">Wepotは、デジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。なぜなら、強みが違う自立したフリーランスで構成されるクリエイティブチームだからです。そして、Wepotに浸透しているのは、クライアントの先にいるユーザーを想像すること。日々進化するテクノロジーは必要不可欠になった一方で、エンドユーザーにとって使いづらい・ほしい情報がすぐに得られないシーンも。そのような状況を1つ1つ改善していくことが結果として社会を良くし、お客様の成果にも貢献できると確信しています。クライアントとユーザー、どちらの課題をも解決すること。それがWepotのミッションです。</p>
+            <p class="section_text">Wepotは、デジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。なぜなら、強みが違う自立した個人事業主で構成されるクリエイティブチームだからです。そして、Wepotに浸透しているのは、クライアントの先にいるユーザーを想像すること。日々進化するテクノロジーは必要不可欠になった一方で、エンドユーザーにとって使いづらい・ほしい情報がすぐに得られないシーンも。そのような状況を1つ1つ改善していくことが結果として社会を良くし、お客様の成果にも貢献できると確信しています。クライアントとユーザー、どちらの課題をも解決すること。それがWepotのミッションです。</p>
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
     <section class="section_container">
@@ -23,9 +23,9 @@
                 <ul class="categoryCards_list">
                     <li class="categoryCards_item">
                         <div class="categoryCards_img"><img src="<?php echo get_template_directory_uri(); ?>/img/about/about-img01.jpg" alt="アイコン"></div>
-                        <h3 class="categoryCards_title">WEBデザイン</h3>
+                        <h3 class="categoryCards_title">Webデザイン</h3>
                         <p class="categoryCards_text">
-                            Webデザインに関するあらゆる記事を執筆します。新規Webサイト制作やWebサイトのリニューアル、採用サイト、ブランディングやキャンペーン用など、サイトの目的に応じて重要な要素は異なります。効果的なWebデザインを制作するために大事なTipsを記事にています。
+                            Webデザインに関するあらゆる記事を執筆します。新規Webサイト制作やWebサイトのリニューアル、採用サイト、ブランディングやキャンペーン用など、サイトの目的に応じて重要な要素は異なります。効果的なWebデザインを制作するために大事なTipsを記事にしています。
                         </p>
                     </li><!-- /.categoryCards_item -->
                     <li class="categoryCards_item">
@@ -85,7 +85,7 @@
             </header>
             <div class="can">
                 <ul class="can_list">
-                    <li class="can_item"><span>Webサイト<br>作成</span></li>
+                    <li class="can_item"><span>Webサイト<br>制作</span></li>
                     <li class="can_item"><span>Webサイト<br>リニューアル</span></li>
                     <li class="can_item"><span>WordPress<br>導入</span></li>
                     <li class="can_item"><span>Web<br>ディレクション</span></li>
