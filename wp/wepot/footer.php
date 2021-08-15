@@ -1,9 +1,7 @@
-<?php if (is_page('contact') || is_404()) : ?>
+<?php if (is_page('contact') || is_page('policy') || is_404()) : ?>
 
 <?php elseif (is_page('works')) : ?>
     <?php get_template_part('contactBox'); ?>
-<?php elseif (is_page('policy')) : ?>
-    <?php get_template_part('selectionBox'); ?>
 <?php else : ?>
     <?php get_template_part('contactBox'); ?>
     <?php get_template_part('selectionBox'); ?>
