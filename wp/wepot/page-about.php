@@ -53,7 +53,7 @@
                         <div class="categoryCards_img"><img src="<?php echo get_template_directory_uri(); ?>/img/about/about-img05.jpg" alt="アイコン"></div>
                         <h3 class="categoryCards_title">コーディング</h3>
                         <p class="categoryCards_text">
-                            コーディングに関する専門的な情報は多く発信されていますが、Wepotではコーディングにてできることや重要性をよりわかりやすく言語化しています。SEOに求められる設計に必要なコーディングの大事な情報をお届けします。
+                            コーディングに関する専門的な情報は多く発信されていますが、Wepotではコーディングについて、できることや重要性をよりわかりやすく言語化しています。SEOに求められる設計に必要なコーディングの大事な情報をお届けします。
                         </p>
                     </li><!-- /.categoryCards_item -->
                     <li class="categoryCards_item">
