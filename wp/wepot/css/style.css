@@ -457,9 +457,7 @@ SP版：メニューリスト
 ==================================== */
 
 #btn01.open .spMenu_btn-bar1 {
-  transform: rotate(45deg);
-  top: 23px;
-  left: 5px;
+  transform: translateY(12px) rotate(45deg);
 }
 
 #btn01.open .spMenu_btn-bar2 {
@@ -467,9 +465,7 @@ SP版：メニューリスト
 }
 
 #btn01.open .spMenu_btn-bar3 {
-  transform: rotate(-45deg);
-  top: 23px;
-  left: 5px;
+  transform: translateY(-12px) rotate(-45deg);
 }
 
 /* メニューリスト */
@@ -1196,7 +1192,7 @@ SP版：メニューリスト
 
 .swiperCard_title {
   height: 100%;
-  margin: 15px 0;
+  margin: 15px 0 20px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -1554,7 +1550,7 @@ wepotでできること
 }
 
 .topArticle_title {
-  margin: 15px 0;
+  margin: 15px 0 20px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -1887,7 +1883,7 @@ aboutページ
 
 .blogCard_title {
   display: flex;
-  margin: 15px 0;
+  margin: 15px 0 20px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -2001,8 +1997,10 @@ aboutページ
 }
 
 .blog p {
+  word-break: normal;
+  overflow-wrap: break-word;
   margin-bottom: 40px;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
 }
 
 .blog p .marker {
@@ -2074,7 +2072,6 @@ aboutページ
 .infoLeft .tag {
   display: inline-block;
   width: 120px;
-  padding: 5px;
   background-color: #00b4aa;
   color: #fff;
   font-size: 0.875rem;
@@ -2124,8 +2121,8 @@ aboutページ
 
 #toc_container ul li {
   margin-bottom: 10px;
-  text-indent: -1em;
-  padding-left: 1em;
+  text-indent: -1.2em;
+  padding-left: 1.2em;
 }
 
 #toc_container ul ul {
@@ -2135,8 +2132,8 @@ aboutページ
 
 #toc_container ul ul li {
   margin-bottom: 0;
-  text-indent: -2.3em;
-  padding-left: 2.3em;
+  text-indent: -2.1em;
+  padding-left: 2.1em;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -2163,7 +2160,7 @@ blockquote {
   margin: 0 auto 40px;
   padding: 1.875em 3.75em;
   background-color: #eee;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
 }
 
 blockquote::before,
@@ -2195,10 +2192,10 @@ blockquote cite {
   position: relative;
   display: block;
   margin-top: 15px;
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-style: normal;
-  text-indent: -4em;
-  padding-left: 4em;
+  text-indent: -4.1em;
+  padding-left: 4.1em;
 }
 
 .border01 {
@@ -2362,35 +2359,14 @@ blockquote cite {
   margin-bottom: 0 !important;
 }
 
-.ul-list {
-  margin-bottom: 40px;
-  padding-left: 2.326%;
-}
-
-.ul-list li {
-  position: relative;
-  padding-left: 1.2em;
-  font-size: 0.875rem;
-}
-
-.ul-list li::before {
-  position: absolute;
-  content: "●";
-  top: 3px;
-  left: 0;
-  color: #00b4aa;
-  font-size: 10px;
-}
-
 .ulList {
   margin-bottom: 40px;
 }
 
 .ulList li {
   position: relative;
-  margin-top: 5px;
+  margin-top: 10px;
   padding-left: 1.2em;
-  font-size: 0.875rem;
 }
 
 .ulList li:first-child {
@@ -2400,7 +2376,7 @@ blockquote cite {
 .ulList li::before {
   position: absolute;
   content: "";
-  top: 8px;
+  top: 10px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -2409,7 +2385,7 @@ blockquote cite {
 }
 
 .ulList ul {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .ulList ul li {
@@ -2421,7 +2397,7 @@ blockquote cite {
 .ulList ul li::before {
   position: absolute;
   content: "";
-  top: 8px;
+  top: 10px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -2432,6 +2408,7 @@ blockquote cite {
 
 .ulList-indent01 {
   padding-left: 2.326%;
+  font-size: 0.9375rem;
 }
 
 .ulList-indent02 {
@@ -2441,12 +2418,14 @@ blockquote cite {
   padding: 1.5em;
   border: 2px solid #00b4aa;
   border-radius: 8px;
+  font-size: 0.9375rem;
 }
 
 .ulList-indent03 {
   width: 91%;
   max-width: 780px;
   margin: 0 auto 40px;
+  font-size: 0.9375rem;
 }
 
 .ulList-indent03_title {
@@ -2466,9 +2445,8 @@ blockquote cite {
 
 .ulList-indent03_body li {
   position: relative;
-  margin-top: 5px;
+  margin-top: 10px;
   padding-left: 1.2em;
-  font-size: 0.875rem;
 }
 
 .ulList-indent03_body li:first-child {
@@ -2478,7 +2456,7 @@ blockquote cite {
 .ulList-indent03_body li::before {
   position: absolute;
   content: "";
-  top: 8px;
+  top: 10px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -2487,7 +2465,7 @@ blockquote cite {
 }
 
 .ulList-indent03_body ul {
-  margin-left: 15px;
+  margin-left: 20px;
   padding: 0;
   border: none;
 }
@@ -2501,7 +2479,7 @@ blockquote cite {
 .ulList-indent03_body ul li::before {
   position: absolute;
   content: "";
-  top: 8px;
+  top: 10px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -2516,10 +2494,10 @@ ol {
 
 ol li {
   display: block;
-  margin-top: 5px;
-  text-indent: -1em;
-  padding-left: 1em;
-  font-size: 0.875rem;
+  margin-top: 10px;
+  text-indent: -1.3em;
+  padding-left: 1.3em;
+  font-size: 0.9375rem;
 }
 
 ol li:first-child {
@@ -2527,7 +2505,7 @@ ol li:first-child {
 }
 
 ol li ol {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 ol li ol li {
@@ -2622,7 +2600,6 @@ ol li:before {
 .relatedPost_tag {
   display: inline-block;
   width: 90px;
-  height: 28px;
   margin-bottom: 1em;
   padding: 5px;
   background-color: #00b4aa;
@@ -2636,14 +2613,14 @@ ol li:before {
 
 .relatedPost_title {
   margin-bottom: 0.8em;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 700;
 }
 
 .relatedPost_time {
   color: #bebebe;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .blogShare {
@@ -2880,27 +2857,17 @@ ol li:before {
 }
 
 .worksBox_url a {
-  position: relative;
+  display: inline-block;
   word-break: break-all;
-  line-height: 1.2;
 }
 
-.worksBox_url a::after {
-  position: absolute;
-  content: "";
-  right: -23px;
-  bottom: 2px;
-  width: 14px;
-  height: 14px;
-  background: url(../img/icon/linkBlack.png) center/contain no-repeat;
+.worksBox_url a .fa-external-link-alt {
+  margin: 0 5px;
+  font-weight: 400;
 }
 
 .worksBox_url a:hover {
   color: #00b4aa;
-}
-
-.worksBox_url a:hover::after {
-  background: url(../img/icon/linkGreen.png) center/contain no-repeat;
 }
 
 .worksBox-member {
@@ -3634,7 +3601,7 @@ span.wpcf7-list-item {
   }
 
   .blog p {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
   .blog figure figcaption {
@@ -3658,7 +3625,7 @@ span.wpcf7-list-item {
   }
 
   blockquote {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
   .wp-block-column.blnLeft-icon figcaption {
@@ -3669,20 +3636,20 @@ span.wpcf7-list-item {
     font-size: calc(0.75rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .ul-list li {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+  .ulList-indent01 {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
-  .ulList li {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+  .ulList-indent02 {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
-  .ulList-indent03_body li {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+  .ulList-indent03 {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
   ol li {
-    font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
   .relatedPost_tag {
@@ -3690,7 +3657,7 @@ span.wpcf7-list-item {
   }
 
   .relatedPost_title {
-    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
+    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
   }
 
   .relatedPost_time {
@@ -4029,15 +3996,15 @@ span.wpcf7-list-item {
     font-size: 0.875rem;
   }
 
-  .ul-list li {
+  .ulList-indent01 {
     font-size: 1rem;
   }
 
-  .ulList li {
+  .ulList-indent02 {
     font-size: 1rem;
   }
 
-  .ulList-indent03_body li {
+  .ulList-indent03 {
     font-size: 1rem;
   }
 
@@ -4571,32 +4538,8 @@ span.wpcf7-list-item {
     height: calc(70px + 0.0231481481 * (100vw - 768px));
   }
 
-  .ul-list li::before {
-    top: calc(3px + 0.0046296296 * (100vw - 768px));
-  }
-
-  .ulList li::before {
-    top: calc(8px + 0.0023148148 * (100vw - 768px));
-  }
-
-  .ulList ul li::before {
-    top: calc(8px + 0.0023148148 * (100vw - 768px));
-  }
-
-  .ulList-indent03_body li::before {
-    top: calc(8px + 0.0023148148 * (100vw - 768px));
-  }
-
-  .ulList-indent03_body ul li::before {
-    top: calc(8px + 0.0023148148 * (100vw - 768px));
-  }
-
   .relatedPost_tag {
     width: calc(90px + 0.0231481481 * (100vw - 768px));
-  }
-
-  .relatedPost_tag {
-    height: calc(28px + 0.0092592593 * (100vw - 768px));
   }
 
   .blogShare ul li {
@@ -5099,32 +5042,8 @@ span.wpcf7-list-item {
     height: 80px;
   }
 
-  .ul-list li::before {
-    top: 5px;
-  }
-
-  .ulList li::before {
-    top: 9px;
-  }
-
-  .ulList ul li::before {
-    top: 9px;
-  }
-
-  .ulList-indent03_body li::before {
-    top: 9px;
-  }
-
-  .ulList-indent03_body ul li::before {
-    top: 9px;
-  }
-
   .relatedPost_tag {
     width: 100px;
-  }
-
-  .relatedPost_tag {
-    height: 32px;
   }
 
   .blogShare ul li {
@@ -5416,10 +5335,10 @@ span.wpcf7-list-item {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
+    transition: all 0.3s;
+    width: 40px;
+    height: 26px;
     margin-left: auto;
-    padding: 5px;
     border-width: 0;
     background-color: #191919;
     outline: none;
@@ -5430,24 +5349,23 @@ span.wpcf7-list-item {
   .spMenu_btn span {
     position: absolute;
     display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40px;
+    left: 0;
+    width: 100%;
     height: 3px;
     background-color: #fff;
-    transition: all 0.2s;
+    transition: all 0.3s;
   }
 
   .spMenu_btn-bar1 {
-    top: 12px;
+    top: 0px;
   }
 
   .spMenu_btn-bar2 {
-    top: 25px;
+    top: 12px;
   }
 
   .spMenu_btn-bar3 {
-    top: 37px;
+    top: 24px;
   }
 
   .link {
@@ -5500,12 +5418,8 @@ span.wpcf7-list-item {
   }
 
   .mainVisual {
-    height: 340px;
+    height: 360px;
     padding-top: 0;
-  }
-
-  .mainVisual_wrap {
-    padding: 0 30px;
   }
 
   .mainVisual_heading {
@@ -5517,7 +5431,7 @@ span.wpcf7-list-item {
   }
 
   .mainVisual_text {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
 
   .pageVisual {
@@ -5662,6 +5576,7 @@ span.wpcf7-list-item {
 
   .member .position {
     font-size: 0.75rem;
+    letter-spacing: 0;
   }
 
   .member .name {
@@ -5791,11 +5706,11 @@ span.wpcf7-list-item {
 
   .blog h3 {
     margin: 50px 0 20px;
-    font-size: 1rem;
+    font-size: 1.0625rem;
   }
 
   .blog h4 {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     margin-bottom: 8px;
   }
 
@@ -5818,7 +5733,6 @@ span.wpcf7-list-item {
 
   .infoLeft .tag {
     width: 137px;
-    padding: 3px;
     font-size: 0.8125rem;
   }
 
@@ -5842,7 +5756,7 @@ span.wpcf7-list-item {
   }
 
   #toc_container ul {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
   }
 
   #toc_container ul li {
@@ -5857,7 +5771,7 @@ span.wpcf7-list-item {
   blockquote {
     width: 100%;
     margin-bottom: 30px;
-    padding: 22px 45px;
+    padding: 22px 42px;
   }
 
   .border01 {
@@ -5872,7 +5786,6 @@ span.wpcf7-list-item {
 
   .border02_title {
     padding: 3px 16px;
-    font-size: 0.875rem;
   }
 
   .border02_text {
@@ -5885,7 +5798,6 @@ span.wpcf7-list-item {
 
   .border03_title {
     padding: 3px 16px;
-    font-size: 0.875rem;
   }
 
   .border03_text {
@@ -5932,14 +5844,6 @@ span.wpcf7-list-item {
     padding: 16px;
   }
 
-  .ul-list {
-    padding-left: 0.8em;
-  }
-
-  .ul-list li {
-    font-size: 0.875rem;
-  }
-
   .ulList li {
     font-size: 0.875rem;
     line-height: 1.8;
@@ -5970,12 +5874,6 @@ span.wpcf7-list-item {
 
   .ulList-indent03_title {
     padding: 3px 16px;
-    font-size: 0.875rem;
-  }
-
-  .ulList-indent03_body li {
-    font-size: 0.875rem;
-    line-height: 1.8;
   }
 
   .ulList-indent03_body li::before {
@@ -5989,7 +5887,7 @@ span.wpcf7-list-item {
   }
 
   ol li {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
   }
 
   .olList-indent01 {
@@ -6453,14 +6351,13 @@ span.wpcf7-list-item {
   }
 
   .member {
-    max-width: 280px;
     margin-top: 16px;
   }
 
   .member_item {
-    width: calc(50% - 25px * 1 /2);
+    width: calc(50% - 13px * 1 /2);
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 13px;
   }
 
   .member_item:nth-child(-n+4) {
@@ -6476,7 +6373,7 @@ span.wpcf7-list-item {
   }
 
   .member_img img {
-    padding: 5px;
+    padding: 6px;
   }
 
   .profilePage-sns {
@@ -6556,7 +6453,6 @@ span.wpcf7-list-item {
 
   .relatedPost_title {
     margin-bottom: 0;
-    font-size: 0.875rem;
   }
 
   .relatedPost_time {
@@ -6683,12 +6579,6 @@ span.wpcf7-list-item {
 
   .worksBox_url {
     font-size: 0.8125rem;
-  }
-
-  .worksBox_url a::after {
-    right: -20px;
-    width: 12px;
-    height: 12px;
   }
 
   .worksBox-member_list {
@@ -6869,16 +6759,6 @@ span.wpcf7-list-item {
 @media screen and (max-width: 768px) and (min-width: 46.875rem) {
   .mainVisual_title {
     font-size: 2rem;
-  }
-
-  .mainVisual_text {
-    font-size: 0.875rem;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 20rem) {
-  .mainVisual_text {
-    font-size: calc(0.75rem + 0.0046511628 * (100vw - 20rem));
   }
 }
 
