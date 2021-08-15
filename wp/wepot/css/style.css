@@ -86,6 +86,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
   line-height: 1.8;
+  letter-spacing: 0.03em;
 }
 
 .container {
@@ -934,7 +935,7 @@ SP版：メニューリスト
 }
 
 .contactBox_item-sp02 {
-  padding: 9.68% 10%;
+  padding: 9.68% 7%;
 }
 
 .contactBox_title {
@@ -942,6 +943,7 @@ SP版：メニューリスト
   font-weight: 700;
   text-align: center;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 .contactBox_img01 {
@@ -1145,7 +1147,8 @@ SP版：メニューリスト
 ==================================== */
 
 .swiperCard {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 384px;
   border-radius: 10px;
@@ -1168,23 +1171,24 @@ SP版：メニューリスト
   position: relative;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   padding: 3.906% 5.208% 5.208%;
   line-height: 1.5;
 }
 
 .swiperCard_time {
   color: #bebebe;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 700;
+  line-height: 26px;
 }
 
 .swiperCard_tag {
   position: absolute;
   display: inline-block;
-  top: -25px;
-  right: 0;
-  width: 120px;
-  height: 25px;
+  top: 10px;
+  right: 10px;
+  width: 100px;
   padding: 4px;
   background-color: #00b4aa;
   color: #fff;
@@ -1194,9 +1198,10 @@ SP版：メニューリスト
 }
 
 .swiperCard_title {
-  margin: 5px 0 15px;
+  margin: 15px 0;
   font-size: 0.9375rem;
   font-weight: 700;
+  height: 100%;
 }
 
 .swiperCard_author {
@@ -1671,7 +1676,7 @@ aboutページ
 }
 
 .member .name {
-  margin-top: auto;
+  margin-top: 10px;
   font-size: 1.125rem;
   font-weight: 700;
   text-align: center;
@@ -1850,7 +1855,8 @@ aboutページ
 }
 
 .blogCard {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   background-color: #f3f3f3;
 }
@@ -1870,6 +1876,9 @@ aboutページ
 
 .blogCard_body {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding: 3.906% 5.208% 5.208%;
   line-height: 1.5;
 }
@@ -1884,10 +1893,9 @@ aboutページ
 .blogCard_tag {
   position: absolute;
   display: inline-block;
-  top: -25px;
-  right: 0;
-  width: 120px;
-  height: 25px;
+  top: 10px;
+  right: 10px;
+  width: 100px;
   padding: 4px;
   background-color: #00b4aa;
   color: #fff;
@@ -1897,7 +1905,8 @@ aboutページ
 }
 
 .blogCard_title {
-  margin: 5px 0 15px;
+  display: flex;
+  margin: 15px 0;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -1905,6 +1914,7 @@ aboutページ
 .blogCard_author {
   display: flex;
   align-items: center;
+  margin-top: auto;
 }
 
 .blogCard_author img {
@@ -2113,7 +2123,7 @@ aboutページ
 
 #toc_container {
   margin-top: 60px;
-  padding: 30px 20px;
+  padding: 30px;
   background-color: #eee;
 }
 
@@ -2127,23 +2137,22 @@ aboutページ
 #toc_container ul {
   counter-reset: count 0;
   font-weight: 700;
-  line-height: 1.6;
   letter-spacing: 0.025em;
 }
 
 #toc_container ul li {
+  margin-bottom: 10px;
   text-indent: -1em;
   padding-left: 1em;
 }
 
 #toc_container ul ul {
-  margin-bottom: 8px;
   text-indent: -0.5em;
   padding-left: 0.5em;
 }
 
 #toc_container ul ul li {
-  font-size: 14px;
+  margin-bottom: 0;
   font-weight: 400;
   text-indent: -2.3em;
   padding-left: 2.3em;
@@ -2387,7 +2396,7 @@ blockquote cite {
   top: 3px;
   left: 0;
   color: #00b4aa;
-  font-size: 0.1em;
+  font-size: 10px;
 }
 
 .ulList {
@@ -2407,11 +2416,13 @@ blockquote cite {
 
 .ulList li::before {
   position: absolute;
-  content: "●";
-  top: 5px;
+  content: "";
+  top: 8px;
   left: 0;
-  color: #00b4aa;
-  font-size: 0.1em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00b4aa;
 }
 
 .ulList ul {
@@ -2483,11 +2494,13 @@ blockquote cite {
 
 .ulList-indent03_body li::before {
   position: absolute;
-  content: "●";
-  top: 5px;
+  content: "";
+  top: 8px;
   left: 0;
-  color: #00b4aa;
-  font-size: 0.1em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00b4aa;
 }
 
 .ulList-indent03_body ul {
@@ -3389,25 +3402,14 @@ span.wpcf7-list-item {
   background-color: #00b4aa;
 }
 
-.policy ol {
-  counter-reset: count 0;
+.policy a {
+  color: #00b4aa;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
-.policy ol > li {
-  margin-top: 1em;
-  text-indent: -1em;
-  padding-left: 1em;
-  font-size: 0.75rem;
-  line-height: 1.5;
-}
-
-.policy ol > li:first-child {
-  margin-top: 0;
-}
-
-.policy ol > li:before {
-  counter-increment: count 1;
-  content: counters(count, "") ". ";
+.policy a:hover {
+  opacity: 0.8;
 }
 
 .policy ul {
@@ -3415,7 +3417,7 @@ span.wpcf7-list-item {
   padding-left: 1.5em;
 }
 
-.policy ul > li {
+.policy ul li {
   margin-top: 0.5em;
   text-indent: -1em;
   padding-left: 1em;
@@ -3423,7 +3425,7 @@ span.wpcf7-list-item {
   line-height: 1.5;
 }
 
-.policy ul > li:first-child {
+.policy ul li:first-child {
   margin-top: 0;
 }
 
@@ -3538,7 +3540,7 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_time {
-    font-size: calc(0.75rem + 0.0138888889 * (100vw - 48rem));
+    font-size: calc(0.875rem + 0.0092592593 * (100vw - 48rem));
   }
 
   .swiperCard_tag {
@@ -3813,11 +3815,7 @@ span.wpcf7-list-item {
     font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
-  .policy ol > li {
-    font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
-  }
-
-  .policy ul > li {
+  .policy ul li {
     font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 }
@@ -4177,11 +4175,7 @@ span.wpcf7-list-item {
     font-size: 1.25rem;
   }
 
-  .policy ol > li {
-    font-size: 1rem;
-  }
-
-  .policy ul > li {
+  .policy ul li {
     font-size: 1rem;
   }
 }
@@ -4402,15 +4396,7 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_tag {
-    top: calc(-25px + -0.025462963 * (100vw - 768px));
-  }
-
-  .swiperCard_tag {
-    width: calc(120px + 0.1157407407 * (100vw - 768px));
-  }
-
-  .swiperCard_tag {
-    height: calc(25px + 0.025462963 * (100vw - 768px));
+    width: calc(100px + 0.1157407407 * (100vw - 768px));
   }
 
   .swiperCard_author img {
@@ -4550,15 +4536,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard_tag {
-    top: calc(-25px + -0.025462963 * (100vw - 768px));
-  }
-
-  .blogCard_tag {
-    width: calc(120px + 0.1157407407 * (100vw - 768px));
-  }
-
-  .blogCard_tag {
-    height: calc(25px + 0.025462963 * (100vw - 768px));
+    width: calc(100px + 0.1157407407 * (100vw - 768px));
   }
 
   .blogCard_author img {
@@ -4628,7 +4606,7 @@ span.wpcf7-list-item {
   }
 
   .ulList li::before {
-    top: calc(5px + 0.0046296296 * (100vw - 768px));
+    top: calc(8px + 0.0023148148 * (100vw - 768px));
   }
 
   .ulList ul li::before {
@@ -4636,7 +4614,7 @@ span.wpcf7-list-item {
   }
 
   .ulList-indent03_body li::before {
-    top: calc(5px + 0.0046296296 * (100vw - 768px));
+    top: calc(8px + 0.0023148148 * (100vw - 768px));
   }
 
   .ulList-indent03_body ul li::before {
@@ -4958,15 +4936,7 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_tag {
-    top: -36px;
-  }
-
-  .swiperCard_tag {
-    width: 170px;
-  }
-
-  .swiperCard_tag {
-    height: 36px;
+    width: 150px;
   }
 
   .swiperCard_author img {
@@ -5106,15 +5076,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard_tag {
-    top: -36px;
-  }
-
-  .blogCard_tag {
-    width: 170px;
-  }
-
-  .blogCard_tag {
-    height: 36px;
+    width: 150px;
   }
 
   .blogCard_author img {
@@ -5184,7 +5146,7 @@ span.wpcf7-list-item {
   }
 
   .ulList li::before {
-    top: 7px;
+    top: 9px;
   }
 
   .ulList ul li::before {
@@ -5192,7 +5154,7 @@ span.wpcf7-list-item {
   }
 
   .ulList-indent03_body li::before {
-    top: 7px;
+    top: 9px;
   }
 
   .ulList-indent03_body ul li::before {
@@ -5352,7 +5314,7 @@ span.wpcf7-list-item {
   }
 
   .button03 {
-    padding: 12px 0;
+    padding: 12px 5px;
     font-weight: 400;
   }
 
@@ -5784,7 +5746,7 @@ span.wpcf7-list-item {
   }
 
   .history::before {
-    left: 21px;
+    left: 20.5px;
     width: 3px;
   }
 
@@ -5818,7 +5780,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard {
-    display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 10px;
   }
@@ -5841,6 +5803,7 @@ span.wpcf7-list-item {
 
   .blogCard_tag {
     top: 0;
+    right: 0;
   }
 
   .blogCard_title {
@@ -5912,6 +5875,7 @@ span.wpcf7-list-item {
 
   #toc_container {
     margin-top: 50px;
+    padding: 30px 20px;
   }
 
   #toc_container p {
@@ -5920,6 +5884,15 @@ span.wpcf7-list-item {
   }
 
   #toc_container ul {
+    font-size: 0.875rem;
+  }
+
+  #toc_container ul li {
+    line-height: 1.6;
+  }
+
+  #toc_container ul ul li {
+    margin-bottom: 5px;
     font-size: 0.875rem;
   }
 
@@ -6014,6 +5987,11 @@ span.wpcf7-list-item {
     line-height: 1.8;
   }
 
+  .ulList li::before {
+    width: 8px;
+    height: 8px;
+  }
+
   .ulList ul li::before {
     width: 8px;
     height: 8px;
@@ -6040,6 +6018,11 @@ span.wpcf7-list-item {
   .ulList-indent03_body li {
     font-size: 0.875rem;
     line-height: 1.8;
+  }
+
+  .ulList-indent03_body li::before {
+    width: 8px;
+    height: 8px;
   }
 
   .ulList-indent03_body ul li::before {
@@ -6252,19 +6235,14 @@ span.wpcf7-list-item {
   }
 
   .policy h3::before {
-    top: 12px;
-  }
-
-  .policy ol > li {
-    font-size: 0.875rem;
+    top: 15px;
   }
 
   .policy ul {
     padding-left: 0;
   }
 
-  .policy ul > li {
-    margin-top: 20px;
+  .policy ul li {
     font-size: 0.875rem;
   }
 
@@ -6349,9 +6327,11 @@ span.wpcf7-list-item {
   }
 
   .contactBox_title01 {
+    padding-right: 10px;
     font-size: 1.375rem;
     text-align: right;
     line-height: 56px;
+    letter-spacing: 0;
   }
 
   .contactBox_img01 {
@@ -6370,7 +6350,7 @@ span.wpcf7-list-item {
     position: absolute;
     width: 84px;
     height: 56px;
-    margin: 0;
+    margin: 0 10px;
   }
 
   .contactBox_img04 {
@@ -6380,7 +6360,7 @@ span.wpcf7-list-item {
   }
 
   .contactBox_text {
-    margin: 10px 5px;
+    margin: 10px 0 15px;
     font-size: 0.875rem;
   }
 
@@ -6813,11 +6793,11 @@ span.wpcf7-list-item {
     left: 50px;
     width: 20px;
     height: 100%;
-    background: url(../img/icon/arrow-sp.png) top/contain no-repeat;
+    background: url(../img/icon/arrow-sp.png) bottom/cover no-repeat;
   }
 
   .flow_list.list04::after {
-    background: url(../img/icon/arrow-sp02.png) top/contain no-repeat;
+    background: url(../img/icon/arrow-sp02.png) bottom/cover no-repeat;
   }
 
   .flow_item {
