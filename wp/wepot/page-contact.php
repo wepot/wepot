@@ -6,8 +6,7 @@
             <header class="section_heading">
                 <h1 class="section_title">お問い合わせ</h1>
             </header>
-            <p class="section_text">
-                私たちは、お客様の課題解決となるクリエイティブ制作に長けたクリエイター集団です。さまざまなご要望にお答えすることが可能です。最適な人員をアサインし、プロジェクトを遂行します。<br><span class="pcnone">まずは、お気軽にご相談ください。</span></p>
+            <p class="section_text">Wepotは個々に違う強みを持ったクリエイティブチームです。お客様の課題解決に最適なメンバーアサインでスムーズなプロジェクト進行をいたします。制作しておわりではなく、お客様が求める成果に結びつくご提案をさせていただきます。</p>
             <div class="can contactPage-can">
                 <p class="can_text02">まずは、お気軽にご相談ください</p>
                 <ul class="can_list">
