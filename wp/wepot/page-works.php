@@ -63,7 +63,7 @@
                         <p class="worksBox_text">
                             新卒採用を目的としたLPページのデザインと実装を担当させていただきました。<br>閲覧した就職希望者の皆さんが「ワクワクする」「キャリアの可能性を感じる」「能動的に取り組みたくなる」ようなイメージを持ってもらえるようにデザインをしています。
                         </p>
-                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank" rel=“noopener”>https://i-plug.co.jp/recruit/freshers/</a></p>
+                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank" rel=“noopener”>https://i-plug.co.jp/recruit/freshers/<i class="fas fa-external-link-alt"></i></a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
@@ -91,7 +91,7 @@
                         <p class="worksBox_text">
                             オンライン講演の配信サポートプランのLPページをデザインしました。<br>詳細な情報設計をもとに、ターゲットとなるユーザーにとって適切なコンテンツと掲載順を策定した上で、デザインに落とし込んでいます。<br>LPのデザインとともに、ダウンロード資料（PDF）やバナーも担当させていただきました。<br>LPページに合わせた見やすく伝わりやすい資料を制作しています。
                         </p>
-                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank" rel=“noopener”>https://www.kouenirai.com/howto/online.html</a></p>
+                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank" rel=“noopener”>https://www.kouenirai.com/howto/online.html<i class="fas fa-external-link-alt"></i></a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">

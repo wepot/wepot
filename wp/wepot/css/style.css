@@ -1196,7 +1196,7 @@ SP版：メニューリスト
 
 .swiperCard_title {
   height: 100%;
-  margin: 15px 0;
+  margin: 15px 0 20px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -1554,7 +1554,7 @@ wepotでできること
 }
 
 .topArticle_title {
-  margin: 15px 0;
+  margin: 15px 0 20px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -1887,7 +1887,7 @@ aboutページ
 
 .blogCard_title {
   display: flex;
-  margin: 15px 0;
+  margin: 15px 0 20px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -2880,27 +2880,17 @@ ol li:before {
 }
 
 .worksBox_url a {
-  position: relative;
+  display: inline-block;
   word-break: break-all;
-  line-height: 1.2;
 }
 
-.worksBox_url a::after {
-  position: absolute;
-  content: "";
-  right: -23px;
-  bottom: 2px;
-  width: 14px;
-  height: 14px;
-  background: url(../img/icon/linkBlack.png) center/contain no-repeat;
+.worksBox_url a .fa-external-link-alt {
+  margin: 0 5px;
+  font-weight: 400;
 }
 
 .worksBox_url a:hover {
   color: #00b4aa;
-}
-
-.worksBox_url a:hover::after {
-  background: url(../img/icon/linkGreen.png) center/contain no-repeat;
 }
 
 .worksBox-member {
@@ -5500,12 +5490,8 @@ span.wpcf7-list-item {
   }
 
   .mainVisual {
-    height: 340px;
+    height: 360px;
     padding-top: 0;
-  }
-
-  .mainVisual_wrap {
-    padding: 0 30px;
   }
 
   .mainVisual_heading {
@@ -5517,7 +5503,7 @@ span.wpcf7-list-item {
   }
 
   .mainVisual_text {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
 
   .pageVisual {
@@ -5662,6 +5648,7 @@ span.wpcf7-list-item {
 
   .member .position {
     font-size: 0.75rem;
+    letter-spacing: 0;
   }
 
   .member .name {
@@ -5842,7 +5829,7 @@ span.wpcf7-list-item {
   }
 
   #toc_container ul {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
   }
 
   #toc_container ul li {
@@ -6453,14 +6440,13 @@ span.wpcf7-list-item {
   }
 
   .member {
-    max-width: 280px;
     margin-top: 16px;
   }
 
   .member_item {
-    width: calc(50% - 25px * 1 /2);
+    width: calc(50% - 13px * 1 /2);
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 13px;
   }
 
   .member_item:nth-child(-n+4) {
@@ -6476,7 +6462,7 @@ span.wpcf7-list-item {
   }
 
   .member_img img {
-    padding: 5px;
+    padding: 6px;
   }
 
   .profilePage-sns {
@@ -6685,12 +6671,6 @@ span.wpcf7-list-item {
     font-size: 0.8125rem;
   }
 
-  .worksBox_url a::after {
-    right: -20px;
-    width: 12px;
-    height: 12px;
-  }
-
   .worksBox-member_list {
     margin: 8px 0 0;
   }
@@ -6869,16 +6849,6 @@ span.wpcf7-list-item {
 @media screen and (max-width: 768px) and (min-width: 46.875rem) {
   .mainVisual_title {
     font-size: 2rem;
-  }
-
-  .mainVisual_text {
-    font-size: 0.875rem;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 20rem) {
-  .mainVisual_text {
-    font-size: calc(0.75rem + 0.0046511628 * (100vw - 20rem));
   }
 }
 
