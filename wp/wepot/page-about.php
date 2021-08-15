@@ -10,7 +10,7 @@
             <header class="section_heading">
                 <h2 class="section_title">Wepotとは</h2>
             </header>
-            <p class="section_text">Wepotは、デジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。なぜなら、強みが違う自立した個人事業主で構成されるクリエイティブチームだからです。そして、Wepotに浸透しているのは、クライアントの先にいるユーザーを想像すること。日々進化するテクノロジーは必要不可欠になった一方で、エンドユーザーにとって使いづらい・ほしい情報がすぐに得られないシーンも。そのような状況を1つ1つ改善していくことが結果として社会を良くし、お客様の成果にも貢献できると確信しています。クライアントとユーザー、どちらの課題をも解決すること。それがWepotのミッションです。</p>
+            <p class="section_text">Wepotは個々に違う強みを持ったクリエイティブチームです。自立した個人事業主のため、各専門分野の最前線で活躍しています。Wepotは「クライアントと消費者の理想の未来を創る」というミッションを掲げ、課題やお悩みをクリエイティブの力で解決していきます。制作しておわりではなく、公開後もさらなる改善のため、貴社のパートナーとして併走していきます。</p>
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
     <section class="section_container">
@@ -18,7 +18,7 @@
             <header class="section_heading">
                 <h2 class="section_title">情報発信について</h2>
             </header>
-            <p class="section_text">Wepotのメンバーはそれぞれに違った得意分野を持っています。それぞれが、制作活動をするにあたって基礎知識から応用、セオリーなどを丁寧に解説しています。</p>
+            <p class="section_text">各分野に特化したメンバーによる基礎知識から応用・セオリーまで丁寧に解説しているのが、当メディア。デジタルクリエイティブの課題発見や新たな価値創出に役立つ内容を、時代の変化と共に私たちも進化しながら”生きた”情報をお届けします。</p>
             <div class="categoryCards">
                 <ul class="categoryCards_list">
                     <li class="categoryCards_item">
