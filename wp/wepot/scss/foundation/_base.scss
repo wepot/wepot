@@ -1,0 +1,49 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+
+/*! ===================================
+サイト共通項目 
+==================================== */
+
+body {
+	position: relative;
+	color: s.$black01;
+	font-family: s.$base_font;
+	font-weight: 400;
+	line-height: 1.8;
+	letter-spacing: .03em;
+}
+
+.container {
+	overflow: hidden;
+}
+
+// 改行調整
+.br-pc {
+	display: block;
+		@include m.mq(md) {
+			display: none;
+		}
+}
+.br-pc02 {
+	display: block;
+		@include m.mq(sm) {
+			display: none;
+		}
+}
+
+.br-sp01 {
+	display: none;
+		@include m.mq(md) {
+			display: block;
+		}
+}
+
+.br-sp02 {
+	display: none;
+		@include m.mq(sm) {
+			display: block;
+		}
+}

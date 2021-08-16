@@ -1,0 +1,115 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+ページネーション
+==================================== */
+.pager {
+  display: flex;
+
+  &_inner {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 13px;
+  }
+}
+
+/*!===================================
+ページネーション（戻る／進むボタン） 
+===================================*/
+.prev,
+.next {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+    &::before,
+    &::after{
+      position: absolute;
+      content: "";
+      top: 50%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      vertical-align: middle;
+    }
+}
+
+/* 戻るボタン */
+.prev {
+  margin-right: 40px;
+
+    &::before{
+      left: -13px;
+      width: 23px;
+      height: 23px;
+      border-top: 3px solid s.$green01;
+      border-left: 3px solid s.$green01;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+}
+
+/* 進むボタン */
+.next {
+  margin-left: 15px;
+
+    &::before{
+      left: -23px;
+      width: 23px;
+      height: 23px;
+      border-top: 3px solid s.$green01;
+      border-right: 3px solid s.$green01;
+      transform: translateY(-50%) rotate(45deg);
+    }
+}
+
+/*!===================================
+ページネーション（番号レイアウト） 
+===================================*/
+.page-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  background-color: s.$gray01;
+  border-radius: 50%;
+  color: s.$gray02;
+  font-size: s.rem(18px);
+  font-weight: normal;
+  transition: .25s;
+
+    @include m.mq(sm) {
+      margin-right: 16px;
+    }
+
+    &:hover {
+      background-color: s.$green01;
+      color: s.$white01;
+      opacity: .8;
+    }
+}
+
+.page-numbers:last-child {
+  margin-right: 0;
+}
+.page-numbers.current {
+  background-color: s.$green01;
+  color: s.$white01;
+  pointer-events: none;
+}
+
+.page-numbers.dots,
+.page-numbers.next,
+.page-numbers.prev {
+  min-width: initial;
+  width: auto;
+  border: none;
+  line-height:40px;
+}
+
+.page-numbers.dots {
+  pointer-events: none;
+}

@@ -1,0 +1,63 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+記事一覧カテゴリーリスト
+==================================== */
+.category_list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3.906%;
+    @include m.mq(md) {
+      margin-top: 30px;
+    }
+
+    &.spMenu_category{
+      @include m.mq(md) {
+        margin: 0;
+      }
+    }
+}
+
+.category_item{
+  width: calc(33.3% - 16px * 2 / 3);
+  margin-top: 15px;
+  margin-right: 16px;
+    &:nth-child(-n + 3) {
+      margin-top: 0;
+    }
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    @include m.mq(sm) {
+      width: calc(50% - 10px * 1 /2);
+      height: 45px;
+      margin-top: 10px;
+        &:nth-child(-n + 2) {
+          margin-top: 0;
+        }
+        &:nth-child(3) {
+          margin-top: 10px;
+        }
+        &:nth-child(2n-1) {
+          margin-right: 10px;
+        }
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+    }
+
+    >.button03{
+      padding: 15px;
+      @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+
+        @include m.mq(md) {
+          padding: 12px 0;
+          font-size: s.rem(14px);
+          font-weight: 400;
+          line-height: 1.2;
+        }
+    }
+}

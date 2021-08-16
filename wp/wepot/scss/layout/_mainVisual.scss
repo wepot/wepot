@@ -1,0 +1,171 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+トップページMV
+==================================== */
+.mainVisual {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 31.25%;
+  background-color: s.$black01;
+
+    @include m.mq(md) {
+      height: 250px;
+      padding-top: 0;
+    }
+
+/*-------- コピー --------*/
+  &_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    color: s.$white01;
+    text-align: center;
+  }
+
+  &_img{
+    @include m.responsive(width, 96px, 205px, 768px, 1920px);
+    height: auto;
+    margin: 0 auto;
+      img{
+        width: 100%;
+      }
+  }
+
+  &_heading {
+    @include m.responsive(margin-top, 20px, 60px, 768px, 1920px);
+    @include m.responsive(margin-bottom, 10px, 30px, 768px, 1920px);
+      @include m.mq(md) {
+        margin-bottom: 15px;
+      }
+  }
+
+  &_title {
+    @include m.responsive(font-size, 2rem, 3.75rem, 48rem, 120rem);
+      @include m.mq(md) {
+        @include m.responsive(font-size, 1.05rem, 2rem, 20rem, 46.875rem);
+      }
+  }
+
+  &_text {
+    color: s.$white01;
+    @include m.responsive(font-size, .9375rem, 1.25rem, 48rem, 120rem);
+
+      @include m.mq(md) {
+        @include m.responsive(font-size, .825rem, .875rem, 20rem, 46.875rem);
+      }
+  }
+}
+
+/*! ===================================
+下層ページMV
+==================================== */
+.pageVisual {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 15.625%;
+  backface-visibility: hidden;
+
+    @include m.mq(md) {
+      height: 150px;
+      padding-top: 0;
+    }
+
+  &_heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  &_title {
+    color: s.$white01;
+    @include m.responsive(font-size, 1.75rem, 2.2rem, 48rem, 75rem);
+    line-height: 1;
+    text-align: center;
+    letter-spacing: .02em;
+
+    @include m.mq(md) {
+      @include m.responsive(font-size, 1.25rem, 1.75rem, 21.875rem, 43.75rem);
+    }
+  }
+
+}
+
+.bg01{
+  background: url(../img/bg/bg-img01.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img01.jpg) center/cover no-repeat;
+    }
+}
+
+.bg02{
+  background: url(../img/bg/bg-img02.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img02.jpg) center/cover no-repeat;
+    }
+}
+
+.bg03{
+  background: url(../img/bg/bg-img03.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img03.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-webdesign{
+  background: url(../img/bg/bg-img-webdesign.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-webdesign.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-wordpress{
+  background: url(../img/bg/bg-img-wordpress.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-wordpress.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-marketing{
+  background: url(../img/bg/bg-img-marketing.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-marketing.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-direction{
+  background: url(../img/bg/bg-img-direction.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-direction.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-coding{
+  background: url(../img/bg/bg-img-coding.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-coding.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-illust{
+  background: url(../img/bg/bg-img-illust.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-illust.jpg) center/cover no-repeat;
+    }
+}
+
+.bg-video{
+  background: url(../img/bg/bg-img-video.jpg) center/cover no-repeat;
+    @include m.mq(sm) {
+      background: url(../img/bg/sp/bg-img-video.jpg) center/cover no-repeat;
+    }
+}
