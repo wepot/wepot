@@ -134,7 +134,7 @@
                 </li>
                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/illust" class="button03">イラスト</a></li>
                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/video" class="button03">動画編集</a></li>
-                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/others" class="button03">その他</a></li>
+                <!-- <li class="category_item"><a href="<?php echo home_url(); ?>/blog/others" class="button03">その他</a></li> -->
             </ul><!-- /.more -->
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
