@@ -1,0 +1,217 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+お問い合わせ
+==================================== */
+.contactPage{
+  @include m.responsive(margin-top, 40px, 60px, 768px, 1200px);
+  @include m.mq(md) {
+    margin-top: 40px;
+  }
+
+  &-can{
+    @include m.mq(md) {
+      display: none;
+    }
+  }
+  .pcnone{
+    display: none;
+      @include m.mq(md) {
+        display: block;
+      }
+  }
+}
+
+.contact_wrap{
+  width: 81%;
+  max-width: 1000px;
+  margin: 30px auto 0;
+    @include m.mq(md) {
+      width: 100%;
+      margin-top: 25px;
+    }
+}
+
+/*-------- フォーム --------*/
+.input-box {
+  margin-bottom: 4.5%;
+
+    @include m.mq(md) {
+      margin-bottom: 20px;
+    }
+
+    p{
+      font-size: s.rem(13px);
+    }
+}
+
+// 項目名
+.label-area {
+  display: inline-block;
+  margin-bottom: 5px;
+  @include m.responsive(font-size, 1.25rem, 1.5rem, 48.125rem, 80rem);
+  font-weight: 500;
+  
+    @include m.mq(md) {
+      margin-bottom: 10px;
+      font-size: s.rem(15px);
+      font-weight: 700;
+    }
+    
+    span {
+      display: inline-block;
+      margin-left: 20px;
+      padding: .25em .75em;
+      border-radius: 5px;
+      background-color: s.$green01;
+      color: s.$white01;
+      @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+      font-weight: 500;
+      line-height: 1;
+
+        @include m.mq(md) {
+          margin-left: 10px;
+          font-size: s.rem(12px);
+        }
+    }
+}
+
+.input-item {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: .7em .5em;
+  border: 2px solid s.$green01;
+  font-size: 20px;
+
+    @include m.mq(md) {
+      padding: .7em .5em;
+      font-size: 16px;
+    }
+}
+
+.message {
+  @include m.responsive(height, 200px, 370px, 768px, 1200px);
+  padding: 1em;
+  resize: none;
+  overflow-y: scroll;
+    @include m.mq(md) {
+      @include m.responsive(height, 350px, 200px, 350px, 750px);
+      padding: .7em;
+    }
+
+    &::-webkit-scrollbar {
+      width: 15px;
+        @include m.mq(md) {
+          width: 8px;
+        }
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 70px;
+      background: #00b4aa33;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: s.$green01;
+    }
+
+    &::placeholder {
+      font-size: 20px;
+      line-height: 1.5;
+        @include m.mq(md) {
+          font-size: 16px;
+        }
+
+    }
+}
+
+/*-------- チェックボックス --------*/
+.check-btn{
+  margin-left: 10px;
+
+    input[type="checkbox"] {
+      position: absolute;
+      opacity: 0;
+    }
+}
+
+span.wpcf7-list-item {
+  position: relative;
+  display: block;
+  padding: 6px 0 6px 35px;
+  font-size: s.rem(18px);
+  @include m.mq(md) {
+    font-size: s.rem(14px);
+  }
+}
+.wpcf7-list-item-label {
+  cursor: pointer;
+    &::before {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 22px;
+      height: 22px;
+      border: 1px solid s.$gray02;
+      border-radius: 3px;
+      background: s.$gray01;
+    }
+}
+
+.check-btn input[type="checkbox"]:checked + .wpcf7-list-item-label:after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 8px;
+  left: 7px;
+  transform: rotate(45deg);
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid s.$green01;
+  border-bottom: 3px solid s.$green01;
+}
+
+/*-------- 送信ボタン --------*/
+.action-box_text{
+  display: block;
+  margin-bottom: 30px;
+  @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+  text-align: center;
+  letter-spacing: .07em;
+    span{
+      color: s.$green01;
+      text-decoration: underline;
+      &:hover{
+        opacity: .8;
+      }
+    }
+
+    @include m.mq(md) {
+      margin-bottom: 20px;
+    }
+}
+
+/*-------- アラート文 --------*/
+.screen-reader-response{
+  display: none;
+}
+
+.wpcf7-not-valid-tip{
+  color: #b40000;
+  font-weight: 500;
+}
+.wpcf7-response-output{
+  margin-bottom: 10px;
+  color: #b40000;
+  font-weight: 500;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+ページ共通
+==================================== */
+.main-contents{
+  @include m.responsive(padding-top, 90px, 140px, 768px, 1200px);
+
+    @include m.mq(md) {
+      padding-top: 60px;
+    }
+}
+
+.section_container{
+  @include m.responsive(margin-bottom, 40px, 60px, 768px, 1200px);
+
+    @include m.mq(md) {
+      margin-bottom: 40px;
+    }
+}
+
+.section_inner{
+  @include m.innerBox;
+}

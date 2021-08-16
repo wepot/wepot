@@ -1,0 +1,48 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+404ページ
+==================================== */
+.notFound{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  height: calc(100vh - 190px);
+
+  @include m.r-gradation;
+    @include m.mq(md) {
+      height: calc(100vh - 107px);
+    }
+
+  &_inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include m.responsive(width, 250px, 964px, 768px, 1920px);
+
+      @include m.mq(md) {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 310px;
+      }
+  }
+
+  &_img{
+      img{
+        width: 100%;
+      }
+  }
+
+  &_btn{
+    @include m.responsive(width, 150px, 250px, 768px, 1200px);
+    margin: 0 auto;
+      @include m.mq(md) {
+        margin-top: 50px;
+        width: 224px;
+      }
+  }
+}

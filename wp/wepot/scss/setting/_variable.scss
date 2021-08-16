@@ -1,0 +1,26 @@
+// =============ブレイクポイントの設定=============
+$breakpoints: (
+  'xs': 'screen and (max-width: 350px)',
+  'sm': 'screen and (max-width: 575px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 991px)',
+  'xl': 'screen and (max-width: 1199px)',
+  'xxl': 'screen and (max-width: 1400px)',
+) !default;
+
+
+// =============使用カラー=============
+$black01: #191919;
+$white01: #fff;
+
+$green01: #00b4aa;
+$green02: #7e8aff;
+
+$gray01: #f3f3f3;
+$gray02: #bebebe;
+
+$yellow01: #fff600;
+
+// =============使用フォント=============
+$base_font: 'Noto Sans JP', sans-serif;
+

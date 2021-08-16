@@ -1,0 +1,112 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+プライバシーポリシー
+==================================== */
+.policy{
+  width: 85%;
+  margin: 2.735% auto 9.375%;
+    @include m.mq(md) {
+      width: 100%;
+      margin: 40px 0;
+    }
+
+  p{
+    @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+    letter-spacing: .02em;
+
+    &.inquiry{
+      margin-top: 1.25em;
+      line-height: 1.75;
+        @include m.mq(md) {
+          margin-top: 20px;
+        }
+    }
+
+    &.date{
+      margin-top: 3.125%;
+        @include m.mq(md) {
+          margin-top: 40px;
+        }
+    }
+  }
+
+  h2{
+    position: relative;
+    margin: 3.906% 0 1.17%;
+    padding-bottom: 3px;
+    @include m.responsive(font-size, 1.5rem, 2rem, 48rem, 75rem);
+
+      @include m.mq(md) {
+        margin: 40px 0 20px;
+        font-size: s.rem(18px);
+      }
+
+      &::after{
+        position: absolute;
+        content: "";
+        display: block;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        @include m.r-gradation;
+      }
+  }
+
+  h3{
+    position: relative;
+    margin: 3.125% 0 .9375%;
+    padding-left: 1em;
+    @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+      @include m.mq(md) {
+        margin: 40px 0 10px;
+        font-size: s.rem(16px);
+      }
+
+      &::before{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: .5em;
+        height: .5em;
+        background-color: s.$green01;
+          @include m.mq(md) {
+            top: 15px;
+          }
+      }
+  }
+
+  a{
+    color: s.$green01;
+    font-weight: 500;
+    text-decoration: underline;
+      &:hover{
+        opacity: .8;
+      }
+  }
+
+  ul{
+    margin-top: 1em;
+    padding-left: 1.5em;
+
+      @include m.mq(md) {
+        padding-left: 0;
+      }
+    li{
+      margin-top: .5em;
+        &:first-child{
+          margin-top: 0;
+        }
+      text-indent: -1em;
+      padding-left: 1em;
+      @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+      line-height: 1.5;
+    }
+  }
+}
+

@@ -1,0 +1,1136 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+記事詳細ページ
+==================================== */
+.singlePage{
+  @include m.responsive(margin-top, 40px, 60px, 768px, 1200px);
+  @include m.responsive(margin-bottom, 60px, 80px, 768px, 1200px);
+    @include m.mq(md) {
+      margin: 20px 0 40px;
+    }
+
+  &_inner{
+    display: flex;
+    @include m.innerBox;
+  }
+
+  &_wrap{
+    width: 67.2%;
+    @include m.responsive(max-width, 450px, 860px, 768px, 1200px);
+    margin: 0 auto;
+      @include m.mq(md) {
+        width: 100%;
+        max-width: initial;
+        margin-right: 0;
+      }
+  }
+}
+
+.blog{
+  h1{
+    margin-bottom: 20px;
+    @include m.responsive(font-size, 1.65rem, 2rem, 48rem, 75rem);
+    font-weight: 500;
+    line-height: 1.3;
+      @include m.mq(md) {
+        margin-bottom: 16px;
+        font-size: s.rem(20px);
+      }
+  }
+
+  h2{
+    margin: 60px 0 25px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid s.$green01;
+    @include m.responsive(font-size, 1.375rem, 1.65rem, 48rem, 75rem);
+    font-weight: 500;
+    line-height: 1.3;
+      @include m.mq(md) {
+        margin: 50px 0 20px;
+        font-size: s.rem(18px);
+      }
+  }
+
+  h3{
+    position: relative;
+    margin: 60px 0 25px;
+    padding-left: .75em;
+    @include m.responsive(font-size, 1.125rem, 1.35rem, 48rem, 75rem);
+    font-weight: 500;
+    line-height: 1.3;
+    &.notop{
+      margin-top: 0!important;
+    }
+
+      &:before{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: .698%;
+        height: 100%;
+        border-radius: 3px;
+        background-color: s.$green01;
+      }
+
+      @include m.mq(md) {
+        margin: 50px 0 20px;
+        font-size: s.rem(17px);
+      }
+  }
+
+  h4{
+    position: relative;
+    margin-bottom: .5em;
+    padding-left: 1em;
+    @include m.responsive(font-size, 1rem, 1.2rem, 48rem, 75rem);
+    font-weight: 500;
+    line-height: 1.2;
+      @include m.mq(md) {
+        font-size: s.rem(16px);
+        margin-bottom: 8px;
+      }
+
+      &::before{
+        position: absolute;
+        content: "";
+        @include m.responsive(top, 5px, 7px, 768px, 1200px);
+        left: 0;
+        width: .6em;
+        height: .6em;
+        background-color: s.$green01;
+      }
+  }
+
+  p{
+    word-break: normal;
+    overflow-wrap: break-word;
+    margin-bottom: 40px;
+    @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+      @include m.mq(md) {
+        margin-bottom: 30px;
+      }
+
+      
+      .marker{
+        background-image: linear-gradient(rgba(0,0,0,0) 70%, rgb(255,238,127) 70%);
+      }
+  }
+
+  .red{
+    color: #b40000;
+  }
+
+  strong{
+    background-image: linear-gradient(rgba(0,0,0,0) 70%, rgb(255,238,127) 70%);
+  }
+
+  a{
+    color: s.$green01;
+    text-decoration: underline;
+      &:hover{
+        opacity: .8;
+      }
+  }
+
+  figure{
+    width: 100%;
+    max-width: 860px;
+    height: auto;
+    margin-bottom: 6.977%;
+      img{
+        width: 100%;
+      }
+      figcaption{
+        display: block;
+        padding-left: 1em;
+        @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+        text-align: right;
+        &::before{
+          position: relative;
+          content: "▲";
+          top: 0;
+          left: 0;
+          color: s.$green01;
+          font-size: 1em;
+        }
+      }
+
+      @include m.mq(md) {
+        max-width: 748px;
+        margin-bottom: 40px;
+      }
+  }
+}
+
+//-------ヘッダー-------
+.header_wrap{
+  display: flex;
+  flex-direction: column;
+    @include m.mq(md) {
+      flex-direction: column-reverse;
+    }
+}
+
+.blogMeta_wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.infoLeft{
+  .time{
+    margin-bottom: 15px;
+    color: s.$gray02;
+    @include m.responsive(font-size, .875rem, 1.125rem, 48rem, 75rem);
+    font-weight: 700;
+      @include m.mq(md) {
+        margin-bottom: 8px;
+      }
+  }
+  .tag{
+    display: inline-block;
+    @include m.responsive(width, 120px, 170px, 768px, 1200px);
+    background-color: s.$green01;
+    color: s.$white01;
+    @include m.responsive(font-size, .875rem, 1.125rem, 48rem, 75rem);
+    font-weight: 500;
+    text-align: center;
+      @include m.mq(md) {
+        width: 137px;
+        font-size: s.rem(13px);
+      }
+  }
+}
+
+.infoRight{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+    figcaption{
+      margin-right: 10px;
+      margin-bottom: 0;
+      @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+      font-weight: 500;
+      text-align: right;
+        @include m.mq(md) {
+          margin-right: 8px;
+        }
+    }
+
+    img{
+      display: inline-block;
+      @include m.responsive(width, 60px, 80px, 768px, 1200px);
+      @include m.responsive(height, 60px, 80px, 768px, 1200px);
+      border-radius: 50%;
+        @include m.mq(md) {
+          width: 50px;
+          height: 50px;
+        }
+    }
+}
+
+//-------目次-------
+#toc_container{
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #eee;
+    @include m.mq(md) {
+      margin-top: 50px;
+      padding: 30px 20px;
+    }
+
+    p{
+      margin-bottom: 20px;
+      @include m.responsive(font-size, 1.1rem, 1.2rem, 48rem, 75rem);
+      font-weight: 700;
+      line-height: 1;
+        @include m.mq(md) {
+          margin-bottom: 16px;
+          font-size: s.rem(15px);
+        }
+    }
+
+    ul {
+      counter-reset: count 0;
+      font-weight: 700;
+      font-size: s.rem(17px);
+      @include m.mq(md) {
+        font-size: s.rem(15px);
+      }
+      li{
+        margin-top: 10px;
+          &:first-child{
+            margin-top: 0;
+          }
+        text-indent: -1.2em;
+        padding-left: 1.2em;
+          @include m.mq(md) {
+            line-height: 1.6;
+          }
+      }
+      ul{
+        text-indent: -.5em;
+        padding-left: .5em;
+        li{
+          margin-top: 0;
+          text-indent: -2.1em;
+          padding-left: 2.1em;
+          font-size: s.rem(15px);
+          font-weight: 400;
+            @include m.mq(md) {
+              margin-top: 5px;
+              font-size: s.rem(14px);
+            }
+        }
+      }
+      a{
+        color: s.$black01;
+        text-decoration: none;
+        &:hover{
+          color: s.$green01;
+          text-decoration: underline;
+        }
+      }
+    }
+    li:before {
+      counter-increment: count 1;
+      content: counters(count, "-") ". ";
+    }
+}
+
+//-------引用文-------
+blockquote {
+  position: relative;
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+  padding: 1.875em 3.75em;
+  background-color: #eee;
+  @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+
+    @include m.mq(md) {
+      width: 100%;
+      margin-bottom: 30px;
+      padding: 22px 42px;
+    }
+
+    &::before,
+    &::after{
+      position: absolute;
+      content: "";
+      display: inline-block;
+      @include m.responsive(width, 20px, 26px, 768px, 1200px);
+      @include m.responsive(height, 15px, 19px, 768px, 1200px);
+    }
+    &::before{
+      top: 15px;
+      left: 15px;
+      background: url(../img/icon/quotation01.png) center/contain no-repeat;
+    }
+    &::after{
+      right: 15px;
+      bottom: 15px;
+      background: url(../img/icon/quotation02.png) center/contain no-repeat;
+    }
+    p{
+      margin-bottom: 0!important;
+    }
+    cite {
+      position: relative;
+      display: block;
+      margin-top: 15px;
+      font-size: 0.85em;
+      font-style: normal;
+      text-indent: -4.1em;
+      padding-left: 4.1em;
+    }
+}
+
+//-------枠付き文-------
+.border01{
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.25em;
+  border: 2px solid s.$green01;
+  border-radius: 8px;
+    @include m.mq(md) {
+      width: 100%;
+      margin-bottom: 40px;
+      padding: 18px;
+    }
+}
+
+.border02{
+  position: relative;
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto;
+    @include m.mq(md) {
+      width: 100%;
+    }
+
+    &_title{
+      display: inline-block;
+      padding: 3px 1.25em;
+      border-radius: 8px 8px 0 0;
+      background-color: s.$black01;
+      color: s.$white01;
+      text-align: center;
+      margin-bottom: 0!important;
+        @include m.mq(md) {
+          padding: 3px 16px;
+        }
+    }
+    &_text{
+      padding: 1.25em;
+      border: 2px solid s.$black01;
+        @include m.mq(md) {
+          padding: 18px;
+        }
+    }
+}
+
+.border03{
+  position: relative;
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto;
+    @include m.mq(md) {
+      width: 100%;
+    }
+
+    &_title{
+      display: inline-block;
+      padding: 3px 1.25em;
+      border-radius: 8px 8px 0 0;
+      background-color: s.$green01;
+      color: s.$white01;
+      text-align: center;
+      margin-bottom: 0!important;
+        @include m.mq(md) {
+          padding: 3px 16px;
+        }
+    }
+    &_text{
+      padding: 1.25em;
+      border: 2px solid s.$green01;
+      box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);
+        @include m.mq(md) {
+          padding: 18px;
+        }
+    }
+}
+
+//-------会話文-------
+.wp-block-columns.blnLeft {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.wp-block-column.blnLeft{
+  &-icon{
+    width: 100%;
+    max-width: 90px;
+    text-align: center;
+      @include m.mq(md) {
+        max-width: 60px;
+      }
+
+    img{
+      display: inline-block;
+      @include m.responsive(width, 70px, 80px, 768px, 1200px);
+      @include m.responsive(height, 70px, 80px, 768px, 1200px);
+      border-radius: 50%;
+        @include m.mq(md) {
+          width: 50px;
+          height: 50px
+        }
+    }
+
+    figcaption{
+      padding: 0!important;
+      @include m.responsive(font-size, .75rem, .875rem, 48rem, 75rem);
+      text-align: center!important;
+        @include m.mq(md) {
+          font-size: s.rem(11px);
+          font-weight: 500;
+        }
+      &::before{
+        display: none;
+      }
+    }
+  }
+
+  &-talk {
+    position: relative;
+    display: block;
+    width: calc(100% - 100px);
+    margin: 5px 0 40px 40px;
+    padding: 1.4em 1.25em;
+    background: #00b4aa33;
+    text-align: left;
+    border-radius: 8px;
+      @include m.mq(md) {
+        width: calc(100% - 60px);
+        margin: 0 0 30px 20px;
+        padding: 16px;
+      }
+
+    &::before{
+      position: absolute;
+      content: "";
+      top: 5px;
+      left: -15px;
+      transform: rotate(-135deg);
+      border: 15px solid transparent;
+      border-top-color: #00b4aa33;
+    }
+
+    p{
+      margin-bottom: 0!important;
+    }
+  }
+}
+
+.wp-block-columns.blnRight {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+.wp-block-column.blnRight{
+    &-icon{
+      width: 100%;
+      max-width: 90px;
+      text-align: center;
+        @include m.mq(md) {
+          max-width: 60px;
+        }
+
+      img{
+        display: inline-block;
+        @include m.responsive(width, 70px, 80px, 768px, 1200px);
+        @include m.responsive(height, 70px, 80px, 768px, 1200px);
+        border-radius: 50%;
+          @include m.mq(md) {
+            width: 50px;
+            height: 50px
+          }
+      }
+
+      figcaption{
+        padding: 0!important;
+        @include m.responsive(font-size, .75rem, .875rem, 48rem, 75rem);
+        text-align: center!important;
+          @include m.mq(md) {
+            font-size: s.rem(11px);
+            font-weight: 500;
+          }
+          &::before{
+            display: none;
+          }
+      }
+    }
+
+    &-talk {
+      position: relative;
+      display: inline-block;
+      max-width: 680px;
+      margin: 5px 40px 40px 0;
+      padding: 1.4em 1.25em;
+      background: #eee;
+      border-radius: 8px;
+        @include m.mq(md) {
+          width: calc(100% - 60px);
+          margin: 0 20px 30px 0;
+          padding: 16px;
+        }
+
+      &::before{
+        position: absolute;
+        content: "";
+        top: 5px;
+        right: -14px;
+        transform: rotate(135deg);
+        border: 15px solid transparent;
+        border-top-color: #eee;
+      }
+
+      p{
+        margin-bottom: 0!important;
+      }
+    }
+}
+
+//-------箇条書きリスト-------
+.ulList{
+  margin-bottom: 40px;
+
+    li{
+      position: relative;
+      margin-top: 10px;
+        &:first-child{
+          margin-top: 0;
+        }
+      padding-left: .9em;
+      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+        @include m.mq(md) {
+          line-height: 1.8;
+        }
+
+      &::before{
+        position: absolute;
+        content: "";
+        top: 9px;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: s.$green01;
+          @include m.mq(md) {
+            width: 8px;
+            height: 8px;
+          }
+      }
+    }
+
+    ul{
+      margin-left: 20px;
+
+      li{
+        margin-top: 0;
+        font-weight: 400;
+        line-height: 1.7;
+          &::before{
+          position: absolute;
+          content: "";
+          top: 10px;
+          left: 0;
+          width: 10px;
+          height: 10px;
+          border: 1px solid s.$green01;
+          border-radius: 50%;
+          background-color: #00b4aa33;
+            @include m.mq(md) {
+              width: 7px;
+              height: 7px;
+            }
+        }
+      }
+    }
+  
+    &-indent01{
+      padding-left: 2.326%;
+      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+      @include m.mq(md) {
+        padding-left: .8em;
+      }
+    }
+
+    &-indent02{
+      width: 91%;
+      max-width: 780px;
+      margin: 0 auto 40px;
+      padding: 1.5em;
+      border: 2px solid s.$green01;
+      border-radius: 8px;
+      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+        @include m.mq(md) {
+          width: 100%;
+          padding: 18px;
+        }
+    }
+
+    &-indent03{
+      width: 91%;
+      max-width: 780px;
+      margin: 0 auto 40px;
+      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+        @include m.mq(md) {
+          width: 100%;
+        }
+
+      &_title{
+        display: inline-block;
+        padding: 3px 1.25em;
+        border-radius: 8px 8px 0 0;
+        background-color: s.$green01;
+        color: s.$white01;
+        text-align: center;
+        margin-bottom: 0!important;
+          @include m.mq(md) {
+            padding: 3px 16px;
+          }
+      }
+      &_body{
+        padding: 1.5em;
+        border: 2px solid s.$green01;
+          li{
+            position: relative;
+            margin-top: 10px;
+              &:first-child{
+                margin-top: 0;
+              }
+            padding-left: 1.2em;
+
+            &::before{
+              position: absolute;
+              content: "";
+              top: 10px;
+              left: 0;
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+              background-color: s.$green01;
+                @include m.mq(md) {
+                  width: 8px;
+                  height: 8px;
+                }
+            }
+          }
+    
+        ul{
+          margin-left: 20px;
+          padding: 0;
+          border: none;
+    
+          li{
+            margin-top: 0;
+            font-weight: 400;
+            line-height: 1.7;
+              &::before{
+                position: absolute;
+                content: "";
+                top: 9px;
+                left: 0;
+                width: 10px;
+                height: 10px;
+                border: 1px solid s.$green01;
+                border-radius: 50%;
+                background-color: #00b4aa33;
+                  @include m.mq(md) {
+                    width: 7px;
+                    height: 7px;
+                  }
+              }
+          }
+        }
+      }
+  }
+}
+
+//-------番号付きリスト-------
+ol {
+  counter-reset: number 0;
+  li {
+    display: block;
+    margin-top: 10px;
+      &:first-child{
+        margin-top: 0;
+      }
+    text-indent: -1.3em;
+    padding-left: 1.3em;
+    @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+      ol{
+        margin-left: 20px;
+        li{
+          margin-top: 0;
+          text-indent: -2.1em;
+          padding-left: 2.1em;
+          font-weight: 400;
+          line-height: 1.7;
+        }
+      }
+      &:before {
+        content: counters(number, "-") ". ";
+        counter-increment: number 1;
+        color: s.$green01;
+        font-weight: 700;
+      }
+        @include m.mq(md) {
+          font-size: s.rem(15px);
+        }
+  }
+}
+.olList-indent01{
+  margin-bottom: 40px;
+  padding-left: 2.326%;
+    @include m.mq(md) {
+      padding-left: .8em;
+    }
+}
+
+.olList-indent02{
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+  padding: 1.5em;
+  border: 2px solid s.$green01;
+  border-radius: 8px;
+    @include m.mq(md) {
+      width: 100%;
+      padding: 18px;
+    }
+}
+
+.olList-indent03{
+  width: 91%;
+  max-width: 780px;
+  margin: 0 auto 40px;
+  
+    @include m.mq(md) {
+      width: 100%;
+    }
+
+    &_title{
+      display: inline-block;
+      padding: 3px 1.25em;
+      border-radius: 8px 8px 0 0;
+      background-color: s.$green01;
+      color: s.$white01;
+      text-align: center;
+      margin-bottom: 0!important;
+        @include m.mq(md) {
+          padding: 3px 16px;
+          font-size: s.rem(15px);
+        }
+    }
+    ol{
+      padding: 1.5em;
+      border: 2px solid s.$green01;
+      counter-reset: item 0;
+      ol{
+        padding: 0;
+        border: none;
+      }
+      li:before{
+        counter-increment: item 1;
+        content: counters(item, "-") ". ";
+      }
+    }
+}
+
+//-------関連記事-------
+.relatedPost{
+  width: 91%;
+  max-width: 780px;
+  margin: 60px auto;
+  border: 2px solid s.$green01;
+    @include m.mq(sm) {
+      max-width: 280px;
+    }
+
+    &_wrap{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 3.489%;
+        @include m.mq(sm) {
+          flex-direction: column;
+          padding: 20px;
+        }
+    }
+
+    &_img{
+      width: 33.715%;
+      height: auto;
+        @include m.mq(sm) {
+          width: 100%;
+        }
+
+        img{
+          width: 100%;
+        }
+    }
+
+    &_body{
+      width: 63.5%;
+      margin-left: 24px;
+        @include m.mq(sm) {
+          position: relative;
+          width: 100%;
+          margin: 12px 0 0;
+        }
+    }
+
+    &_tag{
+      display: inline-block;
+      @include m.responsive(width, 90px, 100px, 768px, 1200px);
+      margin-bottom: 1em;
+      padding: 5px;
+      background-color: s.$green01;
+      color: s.$white01;
+      @include m.responsive(font-size, .875rem, 1rem, 48rem, 75rem);
+      font-weight: 500;
+      text-align: center;
+      line-height: 1.2;
+      letter-spacing: .1em;
+    }
+
+    &_title{
+      margin-bottom: .8em;
+      @include m.responsive(font-size, .9375rem, 1.25rem, 48rem, 75rem);
+      font-weight: 700;
+        @include m.mq(sm) {
+          margin-bottom: 0;
+        }
+    }
+
+    &_time{
+      color: s.$gray02;
+      @include m.responsive(font-size, .875rem, 1.125rem, 48rem, 75rem);
+      font-weight: 500;
+        @include m.mq(sm) {
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+    }
+}
+
+//-------記事シェア-------
+.blogShare{
+  margin-bottom: 60px;
+
+  p{
+    margin-bottom: 30px;
+    @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+    font-weight: 500;
+    text-align: center;
+      @include m.mq(sm) {
+        font-weight: 400;
+      }
+  }
+  ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+      @include m.mq(sm) {
+        flex-wrap: wrap;
+        max-width: 280px;
+        margin: 0 auto;
+      }
+    
+    li{
+      display: flex;
+      align-items: center;
+      @include m.responsive(width, 40px, 48px, 768px, 1200px);
+      @include m.responsive(height, 40px, 48px, 768px, 1200px);
+      margin-left: 4.65%;
+        &:first-child{
+          margin-left: 0;
+        }
+        &:nth-child(3){
+          @include m.responsive(width, 47px, 56px, 768px, 1200px);
+        }
+        &:nth-child(7){
+          @include m.responsive(width, 39px, 46px, 768px, 1200px);
+        }
+        img{
+          width: 100%;
+        }
+
+        @include m.mq(sm) {
+          margin-left: 12.86%;
+            &:nth-child(5){
+              margin-left: 0;
+            }
+            &:nth-child(-n+4) {
+              margin-bottom: 30px;
+            }
+        }
+    }
+  }
+}
+
+//-------執筆者-------
+.blogAuthor{
+  position: relative;
+  max-width: 860px;
+
+  &_heading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
+    font-weight: 500;
+    text-align: center;
+
+      &::before,
+      &::after {
+        content: '';
+        width: 2px;
+        height: 1.3em;
+        background-color: s.$black01;
+      }
+      &::before {
+      margin-right: 12px;
+      transform: rotate(-23deg)
+      }
+      &::after {
+      margin-left: 12px;
+      transform: rotate(23deg)
+      }
+
+      @include m.mq(sm) {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        font-weight: 400;
+      }
+  }
+
+  &_wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    @include m.responsive(padding-top, 35px, 50px, 768px, 1200px);
+      @include m.mq(sm) {
+        flex-wrap: wrap;
+        padding-top: 40px;
+      }
+      .pc-none{
+        display: none;
+          @include m.mq(sm) {
+            display: block;
+          }
+      }
+      .sp-none{
+        display: block;
+          @include m.mq(sm) {
+            display: none;
+          }
+      }
+  }
+
+  &_img{
+      @include m.mq(sm) {
+        display: flex;
+        align-items: center;
+        width: auto;
+        margin: 0 auto;
+        padding: 5px 0;
+      }
+
+      img{
+        display: inline-block;
+        @include m.responsive(width, 160px, 200px, 768px, 1200px);
+        @include m.responsive(height, 160px, 200px, 768px, 1200px);
+        @include m.responsive(margin-right, 15px, 27px, 768px, 1200px);
+        @include m.responsive(margin-left, 15px, 27px, 768px, 1200px);
+        border-radius: 50%;
+          @include m.mq(sm) {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            margin-left: 0;
+          }
+      }
+  }
+
+  .name{
+    @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+    font-weight: 500;
+    line-height: 1.5;
+      @include m.mq(sm) {
+        width: auto;
+        max-width: 240px;
+        font-weight: 500;
+      }
+  }
+  .position{
+    display: block;
+    width: 100%;
+    color: s.$gray02;
+    @include m.responsive(font-size, .75rem, .875rem, 48rem, 75rem);
+    font-weight: 500;
+      @include m.mq(sm) {
+        font-size: s.rem(14px);
+      }
+  }
+  &_body{
+    width: 68%;
+    max-width: 585px;
+      @include m.mq(sm) {
+        width: 100%;
+      }
+      .description{
+        margin: .5em 0 1em 0;
+        @include m.responsive(font-size, .75rem, .875rem, 48rem, 75rem);
+          @include m.mq(sm) {
+            margin: 20px 0;
+            font-size: s.rem(14px);
+          }
+      }
+  }
+
+  &-sns{
+    display: flex;
+    flex-wrap: wrap;
+      @include m.mq(sm) {
+        justify-content: center;
+      }
+
+    &_item{
+      margin-right: 1.5em;
+      margin-bottom: 10px;
+        &:last-child{
+          margin-right: 0;
+        }
+      color: s.$gray02;
+      font-size: s.rem(14px);
+      font-weight: 500;
+        @include m.mq(sm) {
+          margin-right: 0;
+          margin-bottom: 20px;
+          padding: 0 7px;
+        }
+
+        img{
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          margin-right: .5em;
+            @include m.mq(sm) {
+              width: 23px;
+              height: 23px;
+              margin-right: 7px;
+            }
+        }
+
+        a{
+          display: flex;
+            &:hover{
+              text-decoration: underline;
+            }
+        }
+      }
+    &_item02{
+      img{
+        width: 24px;
+        height: 20px;
+          @include m.mq(sm) {
+            width: 28px;
+            height: 23px;
+          }
+      }
+    }
+    &_item05{
+      img{
+        width: 29px;
+        height: 20px;
+          @include m.mq(sm) {
+            width: 34px;
+            height: 23px;
+          }
+      }
+    }
+  }
+}
