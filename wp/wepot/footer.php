@@ -56,7 +56,7 @@
                             <li class="link_item"><a href="<?php echo home_url(); ?>/blog/coding">コーディング</a></li>
                             <li class="link_item"><a href="<?php echo home_url(); ?>/blog/illust">イラスト</a></li>
                             <li class="link_item"><a href="<?php echo home_url(); ?>/blog/video">動画編集</a></li>
-                            <li class="link_item"><a href="<?php echo home_url(); ?>/blog/others">その他</a></li>
+                            <!-- <li class="link_item"><a href="<?php echo home_url(); ?>/blog/others">その他</a></li> -->
                         </ul>
                     </li><!-- /.link_wrap -->
                     <li class="link_wrap">
