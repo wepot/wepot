@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /*! ===================================
 リセット
 =================================== */
@@ -83,10 +81,10 @@ select {
 body {
   position: relative;
   color: #191919;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP",sans-serif;
   font-weight: 400;
   line-height: 1.8;
-  letter-spacing: 0.03em;
+  letter-spacing: .03em;
 }
 
 .container {
@@ -120,13 +118,13 @@ body {
   border-radius: 30px;
   background-image: linear-gradient(to right, #00b4aa, #7e8aff);
   color: #fff;
-  font-size: 0.875rem;
+  font-size: .875rem;
   text-align: center;
   line-height: 1;
 }
 
 .button01:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .button02 {
@@ -141,17 +139,17 @@ body {
   line-height: 1;
 }
 
-.button02 > span {
+.button02>span {
   display: block;
   padding: 6.4% 10px;
   border-radius: 28px;
   background-color: #fff;
 }
 
-.button02 > span:hover {
+.button02>span:hover {
   background-color: transparent;
   color: #fff;
-  transition: background-color 0.3s ease-out;
+  transition: background-color .3s ease-out;
 }
 
 .button03 {
@@ -169,7 +167,7 @@ body {
 .button03:hover {
   background-color: #00b4aa;
   color: #fff;
-  transition: background-color 0.3s ease-out;
+  transition: background-color .3s ease-out;
 }
 
 .more {
@@ -188,19 +186,19 @@ body {
   width: 180px;
   height: 44px;
   margin: 0 auto;
-  padding: 0.32em;
+  padding: .32em;
   border: none;
   background-color: #00b4aa;
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   cursor: pointer;
 }
 
 .action_btn:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .button04 {
@@ -210,13 +208,13 @@ body {
   border-radius: 30px;
   background-color: #191919;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: .875rem;
   text-align: center;
   line-height: 1;
 }
 
 .button04:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 /*! ===================================
@@ -242,7 +240,7 @@ body {
   cursor: pointer;
   border-radius: 10px;
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   z-index: 20;
 }
 
@@ -292,7 +290,7 @@ body {
 .section_text {
   width: 85%;
   margin: 1.95% auto 0;
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 /*! ===================================
@@ -327,7 +325,7 @@ body {
 }
 
 .header_logo a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .header_logo .wepot {
@@ -364,7 +362,7 @@ body {
   display: flex;
   margin-left: 40px;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: .875rem;
   line-height: 1;
 }
 
@@ -379,7 +377,7 @@ body {
 }
 
 .mainMenu_item a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .mainMenu-contact_btn {
@@ -389,15 +387,13 @@ body {
 }
 
 .mainMenu-contact_btn .button02 {
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 400;
 }
 
 .mainMenu-contact_btn span {
-  padding: 0.5em;
+  padding: .5em;
 }
-
-/*======== ブログカテゴリー ========*/
 
 .blogCategory {
   display: flex;
@@ -418,7 +414,7 @@ body {
   display: flex;
   margin-left: 25px;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: .75rem;
   line-height: 1;
 }
 
@@ -433,7 +429,7 @@ body {
 }
 
 .blogCategory_item a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 /*! ===================================
@@ -468,14 +464,10 @@ SP版：メニューリスト
   transform: translateY(-12px) rotate(-45deg);
 }
 
-/* メニューリスト */
-
 .spMenu.open {
   transform: translateX(0);
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
-
-/* 背景スクロール禁止 */
 
 .is-fixed {
   height: 100%;
@@ -505,8 +497,6 @@ SP版：メニューリスト
   background-color: #191919;
 }
 
-/*======== リンクリスト ========*/
-
 .link {
   display: flex;
   margin: 0 auto;
@@ -514,7 +504,7 @@ SP版：メニューリスト
 }
 
 .link a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .link_wrap {
@@ -526,7 +516,7 @@ SP版：メニューリスト
   margin-left: 0;
 }
 
-.link_wrap > p {
+.link_wrap>p {
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -540,7 +530,7 @@ SP版：メニューリスト
   display: block;
   width: 100%;
   margin-top: 10px;
-  font-size: 0.75rem;
+  font-size: .75rem;
   line-height: 1.5;
 }
 
@@ -553,7 +543,7 @@ SP版：メニューリスト
   column-count: 2;
 }
 
-.link_list03 > li {
+.link_list03>li {
   width: 90px;
 }
 
@@ -612,13 +602,13 @@ SP版：メニューリスト
   background-image: linear-gradient(to right, #00b4aa, #7e8aff);
 }
 
-.copyright > p {
+.copyright>p {
   text-align: center;
   height: 30px;
 }
 
-.copyright > p > small {
-  font-size: 0.75rem;
+.copyright>p>small {
+  font-size: .75rem;
   line-height: 47px;
 }
 
@@ -650,7 +640,7 @@ SP版：メニューリスト
   width: 160px;
   margin: 0 auto;
   line-height: 1;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
 }
 
 .sideMenu_item {
@@ -670,7 +660,7 @@ SP版：メニューリスト
   border: 2px solid #00b4aa;
   background-color: #fff;
   color: #00b4aa;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 700;
   text-align: center;
 }
@@ -681,7 +671,7 @@ SP版：メニューリスト
   border: transparent;
   background-image: linear-gradient(to right, #00b4aa, #7e8aff);
   color: #fff;
-  transition: background-color 0.3s ease-out;
+  transition: background-color .3s ease-out;
 }
 
 .sideMenu_archiveitem {
@@ -692,7 +682,7 @@ SP版：メニューリスト
   margin-top: 0;
 }
 
-.sideMenu_archiveitem > li {
+.sideMenu_archiveitem>li {
   margin-bottom: 10px;
 }
 
@@ -701,7 +691,7 @@ SP版：メニューリスト
   display: inline-block;
   padding-left: 22px;
   color: #00b4aa;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -728,7 +718,6 @@ SP版：メニューリスト
   height: 0;
   padding-top: 31.25%;
   background-color: #191919;
-  /*-------- コピー --------*/
 }
 
 .mainVisual_wrap {
@@ -764,7 +753,7 @@ SP版：メニューリスト
 
 .mainVisual_text {
   color: #fff;
-  font-size: 0.75rem;
+  font-size: .9375rem;
 }
 
 /*! ===================================
@@ -793,7 +782,7 @@ SP版：メニューリスト
   font-size: 1.75rem;
   line-height: 1;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: .02em;
 }
 
 .bg01 {
@@ -973,7 +962,7 @@ SP版：メニューリスト
 .contactBox_text {
   margin-bottom: 7.59%;
   flex-grow: 1;
-  font-size: 0.875rem;
+  font-size: .875rem;
   text-align: center;
   line-height: 1.5;
 }
@@ -1021,8 +1010,6 @@ SP版：メニューリスト
   vertical-align: middle;
 }
 
-/* 戻るボタン */
-
 .prev {
   margin-right: 40px;
 }
@@ -1035,8 +1022,6 @@ SP版：メニューリスト
   border-left: 3px solid #00b4aa;
   transform: translateY(-50%) rotate(-45deg);
 }
-
-/* 進むボタン */
 
 .next {
   margin-left: 15px;
@@ -1067,13 +1052,13 @@ SP版：メニューリスト
   color: #bebebe;
   font-size: 1.125rem;
   font-weight: normal;
-  transition: 0.25s;
+  transition: .25s;
 }
 
 .page-numbers:hover {
   background-color: #00b4aa;
   color: #fff;
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .page-numbers:last-child {
@@ -1121,11 +1106,11 @@ SP版：メニューリスト
   height: auto;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
+.swiper-container-horizontal>.swiper-pagination-bullets {
   bottom: 0;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
   margin: 50px 10px 0;
@@ -1134,7 +1119,7 @@ SP版：メニューリスト
   opacity: 1;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet-active {
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
   background: #00b4aa;
 }
 
@@ -1173,7 +1158,7 @@ SP版：メニューリスト
 
 .swiperCard_time {
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
 }
 
@@ -1185,7 +1170,7 @@ SP版：メニューリスト
   width: 100px;
   background-color: #00b4aa;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 500;
   text-align: center;
 }
@@ -1213,7 +1198,7 @@ SP版：メニューリスト
 
 .swiperCard_author p {
   margin-left: 10px;
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 /*! ===================================
@@ -1261,7 +1246,7 @@ SP版：メニューリスト
 }
 
 .categoryCards_text {
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 /*! ===================================
@@ -1288,7 +1273,7 @@ SP版：メニューリスト
   margin-right: 0;
 }
 
-.category_item > .button03 {
+.category_item>.button03 {
   padding: 15px;
   font-size: 1rem;
 }
@@ -1321,7 +1306,7 @@ PC検索ボックス
   border-radius: 5px;
   opacity: 0;
   z-index: -1;
-  transition: all 0.4s;
+  transition: all .4s;
 }
 
 #search-wrap.panel-active {
@@ -1352,8 +1337,8 @@ PC検索ボックス
   height: 22px;
   border: none;
   font-size: 16px;
-  transition: all 0.5s;
-  letter-spacing: 0.05em;
+  transition: all .5s;
+  letter-spacing: .05em;
 }
 
 #searchsubmit {
@@ -1364,7 +1349,6 @@ PC検索ボックス
   height: 20px;
   border: none;
   background: url("../img/icon/search-gray.png") no-repeat right;
-  /*虫眼鏡アイコンを背景に表示*/
   background-size: 18px;
 }
 
@@ -1392,7 +1376,7 @@ PC検索ボックス
   padding: 5px 15px;
   border: none;
   font-size: 16px;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
 }
 
 #searchSp_submit {
@@ -1404,7 +1388,6 @@ PC検索ボックス
   height: 30px;
   border: none;
   background: url("../img/icon/search-gray.png") no-repeat right/contain;
-  /*虫眼鏡アイコンを背景に表示*/
 }
 
 /*! ===================================
@@ -1433,7 +1416,7 @@ wepotでできること
   padding: 8px;
   border-radius: 50%;
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
   text-align: center;
   line-height: 1.4;
@@ -1532,7 +1515,7 @@ wepotでできること
 
 .topArticle_time {
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
 }
 
@@ -1544,7 +1527,7 @@ wepotでできること
   width: 120px;
   background-color: #00b4aa;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 500;
   text-align: center;
 }
@@ -1570,7 +1553,7 @@ wepotでできること
 
 .topArticle_author p {
   margin-left: 20px;
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 /*! ===================================
@@ -1632,7 +1615,7 @@ aboutページ
 
 .member_link:hover .member_img {
   background-image: linear-gradient(to top, #00b4aa, #7e8aff);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
 }
 
 .member_img {
@@ -1650,7 +1633,7 @@ aboutページ
 .member .position {
   padding-bottom: 10px;
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 700;
   text-align: center;
 }
@@ -1709,7 +1692,7 @@ aboutページ
 .profilePage .name span {
   display: inline-block;
   color: #bebebe;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
   line-height: 1.3;
 }
 
@@ -1729,7 +1712,7 @@ aboutページ
   display: inline-block;
   width: 27px;
   height: 27px;
-  margin-right: 0.5em;
+  margin-right: .5em;
 }
 
 .profilePage-sns_item a {
@@ -1788,7 +1771,7 @@ aboutページ
   display: flex;
   margin-top: 30px;
   padding-left: 40px;
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 .history_item::before {
@@ -1798,7 +1781,7 @@ aboutページ
   left: 12px;
   transform: translateX(-50%);
   color: #00b4aa;
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 .history .year {
@@ -1864,7 +1847,7 @@ aboutページ
 
 .blogCard_time {
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
 }
 
@@ -1876,7 +1859,7 @@ aboutページ
   width: 100px;
   background-color: #00b4aa;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 500;
   text-align: center;
 }
@@ -1904,7 +1887,7 @@ aboutページ
 
 .blogCard_author p {
   margin-left: 10px;
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 .notArticle {
@@ -1956,7 +1939,7 @@ aboutページ
 .blog h3 {
   position: relative;
   margin: 60px 0 25px;
-  padding-left: 0.75em;
+  padding-left: .75em;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.3;
@@ -1971,7 +1954,7 @@ aboutページ
   content: "";
   top: 0;
   left: 0;
-  width: 0.698%;
+  width: .698%;
   height: 100%;
   border-radius: 3px;
   background-color: #00b4aa;
@@ -1979,7 +1962,7 @@ aboutページ
 
 .blog h4 {
   position: relative;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   padding-left: 1em;
   font-size: 1rem;
   font-weight: 500;
@@ -1991,8 +1974,8 @@ aboutページ
   content: "";
   top: 5px;
   left: 0;
-  width: 0.6em;
-  height: 0.6em;
+  width: .6em;
+  height: .6em;
   background-color: #00b4aa;
 }
 
@@ -2000,7 +1983,7 @@ aboutページ
   word-break: normal;
   overflow-wrap: break-word;
   margin-bottom: 40px;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
 }
 
 .blog p .marker {
@@ -2021,7 +2004,7 @@ aboutページ
 }
 
 .blog a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .blog figure {
@@ -2038,7 +2021,7 @@ aboutページ
 .blog figure figcaption {
   display: block;
   padding-left: 1em;
-  font-size: 0.875rem;
+  font-size: .875rem;
   text-align: right;
 }
 
@@ -2065,7 +2048,7 @@ aboutページ
 .infoLeft .time {
   margin-bottom: 15px;
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 700;
 }
 
@@ -2074,7 +2057,7 @@ aboutページ
   width: 120px;
   background-color: #00b4aa;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
   text-align: center;
 }
@@ -2088,7 +2071,7 @@ aboutページ
 .infoRight figcaption {
   margin-right: 10px;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
   text-align: right;
 }
@@ -2120,21 +2103,25 @@ aboutページ
 }
 
 #toc_container ul li {
-  margin-bottom: 10px;
+  margin-top: 10px;
   text-indent: -1.2em;
   padding-left: 1.2em;
 }
 
+#toc_container ul li:first-child {
+  margin-top: 0;
+}
+
 #toc_container ul ul {
   text-indent: -0.5em;
-  padding-left: 0.5em;
+  padding-left: .5em;
 }
 
 #toc_container ul ul li {
-  margin-bottom: 0;
+  margin-top: 0;
   text-indent: -2.1em;
   padding-left: 2.1em;
-  font-size: 1rem;
+  font-size: .9375rem;
   font-weight: 400;
 }
 
@@ -2160,7 +2147,7 @@ blockquote {
   margin: 0 auto 40px;
   padding: 1.875em 3.75em;
   background-color: #eee;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
 }
 
 blockquote::before,
@@ -2192,7 +2179,7 @@ blockquote cite {
   position: relative;
   display: block;
   margin-top: 15px;
-  font-size: 0.85em;
+  font-size: .85em;
   font-style: normal;
   text-indent: -4.1em;
   padding-left: 4.1em;
@@ -2249,7 +2236,7 @@ blockquote cite {
 .border03_text {
   padding: 1.25em;
   border: 2px solid #00b4aa;
-  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 3px 3px 10px 0 rgba(0,0,0,.16);
 }
 
 .wp-block-columns.blnLeft {
@@ -2273,7 +2260,7 @@ blockquote cite {
 
 .wp-block-column.blnLeft-icon figcaption {
   padding: 0 !important;
-  font-size: 0.75rem;
+  font-size: .75rem;
   text-align: center !important;
 }
 
@@ -2327,7 +2314,7 @@ blockquote cite {
 
 .wp-block-column.blnRight-icon figcaption {
   padding: 0 !important;
-  font-size: 0.75rem;
+  font-size: .75rem;
   text-align: center !important;
 }
 
@@ -2366,7 +2353,8 @@ blockquote cite {
 .ulList li {
   position: relative;
   margin-top: 10px;
-  padding-left: 1.2em;
+  padding-left: .9em;
+  font-size: .9375rem;
 }
 
 .ulList li:first-child {
@@ -2376,7 +2364,7 @@ blockquote cite {
 .ulList li::before {
   position: absolute;
   content: "";
-  top: 10px;
+  top: 9px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -2408,7 +2396,7 @@ blockquote cite {
 
 .ulList-indent01 {
   padding-left: 2.326%;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
 }
 
 .ulList-indent02 {
@@ -2418,14 +2406,14 @@ blockquote cite {
   padding: 1.5em;
   border: 2px solid #00b4aa;
   border-radius: 8px;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
 }
 
 .ulList-indent03 {
   width: 91%;
   max-width: 780px;
   margin: 0 auto 40px;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
 }
 
 .ulList-indent03_title {
@@ -2479,7 +2467,7 @@ blockquote cite {
 .ulList-indent03_body ul li::before {
   position: absolute;
   content: "";
-  top: 10px;
+  top: 9px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -2497,7 +2485,7 @@ ol li {
   margin-top: 10px;
   text-indent: -1.3em;
   padding-left: 1.3em;
-  font-size: 0.9375rem;
+  font-size: .9375rem;
 }
 
 ol li:first-child {
@@ -2604,22 +2592,22 @@ ol li:before {
   padding: 5px;
   background-color: #00b4aa;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
   text-align: center;
   line-height: 1.2;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
 }
 
 .relatedPost_title {
-  margin-bottom: 0.8em;
-  font-size: 0.9375rem;
+  margin-bottom: .8em;
+  font-size: .9375rem;
   font-weight: 700;
 }
 
 .relatedPost_time {
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
 }
 
@@ -2732,7 +2720,7 @@ ol li:before {
   display: block;
   width: 100%;
   color: #bebebe;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 500;
 }
 
@@ -2742,8 +2730,8 @@ ol li:before {
 }
 
 .blogAuthor_body .description {
-  margin: 0.5em 0 1em 0;
-  font-size: 0.75rem;
+  margin: .5em 0 1em 0;
+  font-size: .75rem;
 }
 
 .blogAuthor-sns {
@@ -2755,7 +2743,7 @@ ol li:before {
   margin-right: 1.5em;
   margin-bottom: 10px;
   color: #bebebe;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 500;
 }
 
@@ -2767,7 +2755,7 @@ ol li:before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  margin-right: 0.5em;
+  margin-right: .5em;
 }
 
 .blogAuthor-sns_item a {
@@ -2798,7 +2786,7 @@ ol li:before {
   font-weight: 500;
   text-align: center;
   line-height: 1.7;
-  letter-spacing: 0.02em;
+  letter-spacing: .02em;
 }
 
 /*! ===================================
@@ -2825,7 +2813,7 @@ ol li:before {
   height: 35.157%;
   max-height: 450px;
   margin-right: 3.125%;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,.16);
 }
 
 .worksBox_img img {
@@ -2835,7 +2823,7 @@ ol li:before {
 .worksBox_body {
   width: 34.375%;
   max-width: 440px;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: 400;
 }
 
@@ -2852,13 +2840,13 @@ ol li:before {
 
 .worksBox_url {
   margin-top: 10px;
-  font-size: 0.875rem;
-  text-decoration: underline;
+  font-size: .875rem;
 }
 
 .worksBox_url a {
   display: inline-block;
   word-break: break-all;
+  text-decoration: underline;
 }
 
 .worksBox_url a .fa-external-link-alt {
@@ -2920,14 +2908,14 @@ wepotの強み
   font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
-  letter-spacing: 0.01em;
+  letter-spacing: .01em;
 }
 
 .strong-text {
   width: 85%;
   margin: 0 auto;
-  font-size: 0.875rem;
-  letter-spacing: 0.02em;
+  font-size: .875rem;
+  letter-spacing: .02em;
 }
 
 .strong-media {
@@ -2977,7 +2965,7 @@ wepotの強み
 .strong-media_title {
   font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: .02em;
 }
 
 .strong-media_title span {
@@ -2987,7 +2975,7 @@ wepotの強み
 
 .strong-media_text {
   margin-top: 20px;
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 /*! ===================================
@@ -3005,7 +2993,7 @@ wepotの強み
 
 .flow_title {
   position: relative;
-  padding: 0.875em 0;
+  padding: .875em 0;
   font-size: 1.25rem;
   font-weight: 500;
   text-align: center;
@@ -3023,10 +3011,10 @@ wepotの強み
   top: -9px;
   left: 50%;
   transform: translateX(-50%);
-  color: rgba(0, 180, 170, 0.1);
+  color: rgba(0,180,170,.1);
   font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 0.065em;
+  letter-spacing: .065em;
 }
 
 .flow_list {
@@ -3060,7 +3048,7 @@ wepotの強み
 
 .flow_item h4 {
   width: 100%;
-  padding: 0.9em 10px;
+  padding: .9em 10px;
   border: 2px solid #00b4aa;
   border-radius: 8px;
   color: #00b4aa;
@@ -3082,8 +3070,8 @@ wepotの強み
 
 .flow_item ul li {
   position: relative;
-  padding: 1em 0.5em;
-  font-size: 0.875rem;
+  padding: 1em .5em;
+  font-size: .875rem;
 }
 
 .flow_item ul li::before {
@@ -3093,7 +3081,7 @@ wepotの強み
   left: 50%;
   transform: translateX(-50%);
   color: #00b4aa;
-  font-size: 0.825rem;
+  font-size: .825rem;
 }
 
 .flow_item ul li span {
@@ -3111,7 +3099,7 @@ wepotの強み
   font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: .02em;
 }
 
 /*! ===================================
@@ -3132,8 +3120,6 @@ wepotの強み
   margin: 30px auto 0;
 }
 
-/*-------- フォーム --------*/
-
 .input-box {
   margin-bottom: 4.5%;
 }
@@ -3148,7 +3134,7 @@ wepotの強み
 .label-area span {
   display: inline-block;
   margin-left: 20px;
-  padding: 0.25em 0.75em;
+  padding: .25em .75em;
   border-radius: 5px;
   background-color: #00b4aa;
   color: #fff;
@@ -3165,7 +3151,7 @@ wepotの強み
   border-radius: 0;
   display: block;
   width: 100%;
-  padding: 0.7em 0.5em;
+  padding: .7em .5em;
   border: 2px solid #00b4aa;
   font-size: 20px;
 }
@@ -3206,8 +3192,6 @@ wepotの強み
   line-height: 1.5;
 }
 
-/*-------- チェックボックス --------*/
-
 .check-btn {
   margin-left: 10px;
 }
@@ -3242,7 +3226,7 @@ span.wpcf7-list-item {
   background: #f3f3f3;
 }
 
-.check-btn input[type=checkbox]:checked + .wpcf7-list-item-label:after {
+.check-btn input[type=checkbox]:checked+.wpcf7-list-item-label:after {
   position: absolute;
   content: "";
   display: block;
@@ -3255,14 +3239,12 @@ span.wpcf7-list-item {
   border-bottom: 3px solid #00b4aa;
 }
 
-/*-------- 送信ボタン --------*/
-
 .action-box_text {
   display: block;
   margin-bottom: 30px;
   font-size: 1rem;
   text-align: center;
-  letter-spacing: 0.07em;
+  letter-spacing: .07em;
 }
 
 .action-box_text span {
@@ -3271,10 +3253,8 @@ span.wpcf7-list-item {
 }
 
 .action-box_text span:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
-
-/*-------- アラート文 --------*/
 
 .screen-reader-response {
   display: none;
@@ -3302,8 +3282,8 @@ span.wpcf7-list-item {
 }
 
 .policy p {
-  font-size: 0.75rem;
-  letter-spacing: 0.02em;
+  font-size: .75rem;
+  letter-spacing: .02em;
 }
 
 .policy p.inquiry {
@@ -3335,7 +3315,7 @@ span.wpcf7-list-item {
 
 .policy h3 {
   position: relative;
-  margin: 3.125% 0 0.9375%;
+  margin: 3.125% 0 .9375%;
   padding-left: 1em;
   font-size: 1rem;
 }
@@ -3346,8 +3326,8 @@ span.wpcf7-list-item {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  width: 0.5em;
-  height: 0.5em;
+  width: .5em;
+  height: .5em;
   background-color: #00b4aa;
 }
 
@@ -3358,7 +3338,7 @@ span.wpcf7-list-item {
 }
 
 .policy a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .policy ul {
@@ -3367,10 +3347,10 @@ span.wpcf7-list-item {
 }
 
 .policy ul li {
-  margin-top: 0.5em;
+  margin-top: .5em;
   text-indent: -1em;
   padding-left: 1em;
-  font-size: 0.75rem;
+  font-size: .75rem;
   line-height: 1.5;
 }
 
@@ -3444,7 +3424,7 @@ span.wpcf7-list-item {
     font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
-  .link_wrap > p {
+  .link_wrap>p {
     font-size: calc(1.1rem + 0.0148148148 * (100vw - 48rem));
   }
 
@@ -3452,7 +3432,7 @@ span.wpcf7-list-item {
     font-size: calc(0.75rem + 0.0092592593 * (100vw - 48rem));
   }
 
-  .copyright > p > small {
+  .copyright>p>small {
     font-size: calc(0.75rem + 0.0138888889 * (100vw - 48rem));
   }
 
@@ -3473,7 +3453,7 @@ span.wpcf7-list-item {
   }
 
   .mainVisual_text {
-    font-size: calc(0.75rem + 0.0069444444 * (100vw - 48rem));
+    font-size: calc(0.9375rem + 0.0043402778 * (100vw - 48rem));
   }
 
   .pageVisual_title {
@@ -3512,7 +3492,7 @@ span.wpcf7-list-item {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
 
-  .category_item > .button03 {
+  .category_item>.button03 {
     font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
@@ -3634,6 +3614,10 @@ span.wpcf7-list-item {
 
   .wp-block-column.blnRight-icon figcaption {
     font-size: calc(0.75rem + 0.0046296296 * (100vw - 48rem));
+  }
+
+  .ulList li {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
   .ulList-indent01 {
@@ -3812,7 +3796,7 @@ span.wpcf7-list-item {
     font-size: 1rem;
   }
 
-  .link_wrap > p {
+  .link_wrap>p {
     font-size: 1.5rem;
   }
 
@@ -3820,7 +3804,7 @@ span.wpcf7-list-item {
     font-size: 1rem;
   }
 
-  .copyright > p > small {
+  .copyright>p>small {
     font-size: 1.125rem;
   }
 
@@ -3872,7 +3856,7 @@ span.wpcf7-list-item {
     font-size: 1rem;
   }
 
-  .category_item > .button03 {
+  .category_item>.button03 {
     font-size: 1.25rem;
   }
 
@@ -3989,11 +3973,15 @@ span.wpcf7-list-item {
   }
 
   .wp-block-column.blnLeft-icon figcaption {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .wp-block-column.blnRight-icon figcaption {
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .ulList li {
+    font-size: 1rem;
   }
 
   .ulList-indent01 {
@@ -4037,11 +4025,11 @@ span.wpcf7-list-item {
   }
 
   .blogAuthor .position {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .blogAuthor_body .description {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .works-title {
@@ -4228,7 +4216,7 @@ span.wpcf7-list-item {
     margin-top: calc(10px + 0.0162037037 * (100vw - 768px));
   }
 
-  .link_list03 > li {
+  .link_list03>li {
     width: calc(90px + 0.0694444444 * (100vw - 768px));
   }
 
@@ -4260,7 +4248,7 @@ span.wpcf7-list-item {
     width: calc(130px + 0.2777777778 * (100vw - 768px));
   }
 
-  .copyright > p {
+  .copyright>p {
     height: calc(30px + 0.0462962963 * (100vw - 768px));
   }
 
@@ -4740,7 +4728,7 @@ span.wpcf7-list-item {
     margin-top: 17px;
   }
 
-  .link_list03 > li {
+  .link_list03>li {
     width: 120px;
   }
 
@@ -4772,7 +4760,7 @@ span.wpcf7-list-item {
     width: 250px;
   }
 
-  .copyright > p {
+  .copyright>p {
     height: 50px;
   }
 
@@ -5215,7 +5203,7 @@ span.wpcf7-list-item {
   .section_text {
     width: 100%;
     margin-top: 15px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .header_inner {
@@ -5261,11 +5249,10 @@ span.wpcf7-list-item {
     background-color: #fff;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    /* アニメーション前のメニューの状態 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: translateX(100vw);
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out;
   }
 
   .spMenu_list {
@@ -5309,7 +5296,7 @@ span.wpcf7-list-item {
   }
 
   .spMenu_item-policy {
-    font-size: 0.875rem;
+    font-size: .875rem;
     font-weight: 400;
   }
 
@@ -5335,7 +5322,7 @@ span.wpcf7-list-item {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    transition: all 0.3s;
+    transition: all .3s;
     width: 40px;
     height: 26px;
     margin-left: auto;
@@ -5353,7 +5340,7 @@ span.wpcf7-list-item {
     width: 100%;
     height: 3px;
     background-color: #fff;
-    transition: all 0.3s;
+    transition: all .3s;
   }
 
   .spMenu_btn-bar1 {
@@ -5376,7 +5363,7 @@ span.wpcf7-list-item {
     margin-left: 0;
   }
 
-  .link_wrap > p {
+  .link_wrap>p {
     font-size: 1.5rem;
     text-align: center;
     line-height: 1;
@@ -5405,12 +5392,12 @@ span.wpcf7-list-item {
     display: none;
   }
 
-  .copyright > p {
+  .copyright>p {
     height: 47px;
   }
 
-  .copyright > p > small {
-    font-size: 0.875rem;
+  .copyright>p>small {
+    font-size: .875rem;
   }
 
   .sideMenu {
@@ -5418,8 +5405,8 @@ span.wpcf7-list-item {
   }
 
   .mainVisual {
-    height: 360px;
-    padding-top: 0;
+    height: 280px;
+    padding: 10px 0;
   }
 
   .mainVisual_heading {
@@ -5427,11 +5414,11 @@ span.wpcf7-list-item {
   }
 
   .mainVisual_title {
-    font-size: 1.125rem;
+    font-size: 1.05rem;
   }
 
   .mainVisual_text {
-    font-size: 0.875rem;
+    font-size: .825rem;
   }
 
   .pageVisual {
@@ -5469,11 +5456,11 @@ span.wpcf7-list-item {
     padding: 40px 0 60px;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullets {
+  .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -10px;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 10px;
   }
 
@@ -5507,9 +5494,9 @@ span.wpcf7-list-item {
     margin: 0;
   }
 
-  .category_item > .button03 {
+  .category_item>.button03 {
     padding: 12px 0;
-    font-size: 0.875rem;
+    font-size: .875rem;
     font-weight: 400;
     line-height: 1.2;
   }
@@ -5524,7 +5511,7 @@ span.wpcf7-list-item {
     margin-top: 20px;
     margin-right: 30px;
     padding: 4px;
-    font-size: 0.8125rem;
+    font-size: .8125rem;
   }
 
   .can_text02 {
@@ -5575,7 +5562,7 @@ span.wpcf7-list-item {
   }
 
   .member .position {
-    font-size: 0.75rem;
+    font-size: .75rem;
     letter-spacing: 0;
   }
 
@@ -5594,7 +5581,7 @@ span.wpcf7-list-item {
   .profilePage-sns_item {
     margin: 10px 0;
     padding: 0 6px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .profilePage-sns_item img {
@@ -5681,7 +5668,7 @@ span.wpcf7-list-item {
 
   .blogCard_title {
     margin: 10px 0;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .singlePage {
@@ -5733,7 +5720,7 @@ span.wpcf7-list-item {
 
   .infoLeft .tag {
     width: 137px;
-    font-size: 0.8125rem;
+    font-size: .8125rem;
   }
 
   .infoRight figcaption {
@@ -5752,11 +5739,11 @@ span.wpcf7-list-item {
 
   #toc_container p {
     margin-bottom: 16px;
-    font-size: 0.9375rem;
+    font-size: .9375rem;
   }
 
   #toc_container ul {
-    font-size: 0.9375rem;
+    font-size: .9375rem;
   }
 
   #toc_container ul li {
@@ -5764,8 +5751,8 @@ span.wpcf7-list-item {
   }
 
   #toc_container ul ul li {
-    margin-bottom: 5px;
-    font-size: 0.875rem;
+    margin-top: 5px;
+    font-size: .875rem;
   }
 
   blockquote {
@@ -5814,7 +5801,7 @@ span.wpcf7-list-item {
   }
 
   .wp-block-column.blnLeft-icon figcaption {
-    font-size: 0.6875rem;
+    font-size: .6875rem;
     font-weight: 500;
   }
 
@@ -5834,7 +5821,7 @@ span.wpcf7-list-item {
   }
 
   .wp-block-column.blnRight-icon figcaption {
-    font-size: 0.6875rem;
+    font-size: .6875rem;
     font-weight: 500;
   }
 
@@ -5845,7 +5832,6 @@ span.wpcf7-list-item {
   }
 
   .ulList li {
-    font-size: 0.875rem;
     line-height: 1.8;
   }
 
@@ -5855,12 +5841,12 @@ span.wpcf7-list-item {
   }
 
   .ulList ul li::before {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
   }
 
   .ulList-indent01 {
-    padding-left: 0.8em;
+    padding-left: .8em;
   }
 
   .ulList-indent02 {
@@ -5882,16 +5868,16 @@ span.wpcf7-list-item {
   }
 
   .ulList-indent03_body ul li::before {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
   }
 
   ol li {
-    font-size: 0.9375rem;
+    font-size: .9375rem;
   }
 
   .olList-indent01 {
-    padding-left: 0.8em;
+    padding-left: .8em;
   }
 
   .olList-indent02 {
@@ -5905,7 +5891,7 @@ span.wpcf7-list-item {
 
   .olList-indent03_title {
     padding: 3px 16px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .works-title {
@@ -5986,7 +5972,7 @@ span.wpcf7-list-item {
   }
 
   .flow_item ul li {
-    padding: 1em 0.2em;
+    padding: 1em .2em;
   }
 
   .flow_text {
@@ -6017,22 +6003,22 @@ span.wpcf7-list-item {
 
   .label-area {
     margin-bottom: 10px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .label-area span {
     margin-left: 10px;
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .input-item {
-    padding: 0.7em 0.5em;
+    padding: .7em .5em;
     font-size: 16px;
   }
 
   .message {
     height: 350px;
-    padding: 0.7em;
+    padding: .7em;
   }
 
   .message::-webkit-scrollbar {
@@ -6052,12 +6038,12 @@ span.wpcf7-list-item {
   }
 
   span.wpcf7-list-item {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .action-box_text {
     margin-bottom: 20px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .policy {
@@ -6066,7 +6052,7 @@ span.wpcf7-list-item {
   }
 
   .policy p {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .policy p.inquiry {
@@ -6096,7 +6082,7 @@ span.wpcf7-list-item {
   }
 
   .policy ul li {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .notFound {
@@ -6214,7 +6200,7 @@ span.wpcf7-list-item {
 
   .contactBox_text {
     margin: 10px 0 15px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .page-numbers {
@@ -6222,7 +6208,7 @@ span.wpcf7-list-item {
   }
 
   .swiperCard_time {
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .swiperCard_title {
@@ -6296,7 +6282,7 @@ span.wpcf7-list-item {
     width: 119px;
     height: 119px;
     margin-right: 37px;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .can_item:nth-child(-n+4) {
@@ -6333,7 +6319,7 @@ span.wpcf7-list-item {
   }
 
   .topArticle_time {
-    font-size: 0.6875rem;
+    font-size: .6875rem;
   }
 
   .topArticle_tag {
@@ -6342,7 +6328,7 @@ span.wpcf7-list-item {
 
   .topArticle_title {
     margin-bottom: 5px;
-    font-size: 0.875rem;
+    font-size: .875rem;
     font-weight: 700;
   }
 
@@ -6410,7 +6396,7 @@ span.wpcf7-list-item {
   }
 
   .blogCard_time {
-    font-size: 0.6875rem;
+    font-size: .6875rem;
   }
 
   .blogCard_tag {
@@ -6429,7 +6415,7 @@ span.wpcf7-list-item {
   .notArticle {
     font-size: 1rem;
     text-align: left;
-    letter-spacing: 0.02em;
+    letter-spacing: .02em;
   }
 
   .relatedPost {
@@ -6526,7 +6512,7 @@ span.wpcf7-list-item {
   }
 
   .blogAuthor .position {
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .blogAuthor_body {
@@ -6535,7 +6521,7 @@ span.wpcf7-list-item {
 
   .blogAuthor_body .description {
     margin: 20px 0;
-    font-size: 0.875rem;
+    font-size: .875rem;
   }
 
   .blogAuthor-sns {
@@ -6578,7 +6564,7 @@ span.wpcf7-list-item {
   }
 
   .worksBox_url {
-    font-size: 0.8125rem;
+    font-size: .8125rem;
   }
 
   .worksBox-member_list {
@@ -6711,10 +6697,6 @@ span.wpcf7-list-item {
 }
 
 @media screen and (max-width: 350px) {
-  .mainVisual_title {
-    font-size: 1rem;
-  }
-
   .contactBox_title {
     font-size: 1rem;
   }
@@ -6725,12 +6707,12 @@ span.wpcf7-list-item {
 
   .topArticle_tag {
     width: 90px;
-    font-size: 0.625rem;
+    font-size: .625rem;
   }
 
   .blogCard_tag {
     width: 90px;
-    font-size: 0.625rem;
+    font-size: .625rem;
   }
 
   .strong-catch {
@@ -6746,35 +6728,45 @@ span.wpcf7-list-item {
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 21.875rem) {
+@media screen and (max-width: 768px)and (min-width: 20rem) {
   .mainVisual_title {
-    font-size: calc(1.125rem + 0.035 * (100vw - 21.875rem));
+    font-size: calc(1.05rem + 0.0353488372 * (100vw - 20rem));
   }
 
+  .mainVisual_text {
+    font-size: calc(0.825rem + 0.0018604651 * (100vw - 20rem));
+  }
+}
+
+@media screen and (max-width: 768px)and (min-width: 46.875rem) {
+  .mainVisual_title {
+    font-size: 2rem;
+  }
+
+  .mainVisual_text {
+    font-size: .875rem;
+  }
+}
+
+@media screen and (max-width: 768px)and (min-width: 21.875rem) {
   .pageVisual_title {
     font-size: calc(1.25rem + 0.0228571429 * (100vw - 21.875rem));
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 46.875rem) {
-  .mainVisual_title {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 43.75rem) {
+@media screen and (max-width: 768px)and (min-width: 43.75rem) {
   .pageVisual_title {
     font-size: 1.75rem;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 350px) {
+@media screen and (max-width: 768px)and (min-width: 350px) {
   .message {
     height: calc(350px + -0.375 * (100vw - 350px));
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 750px) {
+@media screen and (max-width: 768px)and (min-width: 750px) {
   .message {
     height: 200px;
   }

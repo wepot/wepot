@@ -8,9 +8,7 @@
             <header class="mainVisual_heading">
                 <h1 class="mainVisual_title">理想の未来を創る、すべてがここに</h1>
             </header>
-            <p class="mainVisual_text">
-                Wepotは、デジタルクリエイティブで課題を抱えるすべての人への解決策を提示できます。なぜなら、強みが違う自立した個人事業主で構成されるクリエイティブチームだからです。クライアントとユーザー、どちらの課題も解決すること。それがWepotのミッションです。
-            </p>
+            <p class="mainVisual_text">ビジネスのあらゆる課題解決に必要な「すべて」が揃った、クリエイティブのスペシャリスト集団によるメディア</p>
         </div>
     </section><!-- /.mainVisual -->
 
