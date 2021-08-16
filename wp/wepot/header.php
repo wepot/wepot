@@ -157,7 +157,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
     <!-- jQuery -->
@@ -257,7 +257,7 @@
                                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/coding" class="button03">コーディング</a></li>
                                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/illust" class="button03">イラスト</a></li>
                                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/video" class="button03">動画編集</a></li>
-                                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/others" class="button03">その他</a></li>
+                                <!-- <li class="category_item"><a href="<?php echo home_url(); ?>/blog/others" class="button03">その他</a></li> -->
                             </ul>
                         </li>
                         <li id="searchSp">
