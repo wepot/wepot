@@ -31,7 +31,7 @@
             </header>
             <div class="contact_wrap">
                 <div class="contactForm">
-                    <?php echo do_shortcode('[mwform_formkey key="790"]'); ?>
+                    <?php the_content(); ?>
                 </div><!-- /.contactForm -->
             </div><!-- /.contact_inner -->
         </div><!-- /.section_inner -->
