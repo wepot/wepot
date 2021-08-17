@@ -155,7 +155,7 @@ body {
 .button03 {
   display: inline-block;
   width: 100%;
-  padding: 15px;
+  padding: 15px 5px;
   border: 2px solid #00b4aa;
   background-color: #fff;
   color: #00b4aa;
@@ -172,7 +172,12 @@ body {
 
 .more {
   width: 250px;
-  height: 60px;
+  margin: 3.906% auto 0;
+}
+
+.more-member {
+  width: 100%;
+  max-width: 300px;
   margin: 3.906% auto 0;
 }
 
@@ -2853,7 +2858,7 @@ ol li:before {
 }
 
 .worksBox_url a .fa-external-link-alt {
-  margin: 0 5px;
+  margin-left: 5px;
   font-weight: 400;
 }
 
@@ -5186,15 +5191,18 @@ span.wpcf7-list-item {
   }
 
   .button03 {
-    padding: 12px 5px;
+    padding: 9px 5px;
     font-weight: 400;
   }
 
   .more {
     width: 203px;
-    height: 54px;
-    margin-top: 40px;
-    font-size: 1.125rem;
+    margin-top: 30px;
+  }
+
+  .more-member {
+    margin-top: 30px;
+    padding: 0 10px;
   }
 
   .action_btn {
@@ -5502,7 +5510,7 @@ span.wpcf7-list-item {
   }
 
   .category_item>.button03 {
-    padding: 12px 0;
+    padding: 12px 5px;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.2;
@@ -5705,7 +5713,7 @@ span.wpcf7-list-item {
 
   .blog h4 {
     font-size: 1rem;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .blog p {
@@ -6009,7 +6017,6 @@ span.wpcf7-list-item {
   }
 
   .label-area {
-    margin-bottom: 10px;
     font-size: .9375rem;
     font-weight: 700;
   }
@@ -6413,7 +6420,6 @@ span.wpcf7-list-item {
 
   .notArticle {
     font-size: 1rem;
-    text-align: left;
     letter-spacing: .02em;
   }
 
@@ -6696,6 +6702,10 @@ span.wpcf7-list-item {
 }
 
 @media screen and (max-width: 350px) {
+  .more-member .button03 {
+    font-size: 1rem;
+  }
+
   .contactBox_title {
     font-size: 1rem;
   }

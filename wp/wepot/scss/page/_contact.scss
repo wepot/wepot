@@ -55,7 +55,6 @@
   font-weight: 500;
   
     @include m.mq(md) {
-      margin-bottom: 10px;
       font-size: s.rem(15px);
       font-weight: 700;
     }

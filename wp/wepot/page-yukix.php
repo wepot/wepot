@@ -170,8 +170,8 @@
                 <div class="swiper-pagination"></div>
             </div><!-- /.swiper-container -->
 
-            <div class="more">
-                <a href="<?php echo home_url(); ?>/author/yukix" class="button03">ユキックスの<br>執筆記事一覧</a>
+            <div class="more-member">
+                <a href="<?php echo home_url(); ?>/author/yukix" class="button03">ユキックスの執筆記事一覧</a>
             </div><!-- /.more -->
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->

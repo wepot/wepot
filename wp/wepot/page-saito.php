@@ -132,7 +132,7 @@
                 <div class="swiper-pagination"></div>
             </div><!-- /.swiper-container -->
 
-            <div class="more">
+            <div class="more-member">
                 <a href="<?php echo home_url(); ?>/author/saito" class="button03">さいとぅの執筆記事一覧</a>
             </div><!-- /.more -->
         </div><!-- /.section_inner -->

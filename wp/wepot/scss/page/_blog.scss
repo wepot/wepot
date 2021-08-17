@@ -179,7 +179,6 @@
   text-align: center;
     @include m.mq(sm) {
       font-size: s.rem(16px);
-      text-align: left;
       letter-spacing: .02em;
     }
 }

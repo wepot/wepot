@@ -18,7 +18,7 @@
             <header class="section_heading">
                 <h2 class="section_title">情報発信について</h2>
             </header>
-            <p class="section_text">各分野に特化したメンバーによる基礎知識から応用・セオリーまで丁寧に解説しているのが、当メディア。デジタルクリエイティブの課題発見や新たな価値創出に役立つ内容を、時代の変化と共に私たちも進化しながら”生きた”情報をお届けします。</p>
+            <p class="section_text">各分野に特化したメンバーによる基礎知識から応用・セオリーまで丁寧に解説しているのが、当メディア。デジタルクリエイティブの課題発見や新たな価値創出に役立つ内容を、時代の変化と共に私たちも進化しながら“生きた”情報をお届けします。</p>
             <div class="categoryCards">
                 <ul class="categoryCards_list">
                     <li class="categoryCards_item">
@@ -95,7 +95,7 @@
                     <li class="can_item"><span>グラフィック<br>デザイン</span></li>
                 </ul>
 
-                <p class="can_text01">他、上記の記載事項だけでなくあらゆるご相談が可能です。<br>お気軽にお問い合わせください。</p>
+                <p class="can_text01">他、上記の記載事項だけでなく<br class="br-sp02">あらゆるご相談が可能です。<br>お気軽にお問い合わせください。</p>
             </div>
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->

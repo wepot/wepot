@@ -129,7 +129,7 @@
                 <div class="swiper-pagination"></div>
             </div><!-- /.swiper-container -->
 
-            <div class="more">
+            <div class="more-member">
                 <a href="<?php echo home_url(); ?>/author/honma/" class="button03">ホンマ ヒロミツの執筆記事一覧</a>
             </div><!-- /.more -->
         </div><!-- /.section_inner -->

@@ -53,7 +53,7 @@
 .button03{
   display: inline-block;
   width: 100%;
-  padding: 15px;
+  padding: 15px 5px;
   border: 2px solid s.$green01;
   background-color: s.$white01;
   color: s.$green01;
@@ -68,7 +68,7 @@
     }
 
     @include m.mq(md) {
-      padding: 12px 5px;
+      padding: 9px 5px;
       font-weight: 400;
     }
 }
@@ -76,13 +76,24 @@
 // ブログ一覧を見る
 .more{
   width: 250px;
-  height: 60px;
   margin: 3.906% auto 0;
     @include m.mq(md) {
       width: 203px;
-      height: 54px;
-      margin-top: 40px;
-      font-size: s.rem(18px);
+      margin-top: 30px;
+    }
+}
+.more-member{
+  width: 100%;
+  max-width: 300px;
+  margin: 3.906% auto 0;
+    @include m.mq(md) {
+      margin-top: 30px;
+      padding: 0 10px;
+    }
+    .button03{
+      @include m.mq(xs) {
+        font-size: s.rem(16px);
+      }
     }
 }
 
