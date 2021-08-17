@@ -26,25 +26,25 @@
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/sato/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/tomoni/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/saito/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/maruo/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン"></a>
                                 </li>
                             </ul>
                         </div>
@@ -68,12 +68,11 @@
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン"></a>
                                 </li>
-
                             </ul>
                         </div>
                         <!-- <div class="worksBox_btn">
@@ -96,13 +95,13 @@
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン"></a>
                                 </li>
                                 <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
+                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン"></a>
                                 </li>
                             </ul>
                         </div>
