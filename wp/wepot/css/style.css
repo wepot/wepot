@@ -1099,7 +1099,7 @@ SP版：メニューリスト
 .swiper-container {
   width: 100%;
   max-width: 1300px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   padding: 0 10px;
 }
 
@@ -3168,38 +3168,42 @@ wepotの強み
   font-size: 20px;
 }
 
-.message {
+.mwform-tel-field .input-tel {
+  width: 140px !important;
+}
+
+#message {
   height: 200px;
   padding: 1em;
   resize: none;
   overflow-y: scroll;
 }
 
-.message::-webkit-scrollbar {
+#message::-webkit-scrollbar {
   width: 15px;
 }
 
-.message::-webkit-scrollbar-track {
+#message::-webkit-scrollbar-track {
   border-radius: 70px;
   background: #00b4aa33;
 }
 
-.message::-webkit-scrollbar-thumb {
+#message::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #00b4aa;
 }
 
-.message::-moz-placeholder {
+#message::-moz-placeholder {
   font-size: 20px;
   line-height: 1.5;
 }
 
-.message:-ms-input-placeholder {
+#message:-ms-input-placeholder {
   font-size: 20px;
   line-height: 1.5;
 }
 
-.message::placeholder {
+#message::placeholder {
   font-size: 20px;
   line-height: 1.5;
 }
@@ -3213,18 +3217,19 @@ wepotの強み
   opacity: 0;
 }
 
-span.wpcf7-list-item {
+.mw_wp_form .horizontal-item+.horizontal-item {
+  margin-left: 0 !important;
+}
+
+span.mwform-checkbox-field-text {
   position: relative;
   display: block;
   padding: 6px 0 6px 35px;
   font-size: 1.125rem;
-}
-
-.wpcf7-list-item-label {
   cursor: pointer;
 }
 
-.wpcf7-list-item-label::before {
+span.mwform-checkbox-field-text::before {
   position: absolute;
   content: "";
   display: block;
@@ -3238,11 +3243,11 @@ span.wpcf7-list-item {
   background: #f3f3f3;
 }
 
-.check-btn input[type=checkbox]:checked+.wpcf7-list-item-label:after {
+.check-btn input[type=checkbox]:checked+span.mwform-checkbox-field-text:after {
   position: absolute;
   content: "";
   display: block;
-  top: 8px;
+  top: 11px;
   left: 7px;
   transform: rotate(45deg);
   width: 8px;
@@ -4650,7 +4655,7 @@ span.wpcf7-list-item {
     margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
-  .message {
+  #message {
     height: calc(200px + 0.3935185185 * (100vw - 768px));
   }
 
@@ -5154,7 +5159,7 @@ span.wpcf7-list-item {
     margin-top: 60px;
   }
 
-  .message {
+  #message {
     height: 370px;
   }
 
@@ -6031,29 +6036,33 @@ span.wpcf7-list-item {
     font-size: 16px;
   }
 
-  .message {
+  #message {
     height: 350px;
     padding: .7em;
   }
 
-  .message::-webkit-scrollbar {
+  #message::-webkit-scrollbar {
     width: 8px;
   }
 
-  .message::-moz-placeholder {
+  #message::-moz-placeholder {
     font-size: 16px;
   }
 
-  .message:-ms-input-placeholder {
+  #message:-ms-input-placeholder {
     font-size: 16px;
   }
 
-  .message::placeholder {
+  #message::placeholder {
     font-size: 16px;
   }
 
-  span.wpcf7-list-item {
+  span.mwform-checkbox-field-text {
     font-size: .875rem;
+  }
+
+  .check-btn input[type=checkbox]:checked+span.mwform-checkbox-field-text:after {
+    top: 8px;
   }
 
   .action-box_text {
@@ -6115,6 +6124,11 @@ span.wpcf7-list-item {
 
   .br-sp02 {
     display: block;
+  }
+
+  .more-member .button03 {
+    max-width: 280px;
+    font-size: 1.0625rem;
   }
 
   .bg01 {
@@ -6699,10 +6713,15 @@ span.wpcf7-list-item {
     top: 0;
     left: 0;
   }
+
+  .mwform-tel-field .input-tel {
+    width: 83px !important;
+  }
 }
 
 @media screen and (max-width: 350px) {
   .more-member .button03 {
+    max-width: 260px;
     font-size: 1rem;
   }
 
@@ -6766,13 +6785,13 @@ span.wpcf7-list-item {
 }
 
 @media screen and (max-width: 768px)and (min-width: 350px) {
-  .message {
+  #message {
     height: calc(350px + -0.375 * (100vw - 350px));
   }
 }
 
 @media screen and (max-width: 768px)and (min-width: 750px) {
-  .message {
+  #message {
     height: 200px;
   }
 }

@@ -91,7 +91,12 @@
       padding: 0 10px;
     }
     .button03{
+      @include m.mq(sm) {
+        max-width: 280px;
+        font-size: s.rem(17px);
+      }
       @include m.mq(xs) {
+        max-width: 260px;
         font-size: s.rem(16px);
       }
     }

@@ -93,9 +93,18 @@
       padding: .7em .5em;
       font-size: 16px;
     }
+
+  }
+  
+// 電話番号入力ボックス
+.mwform-tel-field .input-tel{
+  width: 140px!important;
+    @include m.mq(sm) {
+      width: 83px!important;
+    }
 }
 
-.message {
+#message {
   @include m.responsive(height, 200px, 370px, 768px, 1200px);
   padding: 1em;
   resize: none;
@@ -140,17 +149,19 @@
     }
 }
 
-span.wpcf7-list-item {
+.mw_wp_form .horizontal-item + .horizontal-item{
+  margin-left: 0!important;
+}
+
+span.mwform-checkbox-field-text {
   position: relative;
   display: block;
   padding: 6px 0 6px 35px;
   font-size: s.rem(18px);
-  @include m.mq(md) {
-    font-size: s.rem(14px);
-  }
-}
-.wpcf7-list-item-label {
   cursor: pointer;
+    @include m.mq(md) {
+      font-size: s.rem(14px);
+    }
     &::before {
       position: absolute;
       content: '';
@@ -166,17 +177,20 @@ span.wpcf7-list-item {
     }
 }
 
-.check-btn input[type="checkbox"]:checked + .wpcf7-list-item-label:after {
+.check-btn input[type="checkbox"]:checked + span.mwform-checkbox-field-text:after {
   position: absolute;
   content: '';
   display: block;
-  top: 8px;
+  top: 11px;
   left: 7px;
   transform: rotate(45deg);
   width: 8px;
   height: 16px;
   border-right: 3px solid s.$green01;
   border-bottom: 3px solid s.$green01;
+    @include m.mq(md) {
+      top: 8px;
+    }
 }
 
 /*-------- 送信ボタン --------*/
