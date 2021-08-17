@@ -3273,19 +3273,65 @@ span.mwform-checkbox-field-text::before {
   opacity: .8;
 }
 
-.screen-reader-response {
+.mw_wp_form .error {
+  color: #b40000;
+  font-weight: 500;
+}
+
+.mw_wp_form_confirm .input-area {
+  min-height: 50px;
+  padding: .7em;
+  background-color: #f3f3f3;
+  font-size: 20px;
+}
+
+.mw_wp_form_confirm .label-area span {
   display: none;
 }
 
-.wpcf7-not-valid-tip {
-  color: #b40000;
-  font-weight: 500;
+.mw_wp_form_confirm .check-btn {
+  margin-left: 0;
+  padding: .7em;
+  background-color: #f3f3f3;
+  font-size: 20px;
 }
 
-.wpcf7-response-output {
-  margin-bottom: 10px;
-  color: #b40000;
+.mw_wp_form_confirm .action-box_text {
+  display: none;
+}
+
+.mw_wp_form_confirm .prev_btn {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  padding: .32em;
+  border: none;
+  background-color: initial;
+  color: #00b4aa;
+  font-size: 1rem;
   font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: .05em;
+  cursor: pointer;
+}
+
+.mw_wp_form_complete .sent_title {
+  margin-top: 30px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mw_wp_form_complete .sent_text {
+  width: 90%;
+  margin: 1.95% auto 0;
+  font-size: .9375rem;
   text-align: center;
 }
 
@@ -3753,6 +3799,18 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
+  .mw_wp_form_confirm .prev_btn {
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
+  }
+
+  .mw_wp_form_complete .sent_title {
+    font-size: calc(1.25rem + 0.0092592593 * (100vw - 48rem));
+  }
+
+  .mw_wp_form_complete .sent_text {
+    font-size: calc(0.9375rem + 0.0069444444 * (100vw - 48rem));
+  }
+
   .policy p {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
@@ -4115,6 +4173,18 @@ span.mwform-checkbox-field-text::before {
 
   .action-box_text {
     font-size: 1.25rem;
+  }
+
+  .mw_wp_form_confirm .prev_btn {
+    font-size: 1.25rem;
+  }
+
+  .mw_wp_form_complete .sent_title {
+    font-size: 1.5rem;
+  }
+
+  .mw_wp_form_complete .sent_text {
+    font-size: 1.125rem;
   }
 
   .policy p {
@@ -6032,7 +6102,6 @@ span.mwform-checkbox-field-text::before {
   }
 
   .input-item {
-    padding: .7em .5em;
     font-size: 16px;
   }
 
@@ -6067,6 +6136,24 @@ span.mwform-checkbox-field-text::before {
 
   .action-box_text {
     margin-bottom: 20px;
+  }
+
+  .mw_wp_form_confirm .input-area {
+    font-size: 16px;
+  }
+
+  .mw_wp_form_confirm .check-btn {
+    font-size: 16px;
+  }
+
+  .mw_wp_form_complete .sent_title {
+    margin-top: 15px;
+  }
+
+  .mw_wp_form_complete .sent_text {
+    width: 100%;
+    margin-top: 15px;
+    font-size: .9375rem;
   }
 
   .policy {

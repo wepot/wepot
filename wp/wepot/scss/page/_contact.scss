@@ -90,11 +90,10 @@
   font-size: 20px;
 
     @include m.mq(md) {
-      padding: .7em .5em;
       font-size: 16px;
     }
 
-  }
+}
   
 // 電話番号入力ボックス
 .mwform-tel-field .input-tel{
@@ -214,17 +213,83 @@ span.mwform-checkbox-field-text {
 }
 
 /*-------- アラート文 --------*/
-.screen-reader-response{
-  display: none;
+.mw_wp_form .error{
+  color: #b40000;
+  font-weight: 500;
 }
 
-.wpcf7-not-valid-tip{
-  color: #b40000;
-  font-weight: 500;
+/*-------- 確認画面 --------*/
+.mw_wp_form_confirm{
+  .input-area{
+    min-height: 50px;
+    padding: .7em;
+    background-color: s.$gray01;
+    font-size: 20px;
+      @include m.mq(md) {
+        font-size: 16px;
+      }
+  }
+
+  .label-area span{
+    display: none;
+  }
+
+  .check-btn{
+    margin-left: 0;
+    padding: .7em;
+    background-color: s.$gray01;
+    font-size: 20px;
+      @include m.mq(md) {
+        font-size: 16px;
+      }
+  }
+
+  .action-box_text{
+    display: none;
+  }
+
+  .prev_btn{
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto;
+    padding: .32em;
+    border: none;
+    background-color: initial;
+    color: s.$green01;
+    @include m.responsive(font-size, 1rem, 1.25rem, 48rem, 75rem);
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: .05em;
+    cursor: pointer;
+  }
 }
-.wpcf7-response-output{
-  margin-bottom: 10px;
-  color: #b40000;
-  font-weight: 500;
-  text-align: center;
+
+/*-------- 送信完了 --------*/
+.mw_wp_form_complete{
+  .sent_title{
+    margin-top: 30px;
+    @include m.responsive(font-size, 1.25rem, 1.5rem, 48rem, 75rem);
+    font-weight: 500;
+    text-align: center;
+      @include m.mq(md) {
+        margin-top: 15px;
+      }
+  }
+  .sent_text{
+    width: 90%;
+    margin: 1.95% auto 0;
+    @include m.responsive(font-size, .9375rem, 1.125rem, 48rem, 75rem);
+    text-align: center;
+      @include m.mq(md) {
+        width: 100%;
+        margin-top: 15px;
+        font-size: s.rem(15px);
+      }
+  }
 }
