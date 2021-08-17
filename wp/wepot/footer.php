@@ -57,7 +57,7 @@
                                     <li class="link_item"><a href="<?php echo home_url(); ?>/blog/direction">ディレクション</a></li>
                                 </ul><!-- /.link_list03 -->
                             </li>
-                            <li  class="link_list03-wrap">
+                            <li class="link_list03-wrap">
                                 <ul>
                                     <li class="link_item"><a href="<?php echo home_url(); ?>/blog/coding">コーディング</a></li>
                                     <li class="link_item"><a href="<?php echo home_url(); ?>/blog/illust">イラスト</a></li>
@@ -90,6 +90,7 @@
 <script src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>
