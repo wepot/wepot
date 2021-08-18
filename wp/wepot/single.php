@@ -78,32 +78,32 @@
                         <ul>
                             <li>
                                 <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="シェアボタン">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share? url=<?php the_permalink(); ?>&via=wepot_media&related=wepot_media&hashtags=wepot&text=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">
+                                <a href="https://twitter.com/share?url=<?php the_permalink(); ?>&via=wepot_media&related=wepot_media&hashtags=wepot&text=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="シェアボタン">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-linkedin.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-linkedin.png" alt="シェアボタン">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://line.me/R/msg/text/?<?php the_permalink(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-line.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-line.png" alt="シェアボタン">
                                 </a>
                             </li>
                             <li>
                                 <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" target="_blank" rel="nofollow">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-hatena.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-hatena.png" alt="シェアボタン">
                                 </a>
                             </li>
                             <li>
                                 <a href="http://getpocket.com/edit?url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-pocket.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-pocket.png" alt="シェアボタン">
                                 </a>
                             </li>
                         </ul>
