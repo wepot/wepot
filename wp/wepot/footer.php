@@ -34,7 +34,7 @@
                             </a>
                         </div>
                         <div class="contact_btn">
-                            <a href="<?php echo home_url(); ?>/contact/" class="button01"><span>お問い合わせ</spa></a>
+                            <a href="<?php echo home_url(); ?>/contact/" class="button01"><span>お問い合わせ</span></a>
                         </div><!-- /.contact_btn -->
                     </li>
                     <li class="link_wrap none">

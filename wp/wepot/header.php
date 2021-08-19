@@ -294,7 +294,7 @@
                             <a href="<?php echo home_url(); ?>/policy/" class="spMenu-link">プライバシーポリシー</a>
                         </li>
                         <li class="spMenu-contact_btn">
-                            <a href="<?php echo home_url(); ?>/contact/" class="button01"><span>お問い合わせ</spa></a>
+                            <a href="<?php echo home_url(); ?>/contact/" class="button01"><span>お問い合わせ</span></a>
                         </li><!-- /.contact_btn -->
                     </ul>
                 </nav>
