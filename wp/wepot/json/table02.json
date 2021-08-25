@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "表2_行見出し",
+  "categories": ["original", "wepot02"],
+  "content": "<!-- wp:table {\"className\":\"is-style-regular table02\"} -->\n<figure class=\"wp-block-table is-style-regular table02\"><table><tbody><tr><th>見出し1</th><td></td><td></td></tr><tr><th>見出し2</th><td></td><td></td></tr><tr><th>見出し3</th><td></td><td></td></tr><tr><th>見出し4</th><td></td><td></td></tr><tr><th>見出し5</th><td></td><td></td></tr><tr><th>見出し6</th><td></td><td></td></tr><tr><th>見出し7</th><td></td><td></td></tr><tr><th>見出し8</th><td></td><td></td></tr><tr><th>見出し9</th><td></td><td></td></tr><tr><th>見出し10</th><td></td><td></td></tr></tbody></table></figure>\n<!-- /wp:table -->"
+}

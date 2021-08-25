@@ -1987,6 +1987,25 @@ aboutページ
   background-color: #00b4aa;
 }
 
+.blog h5 {
+  position: relative;
+  margin-bottom: .5em;
+  padding-left: 1.2em;
+  color: #00b4aa;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.blog h5::before {
+  position: absolute;
+  content: "▼";
+  top: 0;
+  left: 0;
+  color: #00b4aa;
+  font-size: 1em;
+}
+
 .blog p {
   word-break: normal;
   overflow-wrap: break-word;
@@ -2563,6 +2582,159 @@ ol li:before {
 .olList-indent03 ol li:before {
   counter-increment: item 1;
   content: counters(item, "-") ". ";
+}
+
+.table01 table {
+  border: 2px solid #00b4aa;
+  border-collapse: collapse;
+}
+
+.table01 table th,
+.table01 table td {
+  padding: .5em;
+  font-size: .9375rem;
+  line-height: 1.2;
+}
+
+.table01 table th:first-child,
+.table01 table td:first-child {
+  border-left: none;
+}
+
+.table01 table th {
+  border-left: 1px solid #fff;
+  background-color: #00b4aa;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.table01 table td {
+  border-top: 1px solid #00b4aa;
+  border-left: 1px solid #00b4aa;
+  color: #4e4e4e;
+}
+
+.table01 table tfoot td {
+  background-color: #a4ede8;
+  font-weight: 500;
+}
+
+.table02 table {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid #00b4aa;
+  border-collapse: collapse;
+}
+
+.table02 table th,
+.table02 table td {
+  padding: .5em 1em;
+  line-height: 1.2;
+  font-size: .9375rem;
+}
+
+.table02 table th {
+  width: 30%;
+  border-top: 1px solid #fff;
+  background-color: #00b4aa;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.table02 table td {
+  border-top: 1px solid #00b4aa;
+  border-left: 1px solid #00b4aa;
+  color: #4e4e4e;
+}
+
+.table02 table tr:first-child th,
+.table02 table tr:first-child td {
+  border-top: none;
+}
+
+.table03 table {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid #00b4aa;
+  border-collapse: collapse;
+}
+
+.table03 table th,
+.table03 table td {
+  padding: .5em 1em;
+  line-height: 1.2;
+  font-size: .9375rem;
+}
+
+.table03 table th {
+  width: 30%;
+  border-top: 1px solid #fff;
+  background-color: #00b4aa;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.table03 table td {
+  border-top: 1px solid #00b4aa;
+  border-left: 1px solid #00b4aa;
+  color: #4e4e4e;
+}
+
+.table03 table tr:first-child th {
+  border-top: none;
+}
+
+.table03 table tr:first-child td {
+  border-top: none;
+}
+
+.table04 table {
+  table-layout: auto;
+  width: 100%;
+  border: 2px solid #00b4aa;
+  border-collapse: collapse;
+}
+
+.table04 table th,
+.table04 table td {
+  padding: .5em;
+  color: #4e4e4e;
+  font-size: .9375rem;
+  line-height: 1.2;
+}
+
+.table04 table th:first-child,
+.table04 table td:first-child {
+  border-left: none;
+}
+
+.table04 table thead th {
+  border-left: 1px solid #fff;
+  background-color: #00b4aa;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.table04 table tbody th {
+  width: 30%;
+  border-top: 1px solid #00b4aa;
+  background-color: #a4ede8;
+  font-weight: 500;
+  text-align: initial;
+}
+
+.table04 table td {
+  border-top: 1px solid #00b4aa;
+  border-left: 1px solid #00b4aa;
+}
+
+.table04 table tfoot td {
+  background-color: #a4ede8;
+  font-weight: 500;
 }
 
 .relatedPost {
@@ -3643,6 +3815,10 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(1rem + 0.0074074074 * (100vw - 48rem));
   }
 
+  .blog h5 {
+    font-size: calc(1rem + 0.0074074074 * (100vw - 48rem));
+  }
+
   .blog p {
     font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
@@ -3696,6 +3872,26 @@ span.mwform-checkbox-field-text::before {
   }
 
   ol li {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
+  .table01 table th,
+  .table01 table td {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
+  .table02 table th,
+  .table02 table td {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
+  .table03 table th,
+  .table03 table td {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
+  .table04 table th,
+  .table04 table td {
     font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
@@ -4019,6 +4215,10 @@ span.mwform-checkbox-field-text::before {
     font-size: 1.2rem;
   }
 
+  .blog h5 {
+    font-size: 1.2rem;
+  }
+
   .blog p {
     font-size: 1rem;
   }
@@ -4072,6 +4272,26 @@ span.mwform-checkbox-field-text::before {
   }
 
   ol li {
+    font-size: 1rem;
+  }
+
+  .table01 table th,
+  .table01 table td {
+    font-size: 1rem;
+  }
+
+  .table02 table th,
+  .table02 table td {
+    font-size: 1rem;
+  }
+
+  .table03 table th,
+  .table03 table td {
+    font-size: 1rem;
+  }
+
+  .table04 table th,
+  .table04 table td {
     font-size: 1rem;
   }
 
@@ -5791,6 +6011,11 @@ span.mwform-checkbox-field-text::before {
     margin-bottom: 10px;
   }
 
+  .blog h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
   .blog p {
     margin-bottom: 30px;
   }
@@ -5982,6 +6207,27 @@ span.mwform-checkbox-field-text::before {
   .olList-indent03_title {
     padding: 3px 16px;
     font-size: .9375rem;
+  }
+
+  .table01 table th,
+  .table01 table td {
+    font-size: .75rem;
+  }
+
+  .table02 table th,
+  .table02 table td {
+    padding: .5em .8em;
+    font-size: .75rem;
+  }
+
+  .table03 table th,
+  .table03 table td {
+    font-size: .75rem;
+  }
+
+  .table04 table th,
+  .table04 table td {
+    font-size: .75rem;
   }
 
   .works-title {
@@ -6524,6 +6770,21 @@ span.mwform-checkbox-field-text::before {
     letter-spacing: .02em;
   }
 
+  .table03 table th,
+  .table03 table td {
+    display: block;
+    width: 100%;
+    padding: .5em .8em;
+  }
+
+  .table03 table td {
+    border-left: none;
+  }
+
+  .table03 table tr:first-child td {
+    border-top: 1px solid #00b4aa;
+  }
+
   .relatedPost {
     max-width: 280px;
   }
@@ -6847,6 +7108,26 @@ span.mwform-checkbox-field-text::before {
   .mainVisual_text {
     font-size: calc(0.825rem + 0.0018604651 * (100vw - 20rem));
   }
+
+  .table01 table th,
+  .table01 table td {
+    font-size: calc(0.75rem + 0.0069767442 * (100vw - 20rem));
+  }
+
+  .table02 table th,
+  .table02 table td {
+    font-size: calc(0.75rem + 0.0069767442 * (100vw - 20rem));
+  }
+
+  .table03 table th,
+  .table03 table td {
+    font-size: calc(0.75rem + 0.0069767442 * (100vw - 20rem));
+  }
+
+  .table04 table th,
+  .table04 table td {
+    font-size: calc(0.75rem + 0.0069767442 * (100vw - 20rem));
+  }
 }
 
 @media screen and (max-width: 768px)and (min-width: 46.875rem) {
@@ -6856,6 +7137,26 @@ span.mwform-checkbox-field-text::before {
 
   .mainVisual_text {
     font-size: .875rem;
+  }
+
+  .table01 table th,
+  .table01 table td {
+    font-size: .9375rem;
+  }
+
+  .table02 table th,
+  .table02 table td {
+    font-size: .9375rem;
+  }
+
+  .table03 table th,
+  .table03 table td {
+    font-size: .9375rem;
+  }
+
+  .table04 table th,
+  .table04 table td {
+    font-size: .9375rem;
   }
 }
 

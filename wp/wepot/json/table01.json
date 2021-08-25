@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "表1_列見出し(フッター追加可)",
+  "categories": ["original", "wepot02"],
+  "content": "<!-- wp:table {\"className\":\"is-style-regular table01\"} -->\n<figure class=\"wp-block-table is-style-regular table01\"><table><thead><tr><th scope=\"col\">見出し1</th><th>見出し2</th><th>見出し3</th><th>見出し4</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table></figure>\n<!-- /wp:table -->"
+}
