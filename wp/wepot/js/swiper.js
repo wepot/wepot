@@ -1,5 +1,4 @@
-"use strict";
-var swiper = new Swiper(".swiper-container", {
+"use strict";var swiper = new Swiper(".swiper-container", {
   speed: 800,
   slidesPerView: "1",
   loop: !0,

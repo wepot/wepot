@@ -1,1 +1,69 @@
-"use strict";function getScrolled(){return void 0!==window.pageYOffset?window.pageYOffset:document.documentElement.scrollTop}$(function(){$(".spMenu_btn").on("click",function(){$(this).toggleClass("open"),$(this).hasClass("open")?($("body").addClass("is-fixed"),$(".spMenu").addClass("open")):($("body").removeClass("is-fixed"),$(".spMenu").removeClass("open"))})}),$(".open-btn1").click(function(){$(this).toggleClass("btn-active"),$("#search-wrap").toggleClass("panel-active"),$("#search-text").focus()});var topButton=document.getElementById("js-scroll-fadein");function scrollToTop(){var o=getScrolled();window.scrollTo(0,Math.floor(o/2)),0<o&&window.setTimeout(scrollToTop,30)}window.onscroll=function(){300<getScrolled()?topButton.classList.add("is-fadein"):topButton.classList.remove("is-fadein")},topButton.onclick=function(){scrollToTop()},jQuery(function(e){var s=e("header").outerHeight(),t=location.hash;t&&(e("body,html").stop().scrollTop(0),setTimeout(function(){var o=e(t).offset().top-s;e("body,html").stop().animate({scrollTop:o},500)},100)),e('a[href^="#"]').click(function(){var o=e(this).attr("href"),t=e(o).offset().top-s;return e("body,html").stop().animate({scrollTop:t},500),!1})});
+//--------------------------------
+// ハンバーガーメニュー開閉
+//--------------------------------
+$(function () {
+  $(".spMenu_btn").on("click", function () {
+    $(this).toggleClass("open");
+
+    if ($(this).hasClass("open")) {
+      $("body").addClass("is-fixed");
+      $(".spMenu").addClass("open");
+    } else {
+      $("body").removeClass("is-fixed");
+      $(".spMenu").removeClass("open");
+    }
+  });
+});
+
+//--------------------------------
+// 検索ボックス
+//--------------------------------
+$(".open-btn1").click(function () {
+  $(this).toggleClass("btn-active");
+  $("#search-wrap").toggleClass("panel-active");
+  $("#search-text").focus();
+});
+
+//--------------------------------
+// トップへ戻るボタン
+//--------------------------------
+function getScrolled() {
+  return (window.pageYOffset !== undefined) ? window.pageYOffset: document.documentElement.scrollTop;
+}
+var topButton = document.getElementById("js-scroll-fadein");
+window.onscroll = function () {
+  (getScrolled() > 300 ) ? topButton.classList.add("is-fadein"): topButton.classList.remove("is-fadein");
+};
+function scrollToTop() {
+  var scrolled = getScrolled();
+  window.scrollTo(0, Math.floor(scrolled / 2));
+  if (scrolled > 0) {
+    window.setTimeout(scrollToTop, 30);
+  }
+}
+topButton.onclick = function () {
+  scrollToTop();
+};
+
+//--------------------------------
+// 内部リンク位置
+//--------------------------------
+jQuery(function ($) {
+  var headerHeight = $("header").outerHeight();
+  var urlHash = location.hash;
+  if (urlHash) {
+    $("body,html").stop().scrollTop(0);
+    setTimeout(function () {
+      var target = $(urlHash);
+      var position = target.offset().top - headerHeight;
+      $("body,html").stop().animate({ scrollTop: position }, 500);
+    }, 100);
+  }
+  $('a[href^="#"]').click(function () {
+    var href = $(this).attr("href");
+    var target = $(href);
+    var position = target.offset().top - headerHeight;
+    $("body,html").stop().animate({ scrollTop: position }, 500);
+    return false;
+  });
+});

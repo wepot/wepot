@@ -87,9 +87,9 @@
     </div><!-- /.footer_inner -->
 </footer>
 </div><!-- /.container -->
-<script src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/swiper-bundle.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/swiper.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/script.min.js"></script>
 <?php wp_footer(); ?>
 </body>
 
