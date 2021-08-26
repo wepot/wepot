@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "表4_列&行見出し(フッター追加可)",
+  "categories": ["original", "wepot02"],
+  "content": "<!-- wp:table {\"className\":\"table04 is-style-regular\"} -->\n<figure class=\"wp-block-table table04 is-style-regular\"><table><thead><tr><th scope=\"col\">列見出し1</th><th scope=\"col\">列見出し2</th><th scope=\"col\">列見出し3</th><th scope=\"col\">列見出し4</th></tr></thead><tbody><tr><th>行見出し1</th><td></td><td></td><td></td></tr><tr><th>行見出し2</th><td></td><td></td><td></td></tr><tr><th>行見出し3</th><td></td><td></td><td></td></tr><tr><th>行見出し4</th><td></td><td></td><td></td></tr><tr><th>行見出し5</th><td></td><td></td><td></td></tr><tr><th>行見出し6</th><td></td><td></td><td></td></tr><tr><th>行見出し7</th><td></td><td></td><td></td></tr><tr><th>行見出し8</th><td></td><td></td><td></td></tr><tr><th>行見出し9</th><td></td><td></td><td></td></tr><tr><th>行見出し10</th><td></td><td></td><td></td></tr></tbody></table></figure>\n<!-- /wp:table -->"
+}
