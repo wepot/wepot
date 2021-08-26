@@ -114,3 +114,26 @@ register_block_pattern_category(
     'wepot',
     array( 'label' => __( 'Wepot', 'my-plugin' ) ),
 );
+
+// テーブルデザイン
+register_block_pattern(
+	'my-plugin/my-awesome-pattern001',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/table01.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern002',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/table02.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern003',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/table03.json' ), true ),
+);
+register_block_pattern(
+	'my-plugin/my-awesome-pattern004',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/table04.json' ), true ),
+);
+
+register_block_pattern_category(
+    'wepot02',
+    array( 'label' => __( 'Wepot表', 'my-plugin' ) ),
+);
