@@ -74,6 +74,10 @@ register_block_pattern(
 	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/red-text.json' ), true ),
 );
 register_block_pattern(
+	'my-plugin/my-awesome-pattern05',
+	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/single-blogCard.json' ), true ),
+);
+register_block_pattern(
 	'my-plugin/my-awesome-pattern07',
 	json_decode( file_get_contents( dirname( __FILE__ ) . '/json/blockquote.json' ), true ),
 );
@@ -137,3 +141,50 @@ register_block_pattern_category(
     'wepot02',
     array( 'label' => __( 'Wepot表', 'my-plugin' ) ),
 );
+
+// ブログカード
+function ltl_get_the_excerpt( $post_id ){
+  global $post;
+  $post_bu = $post;
+  $post = get_post( $post_id );
+  setup_postdata( $post_id );
+  $post = $post_bu;
+  return $output;
+}
+
+//ショートコード
+function nlink_scode($atts) {
+extract(shortcode_atts(array(
+'url'=>"",
+'title'=>"",
+// 'excerpt'=>""
+),$atts));
+
+$id = url_to_postid($url);//URLから投稿IDを取得
+
+//タイトルを取得
+if(empty($title)){
+$title = esc_html(get_the_title($id));
+}
+
+//アイキャッチ画像を取得
+if(has_post_thumbnail($id)) {
+$img = wp_get_attachment_image_src(get_post_thumbnail_id($id),'medium');
+$img_tag = "<img src='" . $img[0] . "' alt='{$title}'/>";
+}else{
+$img_tag ='<img src="'.$no_image.'" alt="" width="'.$img_width.'" height="'.$img_height.'" />';
+}
+$nlink .='
+
+<article class="single-blogCard">
+	<a href="'. $url .'" target="_blank" rel="noopener noreferrer">
+		<figure>'. $img_tag .'</figure>
+    <div class="single-blogCard_body">
+      <p>'. $title .' </p>
+    </div>
+	</a>
+</article>';
+
+return $nlink;
+}
+add_shortcode("nlink", "nlink_scode");

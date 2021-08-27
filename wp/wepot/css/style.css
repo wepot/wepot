@@ -2737,6 +2737,61 @@ ol li:before {
   font-weight: 500;
 }
 
+.single-blogCard {
+  width: 91%;
+  max-width: 780px;
+  margin: 60px auto;
+  border: 2px solid #00b4aa;
+}
+
+.single-blogCard a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #191919;
+  text-decoration: none;
+}
+
+.single-blogCard a:hover {
+  color: #00b4aa;
+  text-decoration: underline;
+  opacity: .8;
+}
+
+.single-blogCard figure {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.single-blogCard figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.single-blogCard_body {
+  margin-left: 15px;
+}
+
+.single-blogCard_body p {
+  margin-bottom: 0;
+  font-size: .9375rem;
+  font-weight: 500;
+}
+
+.wp-block-buttons {
+  width: 250px;
+  margin: 0 auto;
+}
+
+a.wp-block-button__link {
+  width: 250px;
+  background-color: #00b4aa;
+  color: #fff;
+  text-decoration: none;
+}
+
 .relatedPost {
   width: 91%;
   max-width: 780px;
@@ -3895,6 +3950,10 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
+  .single-blogCard_body p {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
   .relatedPost_tag {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
@@ -4292,6 +4351,10 @@ span.mwform-checkbox-field-text::before {
 
   .table04 table th,
   .table04 table td {
+    font-size: 1rem;
+  }
+
+  .single-blogCard_body p {
     font-size: 1rem;
   }
 
@@ -4833,6 +4896,10 @@ span.mwform-checkbox-field-text::before {
     height: calc(70px + 0.0231481481 * (100vw - 768px));
   }
 
+  .single-blogCard figure {
+    max-width: calc(100px + 0.0462962963 * (100vw - 768px));
+  }
+
   .relatedPost_tag {
     width: calc(90px + 0.0231481481 * (100vw - 768px));
   }
@@ -5335,6 +5402,10 @@ span.mwform-checkbox-field-text::before {
 
   .wp-block-column.blnRight-icon img {
     height: 80px;
+  }
+
+  .single-blogCard figure {
+    max-width: 120px;
   }
 
   .relatedPost_tag {
@@ -6230,6 +6301,32 @@ span.mwform-checkbox-field-text::before {
     font-size: .75rem;
   }
 
+  .single-blogCard {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  .single-blogCard a {
+    padding: 5px;
+  }
+
+  .single-blogCard figure {
+    max-width: 90px;
+    height: 90px;
+    margin-bottom: 0;
+  }
+
+  .single-blogCard figure img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+  }
+
+  .single-blogCard_body p {
+    margin-bottom: 0;
+  }
+
   .works-title {
     margin-top: 40px;
     font-size: 1.125rem;
@@ -6783,6 +6880,10 @@ span.mwform-checkbox-field-text::before {
 
   .table03 table tr:first-child td {
     border-top: 1px solid #00b4aa;
+  }
+
+  .single-blogCard_body p {
+    font-weight: 700;
   }
 
   .relatedPost {

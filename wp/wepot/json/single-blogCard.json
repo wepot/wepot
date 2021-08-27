@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "関連記事挿入",
+  "categories": ["original", "wepot"],
+  "content": "<!-- wp:shortcode -->\n[nlink url=\"\"]\n<!-- /wp:shortcode -->"
+}
