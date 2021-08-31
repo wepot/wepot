@@ -35,6 +35,16 @@
                         <?php the_content(); ?>
                     </article><!-- /.blog -->
 
+                    <section class="ctaBox">
+                        <div class="ctaBox_wrap">
+                            <p class="ctaBox_title">ご依頼・ご相談はこちら</p>
+                            <p class="ctaBox_text">お客様の課題解決に最適なメンバーアサインでスムーズなプロジェクト進行をいたします。制作して終わりではなく、お客様が求める成果に結びつくご提案をさせていただきます。</p>
+                            <div class="ctaBox_btn">
+                                <a href="<?php echo home_url(); ?>/contact/" class="button01"><span>お問い合わせ</span></a>
+                            </div>
+                        </div><!-- /.ctaBox_wrap -->
+                    </section><!-- /.ctaBox -->
+
                     <?php if (has_category()) {
                         $cats = get_the_category();
                         $catkwds = array();
@@ -51,16 +61,6 @@
                     );
                     $my_query = new WP_Query($args); ?>
                     <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-
-                        <section class="ctaBox">
-                            <div class="ctaBox_wrap">
-                                <p class="ctaBox_title">ご依頼・ご相談はこちら</p>
-                                <p class="ctaBox_text">お客様の課題解決に最適なメンバーアサインでスムーズなプロジェクト進行をいたします。制作して終わりではなく、お客様が求める成果に結びつくご提案をさせていただきます。</p>
-                                <div class="ctaBox_btn">
-                                    <a href="<?php echo home_url(); ?>/contact/" class="button01"><span>お問い合わせ</span></a>
-                                </div>
-                            </div><!-- /.ctaBox_wrap -->
-                        </section><!-- /.ctaBox -->
 
                         <article class="relatedPost">
                             <a href="<?php the_permalink(); ?>">
