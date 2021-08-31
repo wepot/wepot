@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 <main class="main-contents">
-
     <section class="section_container contactPage">
         <div class="section_inner">
             <header class="section_heading">
@@ -19,7 +18,6 @@
                     <li class="can_item"><span>イラスト<br>制作</span></li>
                     <li class="can_item"><span>グラフィック<br>デザイン</span></li>
                 </ul>
-
             </div>
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
