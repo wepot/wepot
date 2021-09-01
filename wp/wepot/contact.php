@@ -29,7 +29,7 @@ Template Name: お問い合わせ各種ページテンプレート
         </section><!-- /.section_container -->
     <?php endif; ?>
 
-    <section id="contact" class="section_container">
+    <section id="contact" class="section_container contactPage-input">
         <div class="section_inner">
             <header class="section_heading">
                 <?php if (is_page('contact')) : ?>

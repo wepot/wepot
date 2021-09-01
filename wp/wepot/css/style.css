@@ -3382,6 +3382,10 @@ wepotの強み
   display: none;
 }
 
+.contactPage-input {
+  margin-top: 40px;
+}
+
 .contact_wrap {
   width: 81%;
   max-width: 1000px;
@@ -3581,17 +3585,14 @@ span.mwform-checkbox-field-text::before {
   cursor: pointer;
 }
 
-.mw_wp_form_complete .sent_title {
-  margin-top: 30px;
-  font-size: 1.25rem;
-  font-weight: 500;
-  text-align: center;
-}
-
 .mw_wp_form_complete .sent_text {
   width: 90%;
   margin: 1.95% auto 0;
   font-size: .9375rem;
+  text-align: center;
+}
+
+.mw_wp_form_send_error {
   text-align: center;
 }
 
@@ -4099,10 +4100,6 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
-  .mw_wp_form_complete .sent_title {
-    font-size: calc(1.25rem + 0.0092592593 * (100vw - 48rem));
-  }
-
   .mw_wp_form_complete .sent_text {
     font-size: calc(0.9375rem + 0.0069444444 * (100vw - 48rem));
   }
@@ -4509,10 +4506,6 @@ span.mwform-checkbox-field-text::before {
 
   .mw_wp_form_confirm .prev_btn {
     font-size: 1.25rem;
-  }
-
-  .mw_wp_form_complete .sent_title {
-    font-size: 1.5rem;
   }
 
   .mw_wp_form_complete .sent_text {
@@ -5061,6 +5054,10 @@ span.mwform-checkbox-field-text::before {
     margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
+  .contactPage-input {
+    margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
+  }
+
   #message {
     height: calc(200px + 0.3935185185 * (100vw - 768px));
   }
@@ -5566,6 +5563,10 @@ span.mwform-checkbox-field-text::before {
   }
 
   .contactPage {
+    margin-top: 60px;
+  }
+
+  .contactPage-input {
     margin-top: 60px;
   }
 
@@ -6490,6 +6491,10 @@ span.mwform-checkbox-field-text::before {
     display: block;
   }
 
+  .contactPage-input {
+    margin-top: 40px;
+  }
+
   .contact_wrap {
     width: 100%;
     margin-top: 25px;
@@ -6552,10 +6557,6 @@ span.mwform-checkbox-field-text::before {
 
   .mw_wp_form_confirm .check-btn {
     font-size: 16px;
-  }
-
-  .mw_wp_form_complete .sent_title {
-    margin-top: 15px;
   }
 
   .mw_wp_form_complete .sent_text {
