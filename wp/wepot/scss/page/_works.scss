@@ -146,19 +146,16 @@
     }
 
     &_btn{
+      margin-top: 24px;
       @include m.responsive(width, 228px, 400px, 768px, 1200px);
-      @include m.responsive(height, 46px, 80px, 768px, 1200px);
         @include m.mq(sm) {
           width: 203px;
-          height: 53px;
-          margin: 0 auto;
+          margin: 24px auto 0;
         }
       .button03{
-        @include m.responsive(padding, 13px, 26px, 768px, 1200px);
         border-radius: 8px;
         @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
           @include m.mq(sm) {
-            padding: 15px;
             font-size: s.rem(18px);
           }
       }
@@ -416,7 +413,7 @@ wepotの強み
           }
       }
 
-      h4{
+      h3, h4{
         width: 100%;
         padding: .9em 10px;
         border: 2px solid s.$green01;

@@ -121,6 +121,7 @@ body {
   font-size: .9375rem;
   text-align: center;
   line-height: 1;
+  letter-spacing: .08em;
 }
 
 .button01:hover {
@@ -162,6 +163,7 @@ body {
   font-size: 1.125rem;
   font-weight: 500;
   text-align: center;
+  letter-spacing: .08em;
 }
 
 .button03:hover {
@@ -1460,6 +1462,50 @@ wepotでできること
   font-size: 1.125rem;
   font-weight: 500;
   text-align: center;
+}
+
+/*! ===================================
+記事詳細＆実績詳細内お問い合わせ
+==================================== */
+
+.ctaBox {
+  width: 100%;
+  margin: 60px auto;
+}
+
+.ctaBox_wrap {
+  padding: 30px 50px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.ctaBox_title {
+  color: #00b4aa;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ctaBox_text {
+  margin: 20px 0;
+  font-size: .9375rem;
+  font-weight: 500;
+}
+
+.ctaBox_btn {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.ctaBox_btn .button01 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.details .ctaBox {
+  max-width: 780px;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 /*! ===================================
@@ -2792,39 +2838,6 @@ a.wp-block-button__link {
   text-decoration: none;
 }
 
-.singlePage .ctaBox {
-  margin: 60px 0;
-}
-
-.singlePage .ctaBox_wrap {
-  padding: 25px 40px;
-  background-color: #f3f3f3;
-  text-align: center;
-}
-
-.singlePage .ctaBox_title {
-  color: #00b4aa;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.singlePage .ctaBox_text {
-  margin: 20px 0;
-  font-size: .9375rem;
-  font-weight: 500;
-}
-
-.singlePage .ctaBox_btn {
-  width: 250px;
-  margin: 0 auto;
-}
-
-.singlePage .ctaBox_btn .button01 {
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-
 .relatedPost {
   width: 91%;
   max-width: 780px;
@@ -3149,12 +3162,11 @@ a.wp-block-button__link {
 }
 
 .worksBox_btn {
+  margin-top: 24px;
   width: 228px;
-  height: 46px;
 }
 
 .worksBox_btn .button03 {
-  padding: 13px;
   border-radius: 8px;
   font-size: 1rem;
 }
@@ -3314,6 +3326,7 @@ wepotの強み
   margin-left: 0;
 }
 
+.flow_item h3,
 .flow_item h4 {
   width: 100%;
   padding: .9em 10px;
@@ -3368,6 +3381,317 @@ wepotの強み
   font-weight: 500;
   text-align: center;
   letter-spacing: .02em;
+}
+
+/*! ===================================
+実績詳細ページ
+==================================== */
+
+.details {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.details_heading {
+  margin-bottom: 40px;
+  line-height: 1.3;
+}
+
+.details_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.details_title span {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.detailsSec {
+  margin-bottom: 40px;
+}
+
+.detailsSec01 {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+
+.detailsSec01_img {
+  height: 100%;
+}
+
+.detailsSec01_img .pc {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 87.5%;
+  max-width: 1120px;
+  height: auto;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,.16);
+}
+
+.detailsSec01_img .sp {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  width: 28.125%;
+  max-width: 360px;
+  height: auto;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,.16);
+}
+
+.detailsSec01_body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+}
+
+.overviewList_item {
+  margin-top: 20px;
+}
+
+.overviewList_item:first-child {
+  margin-top: 0;
+}
+
+.overviewList_title {
+  color: #bebebe;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.overviewList_text {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.overviewList_text a {
+  text-decoration: underline;
+}
+
+.overviewList_text a:hover {
+  color: #00b4aa;
+}
+
+.detailsSec03 {
+  margin-top: 25px;
+}
+
+.detailsSec03_wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.detailsSec03_img {
+  position: relative;
+  width: 39.1%;
+  max-width: 500px;
+  height: 100%;
+}
+
+.detailsSec03_img img {
+  width: 100%;
+}
+
+.detailsSec03-name {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  right: 0;
+  padding: .7em 1.5em;
+  background-color: #00b4aa;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.detailsSec03-name .name01 {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: .9375rem;
+}
+
+.detailsSec03-name .name02 {
+  display: inline-block;
+  font-size: 1.125rem;
+}
+
+.qaList {
+  width: 60.9%;
+  max-width: 780px;
+  padding: 60px;
+  background-color: #f3f3f3;
+}
+
+.qaList_item:first-child {
+  margin-bottom: 40px;
+}
+
+.qaList-q {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.qaList-a {
+  font-size: .9375rem;
+}
+
+.detailsCap {
+  position: relative;
+}
+
+.detailsCap .caption {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.detailsSec04 {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.operationList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.operationList_item {
+  width: 220px;
+  height: 220px;
+  margin-top: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,.16);
+}
+
+.operationList_img01 {
+  width: 97px;
+  height: 101px;
+  margin: 20% auto 20px;
+}
+
+.operationList_img02 {
+  width: 92px;
+  height: 69px;
+  margin: 26% auto 36px;
+}
+
+.operationList_img03 {
+  width: 115px;
+  height: 66px;
+  margin: 25% auto 36px;
+}
+
+.operationList img {
+  width: 100%;
+}
+
+.operationList_text {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.operationList_text span {
+  color: #00b4aa;
+}
+
+.detailsSec05 {
+  width: 100%;
+  max-width: 1120px;
+  margin: 60px auto 0;
+}
+
+.processList_item {
+  margin-top: 40px;
+}
+
+.processList_body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.processList_body h3 {
+  width: 180px;
+  color: #00b4aa;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.processList_body p {
+  width: calc(100% - 180px);
+  font-size: .9375rem;
+}
+
+.processList_img {
+  margin-top: 20px;
+}
+
+.processList_img img {
+  width: 100%;
+}
+
+.details-member {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.details-member_item {
+  width: 280px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.details-member_item:hover {
+  opacity: .8;
+}
+
+.details-member_img {
+  display: flex;
+}
+
+.details-member_img img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.details-member_img figcaption {
+  font-size: .9375rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.details .blogShare {
+  margin-bottom: 80px;
+}
+
+.details .blogShare li:nth-child(-n+4) {
+  margin-bottom: 0;
 }
 
 /*! ===================================
@@ -3832,6 +4156,14 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
   }
 
+  .ctaBox_title {
+    font-size: calc(1.125rem + 0.0046296296 * (100vw - 48rem));
+  }
+
+  .ctaBox_text {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
   .topArticle_time {
     font-size: calc(0.875rem + 0.012037037 * (100vw - 48rem));
   }
@@ -3988,14 +4320,6 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
-  .singlePage .ctaBox_title {
-    font-size: calc(1.125rem + 0.0046296296 * (100vw - 48rem));
-  }
-
-  .singlePage .ctaBox_text {
-    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
-  }
-
   .relatedPost_tag {
     font-size: calc(0.875rem + 0.0046296296 * (100vw - 48rem));
   }
@@ -4072,6 +4396,7 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(4rem + 0.0462962963 * (100vw - 48rem));
   }
 
+  .flow_item h3,
   .flow_item h4 {
     font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
@@ -4086,6 +4411,54 @@ span.mwform-checkbox-field-text::before {
 
   .flow_text {
     font-size: calc(1.2rem + 0.0166666667 * (100vw - 48rem));
+  }
+
+  .details_title {
+    font-size: calc(1.5rem + 0.0185185185 * (100vw - 48rem));
+  }
+
+  .details_title span {
+    font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
+  }
+
+  .overviewList_title {
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
+  }
+
+  .overviewList_text {
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
+  }
+
+  .detailsSec03-name .name01 {
+    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
+  }
+
+  .detailsSec03-name .name02 {
+    font-size: calc(1.125rem + 0.0277777778 * (100vw - 48rem));
+  }
+
+  .qaList-q {
+    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
+  }
+
+  .qaList-a {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
+  .operationList_text {
+    font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
+  }
+
+  .processList_body h3 {
+    font-size: calc(1rem + 0.0185185185 * (100vw - 48rem));
+  }
+
+  .processList_body p {
+    font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
+  }
+
+  .details-member_img figcaption {
+    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
   }
 
   .label-area span {
@@ -4238,6 +4611,14 @@ span.mwform-checkbox-field-text::before {
 
   .can_text02 {
     font-size: 1.5rem;
+  }
+
+  .ctaBox_title {
+    font-size: 1.25rem;
+  }
+
+  .ctaBox_text {
+    font-size: 1rem;
   }
 
   .topArticle_time {
@@ -4396,14 +4777,6 @@ span.mwform-checkbox-field-text::before {
     font-size: 1rem;
   }
 
-  .singlePage .ctaBox_title {
-    font-size: 1.25rem;
-  }
-
-  .singlePage .ctaBox_text {
-    font-size: 1rem;
-  }
-
   .relatedPost_tag {
     font-size: 1rem;
   }
@@ -4480,6 +4853,7 @@ span.mwform-checkbox-field-text::before {
     font-size: 5.25rem;
   }
 
+  .flow_item h3,
   .flow_item h4 {
     font-size: 1.25rem;
   }
@@ -4494,6 +4868,54 @@ span.mwform-checkbox-field-text::before {
 
   .flow_text {
     font-size: 1.65rem;
+  }
+
+  .details_title {
+    font-size: 2rem;
+  }
+
+  .details_title span {
+    font-size: 1.5rem;
+  }
+
+  .overviewList_title {
+    font-size: 1.25rem;
+  }
+
+  .overviewList_text {
+    font-size: 1.25rem;
+  }
+
+  .detailsSec03-name .name01 {
+    font-size: 1.25rem;
+  }
+
+  .detailsSec03-name .name02 {
+    font-size: 1.875rem;
+  }
+
+  .qaList-q {
+    font-size: 1.25rem;
+  }
+
+  .qaList-a {
+    font-size: 1rem;
+  }
+
+  .operationList_text {
+    font-size: 1.5rem;
+  }
+
+  .processList_body h3 {
+    font-size: 1.5rem;
+  }
+
+  .processList_body p {
+    font-size: 1rem;
+  }
+
+  .details-member_img figcaption {
+    font-size: 1.25rem;
   }
 
   .label-area span {
@@ -4820,6 +5242,10 @@ span.mwform-checkbox-field-text::before {
     height: calc(105px + 0.2199074074 * (100vw - 768px));
   }
 
+  .details .ctaBox {
+    margin-bottom: calc(40px + 0.1388888889 * (100vw - 768px));
+  }
+
   .topPage {
     margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
   }
@@ -5002,14 +5428,6 @@ span.mwform-checkbox-field-text::before {
     width: calc(228px + 0.3981481481 * (100vw - 768px));
   }
 
-  .worksBox_btn {
-    height: calc(46px + 0.0787037037 * (100vw - 768px));
-  }
-
-  .worksBox_btn .button03 {
-    padding: calc(13px + 0.0300925926 * (100vw - 768px));
-  }
-
   .strong_wrap {
     margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
   }
@@ -5048,6 +5466,98 @@ span.mwform-checkbox-field-text::before {
 
   .flow_text {
     margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
+  }
+
+  .details {
+    margin-top: calc(40px + 0.0925925926 * (100vw - 768px));
+  }
+
+  .details {
+    margin-bottom: calc(80px + 0.0925925926 * (100vw - 768px));
+  }
+
+  .details_heading {
+    margin-bottom: calc(40px + 0.0925925926 * (100vw - 768px));
+  }
+
+  .detailsSec {
+    margin-bottom: calc(40px + 0.1388888889 * (100vw - 768px));
+  }
+
+  .detailsSec01 {
+    height: calc(620px + 0.7662037037 * (100vw - 768px));
+  }
+
+  .detailsSec03 {
+    margin-top: calc(25px + 0.0347222222 * (100vw - 768px));
+  }
+
+  .operationList_item {
+    width: calc(220px + 0.1851851852 * (100vw - 768px));
+  }
+
+  .operationList_item {
+    height: calc(220px + 0.1851851852 * (100vw - 768px));
+  }
+
+  .operationList_item {
+    margin-top: calc(30px + 0.0462962963 * (100vw - 768px));
+  }
+
+  .operationList_item {
+    margin-right: calc(15px + 0.0347222222 * (100vw - 768px));
+  }
+
+  .operationList_item {
+    margin-left: calc(15px + 0.0347222222 * (100vw - 768px));
+  }
+
+  .operationList_img01 {
+    width: calc(97px + 0.0532407407 * (100vw - 768px));
+  }
+
+  .operationList_img01 {
+    height: calc(101px + 0.0532407407 * (100vw - 768px));
+  }
+
+  .operationList_img02 {
+    width: calc(92px + 0.0648148148 * (100vw - 768px));
+  }
+
+  .operationList_img02 {
+    height: calc(69px + 0.0486111111 * (100vw - 768px));
+  }
+
+  .operationList_img03 {
+    width: calc(115px + 0.0972222222 * (100vw - 768px));
+  }
+
+  .operationList_img03 {
+    height: calc(66px + 0.0625 * (100vw - 768px));
+  }
+
+  .processList_item {
+    margin-top: calc(40px + 0.0925925926 * (100vw - 768px));
+  }
+
+  .processList_img {
+    margin-top: calc(20px + 0.0462962963 * (100vw - 768px));
+  }
+
+  .details-member_item {
+    margin-top: calc(20px + 0.0462962963 * (100vw - 768px));
+  }
+
+  .details-member_img img {
+    width: calc(60px + 0.0925925926 * (100vw - 768px));
+  }
+
+  .details-member_img img {
+    height: calc(60px + 0.0925925926 * (100vw - 768px));
+  }
+
+  .details .blogShare {
+    margin-bottom: calc(80px + 0.0462962963 * (100vw - 768px));
   }
 
   .contactPage {
@@ -5332,6 +5842,10 @@ span.mwform-checkbox-field-text::before {
     height: 200px;
   }
 
+  .details .ctaBox {
+    margin-bottom: 100px;
+  }
+
   .topPage {
     margin-top: 60px;
   }
@@ -5514,14 +6028,6 @@ span.mwform-checkbox-field-text::before {
     width: 400px;
   }
 
-  .worksBox_btn {
-    height: 80px;
-  }
-
-  .worksBox_btn .button03 {
-    padding: 26px;
-  }
-
   .strong_wrap {
     margin-top: 60px;
   }
@@ -5560,6 +6066,98 @@ span.mwform-checkbox-field-text::before {
 
   .flow_text {
     margin-top: 60px;
+  }
+
+  .details {
+    margin-top: 80px;
+  }
+
+  .details {
+    margin-bottom: 120px;
+  }
+
+  .details_heading {
+    margin-bottom: 80px;
+  }
+
+  .detailsSec {
+    margin-bottom: 100px;
+  }
+
+  .detailsSec01 {
+    height: 951px;
+  }
+
+  .detailsSec03 {
+    margin-top: 40px;
+  }
+
+  .operationList_item {
+    width: 300px;
+  }
+
+  .operationList_item {
+    height: 300px;
+  }
+
+  .operationList_item {
+    margin-top: 50px;
+  }
+
+  .operationList_item {
+    margin-right: 30px;
+  }
+
+  .operationList_item {
+    margin-left: 30px;
+  }
+
+  .operationList_img01 {
+    width: 120px;
+  }
+
+  .operationList_img01 {
+    height: 124px;
+  }
+
+  .operationList_img02 {
+    width: 120px;
+  }
+
+  .operationList_img02 {
+    height: 90px;
+  }
+
+  .operationList_img03 {
+    width: 157px;
+  }
+
+  .operationList_img03 {
+    height: 93px;
+  }
+
+  .processList_item {
+    margin-top: 80px;
+  }
+
+  .processList_img {
+    margin-top: 40px;
+  }
+
+  .details-member_item {
+    margin-top: 40px;
+  }
+
+  .details-member_img img {
+    width: 100px;
+  }
+
+  .details-member_img img {
+    height: 100px;
+  }
+
+  .details .blogShare {
+    margin-bottom: 100px;
   }
 
   .contactPage {
@@ -5948,6 +6546,22 @@ span.mwform-checkbox-field-text::before {
   .can_text02 {
     margin-top: 15px;
     font-size: 1.125rem;
+  }
+
+  .ctaBox_wrap {
+    padding: 30px 20px;
+  }
+
+  .ctaBox_title {
+    font-size: 1.125rem;
+  }
+
+  .ctaBox_text {
+    margin-bottom: 30px;
+  }
+
+  .ctaBox_btn {
+    width: 210px;
   }
 
   .topPage {
@@ -6377,22 +6991,6 @@ span.mwform-checkbox-field-text::before {
     margin-bottom: 0;
   }
 
-  .singlePage .ctaBox_wrap {
-    padding: 25px 20px;
-  }
-
-  .singlePage .ctaBox_title {
-    font-size: 1.0625rem;
-  }
-
-  .singlePage .ctaBox_text {
-    margin-bottom: 30px;
-  }
-
-  .singlePage .ctaBox_btn {
-    width: 210px;
-  }
-
   .works-title {
     margin-top: 40px;
     font-size: 1.125rem;
@@ -6477,6 +7075,64 @@ span.mwform-checkbox-field-text::before {
   .flow_text {
     margin-top: 40px;
     font-size: 1.125rem;
+  }
+
+  .w100 {
+    margin: 0 calc(50% - 50vw) 40px;
+  }
+
+  .detailsSec03_wrap {
+    flex-direction: column-reverse;
+  }
+
+  .detailsSec03_img {
+    width: 100%;
+    max-width: initial;
+  }
+
+  .detailsSec03-name {
+    right: 20px;
+    bottom: -40px;
+    padding: .6em 1.2em;
+  }
+
+  .qaList {
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .detailsCap {
+    position: initial;
+  }
+
+  .detailsCap .caption {
+    position: initial;
+    margin-top: 10px;
+    font-size: .875rem;
+  }
+
+  .operationList_img01 {
+    margin: 40px auto 18px;
+  }
+
+  .operationList_img02 {
+    margin: 55px auto 24px;
+  }
+
+  .operationList_img03 {
+    margin: 54px auto 24px;
+  }
+
+  .processList_body {
+    flex-direction: column;
+  }
+
+  .processList_body h3 {
+    width: 100%;
+  }
+
+  .processList_body p {
+    width: 100%;
   }
 
   .contactPage {
@@ -7113,12 +7769,10 @@ span.mwform-checkbox-field-text::before {
 
   .worksBox_btn {
     width: 203px;
-    height: 53px;
-    margin: 0 auto;
+    margin: 24px auto 0;
   }
 
   .worksBox_btn .button03 {
-    padding: 15px;
     font-size: 1.125rem;
   }
 
@@ -7197,6 +7851,7 @@ span.mwform-checkbox-field-text::before {
     margin-top: 0;
   }
 
+  .flow_item h3,
   .flow_item h4 {
     width: 40px;
     padding: 30px 9px;
@@ -7227,6 +7882,46 @@ span.mwform-checkbox-field-text::before {
   .flow_item ul li::before {
     top: 0;
     left: 0;
+  }
+
+  .detailsSec01 {
+    position: initial;
+    height: auto;
+  }
+
+  .detailsSec01_img .pc {
+    position: initial;
+    width: 100%;
+  }
+
+  .detailsSec01_img .sp {
+    position: initial;
+    width: 100%;
+    max-width: 200px;
+    margin: 30px auto;
+  }
+
+  .detailsSec01_body {
+    position: initial;
+    width: 100%;
+  }
+
+  .detailsSec04 {
+    max-width: 250px;
+  }
+
+  .operationList {
+    flex-direction: column;
+  }
+
+  .details-member {
+    flex-direction: column;
+  }
+
+  .details-member_item {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .mwform-tel-field .input-tel {

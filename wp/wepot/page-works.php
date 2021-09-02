@@ -48,9 +48,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- <div class="worksBox_btn">
-                  <a href="" class="button03">詳しく見る</a>
-                </div> -->
+                        <div class="worksBox_btn">
+                            <a href="<?php echo home_url(); ?>/works/wepot/" class="button03">詳しく見る</a>
+                        </div>
                     </div>
                 </article><!-- /.worksBox_item -->
                 <article class="worksBox_item">
@@ -186,8 +186,8 @@
                         <li class="flow_item">
                             <h4>デザイン</h4>
                             <ul>
-                                <li>イメージ・印象を与える効果的なデザイン</li>
                                 <li>適切なレイアウト・動線設計</li>
+                                <li>イメージ・印象を与える効果的なデザイン</li>
                             </ul>
                         </li><!-- /.flow_item -->
                         <li class="flow_item">

@@ -1,0 +1,56 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+
+/*! ===================================
+記事詳細＆実績詳細内お問い合わせ
+==================================== */
+.ctaBox{
+  width: 100%;
+  margin: 60px auto;
+
+    &_wrap{
+      padding: 30px 50px;
+      background-color: s.$gray01;
+      text-align: center;
+        @include m.mq(md) {
+          padding: 30px 20px;
+        }
+    }
+    &_title{
+      color: s.$green01;
+      @include m.responsive(font-size, 1.125rem, 1.25rem, 48rem, 75rem);
+      font-weight: 700;
+      line-height: 1.2;
+        @include m.mq(md) {
+          font-size: s.rem(18px);
+        }
+    }
+    &_text{
+      margin: 20px 0;
+      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+      font-weight: 500;
+        @include m.mq(md) {
+          margin-bottom: 30px;
+        }
+    }
+    &_btn{
+      width: 250px;
+      margin: 0 auto;
+      .button01{
+        font-size: s.rem(18px);
+        font-weight: 500;
+      }
+      @include m.mq(md) {
+        width: 210px;
+      }
+    }
+}
+
+//-------実績詳細ページ-------
+.details .ctaBox{
+  max-width: 780px;
+  margin-top: 0;
+  @include m.responsive(margin-bottom, 40px, 100px, 768px, 1200px);
+}

@@ -1095,48 +1095,6 @@ a.wp-block-button__link{
   text-decoration: none;
 }
 
-//-------CTA-------
-.singlePage .ctaBox{
-  margin: 60px 0;
-
-    &_wrap{
-      padding: 25px 40px;
-      background-color: s.$gray01;
-      text-align: center;
-        @include m.mq(md) {
-          padding: 25px 20px;
-        }
-    }
-    &_title{
-      color: s.$green01;
-      @include m.responsive(font-size, 1.125rem, 1.25rem, 48rem, 75rem);
-      font-weight: 700;
-      line-height: 1.2;
-        @include m.mq(md) {
-          font-size: s.rem(17px);
-        }
-    }
-    &_text{
-      margin: 20px 0;
-      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
-      font-weight: 500;
-        @include m.mq(md) {
-          margin-bottom: 30px;
-        }
-    }
-    &_btn{
-      width: 250px;
-      margin: 0 auto;
-      .button01{
-        font-size: s.rem(18px);
-        font-weight: 500;
-      }
-      @include m.mq(md) {
-        width: 210px;
-      }
-    }
-}
-
 //-------関連記事-------
 .relatedPost{
   width: 91%;
