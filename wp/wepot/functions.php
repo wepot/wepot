@@ -188,3 +188,10 @@ $nlink .='
 return $nlink;
 }
 add_shortcode("nlink", "nlink_scode");
+
+// 投稿者権限でiframe埋め込み可
+add_filter('user_has_cap','allow_unfiltered_html',10,3);
+function allow_unfiltered_html($allcaps, $cap, $args ){
+	$allcaps['unfiltered_html']=$allcaps['edit_posts'];
+	return($allcaps);
+}
