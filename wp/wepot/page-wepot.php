@@ -4,7 +4,7 @@
     <article class="details">
         <div class="section_inner">
             <header class="details_heading">
-                <h1 class="details_title">Wepot<br><span>デジタルクリエイティブチーム オウンドメディア</span></h1>
+                <h1 class="details_title">Wepot Webサイト<br><span>デジタルクリエイティブチーム オウンドメディア</span></h1>
             </header>
 
             <section class="detailsSec">
@@ -51,141 +51,136 @@
                 <p class="section_text">制作に至った背景や経緯を記載します。例えば、お客さなの持っていたビジネスの課題や悩み、不満を記載します。さらに、お客様のサービスや商品に関する情報や実績など、敬意を込めて記載します。そして、Wepotとしてはじめにどのようなアプローチをしたのか、どんな背景でメンバーのアサインを決めたのか、などを記載しても良いかもしれません。</p>
             </section><!-- /detailsSec -->
 
-            <section class="detailsSec w100">
+            <section class="detailsSec">
                 <header class="section_heading">
                     <h2 class="section_title">依頼者の声</h2>
                 </header>
                 <section class="detailsSec03">
-                    <div class="detailsSec03_wrap">
-                        <ul class="qaList">
-                            <li class="qaList_item">
-                                <ul>
-                                    <li class="qaList-q">Q. Wepotと一緒にプロジェクトを進行してみていかがでしたか？</li>
-                                    <li class="qaList-a">今回のサイトリニューアルを通して実現したいことは当初より頭の中にはありましたが、社内だけでなくサイトリニューアルの目的をWepotのクリエイティブチームのメンバーに伝えていく中で、私の頭の中にあるイメージがより一層まとまり、輪郭がクリアになっていきました。今回Wepotのクリエイティブチームが作成された資料をベースに社内で説明会を開催し、社員がサイトに対して感じていた課題意識や、アイデアを聞く機会になったこともありがたかったです。このように、デザインに入るまでの前工程がとても大切で、そこにWepotのクリエイティブチームのバリューがあると思いました。</li>
-                                </ul>
-                            </li>
-                            <li class="qaList_item">
-                                <ul>
-                                    <li class="qaList-q">Q. リニューアルのあと、どのような変化・影響がありましたか？</li>
-                                    <li class="qaList-a">ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <figure class="detailsSec03_img">
-                            <picture class="sample">
-                                <source srcset="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.jpg" media="(min-width: 769px)" />
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01-sp.jpg" alt=""/>
-                            </picture>
-                            <p class="detailsSec03-name"><span class="name01">担当者の役職名</span><span class="name02">さいとぅ様</span></p>
-                        </figure>
-                    </div><!-- /.detailsSec03_wrap -->
-                </section><!-- /detailsSec03 -->
-            </section><!-- /.detailsSec -->
-
-            <section class="detailsSec">
-                <header class="section_heading detailsCap">
-                    <h2 class="section_title">オウンドメディア運用実績</h2>
-                    <p class="caption">※2021年12月末時点</p>
-                </header>
-                <section class="detailsSec04">
-                    <ul class="operationList">
-                        <li class="operationList_item">
-                            <div class="operationList_img01">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="アイコン">
-                            </div>
-                            <p class="operationList_text"><span>&#x300E; </span>PV増加<span> &#x300F;</span></p>
+                    <ul class="qaList">
+                        <li class="qaList_item">
+                            <ul>
+                                <li class="qaList-qa qaList-q">
+                                    <figure class="qaList-qa_icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="">
+                                    </figure>
+                                    <div class="qaList-qa_talk qaList-q_talk">
+                                        <p>Q. Wepotと一緒にプロジェクトを進行してみていかがでしたか？</p>
+                                    </div>
+                                </li>
+                                <li class="qaList-qa qaList-a">
+                                    <figure class="qaList-qa_icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.png" alt="">
+                                        <figcaption>ご担当者様</figcaption>
+                                    </figure>
+                                    <div class="qaList-qa_talk qaList-a_talk">
+                                        <p>今回のサイトリニューアルを通して実現したいことは当初より頭の中にはありましたが、社内だけでなくサイトリニューアルの目的をWepotのクリエイティブチームのメンバーに伝えていく中で、私の頭の中にあるイメージがより一層まとまり、輪郭がクリアになっていきました。</p>
+                                        <p>今回Wepotのクリエイティブチームが作成された資料をベースに社内で説明会を開催し、社員がサイトに対して感じていた課題意識や、アイデアを聞く機会になったこともありがたかったです。このように、デザインに入るまでの前工程がとても大切で、そこにWepotのクリエイティブチームのバリューがあると思いました。</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="operationList_item">
-                            <div class="operationList_img02">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/mail.png" alt="アイコン">
-                            </div>
-                            <p class="operationList_text"><span>&#x300E; </span>お問合せ増加<span> &#x300F;</span></p>
+                        <li class="qaList_item">
+                            <ul>
+                                <li class="qaList-qa qaList-q">
+                                    <figure class="qaList-qa_icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="">
+                                    </figure>
+                                    <div class="qaList-qa_talk qaList-q_talk">
+                                        <p>Q. リニューアルのあと、どのような変化・影響がありましたか？</p>
+                                    </div>
+                                </li>
+                                <li class="qaList-qa qaList-a">
+                                    <figure class="qaList-qa_icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.png" alt="">
+                                        <figcaption>ご担当者様</figcaption>
+                                    </figure>
+                                    <div class="qaList-qa_talk qaList-a_talk">
+                                        <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="operationList_item">
-                            <div class="operationList_img03">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/works.png" alt="アイコン">
-                            </div>
-                            <p class="operationList_text"><span>&#x300E; </span>制作実績増加<span> &#x300F;</span></p>
-                        </li>
+                        
                     </ul>
-                </section><!-- /detailsSec04 -->
+                </section><!-- /detailsSec03 -->
             </section><!-- /.detailsSec -->
 
             <section class="detailsSec">
                 <header class="section_heading">
                     <h2 class="section_title">制作のプロセス</h2>
                 </header>
-                <section class="flow">
-                    <div class="flow_wrap">
-                        <ul class="flow_list">
-                            <li class="flow_item">
-                                <h3>要件定義</h3>
-                                <ul>
+                <section class="detailsSec04">
+                    <section class="processFlow">
+                        <ul class="processFlow_list">
+                            <li class="processFlow_item">
+                                <h3 class="processFlow_title">要件定義</h3>
+                                <ul class="processFlow_body">
                                     <li>ヒアリングや現状の情報共有</li>
                                     <li>ゴール設定・ターゲット／ペルソナの具現化</li>
                                     <li>コンセプトやキャッチコピーの決定</li>
                                     <li>サーバー・ドメインの取得</li>
                                 </ul>
-                            </li><!-- /.flow_item -->
-                            <li class="flow_item">
-                                <h3>企画・構成</h3>
-                                <ul>
+                            </li><!-- /.processFlow_item -->
+                            <li class="processFlow_item">
+                                <h3 class="processFlow_title">企画・構成</h3>
+                                <ul class="processFlow_body">
                                     <li>サイトマップ・ディレクトリ作成</li>
                                     <li>ペルソナを想定したライティング</li>
                                 </ul>
-                            </li><!-- /.flow_item -->
-                            <li class="flow_item">
-                                <h3>デザイン</h3>
-                                <ul>
+                            </li><!-- /.processFlow_item -->
+                            <li class="processFlow_item">
+                                <h3 class="processFlow_title">デザイン</h3>
+                                <ul class="processFlow_body">
                                     <li>適切なレイアウト・動線設計</li>
                                     <li>イメージ・印象を与える効果的なデザイン</li>
                                 </ul>
-                            </li><!-- /.flow_item -->
-                            <li class="flow_item">
-                                <h3>実装・公開</h3>
-                                <ul>
+                            </li><!-- /.processFlow_item -->
+                            <li class="processFlow_item">
+                                <h3 class="processFlow_title">実装・公開</h3>
+                                <ul class="processFlow_body">
                                     <li>コーディング</li>
                                     <li><span>CMS</span>実装</li>
                                     <li>ブラウザチェック・サーバーで確認・納品</li>
                                 </ul>
-                            </li><!-- /.flow_item -->
-                        </ul><!-- /.flow_list -->
-                    </div><!-- /.flow_wrap -->
-                </section><!-- /.flow -->
-                <section class="detailsSec05">
-                    <ul class="processList">
-                        <li class="processList_item">
-                            <div class="processList_body">
-                                <h3>要件定義</h3>
-                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                            </div>
-                            <figure class="processList_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img02.jpg" alt="">
-                            </figure>
-                        </li>
-                        <li class="processList_item">
-                            <div class="processList_body">
-                                <h3>企画・構成</h3>
-                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                            </div>
-                        </li>
-                        <li class="processList_item">
-                            <div class="processList_body">
-                                <h3>デザイン</h3>
-                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                            </div>
-                            <figure class="processList_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img03.jpg" alt="">
-                            </figure>
-                        </li>
-                        <li class="processList_item">
-                            <div class="processList_body">
-                                <h3>実装・公開</h3>
-                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                            </div>
-                        </li>
-                    </ul><!-- /.processList -->
-                </section><!-- /.detailsSec05 -->
+                            </li><!-- /.processFlow_item -->
+                        </ul><!-- /.processFlow_list -->
+                    </section><!-- /.processFlow_wrap -->
+                
+                    <div class="processFlow_wrap">
+                        <ul class="processDetails">
+                            <li class="processDetails_item">
+                                <div class="processDetails_body">
+                                    <h3>要件定義</h3>
+                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                                </div>
+                                <figure class="processDetails_img">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img02.jpg" alt="">
+                                </figure>
+                            </li>
+                            <li class="processDetails_item">
+                                <div class="processDetails_body">
+                                    <h3>企画・構成</h3>
+                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                                </div>
+                            </li>
+                            <li class="processDetails_item">
+                                <div class="processDetails_body">
+                                    <h3>デザイン</h3>
+                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                                </div>
+                                <figure class="processDetails_img">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img03.jpg" alt="">
+                                </figure>
+                            </li>
+                            <li class="processDetails_item">
+                                <div class="processDetails_body">
+                                    <h3>実装・公開</h3>
+                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                                </div>
+                            </li>
+                        </ul><!-- /.processDetails -->
+                    </div><!-- /.processFlow_wrap -->
+                </section><!-- /.processFlow -->
             </section><!-- /.detailsSec -->
 
             <section class="detailsSec">
@@ -197,7 +192,6 @@
                         <a href="<?php echo home_url(); ?>/about/member/honma/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
-                                <figcaption>プロジェクトマネージャー/ディレクター<br>ホンマ ヒロミツ</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -205,7 +199,6 @@
                         <a href="<?php echo home_url(); ?>/about/member/ayaka/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン">
-                                <figcaption>動画・映像編集者/Webデザイナー/ディレクター<br>あやか</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -213,7 +206,6 @@
                         <a href="<?php echo home_url(); ?>/about/member/sato/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン">
-                                <figcaption>グロースハッカー/デザイナー/ディレクター<br>よーすけ</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -221,7 +213,6 @@
                         <a href="<?php echo home_url(); ?>/about/member/yukix/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
-                                <figcaption>デザイナー/アートディレクター/Web制作クリエイター<br>ユキックス</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -229,7 +220,6 @@
                         <a href="<?php echo home_url(); ?>/about/member/tomoni/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン">
-                                <figcaption>グラフィックデザイナー/イラストレーター/Webデザイナー/動画クリエイター<br>とも</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -237,7 +227,6 @@
                         <a href="<?php echo home_url(); ?>/about/member/saito/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン">
-                                <figcaption>デザイナー<br>さいとぅ</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -245,13 +234,11 @@
                         <a href="<?php echo home_url(); ?>/about/member/maruo/">
                             <figure class="details-member_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン">
-                                <figcaption>マークアップエンジニア<br>まるこ</figcaption>
                             </figure>
                         </a>
                     </li>
                 </ul>
             </section><!-- /.detailsSec -->
-
 
             <section class="ctaBox">
                 <div class="ctaBox_wrap w100">

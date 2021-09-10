@@ -295,7 +295,7 @@ body {
 ==================================== */
 
 .section_text {
-  width: 85%;
+  width: 87.5%;
   margin: 1.95% auto 0;
   font-size: .9375rem;
 }
@@ -2430,7 +2430,7 @@ aboutページ
 .blog .ulList li {
   position: relative;
   margin-top: 10px;
-  padding-left: .9em;
+  padding-left: 1.2em;
   font-size: .9375rem;
 }
 
@@ -2441,7 +2441,7 @@ aboutページ
 .blog .ulList li::before {
   position: absolute;
   content: "";
-  top: 9px;
+  top: 10px;
   left: 0;
   width: 10px;
   height: 10px;
@@ -3404,7 +3404,6 @@ wepotの強み
 .details_title {
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: center;
 }
 
 .details_title span {
@@ -3485,173 +3484,203 @@ wepotの強み
 }
 
 .detailsSec03 {
-  margin-top: 25px;
+  width: 87.5%;
+  margin: 0 auto;
 }
 
-.detailsSec03_wrap {
+.qaList_item {
+  margin-top: 40px;
+}
+
+.qaList-qa {
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row;
 }
 
-.detailsSec03_img {
+.qaList-qa_icon {
+  width: 60px;
+  height: 60px;
+}
+
+.qaList-qa_icon img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.qaList-qa_icon figcaption {
+  font-size: .75rem;
+  text-align: center;
+}
+
+.qaList-qa_talk {
   position: relative;
-  width: 39.1%;
-  max-width: 500px;
-  height: 100%;
-}
-
-.detailsSec03_img img {
-  width: 100%;
-}
-
-.detailsSec03-name {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  bottom: 0;
-  right: 0;
-  padding: .7em 1.5em;
-  background-color: #00b4aa;
-  color: #fff;
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.detailsSec03-name .name01 {
   display: inline-block;
-  margin-bottom: 5px;
+  max-width: 760px;
+  padding: 1.4em 1.25em;
   font-size: .9375rem;
+  border-radius: 8px;
 }
 
-.detailsSec03-name .name02 {
-  display: inline-block;
-  font-size: 1.125rem;
+.qaList-qa_talk::before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  border: 15px solid transparent;
 }
 
-.qaList {
-  width: 60.9%;
-  max-width: 780px;
-  padding: 60px;
-  background-color: #f3f3f3;
+.qaList-qa_talk p {
+  margin-top: 1rem;
 }
 
-.qaList_item:first-child {
-  margin-bottom: 40px;
+.qaList-qa_talk p:first-child {
+  margin-top: 0;
 }
 
 .qaList-q {
-  margin-bottom: 10px;
-  font-size: 1rem;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.qaList-q_talk {
+  margin: auto 40px auto 40px;
+  background: #00b4aa33;
   font-weight: 700;
 }
 
+.qaList-q_talk::before {
+  left: -15px;
+  transform: rotate(-135deg);
+  border-top-color: #00b4aa33;
+}
+
 .qaList-a {
-  font-size: .9375rem;
+  flex-direction: row-reverse;
 }
 
-.detailsCap {
-  position: relative;
+.qaList-a_talk {
+  margin: 10px 40px 0 40px;
+  background: #eee;
+  font-weight: 500;
 }
 
-.detailsCap .caption {
-  position: absolute;
-  bottom: 0;
-  right: 5%;
-  font-size: 1rem;
-  line-height: 1.1;
+.qaList-a_talk::before {
+  right: -14px;
+  transform: rotate(135deg);
+  border-top-color: #eee;
 }
 
 .detailsSec04 {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
-.operationList {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.operationList_item {
-  width: 220px;
-  height: 220px;
-  margin-top: 30px;
-  margin-right: 15px;
-  margin-left: 15px;
-  border-radius: 50%;
-  box-shadow: 0 0 30px 0 rgba(0,0,0,.16);
-}
-
-.operationList_img01 {
-  width: 97px;
-  height: 101px;
-  margin: 20% auto 20px;
-}
-
-.operationList_img02 {
-  width: 92px;
-  height: 69px;
-  margin: 26% auto 36px;
-}
-
-.operationList_img03 {
-  width: 115px;
-  height: 66px;
-  margin: 25% auto 36px;
-}
-
-.operationList img {
+.processFlow {
   width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
 }
 
-.operationList_text {
-  font-size: 1.125rem;
-  font-weight: 700;
+.processFlow_item {
+  position: relative;
+  margin-top: 50px;
+}
+
+.processFlow_item::before {
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 20px 0 20px;
+  border-color: #00b4aa33 transparent transparent transparent;
+}
+
+.processFlow_item:first-child {
+  margin-top: 20px;
+}
+
+.processFlow_item:first-child::before {
+  display: none;
+}
+
+.processFlow_title {
+  display: inline-block;
+  padding: 3px 1.25em;
+  border-radius: 8px 8px 0 0;
+  background-color: #00b4aa;
+  color: #fff;
+  font-size: 1.1rem;
   text-align: center;
-  line-height: 1.2;
+  letter-spacing: .08em;
+  line-height: 1.5;
 }
 
-.operationList_text span {
-  color: #00b4aa;
+.processFlow_body {
+  padding: 1.8em 2.5em;
+  border: 4px solid #00b4aa;
 }
 
-.detailsSec05 {
-  width: 100%;
-  max-width: 1120px;
-  margin: 60px auto 0;
+.processFlow_body li {
+  position: relative;
+  margin-top: 10px;
+  padding-left: 1.2em;
+  font-size: .9375rem;
+  font-weight: 500;
 }
 
-.processList_item {
+.processFlow_body li:first-child {
+  margin-top: 0;
+}
+
+.processFlow_body li::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00b4aa;
+}
+
+.processDetails_item {
   margin-top: 40px;
 }
 
-.processList_body {
+.processDetails_item:first-child {
+  margin-top: 60px;
+}
+
+.processDetails_body {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
 }
 
-.processList_body h3 {
+.processDetails_body h3 {
   width: 180px;
   color: #00b4aa;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
-.processList_body p {
+.processDetails_body p {
   width: calc(100% - 180px);
   font-size: .9375rem;
 }
 
-.processList_img {
+.processDetails_img {
   margin-top: 20px;
 }
 
-.processList_img img {
+.processDetails_img img {
   width: 100%;
 }
 
@@ -3659,10 +3688,15 @@ wepotの強み
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 .details-member_item {
-  width: 280px;
+  width: 59px;
+  height: 59px;
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
@@ -3672,26 +3706,14 @@ wepotの強み
   opacity: .8;
 }
 
-.details-member_img {
-  display: flex;
-}
-
 .details-member_img img {
-  display: block;
-  width: 60px;
-  height: 60px;
-  margin-right: 12px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
 
-.details-member_img figcaption {
-  font-size: .9375rem;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
 .details .blogShare {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .details .blogShare li:nth-child(-n+4) {
@@ -4433,36 +4455,28 @@ span.mwform-checkbox-field-text::before {
     font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
   }
 
-  .detailsSec03-name .name01 {
-    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
+  .qaList-qa_icon figcaption {
+    font-size: calc(0.75rem + 0.0069444444 * (100vw - 48rem));
   }
 
-  .detailsSec03-name .name02 {
-    font-size: calc(1.125rem + 0.0277777778 * (100vw - 48rem));
-  }
-
-  .qaList-q {
-    font-size: calc(1rem + 0.0092592593 * (100vw - 48rem));
-  }
-
-  .qaList-a {
+  .qaList-qa_talk {
     font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
   }
 
-  .operationList_text {
-    font-size: calc(1.125rem + 0.0138888889 * (100vw - 48rem));
+  .processFlow_title {
+    font-size: calc(1.1rem + 0.0148148148 * (100vw - 48rem));
   }
 
-  .processList_body h3 {
+  .processFlow_body li {
+    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
+  }
+
+  .processDetails_body h3 {
     font-size: calc(1rem + 0.0185185185 * (100vw - 48rem));
   }
 
-  .processList_body p {
+  .processDetails_body p {
     font-size: calc(0.9375rem + 0.0023148148 * (100vw - 48rem));
-  }
-
-  .details-member_img figcaption {
-    font-size: calc(0.9375rem + 0.0115740741 * (100vw - 48rem));
   }
 
   .label-area span {
@@ -4890,36 +4904,28 @@ span.mwform-checkbox-field-text::before {
     font-size: 1.25rem;
   }
 
-  .detailsSec03-name .name01 {
-    font-size: 1.25rem;
+  .qaList-qa_icon figcaption {
+    font-size: .9375rem;
   }
 
-  .detailsSec03-name .name02 {
-    font-size: 1.875rem;
-  }
-
-  .qaList-q {
-    font-size: 1.25rem;
-  }
-
-  .qaList-a {
+  .qaList-qa_talk {
     font-size: 1rem;
   }
 
-  .operationList_text {
+  .processFlow_title {
     font-size: 1.5rem;
   }
 
-  .processList_body h3 {
-    font-size: 1.5rem;
-  }
-
-  .processList_body p {
-    font-size: 1rem;
-  }
-
-  .details-member_img figcaption {
+  .processFlow_body li {
     font-size: 1.25rem;
+  }
+
+  .processDetails_body h3 {
+    font-size: 1.5rem;
+  }
+
+  .processDetails_body p {
+    font-size: 1rem;
   }
 
   .label-area span {
@@ -5247,7 +5253,7 @@ span.mwform-checkbox-field-text::before {
   }
 
   .details .ctaBox {
-    margin-bottom: calc(40px + 0.1388888889 * (100vw - 768px));
+    margin-bottom: calc(40px + 0.0925925926 * (100vw - 768px));
   }
 
   .topPage {
@@ -5485,83 +5491,59 @@ span.mwform-checkbox-field-text::before {
   }
 
   .detailsSec {
-    margin-bottom: calc(40px + 0.1388888889 * (100vw - 768px));
+    margin-bottom: calc(40px + 0.0925925926 * (100vw - 768px));
   }
 
   .detailsSec01 {
     height: calc(620px + 0.7662037037 * (100vw - 768px));
   }
 
-  .detailsSec03 {
-    margin-top: calc(25px + 0.0347222222 * (100vw - 768px));
+  .qaList-qa_icon {
+    width: calc(60px + 0.1851851852 * (100vw - 768px));
   }
 
-  .operationList_item {
-    width: calc(220px + 0.1851851852 * (100vw - 768px));
+  .qaList-qa_icon {
+    height: calc(60px + 0.1851851852 * (100vw - 768px));
   }
 
-  .operationList_item {
-    height: calc(220px + 0.1851851852 * (100vw - 768px));
+  .qaList-qa_icon img {
+    width: calc(60px + 0.1851851852 * (100vw - 768px));
   }
 
-  .operationList_item {
-    margin-top: calc(30px + 0.0462962963 * (100vw - 768px));
+  .qaList-qa_icon img {
+    height: calc(60px + 0.1851851852 * (100vw - 768px));
   }
 
-  .operationList_item {
-    margin-right: calc(15px + 0.0347222222 * (100vw - 768px));
+  .processFlow_body li::before {
+    top: calc(10px + 0.0092592593 * (100vw - 768px));
   }
 
-  .operationList_item {
-    margin-left: calc(15px + 0.0347222222 * (100vw - 768px));
+  .processDetails_item {
+    margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
   }
 
-  .operationList_img01 {
-    width: calc(97px + 0.0532407407 * (100vw - 768px));
+  .processDetails_item:first-child {
+    margin-top: calc(60px + 0.0462962963 * (100vw - 768px));
   }
 
-  .operationList_img01 {
-    height: calc(101px + 0.0532407407 * (100vw - 768px));
-  }
-
-  .operationList_img02 {
-    width: calc(92px + 0.0648148148 * (100vw - 768px));
-  }
-
-  .operationList_img02 {
-    height: calc(69px + 0.0486111111 * (100vw - 768px));
-  }
-
-  .operationList_img03 {
-    width: calc(115px + 0.0972222222 * (100vw - 768px));
-  }
-
-  .operationList_img03 {
-    height: calc(66px + 0.0625 * (100vw - 768px));
-  }
-
-  .processList_item {
-    margin-top: calc(40px + 0.0925925926 * (100vw - 768px));
-  }
-
-  .processList_img {
+  .processDetails_img {
     margin-top: calc(20px + 0.0462962963 * (100vw - 768px));
+  }
+
+  .details-member_item {
+    width: calc(59px + 0.1412037037 * (100vw - 768px));
+  }
+
+  .details-member_item {
+    height: calc(59px + 0.1412037037 * (100vw - 768px));
   }
 
   .details-member_item {
     margin-top: calc(20px + 0.0462962963 * (100vw - 768px));
   }
 
-  .details-member_img img {
-    width: calc(60px + 0.0925925926 * (100vw - 768px));
-  }
-
-  .details-member_img img {
-    height: calc(60px + 0.0925925926 * (100vw - 768px));
-  }
-
   .details .blogShare {
-    margin-bottom: calc(80px + 0.0462962963 * (100vw - 768px));
+    margin-bottom: calc(60px + 0.0462962963 * (100vw - 768px));
   }
 
   .contactPage {
@@ -5847,7 +5829,7 @@ span.mwform-checkbox-field-text::before {
   }
 
   .details .ctaBox {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   .topPage {
@@ -6085,83 +6067,59 @@ span.mwform-checkbox-field-text::before {
   }
 
   .detailsSec {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   .detailsSec01 {
     height: 951px;
   }
 
-  .detailsSec03 {
-    margin-top: 40px;
+  .qaList-qa_icon {
+    width: 140px;
   }
 
-  .operationList_item {
-    width: 300px;
+  .qaList-qa_icon {
+    height: 140px;
   }
 
-  .operationList_item {
-    height: 300px;
+  .qaList-qa_icon img {
+    width: 140px;
   }
 
-  .operationList_item {
-    margin-top: 50px;
+  .qaList-qa_icon img {
+    height: 140px;
   }
 
-  .operationList_item {
-    margin-right: 30px;
+  .processFlow_body li::before {
+    top: 14px;
   }
 
-  .operationList_item {
-    margin-left: 30px;
+  .processDetails_item {
+    margin-top: 60px;
   }
 
-  .operationList_img01 {
-    width: 120px;
-  }
-
-  .operationList_img01 {
-    height: 124px;
-  }
-
-  .operationList_img02 {
-    width: 120px;
-  }
-
-  .operationList_img02 {
-    height: 90px;
-  }
-
-  .operationList_img03 {
-    width: 157px;
-  }
-
-  .operationList_img03 {
-    height: 93px;
-  }
-
-  .processList_item {
+  .processDetails_item:first-child {
     margin-top: 80px;
   }
 
-  .processList_img {
+  .processDetails_img {
     margin-top: 40px;
+  }
+
+  .details-member_item {
+    width: 120px;
+  }
+
+  .details-member_item {
+    height: 120px;
   }
 
   .details-member_item {
     margin-top: 40px;
   }
 
-  .details-member_img img {
-    width: 100px;
-  }
-
-  .details-member_img img {
-    height: 100px;
-  }
-
   .details .blogShare {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   .contactPage {
@@ -7085,58 +7043,73 @@ span.mwform-checkbox-field-text::before {
     margin: 0 calc(50% - 50vw) 40px;
   }
 
-  .detailsSec03_wrap {
-    flex-direction: column-reverse;
-  }
-
-  .detailsSec03_img {
+  .detailsSec03 {
     width: 100%;
-    max-width: initial;
   }
 
-  .detailsSec03-name {
-    right: 20px;
-    bottom: -40px;
-    padding: .6em 1.2em;
+  .qaList_item:first-child {
+    margin-top: 20px;
   }
 
-  .qaList {
-    width: 100%;
-    padding: 60px 20px;
+  .qaList-qa_icon {
+    width: 60px;
   }
 
-  .detailsCap {
-    position: initial;
+  .qaList-qa_icon figcaption {
+    font-size: .6875rem;
   }
 
-  .detailsCap .caption {
-    position: initial;
-    margin-top: 10px;
-    font-size: .875rem;
+  .qaList-qa_talk {
+    width: calc(100% - 60px);
+    padding: 1em;
   }
 
-  .operationList_img01 {
-    margin: 40px auto 18px;
+  .qaList-qa_talk::before {
+    top: 5px;
   }
 
-  .operationList_img02 {
-    margin: 55px auto 24px;
+  .qaList-q_talk {
+    margin-left: 25px;
   }
 
-  .operationList_img03 {
-    margin: 54px auto 24px;
+  .qaList-a_talk {
+    margin: 0 25px 0 0;
   }
 
-  .processList_body {
+  .processFlow_item::before {
+    top: -30px;
+    border-width: 24px 16px 0 16px;
+  }
+
+  .processFlow_title {
+    padding: 3px 16px;
+  }
+
+  .processFlow_body {
+    padding: 1em 1.5em;
+    border: 3px solid #00b4aa;
+  }
+
+  .processFlow_body li::before {
+    width: 8px;
+    height: 8px;
+  }
+
+  .processDetails_body {
     flex-direction: column;
   }
 
-  .processList_body h3 {
+  .processDetails_body h3 {
     width: 100%;
   }
 
-  .processList_body p {
+  .processDetails_body p {
     width: 100%;
+  }
+
+  .details-member_item {
+    margin-right: 12px;
+    margin-left: 12px;
   }
 
   .contactPage {
@@ -7908,24 +7881,6 @@ span.mwform-checkbox-field-text::before {
   .detailsSec01_body {
     position: initial;
     width: 100%;
-  }
-
-  .detailsSec04 {
-    max-width: 250px;
-  }
-
-  .operationList {
-    flex-direction: column;
-  }
-
-  .details-member {
-    flex-direction: column;
-  }
-
-  .details-member_item {
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   .mwform-tel-field .input-tel {

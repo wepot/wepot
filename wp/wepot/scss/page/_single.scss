@@ -603,7 +603,7 @@
         &:first-child{
           margin-top: 0;
         }
-      padding-left: .9em;
+      padding-left: 1.2em;
       @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
         @include m.mq(md) {
           line-height: 1.8;
@@ -612,7 +612,7 @@
       &::before{
         position: absolute;
         content: "";
-        top: 9px;
+        top: 10px;
         left: 0;
         width: 10px;
         height: 10px;

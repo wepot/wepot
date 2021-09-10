@@ -52,5 +52,5 @@
 .details .ctaBox{
   max-width: 780px;
   margin-top: 0;
-  @include m.responsive(margin-bottom, 40px, 100px, 768px, 1200px);
+  @include m.responsive(margin-bottom, 40px, 80px, 768px, 1200px);
 }
