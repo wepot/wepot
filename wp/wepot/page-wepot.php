@@ -4,7 +4,8 @@
     <article class="details">
         <div class="section_inner">
             <header class="details_heading">
-                <h1 class="details_title">Wepot Webサイト<br><span>デジタルクリエイティブチーム オウンドメディア</span></h1>
+                <h1 class="details_title">Wepot Webサイト</h1>
+                <p class="details_text">デジタルクリエイティブチーム オウンドメディア</p>
             </header>
 
             <section class="detailsSec">
