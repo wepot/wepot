@@ -140,7 +140,7 @@
                                 <h3 class="processFlow_title">実装・公開</h3>
                                 <ul class="processFlow_body">
                                     <li>コーディング</li>
-                                    <li><span>CMS</span>実装</li>
+                                    <li>CMS実装</li>
                                     <li>ブラウザチェック・サーバーで確認・納品</li>
                                 </ul>
                             </li><!-- /.processFlow_item -->
