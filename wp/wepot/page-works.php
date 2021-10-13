@@ -14,7 +14,7 @@
             <article class="worksBox">
                 <article class="worksBox_item">
                     <figure class="worksBox_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img01.jpg" alt="Wepot アイキャッチ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img01.jpg" alt="Wepot アイキャッチ" width="800" height="450">
                     </figure>
                     <div class="worksBox_body">
                         <h3 class="worksBox_title">Wepot Webサイト</h3>
@@ -26,25 +26,25 @@
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/sato/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/sato/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/tomoni/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/tomoni/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/saito/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/saito/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/maruo/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/maruo/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                             </ul>
                         </div>
@@ -55,7 +55,7 @@
                 </article><!-- /.worksBox_item -->
                 <article class="worksBox_item">
                     <figure class="worksBox_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img02.jpg" alt="i-plugさま アイキャッチ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img02.jpg" alt="i-plugさま アイキャッチ" width="800" height="450">
                     </figure>
                     <div class="worksBox_body">
                         <h3 class="worksBox_title">i-plugさま 新卒採用LP</h3>
@@ -68,10 +68,10 @@
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                             </ul>
                         </div>
@@ -82,7 +82,7 @@
                 </article><!-- /.worksBox_item -->
                 <article class="worksBox_item">
                     <figure class="worksBox_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img03.jpg" alt="講演依頼.comさま アイキャッチ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img03.jpg" alt="講演依頼.comさま アイキャッチ" width="800" height="450">
                     </figure>
                     <div class="worksBox_body">
                         <h3 class="worksBox_title">講演依頼.comさま LP/バナー/ダウンロード資料</h3>
@@ -95,13 +95,13 @@
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/honma/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン"></a>
+                                    <a href="<?php echo home_url(); ?>/about/member/yukix/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
                             </ul>
                         </div>
@@ -128,7 +128,7 @@
                 <div class="strong-media">
                     <div class="strong-media_item">
                         <div class="strong-media_img01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/one-stop.png" alt="適切なメンバーアサイン ワンストップでサービス提供">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/one-stop.png" alt="適切なメンバーアサイン ワンストップでサービス提供" width="320" height="392">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title"><span>適切なメンバーアサイン</span><br>ワンストップでサービス提供</h3>
@@ -137,7 +137,7 @@
                     </div><!-- /.strong-media_item -->
                     <div class="strong-media_item">
                         <div class="strong-media_img02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/workflow.png" alt="成果貢献を重視したワークフロー">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/workflow.png" alt="成果貢献を重視したワークフロー" width="320" height="416">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title">成果貢献を重視したワークフロー</h3>
@@ -146,7 +146,7 @@
                     </div><!-- /.strong-media_item -->
                     <div class="strong-media_item">
                         <div class="strong-media_img03">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/ability.png" alt="作れないものがないどんなご要望にも対応できる体制">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/ability.png" alt="作れないものがないどんなご要望にも対応できる体制" width="378" height="416">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title"><span>作れないものがない</span><br>どんなご要望にも対応できる体制</h3>
