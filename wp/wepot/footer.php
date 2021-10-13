@@ -70,11 +70,11 @@
                     <li class="link_wrap">
                         <p>Follow US</p>
                         <ul class="link-sns">
-                            <li class="link-sns_item"><a href="https://twitter.com/wepot_media" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/twitter.png" alt=""></a>
+                            <li class="link-sns_item"><a href="https://twitter.com/wepot_media" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/twitter.png" alt="Wepot Twitter" width="45" height="45"></a>
                             </li>
-                            <li class="link-sns_item"><a href="https://www.facebook.com/Wepot-102609692133115" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/facebook.png" alt=""></a>
+                            <li class="link-sns_item"><a href="https://www.facebook.com/Wepot-102609692133115" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/facebook.png" alt="Wepot Facebook" width="45" height="45"></a>
                             </li>
-                            <li class="link-sns_item"><a href="https://www.linkedin.com/company/wepotcreative" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/linkedin.png" alt=""></a>
+                            <li class="link-sns_item"><a href="https://www.linkedin.com/company/wepotcreative" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/linkedin.png" alt="Wepot Linkedin" width="47" height="40"></a>
                             </li>
                         </ul>
                     </li><!-- /.link_wrap -->
