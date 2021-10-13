@@ -161,8 +161,6 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/prism.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.min.css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <?php wp_head(); ?>
 
