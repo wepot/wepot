@@ -15,7 +15,7 @@
                 <ul class="member_list">
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/honma/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="ホンマ ヒロミツ">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="ホンマ ヒロミツ" width="260" height="260">
                             </figure>
                             <p class="name">ホンマ ヒロミツ</p>
                             <p class="position">プロジェクトマネージャー/<br>ディレクター</p>
@@ -23,7 +23,7 @@
                     </li>
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/ayaka/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="あやか">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="あやか" width="260" height="260">
                             </figure>
                             <p class="name">あやか</p>
                             <p class="position">動画・映像編集者/<br>Webデザイナー/<br>ディレクター</p>
@@ -31,7 +31,7 @@
                     </li>
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/sato/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="よーすけ">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="よーすけ" width="260" height="260">
                             </figure>
                             <p class="name">よーすけ</p>
                             <p class="position">グロースハッカー/<br>デザイナー/<br>ディレクター</p>
@@ -39,7 +39,7 @@
                     </li>
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/yukix/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="ユキックス">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="ユキックス" width="260" height="260">
                             </figure>
                             <p class="name">ユキックス</p>
                             <p class="position">デザイナー/<br>アートディレクター/<br>Web制作クリエイター</p>
@@ -47,7 +47,7 @@
                     </li>
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/tomoni/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="とも">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="とも" width="260" height="260">
                             </figure>
                             <p class="name">とも</p>
                             <p class="position">グラフィックデザイナー/<br>イラストレーター/<br>Webデザイナー/<br>動画クリエイター</p>
@@ -55,7 +55,7 @@
                     </li>
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/saito/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="さいとぅ">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="さいとぅ" width="260" height="260">
                             </figure>
                             <p class="name">さいとぅ</p>
                             <p class="position">デザイナー</p>
@@ -63,7 +63,7 @@
                     </li>
                     <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/maruo/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ">
+                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ" width="260" height="260">
                             </figure>
                             <p class="name">まるこ</p>
                             <p class="position">マークアップエンジニア</p>
