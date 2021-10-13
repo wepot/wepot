@@ -3,7 +3,7 @@
     <section class="mainVisual">
         <div class="mainVisual_wrap">
             <div class="mainVisual_img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/bg/top-img.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/bg/top-img.png" alt="Wepot ロゴ" width="205" height="158">
             </div>
             <header class="mainVisual_heading">
                 <h1 class="mainVisual_title">理想の未来を創る、すべてがここに</h1>
@@ -80,12 +80,9 @@
                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/wordpress/" class="button03">WordPress</a></li>
                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/marketing/" class="button03">マーケティング</a></li>
                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/direction/" class="button03">ディレクション</a></li>
-                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/coding/" class="button03">コーディング</a>
-                </li>
-                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/illust/" class="button03">イラスト</a>
-                </li>
+                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/coding/" class="button03">コーディング</a></li>
+                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/illust/" class="button03">イラスト</a></li>
                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/video/" class="button03">動画編集</a></li>
-                <!-- <li class="category_item"><a href="<?php echo home_url(); ?>/blog/others/" class="button03">その他</a></li> -->
             </ul><!-- /.more -->
             <div id="searchSp">
                 <?php get_template_part('searchformSp'); ?>
