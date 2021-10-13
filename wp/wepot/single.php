@@ -88,32 +88,32 @@
                         <ul>
                             <li>
                                 <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="シェアボタン">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="シェアボタン" width="48" height="48">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/share?url=<?php the_permalink(); ?>&via=wepot_media&related=wepot_media&hashtags=Wepot&text=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="シェアボタン">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="シェアボタン" width="48" height="39">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-linkedin.png" alt="シェアボタン">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-linkedin.png" alt="シェアボタン" width="56" height="48">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://line.me/R/msg/text/?<?php the_permalink(); ?>" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-line.png" alt="シェアボタン">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-line.png" alt="シェアボタン" width="48" height="48">
                                 </a>
                             </li>
                             <li>
                                 <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" target="_blank" rel="nofollow">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-hatena.png" alt="シェアボタン">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-hatena.png" alt="シェアボタン" width="48" height="48">
                                 </a>
                             </li>
                             <li>
                                 <a href="http://getpocket.com/edit?url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow" rel="nofollow" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-pocket.png" alt="シェアボタン">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-pocket.png" alt="シェアボタン" width="48" height="44">
                                 </a>
                             </li>
                         </ul>
@@ -132,7 +132,7 @@
                                     <?php if (get_the_author_meta('user_url') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item01">
                                             <a href="<?php the_author_meta('user_url'); ?>" target="_blank" rel=“noopener”>
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="">Web Site
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン" width="20" height="20">Web Site
                                             </a>
                                         </li>
                                     <?php endif; ?>
@@ -140,7 +140,7 @@
                                     <?php if (get_the_author_meta('twitter') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item02">
                                             <a href="<?php the_author_meta('twitter'); ?>" target="_blank" rel=“noopener”>
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">Twitter
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン" width="24" height="20">Twitter
                                             </a>
                                         </li>
                                     <?php endif; ?>
@@ -148,7 +148,7 @@
                                     <?php if (get_the_author_meta('facebook') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item03">
                                             <a href="<?php the_author_meta('facebook'); ?>" target="_blank" rel=“noopener”>
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="">Facebook
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="アイコン" width="20" height="20">Facebook
                                             </a>
                                         </li>
                                     <?php endif; ?>
@@ -156,7 +156,7 @@
                                     <?php if (get_the_author_meta('instagram') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item04">
                                             <a href="<?php the_author_meta('instagram'); ?>" target="_blank" rel=“noopener”>
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="">Instagram
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="アイコン" width="20" height="20">Instagram
                                             </a>
                                         </li>
                                     <?php endif; ?>
@@ -164,7 +164,7 @@
                                     <?php if (get_the_author_meta('youtube') != "") : ?>
                                         <li class="blogAuthor-sns_item blogAuthor-sns_item05">
                                             <a href="<?php the_author_meta('youtube'); ?>" target="_blank" rel=“noopener”>
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="">YouTube
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="アイコン" width="29" height="20">YouTube
                                             </a>
                                         </li>
                                     <?php endif; ?>
