@@ -6,16 +6,16 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="とも">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="とも" width="240" height="240">
                     </figure><!-- /.img -->
                     <h1 class="name"><span>グラフィックデザイナー/<br class="br-sp02">イラストレーター/<br class="br-sp02">Webデザイナー/動画クリエイター</span><br>とも</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item01">
-                            <a href="https://tomoni-design.com/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
+                            <a href="https://tomoni-design.com/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン" width="27" height="27">Web
                                 Site</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item02">
-                            <a href="https://twitter.com/12designNeko" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a>
+                            <a href="https://twitter.com/12designNeko" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン" width="33" height="27">Twitter</a>
                         </li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->

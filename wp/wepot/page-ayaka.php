@@ -6,25 +6,25 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="あやか">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="あやか" width="240" height="240">
                     </figure><!-- /.img -->
                     <h1 class="name"><span>動画・映像編集者/Webデザイナー/<br class="br-sp02">ディレクター</span><br>あやか</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item01">
-                            <a href="https://composi.net/blog/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
+                            <a href="https://composi.net/blog/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン" width="27" height="27">Web
                                 Site</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item02">
-                            <a href="https://twitter.com/aaa_1205" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a>
+                            <a href="https://twitter.com/aaa_1205" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン" width="33" height="27">Twitter</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item03">
-                            <a href="https://www.facebook.com/ayaka.smz" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="アイコン">Facebook</a>
+                            <a href="https://www.facebook.com/ayaka.smz" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="アイコン" width="27" height="27">Facebook</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item04">
-                            <a href="https://www.instagram.com/ayakasuzuki_creator/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="アイコン">Instagram</a>
+                            <a href="https://www.instagram.com/ayakasuzuki_creator/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-instagrum.png" alt="アイコン" width="27" height="27">Instagram</a>
                         </li>
                         <li class="profilePage-sns_item profilePage-sns_item05">
-                            <a href="https://www.youtube.com/channel/UC65JsuzxP3a6wOeTxNPWc0A" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="アイコン">YouTube</a>
+                            <a href="https://www.youtube.com/channel/UC65JsuzxP3a6wOeTxNPWc0A" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-youtube.png" alt="アイコン" width="39" height="27">YouTube</a>
                         </li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->

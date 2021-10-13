@@ -6,11 +6,11 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ" width="240" height="240">
                     </figure><!-- /.img -->
                     <h1 class="name"><span>マークアップエンジニア</span><br>まるこ</h1>
                     <ul class="profilePage-sns">
-                        <li class="profilePage-sns_item profilePage-sns_item02"><a href="https://twitter.com/malco_trico" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="">Twitter</a></li>
+                        <li class="profilePage-sns_item profilePage-sns_item02"><a href="https://twitter.com/malco_trico" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン" width="33" height="27">Twitter</a></li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->
 

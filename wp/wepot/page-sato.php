@@ -6,13 +6,13 @@
             <article class="profilePage">
                 <section class="profilePage-sec01">
                     <figure class="profilePage_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="よーすけ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="よーすけ" width="240" height="240">
                     </figure><!-- /.img -->
                     <h1 class="name"><span>グロースハッカー/デザイナー/<br class="br-sp02">ディレクター</span><br>よーすけ</h1>
                     <ul class="profilePage-sns">
-                        <li class="profilePage-sns_item profilePage-sns_item01"><a href="https://d-petabite.com" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン">Web
+                        <li class="profilePage-sns_item profilePage-sns_item01"><a href="https://d-petabite.com" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン" width="27" height="27">Web
                                 Site</a></li>
-                        <li class="profilePage-sns_item profilePage-sns_item02"><a href="https://twitter.com/petaBite_yo" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン">Twitter</a></li>
+                        <li class="profilePage-sns_item profilePage-sns_item02"><a href="https://twitter.com/petaBite_yo" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン" width="33" height="27">Twitter</a></li>
                     </ul>
                 </section><!-- /.profilePage-sec01 -->
 
