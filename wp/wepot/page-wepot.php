@@ -11,8 +11,8 @@
             <section class="detailsSec">
                 <section class="detailsSec01">
                     <figure class="detailsSec01_img">
-                        <img class="pc" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-pc.jpg" alt="Wepot アイキャッチ">
-                        <img class="sp" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-sp.jpg" alt="Wepot アイキャッチ">
+                        <img class="pc" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-pc.jpg" alt="Wepot アイキャッチ" width="1120" height="630">
+                        <img class="sp" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-sp.jpg" alt="Wepot アイキャッチ" width="360" height="639">
                     </figure>
                     <div class="detailsSec01_body">
                         <ul class="overviewList">
@@ -62,7 +62,7 @@
                             <ul>
                                 <li class="qaList-qa qaList-q">
                                     <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="Wepot" width="140" height="140">
                                     </figure>
                                     <div class="qaList-qa_talk qaList-q_talk">
                                         <p>Q. Wepotと一緒にプロジェクトを進行してみていかがでしたか？</p>
@@ -70,7 +70,7 @@
                                 </li>
                                 <li class="qaList-qa qaList-a">
                                     <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.png" alt="クライアント" width="140" height="140">
                                         <figcaption>ご担当者様</figcaption>
                                     </figure>
                                     <div class="qaList-qa_talk qaList-a_talk">
@@ -84,7 +84,7 @@
                             <ul>
                                 <li class="qaList-qa qaList-q">
                                     <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="Wepot" width="140" height="140">
                                     </figure>
                                     <div class="qaList-qa_talk qaList-q_talk">
                                         <p>Q. リニューアルのあと、どのような変化・影響がありましたか？</p>
@@ -92,7 +92,7 @@
                                 </li>
                                 <li class="qaList-qa qaList-a">
                                     <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img01.png" alt="クライアント" width="140" height="140">
                                         <figcaption>ご担当者様</figcaption>
                                     </figure>
                                     <div class="qaList-qa_talk qaList-a_talk">
@@ -101,7 +101,7 @@
                                 </li>
                             </ul>
                         </li>
-                        
+
                     </ul>
                 </section><!-- /detailsSec03 -->
             </section><!-- /.detailsSec -->
@@ -146,7 +146,7 @@
                             </li><!-- /.processFlow_item -->
                         </ul><!-- /.processFlow_list -->
                     </section><!-- /.processFlow_wrap -->
-                
+
                     <div class="processFlow_wrap">
                         <ul class="processDetails">
                             <li class="processDetails_item">
@@ -155,7 +155,7 @@
                                     <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
                                 </div>
                                 <figure class="processDetails_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img02.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img02.jpg" alt="要件定義資料" width="1120" height="630">
                                 </figure>
                             </li>
                             <li class="processDetails_item">
@@ -170,7 +170,7 @@
                                     <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
                                 </div>
                                 <figure class="processDetails_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img03.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img03.jpg" alt="デザイン資料" width="1120" height="630">
                                 </figure>
                             </li>
                             <li class="processDetails_item">
@@ -192,49 +192,49 @@
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/honma/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/ayaka/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/sato/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/yukix/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/tomoni/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/saito/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
                     <li class="details-member_item">
                         <a href="<?php echo home_url(); ?>/about/member/maruo/">
                             <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン" width="120" height="120">
                             </figure>
                         </a>
                     </li>
@@ -251,28 +251,28 @@
                 </div><!-- /.ctaBox_wrap -->
             </section><!-- /.ctaBox -->
 
-            
+
             <section class="blogShare">
                 <p>このプロジェクトがシェアできます</p>
                 <ul>
                     <li>
                         <a href="https://twitter.com/share?url=<?php the_permalink(); ?>&via=wepot_media&related=wepot_media&hashtags=Wepot&text=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="シェアボタン">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="シェアボタン" width="48" height="39">
                         </a>
                     </li>
                     <li>
                         <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" rel="nofollow" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="シェアボタン">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-facebook.png" alt="シェアボタン" width="48" height="48">
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-linkedin.png" alt="シェアボタン">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-linkedin.png" alt="シェアボタン" width="56" height="48">
                         </a>
                     </li>
                 </ul>
             </section><!-- /.blogShare -->
-            
+
             <div class="more">
                 <a href="<?php echo home_url(); ?>/works/" class="button03">実績一覧に戻る</a>
             </div><!-- /.more -->
@@ -289,7 +289,7 @@
                 <div class="strong-media">
                     <div class="strong-media_item">
                         <div class="strong-media_img01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/one-stop.png" alt="適切なメンバーアサイン ワンストップでサービス提供">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/one-stop.png" alt="適切なメンバーアサイン ワンストップでサービス提供" width="320" height="392">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title"><span>適切なメンバーアサイン</span><br>ワンストップでサービス提供</h3>
@@ -298,7 +298,7 @@
                     </div><!-- /.strong-media_item -->
                     <div class="strong-media_item">
                         <div class="strong-media_img02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/workflow.png" alt="成果貢献を重視したワークフロー">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/workflow.png" alt="成果貢献を重視したワークフロー" width="320" height="416">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title">成果貢献を重視したワークフロー</h3>
@@ -307,7 +307,7 @@
                     </div><!-- /.strong-media_item -->
                     <div class="strong-media_item">
                         <div class="strong-media_img03">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/ability.png" alt="作れないものがないどんなご要望にも対応できる体制">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/works/ability.png" alt="作れないものがないどんなご要望にも対応できる体制" width="378" height="416">
                         </div>
                         <div class="strong-media_body">
                             <h3 class="strong-media_title"><span>作れないものがない</span><br>どんなご要望にも対応できる体制</h3>
