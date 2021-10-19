@@ -18,7 +18,6 @@
                     </figure>
                     <div class="worksBox_body">
                         <h3 class="worksBox_title">Wepot Webサイト</h3>
-                        <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
                             Wepotのミッションは、“デジタルクリエイティブの課題を解決し、クライアントと消費者の理想の未来を創る”です。運営メンバーは個々の強みをもった個人事業主で構成され業界最前線で活躍中。基礎知識から応用、セオリーまで丁寧に解説するオウンドメディアです。
                         </p>
@@ -48,9 +47,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="worksBox_btn">
+                        <!-- <div class="worksBox_btn">
                             <a href="<?php echo home_url(); ?>/works/wepot/" class="button03">詳しく見る</a>
-                        </div>
+                        </div> -->
                     </div>
                 </article><!-- /.worksBox_item -->
                 <article class="worksBox_item">
@@ -59,11 +58,10 @@
                     </figure>
                     <div class="worksBox_body">
                         <h3 class="worksBox_title">i-plugさま 新卒採用LP</h3>
-                        <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
                             新卒採用を目的としたLPページのデザインと実装を担当させていただきました。<br>閲覧した就職希望者の皆さんが「ワクワクする」「キャリアの可能性を感じる」「能動的に取り組みたくなる」ようなイメージを持ってもらえるようにデザインをしています。
                         </p>
-                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank" rel=“noopener”>https://i-plug.co.jp/recruit/freshers/<i class="fas fa-external-link-alt"></i></a></p>
+                        <p class="worksBox_url"><a href="https://i-plug.co.jp/recruit/freshers/" target="_blank" rel=“noopener”>https://i-plug.co.jp/recruit/freshers/<i class="fas fa-external-link-alt fa-sm"></i></a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">
@@ -86,11 +84,10 @@
                     </figure>
                     <div class="worksBox_body">
                         <h3 class="worksBox_title">講演依頼.comさま LP/バナー/ダウンロード資料</h3>
-                        <!-- <p class="worksBox_budget">〇〇万円〜 / 1ヶ月〜</p> -->
                         <p class="worksBox_text">
                             オンライン講演の配信サポートプランのLPページをデザインしました。<br>詳細な情報設計をもとに、ターゲットとなるユーザーにとって適切なコンテンツと掲載順を策定した上で、デザインに落とし込んでいます。<br>LPのデザインとともに、ダウンロード資料（PDF）やバナーも担当させていただきました。<br>LPページに合わせた見やすく伝わりやすい資料を制作しています。
                         </p>
-                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank" rel=“noopener”>https://www.kouenirai.com/howto/online.html<i class="fas fa-external-link-alt"></i></a></p>
+                        <p class="worksBox_url"><a href="https://www.kouenirai.com/howto/online.html" target="_blank" rel=“noopener”>https://www.kouenirai.com/howto/online.html<i class="fas fa-external-link-alt fa-sm"></i></a></p>
                         <div class="worksBox-member">
                             <p>担当メンバー</p>
                             <ul class="worksBox-member_list">

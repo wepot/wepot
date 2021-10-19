@@ -105,11 +105,7 @@
             display: inline-block;
             word-break: break-all;
             text-decoration: underline;
-            
-            .fa-external-link-alt{
-              margin-left: 5px;
-              font-weight: 400;
-            }
+
               &:hover{
                 color: s.$green01;
               }

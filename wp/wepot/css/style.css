@@ -3134,11 +3134,6 @@ a.wp-block-button__link {
   text-decoration: underline;
 }
 
-.worksBox_url a .fa-external-link-alt {
-  margin-left: 5px;
-  font-weight: 400;
-}
-
 .worksBox_url a:hover {
   color: #00b4aa;
 }
