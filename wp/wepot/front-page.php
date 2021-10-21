@@ -37,7 +37,7 @@
                         <article class="topArticle_item">
                             <a class="topArticle_link" href="<?php the_permalink(); ?>">
                                 <figure class="topArticle_img">
-                                    <?php the_post_thumbnail('large'); ?>
+                                    <?php the_post_thumbnail(array(384, 216)); ?>
                                 </figure>
                                 <div class="topArticle_body">
                                     <time class="topArticle_time" datetime="<?php echo get_the_date(); ?>">

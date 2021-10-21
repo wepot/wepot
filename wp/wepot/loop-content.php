@@ -3,7 +3,7 @@
             <article class="blogCards_item">
                 <a class="blogCard" href="<?php the_permalink(); ?>">
                     <figure class="blogCard_img">
-                        <?php the_post_thumbnail('large'); ?>
+                        <?php the_post_thumbnail(array(384, 216)); ?>
                     </figure>
                     <div class="blogCard_body">
                         <?php if (has_category()) { ?>

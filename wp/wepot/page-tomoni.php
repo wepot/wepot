@@ -109,7 +109,7 @@
                         <article class="swiper-slide">
                             <a class="swiperCard" href="<?php the_permalink(); ?>">
                                 <figure class="swiperCard_img">
-                                    <?php the_post_thumbnail('large'); ?>
+                                    <?php the_post_thumbnail(array(384, 216)); ?>
                                 </figure>
                                 <div class="swiperCard_body">
                                     <?php if (has_category()) { ?>
