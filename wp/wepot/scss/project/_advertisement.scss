@@ -1,0 +1,14 @@
+// ============= 使用ファイル =============
+@use "../setting/" as s;
+@use "../mixin/" as m;
+
+/*! ===================================
+広告枠
+==================================== */
+.advertisement{
+  @include m.innerBox;
+  @include m.responsive(margin-bottom, 40px, 60px, 768px, 1200px);
+    @include m.mq(sm) {
+      max-width: 350px;
+    }
+}

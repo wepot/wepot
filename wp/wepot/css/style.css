@@ -1509,6 +1509,18 @@ wepotでできること
 }
 
 /*! ===================================
+広告枠
+==================================== */
+
+.advertisement {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+/*! ===================================
 トップページ記事一覧
 ==================================== */
 
@@ -5250,6 +5262,10 @@ span.mwform-checkbox-field-text::before {
     margin-bottom: calc(40px + 0.0925925926 * (100vw - 768px));
   }
 
+  .advertisement {
+    margin-bottom: calc(40px + 0.0462962963 * (100vw - 768px));
+  }
+
   .topPage {
     margin-top: calc(40px + 0.0462962963 * (100vw - 768px));
   }
@@ -5824,6 +5840,10 @@ span.mwform-checkbox-field-text::before {
 
   .details .ctaBox {
     margin-bottom: 80px;
+  }
+
+  .advertisement {
+    margin-bottom: 60px;
   }
 
   .topPage {
@@ -7438,6 +7458,10 @@ span.mwform-checkbox-field-text::before {
 
   .can_item:nth-child(2n) {
     margin-right: 0;
+  }
+
+  .advertisement {
+    max-width: 350px;
   }
 
   .topArticle_item {

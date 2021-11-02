@@ -4,7 +4,7 @@
     <?php get_template_part('contactBox'); ?>
 <?php else : ?>
     <?php get_template_part('contactBox'); ?>
-    <div>
+    <div class="advertisement">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5967057474234828" crossorigin="anonymous"></script>
         <!-- おすすめ記事前広告 -->
         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5967057474234828" data-ad-slot="1852012499" data-ad-format="auto" data-full-width-responsive="true"></ins>
