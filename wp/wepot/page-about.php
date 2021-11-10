@@ -70,6 +70,13 @@
                             動画/映像編集・動画広告など、今の時代に動画クリエイティブは欠かせない存在となりました。新規顧客獲得などの広告として、多くの人から共感を得るストーリーの話し手として、人の行動を変えるきっかけとして。それらが得意な動画を使い、お客様のビジネス課題の解決に役立つ情報をお届けします。
                         </p>
                     </li><!-- /.categoryCards_item -->
+                    <li class="categoryCards_item">
+                        <div class="categoryCards_img"><img src="<?php echo get_template_directory_uri(); ?>/img/about/about-img08.jpg" alt="アイコン" width="384" height="216"></div>
+                        <h3 class="categoryCards_title">制作ストーリー</h3>
+                        <p class="categoryCards_text">
+                            Wepotの運営メンバーで、ご依頼いただいたプロジェクトをどのように進行したのかを記事にしています。要件定義から納品に至るまでのコミュニケーションや重視したポイントなど、他ではなかなか覗けないリアルな制作プロジェクトの裏側を語ります。制作依頼に不安がある方や、過去の実績詳細を知りたい方の参考になるような情報をお届けします。
+                        </p>
+                    </li><!-- /.categoryCards_item -->
                 </ul>
             </div><!-- /.categoryCards -->
             <div class="more">
