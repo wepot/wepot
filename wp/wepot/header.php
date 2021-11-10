@@ -280,7 +280,7 @@
                                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/coding" class="button03">コーディング</a></li>
                                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/illust" class="button03">イラスト</a></li>
                                 <li class="category_item"><a href="<?php echo home_url(); ?>/blog/video" class="button03">動画編集</a></li>
-                                <!-- <li class="category_item"><a href="<?php echo home_url(); ?>/blog/others" class="button03">その他</a></li> -->
+                                <li class="category_item"><a href="<?php echo home_url(); ?>/blog/story" class="button03">制作ストーリー</a></li>
                             </ul>
                         </li>
                         <li id="searchSp">
