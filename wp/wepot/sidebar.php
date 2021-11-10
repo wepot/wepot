@@ -10,6 +10,7 @@
                 <li class="sideMenu_item"><a href="<?php echo home_url(); ?>/blog/coding">コーディング</a></li>
                 <li class="sideMenu_item"><a href="<?php echo home_url(); ?>/blog/illust">イラスト</a></li>
                 <li class="sideMenu_item"><a href="<?php echo home_url(); ?>/blog/video">動画編集</a></li>
+                <li class="sideMenu_item"><a href="<?php echo home_url(); ?>/blog/story">制作ストーリー</a></li>
             </ul>
         </div><!-- /.sideMenu_list -->
     </div><!-- /.sideMenu_wrap -->
