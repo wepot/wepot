@@ -43,6 +43,12 @@
                 <h1 class="pageVisual_title">動画編集の記事一覧</h1>
             </header>
         </section><!-- /.pageVisual -->
+    <?php elseif (is_category('story')) : ?>
+        <section class="pageVisual bg01">
+            <header class="pageVisual_heading">
+                <h1 class="pageVisual_title">制作ストーリーの記事一覧</h1>
+            </header>
+        </section><!-- /.pageVisual -->
     <?php elseif (is_category('others')) : ?>
         <section class="pageVisual bg01">
             <header class="pageVisual_heading">
