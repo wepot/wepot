@@ -12,7 +12,7 @@ Template Name: お問い合わせ各種ページテンプレート
                     <h1 class="section_title">お問い合わせ</h1>
                 </header>
                 <p class="section_text">Wepotは個々に違う強みを持ったクリエイティブチームです。お客様の課題解決に最適なメンバーアサインでスムーズなプロジェクト進行をいたします。制作して終わりではなく、お客様が求める成果に結びつくご提案をさせていただきます。</p>
-                <div class="can contactPage-can">
+                <!-- <div class="can contactPage-can">
                     <p class="can_text02">まずは、お気軽にご相談ください</p>
                     <ul class="can_list">
                         <li class="can_item"><span>Webサイト<br>制作</span></li>
@@ -24,7 +24,7 @@ Template Name: お問い合わせ各種ページテンプレート
                         <li class="can_item"><span>イラスト<br>制作</span></li>
                         <li class="can_item"><span>グラフィック<br>デザイン</span></li>
                     </ul>
-                </div>
+                </div> -->
             </div><!-- /.section_inner -->
         </section><!-- /.section_container -->
     <?php endif; ?>
