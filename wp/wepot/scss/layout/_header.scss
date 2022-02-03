@@ -38,7 +38,9 @@
             height: 28px;
           }
           &:hover{
-            opacity: .8;
+            @include m.mq(hov) {
+              opacity: .8;
+            }
           }
       }
       .wepot{
@@ -90,7 +92,9 @@
         justify-content: center;
         align-items: center;
           &:hover{
-            opacity: .8;
+            @include m.mq(hov) {
+              opacity: .8;
+            }
           }
       }
   }
@@ -145,7 +149,9 @@
         justify-content: center;
         align-items: center;
           &:hover{
-            opacity: .8;
+            @include m.mq(hov) {
+              opacity: .8;
+            }
           }
       }
   }
@@ -260,7 +266,6 @@ SP版：メニューリスト
     border-width: 0;
     background-color: s.$black01;
     outline: none;
-    cursor: pointer;
     z-index: 900;
 
   span {

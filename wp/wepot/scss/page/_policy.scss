@@ -86,7 +86,9 @@
     font-weight: 500;
     text-decoration: underline;
       &:hover{
-        opacity: .8;
+        @include m.mq(hov) {
+          opacity: .8;
+        }
       }
   }
 

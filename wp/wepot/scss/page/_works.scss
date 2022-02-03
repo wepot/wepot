@@ -107,7 +107,9 @@
             text-decoration: underline;
 
               &:hover{
-                color: s.$green01;
+                @include m.mq(hov) {
+                  color: s.$green01;
+                }
               }
           }
     }

@@ -155,7 +155,9 @@
     color: s.$green01;
     text-decoration: underline;
       &:hover{
-        opacity: .8;
+        @include m.mq(hov) {
+          opacity: .8;
+        }
       }
   }
 
@@ -317,8 +319,10 @@
         color: s.$black01;
         text-decoration: none;
         &:hover{
-          color: s.$green01;
-          text-decoration: underline;
+          @include m.mq(hov) {
+            color: s.$green01;
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -1040,9 +1044,11 @@
     color: s.$black01;
     text-decoration: none;
       &:hover{
-        color: s.$green01;
-        text-decoration: underline;
-        opacity: .8;
+        @include m.mq(hov) {
+          color: s.$green01;
+          text-decoration: underline;
+          opacity: .8;
+        }
       }
       @include m.mq(md) {
         padding: 5px;
@@ -1392,7 +1398,9 @@ a.wp-block-button__link{
         a{
           display: flex;
             &:hover{
-              text-decoration: underline;
+              @include m.mq(hov) {
+                text-decoration: underline;
+              }
             }
         }
       }
