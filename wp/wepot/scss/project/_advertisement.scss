@@ -6,7 +6,10 @@
 広告枠
 ==================================== */
 .advertisement{
-  @include m.innerBox;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
   @include m.responsive(margin-bottom, 40px, 60px, 768px, 1200px);
     @include m.mq(sm) {
       max-width: 350px;
