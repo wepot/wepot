@@ -210,7 +210,9 @@ span.mwform-checkbox-field-text {
       color: s.$green01;
       text-decoration: underline;
       &:hover{
-        opacity: .8;
+        @include m.mq(hov) {
+          opacity: .8;
+        }
       }
     }
 

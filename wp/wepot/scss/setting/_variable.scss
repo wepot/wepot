@@ -2,10 +2,11 @@
 $breakpoints: (
   'xs': 'screen and (max-width: 350px)',
   'sm': 'screen and (max-width: 575px)',
-  'md': 'screen and (max-width: 768px)',
+  'md': 'screen and (max-width: 767px)',
   'lg': 'screen and (max-width: 991px)',
   'xl': 'screen and (max-width: 1199px)',
   'xxl': 'screen and (max-width: 1400px)',
+  'hov': 'screen and (min-width: 768px)',
 ) !default;
 
 
@@ -23,4 +24,3 @@ $yellow01: #fff600;
 
 // =============使用フォント=============
 $base_font: 'Noto Sans JP', sans-serif;
-

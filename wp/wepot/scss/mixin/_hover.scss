@@ -8,22 +8,22 @@
 @mixin linkColor($normal-bg, $normal, $hover-bg, $hover) {
   background-color: $normal-bg;
   color: $normal;
+  transition: background-color .3s ease-out;
 
     &:hover {
       background-color: $hover-bg;
       color: $hover;
       cursor: pointer;
-      transition: background-color .3s ease-out;
     }
 }
 
 // =============文字色のみ(背景色指定なし)=============
 @mixin font-linkColor($normal, $hover) {
   color: $normal;
+  transition: color .3s ease-out;
 
     &:hover {
       color: $hover;
       cursor: pointer;
-      transition: color .3s ease-out;
     }
 }

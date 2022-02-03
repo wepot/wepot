@@ -86,9 +86,11 @@
     }
 
     &:hover {
-      background-color: s.$green01;
-      color: s.$white01;
-      opacity: .8;
+      @include m.mq(hov) {
+        background-color: s.$green01;
+        color: s.$white01;
+        opacity: .8;
+      }
     }
 }
 
@@ -111,5 +113,6 @@
 }
 
 .page-numbers.dots {
+  background-color: initial;
   pointer-events: none;
 }

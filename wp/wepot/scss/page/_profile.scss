@@ -89,7 +89,9 @@
         a{
           display: flex;
             &:hover{
-              text-decoration: underline;
+              @include m.mq(hov) {
+                text-decoration: underline;
+              }
             }
         }
     }
