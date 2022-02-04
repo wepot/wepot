@@ -8,7 +8,7 @@
                     <figure class="profilePage_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="ホンマ ヒロミツ" width="240" height="240">
                     </figure><!-- /.img -->
-                    <h1 class="name"><span>プロジェクトマネージャー/<br class="br-sp02">ディレクター</span><br>ホンマ ヒロミツ</h1>
+                    <h1 class="name"><span>IA/<br class="br-sp02">プロジェクトマネージャー</span><br>ホンマ ヒロミツ</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item01">
                             <a href="https://hirohom.jp/" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-website.png" alt="アイコン" width="27" height="27">Web
