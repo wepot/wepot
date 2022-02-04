@@ -10,7 +10,7 @@
             <header class="section_heading">
                 <h2 class="section_title">Wepotとは</h2>
             </header>
-            <p class="section_text">Wepotは個々に違う強みを持ったクリエイティブチームです。自立した個人事業主のため、各専門分野の最前線で活躍しています。Wepotは「クライアントと消費者の理想の未来を創る」というミッションを掲げ、課題やお悩みをクリエイティブの力で解決していきます。制作して終わりではなく、公開後もさらなる改善のため、貴社のパートナーとして併走していきます。</p>
+            <p class="section_text">Wepotは個々に違う強みを持ち、情報設計を得意とした株式会社BunchTectが運営するオウンドメディアです。それぞれが自立した個人事業主として各専門分野の最前線で活躍していた経験を持ちます。<br>Wepotは「クライアントと消費者の理想の未来を創る」というミッションを掲げ、課題やお悩みをクリエイティブの力で解決していきます。制作して終わりではなく、公開後もさらなる改善のため、貴社のパートナーとして併走していくためのナレッジを発信するオウンドメディアです。</p>
         </div><!-- /.section_inner -->
     </section><!-- /.section_container -->
     <section class="section_container">
@@ -18,7 +18,7 @@
             <header class="section_heading">
                 <h2 class="section_title">情報発信について</h2>
             </header>
-            <p class="section_text">各分野に特化したメンバーによる基礎知識から応用・セオリーまで丁寧に解説しているのが、当メディア。デジタルクリエイティブの課題発見や新たな価値創出に役立つ内容を、時代の変化と共に私たちも進化しながら“生きた”情報をお届けします。</p>
+            <p class="section_text">各分野に特化したメンバーによる基礎知識から設計・応用・セオリーまで丁寧に解説しているのが、当メディア。デジタルクリエイティブの課題発見や新たな価値創出に役立つ内容を、時代の変化と共に私たちも進化しながら“生きた”情報をお届けします。</p>
             <div class="categoryCards">
                 <ul class="categoryCards_list">
                     <li class="categoryCards_item">

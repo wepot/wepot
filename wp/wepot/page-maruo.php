@@ -8,7 +8,7 @@
                     <figure class="profilePage_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ" width="240" height="240">
                     </figure><!-- /.img -->
-                    <h1 class="name"><span>マークアップエンジニア</span><br>まるこ</h1>
+                    <h1 class="name"><span>コーダー</span><br>まるこ</h1>
                     <ul class="profilePage-sns">
                         <li class="profilePage-sns_item profilePage-sns_item02"><a href="https://twitter.com/malco_trico" target="_blank" rel=“noopener”><img src="<?php echo get_template_directory_uri(); ?>/img/icon/s-twitter.png" alt="アイコン" width="33" height="27">Twitter</a></li>
                     </ul>
@@ -18,17 +18,13 @@
                     <header class="section_heading">
                         <h2 class="section_title">プロフィール</h2>
                     </header>
-                    <p class="section_text">
-                        社会人になって約20年、保険代理店・住宅機器メーカー・総合人材会社では営業事務、惣菜店・リラクゼーションサロンでの接客業に従事。<br>夫の仕事の関係で転勤が想定されるため、一つの会社に勤務し続けることは叶わなかったが、代わりに様々な業種や地域での就業を経験し、環境への変化など臨機応変に対応する力を養う。<br>まもなく40代という年齢を考え、就業場所にとらわれずに働ける環境を模索。2020年夏にWeb業界へ進むことを決意し、同年11月にマークアップエンジニアとしての仕事を開始。
-                    </p>
+                    <p class="section_text">社会人になって約20年、保険代理店・住宅機器メーカー・総合人材会社では営業事務、惣菜店・リラクゼーションサロンでの接客業に従事。<br>夫の仕事の関係で転勤が想定されるため、一つの会社に勤務し続けることは叶わなかったが、代わりに様々な業種や地域での就業を経験し、環境への変化など臨機応変に対応する力を養う。<br>まもなく40代という年齢を考え、就業場所にとらわれずに働ける環境を模索。2020年夏にWeb業界へ進むことを決意し、同年11月にコーダーとしての仕事を開始。</p>
                 </section><!-- /.profilePage-sec02 -->
                 <section class="profilePage-sec03">
                     <header class="section_heading">
                         <h2 class="section_title">マインドセット</h2>
                     </header>
-                    <p class="section_text">仕事をする上で大切にしていることは、「本質を見失わないこと」です。
-                        作業にあたる人が多くなると、個人個人の思いが強くなり、物事の本質が見えにくくなることがありますが、それではお客様が望んでいる目的の達成は困難になります。<br>自分は「誰」のために「何」をすべきかを常に念頭におき、作業に追われて心に余裕を持ちにくいときでも、「本質を見失わない」ように心掛けています。
-                    </p>
+                    <p class="section_text">仕事をする上で大切にしていることは、「本質を見失わないこと」です。作業にあたる人が多くなると、個人個人の思いが強くなり、物事の本質が見えにくくなることがありますが、それではお客様が望んでいる目的の達成は困難になります。<br>自分は「誰」のために「何」をすべきかを常に念頭におき、作業に追われて心に余裕を持ちにくいときでも、「本質を見失わない」ように心掛けています。</p>
                 </section><!-- /.profilePage-sec03 -->
                 <section class="profilePage-sec04">
                     <header class="section_heading">

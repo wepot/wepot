@@ -9,7 +9,7 @@
     <section class="section_container memberPage">
         <div class="section_inner">
             <p class="section_text">
-                Wepotは個々に違う強みを持ったクリエイティブチームです。経験やスキルが違うからこそ、お互いにリスペクトしています。ちょっとキャラが濃い・個性的。でも共通しているのは「クリエイティブなことが大好き」そんな個性溢れるメンバーのキャリアやプロフィールなどを覗いてみてください。また、SNSでも気軽にお声掛けください！
+                Wepotは個々に違う強みを持ち、情報設計を得意としたデジタルクリエイティブに特化した制作プロダクションです。経験やスキルが違うからこそ、お互いにリスペクトしています。ちょっとキャラが濃い・個性的。でも共通しているのは「クリエイティブなことが大好き」そんな個性溢れるメンバーのキャリアやプロフィールなどを覗いてみてください。また、SNSでも気軽にお声掛けください！
             </p>
             <div class="member">
                 <ul class="member_list">
@@ -18,7 +18,7 @@
                             <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/honma.jpg" alt="ホンマ ヒロミツ" width="260" height="260">
                             </figure>
                             <p class="name">ホンマ ヒロミツ</p>
-                            <p class="position">プロジェクトマネージャー/<br>ディレクター</p>
+                            <p class="position">IA/<br>プロジェクトマネージャー</p>
                         </a>
                     </li>
                     <li class="member_item">
@@ -66,7 +66,7 @@
                             <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ" width="260" height="260">
                             </figure>
                             <p class="name">まるこ</p>
-                            <p class="position">マークアップエンジニア</p>
+                            <p class="position">コーダー</p>
                         </a>
                     </li>
                 </ul>

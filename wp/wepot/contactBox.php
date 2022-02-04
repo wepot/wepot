@@ -17,7 +17,7 @@
                     <div class="contactBox_img02">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン" width="120" height="91">
                     </div><!-- /.contactBox_img -->
-                    <p class="contactBox_text">それぞれ強みが違う自立した個人事業主で構成されるクリエイティブ集団です。</p>
+                    <p class="contactBox_text">それぞれ強みが違うクリエイターで構成されるスペシャリスト集団です。</p>
                     <div class="contactBox_btn">
                         <a href="<?php echo home_url(); ?>/about/member" class="button02"><span>詳細はこちら</span></a>
                     </div>
@@ -56,7 +56,7 @@
                     <div class="contactBox_img03">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="アイコン" width="84" height="56">
                     </div>
-                    <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
+                    <p class="contactBox_text">現在の課題やお悩みをお聞かせください。あなただけのクリエイティブチームを編成し解決へと導きます。</p>
                     <div class="contactBox_btn">
                         <a href="<?php echo home_url(); ?>/contact/" class="button02"><span>相談してみる</span></a>
                     </div>
@@ -109,7 +109,7 @@
                         <div class="contactBox_img02">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icon/member.png" alt="アイコン" width="120" height="91">
                         </div><!-- /.contactBox_img -->
-                        <p class="contactBox_text">それぞれ強みが違う自立した個人事業主で構成されるクリエイティブ集団です。</p>
+                        <p class="contactBox_text">それぞれ強みが違うクリエイターで構成されるスペシャリスト集団です。</p>
                         <div class="contactBox_btn">
                             <a href="<?php echo home_url(); ?>/about/member" class="button02"><span>詳細はこちら</span></a>
                         </div>
@@ -121,7 +121,7 @@
                     <div class="contactBox_img03">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icon/balloon.png" alt="アイコン" width="135" height="90">
                     </div><!-- /.contactBox_img -->
-                    <p class="contactBox_text">現在抱えている課題を教えてください！あなただけのクリエイティブチームで解決に導きます！</p>
+                    <p class="contactBox_text">現在の課題やお悩みをお聞かせください。あなただけのクリエイティブチームを編成し解決へと導きます。</p>
                     <div class="contactBox_btn">
                         <a href="<?php echo home_url(); ?>/contact/" class="button02"><span>相談してみる</span></a>
                     </div>
