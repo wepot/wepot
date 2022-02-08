@@ -36,62 +36,102 @@
   }
 }
 
-//-------sec01:実績概要-------
-.detailsSec01{
+/*-------- 実績概要 --------*/
+.details-overview{
   position: relative;
   width: 100%;
-  @include m.responsive(height, 620px, 951px, 768px, 1200px);
+  @include m.responsive(height, 560px, 951px, 700px, 1200px);
     @include m.mq(sm) {
       position: initial;
       height: auto;
     }
+}
 
-  &_img{
-    height: 100%;
+// 画像差し込み
+.details-overview_img{
+  height: 100%;
 
-    .pc{
-      position: absolute;
-      display: block;
-      top: 0;
-      left: 0;
-      width: 87.5%;
-      max-width: 1120px;
-      height: auto;
-      box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
-        @include m.mq(sm) {
-          position: initial;
-          width: 100%;
-        }
-    }
-
-    .sp{
-      position: absolute;
-      display: block;
-      right: 0;
-      bottom: 0;
-      width: 28.125%;
-      max-width: 360px;
-      height: auto;
-      box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
-        @include m.mq(sm) {
-          position: initial;
-          width: 100%;
-          max-width: 200px;
-          margin: 30px auto;
-        }
-    }
-  }
-
-  &_body{
+  .pc{
     position: absolute;
-    bottom: 0;
+    display: block;
+    top: 0;
     left: 0;
-    width: 60%;
+    @include m.responsive(width, 536px, 1120px, 700px, 1200px);
+    height: auto;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
       @include m.mq(sm) {
         position: initial;
         width: 100%;
       }
   }
+
+  // SP画像-長方形
+  .sp01{
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    @include m.responsive(width, 200px, 360px, 768px, 1200px);
+    height: auto;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
+
+      @include m.mq(sm) {
+        position: initial;
+        width: 100%;
+        max-width: 200px;
+        margin: 30px auto;
+      }
+  }
+
+  // SP画像-正方形
+  .sp02{
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    @include m.responsive(bottom, 30px, 0px, 700px, 1200px);
+    @include m.responsive(width, 200px, 480px, 650px, 1200px);
+    height: auto;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
+      @include m.mq(sm) {
+        position: initial;
+        width: 100%;
+        max-width: 200px;
+        margin: 30px auto;
+      }
+  }
+}
+
+// 動画差し込み
+.details-overview_video {
+  position: relative;
+  height: 0;
+  padding: 30px 0 56.25%;
+  overflow: hidden;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+}
+
+// 制作概要リスト
+.details-overview_body{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+    @include m.mq(sm) {
+      position: initial;
+      width: 100%;
+    }
+}
+
+.details-overview_videobody{
+  @include m.responsive(margin-top, 20px, 50px, 768px, 1200px);
 }
 
 .overviewList{
@@ -125,8 +165,8 @@
     }
 }
 
-//-------sec03:依頼者の声-------
-.detailsSec03{
+/*-------- 依頼者の声 --------*/
+.details-voice{
   width: 87.5%;
   margin: 0 auto;
     @include m.mq(md) {
@@ -134,6 +174,7 @@
     }
 }
 
+// 質疑応答共通項目
 .qaList_item{
   margin-top: 40px;
     @include m.mq(md) {
@@ -159,6 +200,10 @@
       @include m.responsive(width, 60px, 140px, 768px, 1200px);
       @include m.responsive(height, 60px, 140px, 768px, 1200px);
       border-radius: 50%;
+    }
+
+    .icon-border {
+      border: 1px solid #e3e3e3;
     }
 
     figcaption{
@@ -201,6 +246,7 @@
   }
 }
 
+// Wepot質問
 .qaList-q {
   flex-direction: row;
   margin-bottom: 20px;
@@ -220,6 +266,7 @@
   }
 }
 
+// 依頼者回答
 .qaList-a {
   flex-direction: row-reverse;
 
@@ -238,13 +285,14 @@
   }
 }
 
-//-------sec04:プロセス-------
-.detailsSec04{
+/*-------- 制作プロセス --------*/
+.details-process{
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
 }
 
+// 制作フロー
 .processFlow{
   width: 100%;
   max-width: 760px;
@@ -329,50 +377,55 @@
     }
 }
 
-.processDetails{
-  &_item{
-    @include m.responsive(margin-top, 40px, 60px, 768px, 1200px);
-      &:first-child{
-        @include m.responsive(margin-top, 60px, 80px, 768px, 1200px);
-      }
-  }
+// プロセスまとめ
+.processSummary_item{
+  @include m.responsive(margin-top, 40px, 60px, 768px, 1200px);
+    &:first-child{
+      @include m.responsive(margin-top, 60px, 80px, 768px, 1200px);
+    }
+}
 
-  &_body{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-      @include m.mq(md){
-        flex-direction: column;
-      }
+.processSummary_body{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+    @include m.mq(md){
+      flex-direction: column;
+    }
 
-      h3{
-        width: 180px;
-        color: s.$green01;
-        @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
-        font-weight: 700;
-          @include m.mq(md){
-            width: 100%;
-          }
-      }
-      p{
-        width: calc(100% - 180px);
-        @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
-          @include m.mq(md){
-            width: 100%;
-          }
-      }
-  }
+    h3{
+      width: 180px;
+      color: s.$green01;
+      @include m.responsive(font-size, 1rem, 1.5rem, 48rem, 75rem);
+      font-weight: 700;
+        @include m.mq(md){
+          width: 100%;
+        }
+    }
+    p{
+      width: calc(100% - 180px);
+      @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
+        @include m.mq(md){
+          width: 100%;
+        }
+    }
+}
 
-  &_img{
-    @include m.responsive(margin-top, 20px, 40px, 768px, 1200px);
+.processSummary_img{
+  @include m.responsive(margin-top, 20px, 40px, 768px, 1200px);
     img{
       width: 100%;
     }
-  }
+    figcaption {
+      margin-top: 10px;
+      @include m.responsive(font-size, .875rem, .9375rem, 48rem, 75rem);
+      text-align: right;
+    }
 }
 
-//-------sec05:担当メンバー-------
+
+/*-------- 担当メンバー --------*/
 .details-member{
   display: flex;
   flex-wrap: wrap;

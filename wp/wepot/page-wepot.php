@@ -9,12 +9,12 @@
             </header>
 
             <section class="detailsSec">
-                <section class="detailsSec01">
-                    <figure class="detailsSec01_img">
+                <section class="details-overview">
+                    <figure class="details-overview_img">
                         <img class="pc" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-pc.jpg" alt="Wepot アイキャッチ" width="1120" height="630">
-                        <img class="sp" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-sp.jpg" alt="Wepot アイキャッチ" width="360" height="639">
+                        <img class="sp01" src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-sp.jpg" alt="Wepot アイキャッチ" width="360" height="640">
                     </figure>
-                    <div class="detailsSec01_body">
+                    <div class="details-overview_body">
                         <ul class="overviewList">
                             <li class="overviewList_item">
                                 <ul>
@@ -41,8 +41,8 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div><!-- /.detailsSec01_body -->
-                </section><!-- /.detailsSec01 -->
+                    </div><!-- /.details-overview_body -->
+                </section><!-- /.details-overview -->
             </section><!-- /.detailsSec -->
 
             <section class="detailsSec">
@@ -56,7 +56,7 @@
                 <header class="section_heading">
                     <h2 class="section_title">依頼者の声</h2>
                 </header>
-                <section class="detailsSec03">
+                <section class="details-voice">
                     <ul class="qaList">
                         <li class="qaList_item">
                             <ul>
@@ -103,14 +103,14 @@
                         </li>
 
                     </ul>
-                </section><!-- /detailsSec03 -->
+                </section><!-- /details-voice -->
             </section><!-- /.detailsSec -->
 
             <section class="detailsSec">
                 <header class="section_heading">
                     <h2 class="section_title">制作のプロセス</h2>
                 </header>
-                <section class="detailsSec04">
+                <section class="details-process">
                     <section class="processFlow">
                         <ul class="processFlow_list">
                             <li class="processFlow_item">
@@ -147,40 +147,38 @@
                         </ul><!-- /.processFlow_list -->
                     </section><!-- /.processFlow_wrap -->
 
-                    <div class="processFlow_wrap">
-                        <ul class="processDetails">
-                            <li class="processDetails_item">
-                                <div class="processDetails_body">
-                                    <h3>要件定義</h3>
-                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                                </div>
-                                <figure class="processDetails_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img02.jpg" alt="要件定義資料" width="1120" height="630">
-                                </figure>
-                            </li>
-                            <li class="processDetails_item">
-                                <div class="processDetails_body">
-                                    <h3>企画・構成</h3>
-                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                                </div>
-                            </li>
-                            <li class="processDetails_item">
-                                <div class="processDetails_body">
-                                    <h3>デザイン</h3>
-                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                                </div>
-                                <figure class="processDetails_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img03.jpg" alt="デザイン資料" width="1120" height="630">
-                                </figure>
-                            </li>
-                            <li class="processDetails_item">
-                                <div class="processDetails_body">
-                                    <h3>実装・公開</h3>
-                                    <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-                                </div>
-                            </li>
-                        </ul><!-- /.processDetails -->
-                    </div><!-- /.processFlow_wrap -->
+                    <ul class="processSummary">
+                        <li class="processSummary_item">
+                            <div class="processSummary_body">
+                                <h3>要件定義</h3>
+                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                            </div>
+                            <figure class="processSummary_img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img02.jpg" alt="要件定義資料" width="1120" height="630">
+                            </figure>
+                        </li>
+                        <li class="processSummary_item">
+                            <div class="processSummary_body">
+                                <h3>企画・構成</h3>
+                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                            </div>
+                        </li>
+                        <li class="processSummary_item">
+                            <div class="processSummary_body">
+                                <h3>デザイン</h3>
+                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                            </div>
+                            <figure class="processSummary_img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/works/wepot/wepot-img03.jpg" alt="デザイン資料" width="1120" height="630">
+                            </figure>
+                        </li>
+                        <li class="processSummary_item">
+                            <div class="processSummary_body">
+                                <h3>実装・公開</h3>
+                                <p>企画構成について気をつけたことや留意点をまとめます。3行くらいでも良いかなと思います。てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
+                            </div>
+                        </li>
+                    </ul><!-- /.processSummary -->
                 </section><!-- /.processFlow -->
             </section><!-- /.detailsSec -->
 

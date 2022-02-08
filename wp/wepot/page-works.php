@@ -107,6 +107,27 @@
                 </div> -->
                     </div>
                 </article><!-- /.worksBox_item -->
+                <article class="worksBox_item">
+                    <figure class="worksBox_img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/works/works-img04.png" alt="フローラデザイン様 アイキャッチ" width="800" height="450">
+                    </figure>
+                    <div class="worksBox_body">
+                        <h3 class="worksBox_title">TROIS（トロワ）商品紹介動画制作</h3>
+                        <p class="worksBox_text">フローラデザイン株式会社が開発したTROIS（トロワ）- ビフィズス菌、乳酸菌、酪酸ビフィズス菌を配合したサプリメントの紹介動画を制作させていただきました。現役医師によって3年かけて開発された国内唯一無二の商品の魅力がしっかりと伝わるストーリーを考えました。<br>具体的には、腸内環境の重要性の啓蒙および商品の特長・強みの明確化、ターゲットが抱える不満や悩みを織り交ぜ、商品理解促進と新規顧客獲得を目的とした動画です。</p>
+                        <p class="worksBox_url"><a href="https://flora-design.shop/" target="_blank" rel=“noopener”>https://flora-design.shop/<i class="fas fa-external-link-alt fa-sm"></i></a></p>
+                        <div class="worksBox-member">
+                            <p>担当メンバー</p>
+                            <ul class="worksBox-member_list">
+                                <li>
+                                    <a href="<?php echo home_url(); ?>/about/member/ayaka/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/ayaka.jpg" alt="メンバーアイコン" width="48" height="48"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="worksBox_btn">
+                            <a href="<?php echo home_url(); ?>/works/trois-movie/" class="button03">詳しく見る</a>
+                        </div>
+                    </div>
+                </article><!-- /.worksBox_item -->
             </article><!-- /.worksBox -->
 
 
