@@ -155,6 +155,7 @@
       line-height: 1.3;
 
         a{
+          word-break: break-all;
           text-decoration: underline;
             &:hover{
               @include m.mq(hov) {
@@ -193,6 +194,7 @@
     @include m.responsive(height, 60px, 140px, 768px, 1200px);
       @include m.mq(md) {
         width: 60px;
+        height: 60px;
       }
 
     img{
@@ -218,12 +220,13 @@
   &_talk {
     position: relative;
     display: inline-block;
+    width: 68%;
     max-width: 760px;
     padding: 1.4em 1.25em;
     @include m.responsive(font-size, .9375rem, 1rem, 48rem, 75rem);
     border-radius: 8px;
       @include m.mq(md) {
-        width: calc(100% - 60px);
+        width: calc(100% - 95px);
         padding: 1em;
       }
 
@@ -256,6 +259,7 @@
     background: #00b4aa33;
       @include m.mq(md) {
         margin-left: 25px;
+        margin-right: 10px;
       }
 
     &::before{

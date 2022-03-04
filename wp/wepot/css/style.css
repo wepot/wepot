@@ -3483,6 +3483,7 @@ wepotの強み
 .qaList-qa_talk {
   position: relative;
   display: inline-block;
+  width: 68%;
   max-width: 760px;
   padding: 1.4em 1.25em;
   font-size: .9375rem;
@@ -7176,6 +7177,7 @@ span.mwform-checkbox-field-text::before {
 
   .qaList-qa_icon {
     width: 60px;
+    height: 60px;
   }
 
   .qaList-qa_icon figcaption {
@@ -7183,7 +7185,7 @@ span.mwform-checkbox-field-text::before {
   }
 
   .qaList-qa_talk {
-    width: calc(100% - 60px);
+    width: calc(100% - 95px);
     padding: 1em;
   }
 
@@ -7193,6 +7195,7 @@ span.mwform-checkbox-field-text::before {
 
   .qaList-q_talk {
     margin-left: 25px;
+    margin-right: 10px;
   }
 
   .qaList-a_talk {
