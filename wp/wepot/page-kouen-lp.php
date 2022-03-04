@@ -65,7 +65,7 @@
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="Wepot" width="140" height="140">
                                     </figure>
                                     <div class="qaList-qa_talk qaList-q_talk">
-                                        <p>Q. 今回ご一緒にプロジェクトを進行してみていかがでしたか？</p>
+                                        <p>今回ご一緒にプロジェクトを進行してみていかがでしたか？</p>
                                     </div>
                                 </li>
                                 <li class="qaList-qa qaList-a">

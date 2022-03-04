@@ -3441,6 +3441,7 @@ wepotの強み
 }
 
 .overviewList_text a {
+  word-break: break-all;
   text-decoration: underline;
 }
 
