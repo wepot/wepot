@@ -3548,13 +3548,13 @@ wepotの強み
 
 .processFlow_item {
   position: relative;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .processFlow_item::before {
   position: absolute;
   content: "";
-  top: -20px;
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
@@ -3632,6 +3632,7 @@ wepotの強み
   color: #00b4aa;
   font-size: 1rem;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .processSummary_body p {
@@ -7198,7 +7199,6 @@ span.mwform-checkbox-field-text::before {
   }
 
   .processFlow_item::before {
-    top: -30px;
     border-width: 24px 16px 0 16px;
   }
 

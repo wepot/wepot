@@ -102,9 +102,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- <div class="worksBox_btn">
-                  <a href="" class="button03">詳しく見る</a>
-                </div> -->
+                        <div class="worksBox_btn">
+                            <a href="<?php echo home_url(); ?>/works/kouen-lp/" class="button03">詳しく見る</a>
+                        </div>
                     </div>
                 </article><!-- /.worksBox_item -->
                 <article class="worksBox_item">
