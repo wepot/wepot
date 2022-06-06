@@ -460,7 +460,7 @@
 .blog {
   .wp-block-columns.blnLeft {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap!important;
     flex-direction: row;
   }
   .wp-block-column.blnLeft{
@@ -530,7 +530,7 @@
 
   .wp-block-columns.blnRight {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap!important;
     flex-direction: row-reverse;
   }
   .wp-block-column.blnRight{

@@ -2273,7 +2273,7 @@ aboutページ
 
 .blog .wp-block-columns.blnLeft {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
   flex-direction: row;
 }
 
@@ -2327,7 +2327,7 @@ aboutページ
 
 .blog .wp-block-columns.blnRight {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
   flex-direction: row-reverse;
 }
 
