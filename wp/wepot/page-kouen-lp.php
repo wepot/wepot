@@ -108,35 +108,6 @@
                                     </figure>
                                     <div class="qaList-qa_talk qaList-q_talk">
                                         <p>一定の効果が出ているということでとても嬉しいです！<br>少しでも御社のお力に慣れていれば幸いです！</p>
-                                    </div>
-                                </li>
-                                <li class="qaList-qa qaList-q">
-                                    <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="Wepot" width="140" height="140">
-                                    </figure>
-                                    <div class="qaList-qa_talk qaList-q_talk">
-                                        <p>ユキックスさんはデザイン面で気をつけたことや力を入れた部分ってありますか？</p>
-                                    </div>
-                                </li>
-                                <li class="qaList-qa qaList-q">
-                                    <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="ユキックス" width="140" height="140">
-                                    </figure>
-                                    <div class="qaList-qa_talk qaList-q_talk">
-                                        <p>わたしはワイヤーフレームのUIデザイン設計から担当させていただいたのですが、このページを閲覧する方が求めているコンテンツとLPでお伝えしたいことの優先度に重点を置いて、双方の重なり合う部分でわかりやすさと見やすさを精査したうえで、あやかさんに調査いただいたユーザー行動などをもとに随所に目線誘導を意識した使いやすい導線を考え抜いてUIデザインを設計しました。</p>
-                                        <p>またビジュアルデザイン面では、視覚的に情報をわかりやすく伝えてサービスを魅力的に訴求するためにトンマナ（色味の統一感）をしっかり守りつつ、見ていて飽きずに視線を集めるための効果的な色づかいやあしらい（装飾）で目線を惹きつけて内容までしっかり読んでいただくためにセクションごとに繋がりは持たせつつもしっかり緩急の変化をつけたデザインにしました。</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="qaList_item">
-                            <ul>
-                                <li class="qaList-qa qaList-q">
-                                    <figure class="qaList-qa_icon">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/icon/wepot02.png" alt="Wepot" width="140" height="140">
-                                    </figure>
-                                    <div class="qaList-qa_talk qaList-q_talk">
-                                        <p>SPとPCの違いで見せ方の部分は何度かリテイクして調整しましたしね。<br>LPを訪問したユーザーにとって見やすく読みやすい設計ができたのではないかなと思っています。</p>
                                         <p>今回制作させていただいたのはオンライン講演に関するコンテンツでしたが、オフラインの講演も得意とするところだと思います。<br>今後講演依頼.com様として実現していきたいことや目標としていることはありますか？</p>
                                     </div>
                                 </li>
@@ -154,7 +125,6 @@
                                 </li>
                             </ul>
                         </li>
-
                     </ul>
                 </section><!-- /details-voice -->
             </section><!-- /.detailsSec -->
