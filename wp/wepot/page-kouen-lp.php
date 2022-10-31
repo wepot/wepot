@@ -254,13 +254,6 @@
                             </figure>
                         </a>
                     </li>
-                    <li class="details-member_item">
-                        <a href="<?php echo home_url(); ?>/about/member/yukix/">
-                            <figure class="details-member_img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="メンバーアイコン" width="120" height="120">
-                            </figure>
-                        </a>
-                    </li>
                 </ul>
             </section><!-- /.detailsSec -->
 

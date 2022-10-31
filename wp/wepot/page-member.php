@@ -36,14 +36,6 @@
                         </a>
                     </li>
                     <li class="member_item">
-                        <a href="<?php echo home_url(); ?>/about/member/yukix/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yukix.jpg" alt="ユキックス" width="260" height="260">
-                            </figure>
-                            <p class="name">ユキックス</p>
-                            <p class="position">デザイナー/<br>アートディレクター/<br>Web制作クリエイター</p>
-                        </a>
-                    </li>
-                    <li class="member_item">
                         <a href="<?php echo home_url(); ?>/about/member/tomoni/" class="member_link">
                             <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="とも" width="260" height="260">
                             </figure>
