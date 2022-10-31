@@ -33,15 +33,6 @@
                                 <li>
                                     <a href="<?php echo home_url(); ?>/about/member/sato/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/yosuke.jpg" alt="メンバーアイコン" width="48" height="48"></a>
                                 </li>
-                                <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/tomoni/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="メンバーアイコン" width="48" height="48"></a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/saito/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="メンバーアイコン" width="48" height="48"></a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo home_url(); ?>/about/member/maruo/"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="メンバーアイコン" width="48" height="48"></a>
-                                </li>
                             </ul>
                         </div>
                         <!-- <div class="worksBox_btn">

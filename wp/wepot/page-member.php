@@ -35,30 +35,6 @@
                             <p class="position">グロースハッカー/<br>デザイナー/<br>ディレクター</p>
                         </a>
                     </li>
-                    <li class="member_item">
-                        <a href="<?php echo home_url(); ?>/about/member/tomoni/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/tomo.jpg" alt="とも" width="260" height="260">
-                            </figure>
-                            <p class="name">とも</p>
-                            <p class="position">グラフィックデザイナー/<br>イラストレーター/<br>Webデザイナー/<br>動画クリエイター</p>
-                        </a>
-                    </li>
-                    <li class="member_item">
-                        <a href="<?php echo home_url(); ?>/about/member/saito/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/saito.jpg" alt="さいとぅ" width="260" height="260">
-                            </figure>
-                            <p class="name">さいとぅ</p>
-                            <p class="position">デザイナー</p>
-                        </a>
-                    </li>
-                    <li class="member_item">
-                        <a href="<?php echo home_url(); ?>/about/member/maruo/" class="member_link">
-                            <figure class="member_img"><img src="<?php echo get_template_directory_uri(); ?>/img/member/maruo.jpg" alt="まるこ" width="260" height="260">
-                            </figure>
-                            <p class="name">まるこ</p>
-                            <p class="position">コーダー</p>
-                        </a>
-                    </li>
                 </ul>
             </div><!-- /.member_wrap -->
         </div><!-- /.section_inner -->
